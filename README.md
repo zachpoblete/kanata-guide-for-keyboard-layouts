@@ -362,7 +362,7 @@ See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setu
 
 -   [`hold-backtick-to-switch-layouts.kbd`](layouts/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
--   [`gallium-with-qwerty-shortcuts.kbd`](layouts/gallium-with-qwerty-shortcuts.kbd)
+-   [`alt-layout-with-qwerty-shortcuts.kbd`](layouts/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
 -   [`graphite.kbd`](layouts/graphite.kbd)
     -   A layout that uses non-standard shift pairs (e.g. typing `Shift + ,` outputs `?`, not `<`)
