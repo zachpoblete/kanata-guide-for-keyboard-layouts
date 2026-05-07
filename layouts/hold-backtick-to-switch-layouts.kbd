@@ -1,0 +1,35 @@
+(defvar
+  tap-repress-timeout 200
+  hold-timeout        200
+)
+
+(defsrc
+  `
+    q w e r t  y u i o p
+    a s d f g  h j k l ; '
+    z x c v b  n m , . /
+)
+
+(deflayer gallium
+  @hold-to-switch-layouts
+    b l d c v  j f o u ,
+    n r t s g  y h a e i /
+    x q m w z  k p ' ; .
+)
+
+(deflayermap (qwerty)
+  ` @hold-to-switch-layouts
+  _ use-defsrc
+)
+
+(defalias hold-to-switch-layouts
+  (tap-hold
+    $tap-repress-timeout
+    $hold-timeout
+    _
+    (switch
+      ((base-layer gallium)) (layer-switch qwerty) break
+      ((base-layer qwerty)) (layer-switch gallium) break
+    )
+  )
+)
