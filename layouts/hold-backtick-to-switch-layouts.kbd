@@ -28,8 +28,8 @@
     $hold-timeout
     _
     (switch
-      ((base-layer gallium)) (layer-switch qwerty) break
-      ((base-layer qwerty)) (layer-switch gallium) break
+      ((base-layer gallium)) (layer-switch qwerty)  break
+      ((base-layer qwerty))  (layer-switch gallium) break
     )
   )
 )
