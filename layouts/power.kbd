@@ -30,12 +30,11 @@
 )
 
 ;; Layer template:
-(deftemplate _
-  (seq ;; (= sequence)
-    q w e r t  y u i o p
-    a s d f g  h j k l ;
-    z x c v b  n m , . /
-  )
+(deftemplate _ (seq ;; (= sequence)
+                 q w e r t  y u i o p
+                 a s d f g  h j k l ;
+                 z x c v b  n m , . /
+               )
   (deflayer $seq
     (t! ls $seq $q)(t! ls $seq $w)(t! ls $seq $e)(t! ls $seq $r)(t! ls $seq $t) (t! ls $seq $y)(t! ls $seq $u)(t! ls $seq $i)(t! ls $seq $o)(t! ls $seq $p)
     (t! ls $seq $a)(t! ls $seq $s)(t! ls $seq $d)(t! ls $seq $f)(t! ls $seq $g) (t! ls $seq $h)(t! ls $seq $j)(t! ls $seq $k)(t! ls $seq $l)(t! ls $seq $;)
