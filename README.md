@@ -374,6 +374,8 @@ See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setu
     -   A layout that uses a skip magic key
 -   [`nordrassil.kbd`](layouts/nordrassil.kbd)
     -   A layout that uses chiral magic keys
+-   [`d5.kbd`](layouts/d5.kbd)
+    -   A layout that uses chiral skip magic keys
 -   [`power.kbd`](layouts/power.kbd)
     -   A layout with 162 Layers
 

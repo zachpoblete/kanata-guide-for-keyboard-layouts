@@ -1,0 +1,172 @@
+;; Codeberg repository: https://codeberg.org/StrawberryTurtle/zilpzalp-D5
+;; A more complete Kanata implementation: https://github.com/samuelborrasca/D5akl
+;; (Has layers for navigation and symbols.)
+
+(defcfg
+  concurrent-tap-hold yes
+)
+
+(defvar
+  chord-timeout 30
+)
+
+(defsrc
+         w   e   r             u   i   o
+         s   d   f   g     h   j   k   l
+     z   x   c   v   b     n   m   ,   .   /
+           lalt spc          ralt rctl
+)
+
+(deflayer d5
+        @c- @k- @w-          @-b @-f @-g
+        @e- @t- @r- @y-  @-y @-l @-n @-e
+  @spc- @s- @d- @m- @v-  @-j @-h @-p @-s @-spc
+            @u- @i-          @-a @-o
+)
+
+;;──────────────────────────────────────────────────────────────────────────────
+;; Aliases and variables
+
+(deftemplate key (defsrc label output)
+  (defalias $label (chord chords $label))
+  (defvar $label $defsrc)
+)
+
+(t! key w    c- c)
+(t! key s    e- e)
+(t! key x    s- s)
+(t! key e    k- k)
+(t! key d    t- t)
+(t! key c    d- d)
+(t! key r    w- w)
+(t! key f    r- r)
+(t! key v    m- m)
+(t! key g    y- y)
+(t! key b    v- v)
+(t! key lalt u- u)
+(t! key spc  i- i)
+
+(t! key ralt -a a)
+(t! key rctl -o o)
+(t! key h    -y y)
+(t! key n    -j j)
+(t! key u    -b b)
+(t! key j    -l l)
+(t! key m    -h h)
+(t! key i    -f f)
+(t! key k    -n n)
+(t! key ,    -p p)
+(t! key o    -g g)
+(t! key l    -e e)
+(t! key .    -s s)
+
+;;──────────────────────────────────────────────────────────────────────────────
+;; Chords
+
+(defchords chords $chord-timeout
+  ;; Single keys:
+  (c-) c
+  (e-) e
+  (s-) s
+  (k-) k
+  (t-) t
+  (d-) d
+  (w-) w
+  (r-) r
+  (m-) m
+  (y-) y
+  (v-) v
+  (u-) u
+  (i-) i
+
+  (-a) a
+  (-o) o
+  (-y) y
+  (-j) j
+  (-b) b
+  (-l) l
+  (-h) h
+  (-f) f
+  (-n) n
+  (-p) p
+  (-g) g
+  (-e) e
+  (-s) s
+
+  ;; Vertical combos:
+  (e- c-) (macro e c)
+  (e- s-) (macro e s)
+  (k- t-) (macro k t)
+  (d- t-) (macro d t)
+  (w- r-) (macro w r)
+  (r- m-) (macro r m)
+  (y- v-) (macro r v)
+  (u- i-) (macro u i)
+
+  (-o -a) (macro o a)
+  (-y -j) (macro b j)
+  (-b -l) (macro b l)
+  (-h -l) (macro h l)
+  (-n -f) (macro n f)
+  (-n -p) (macro n p)
+  (-e -g) (macro e g)
+  (-e -s) (macro e s)
+
+  ;; Horizontal combos:
+  (e- t-   ) o
+  (   t- r-) a
+  (c-    w-) z
+  (e-    r-) x
+  (s-    m-) q
+
+  (-l -n   ) i
+  (   -n -e) u
+  (-b    -g) z
+  (-l    -e) x
+  (-h    -s) q
+)
+
+;;──────────────────────────────────────────────────────────────────────────────
+;; Chiral Skip Magic
+
+(defalias spc-
+  (switch
+    ((input-history real $c- 3)) s break
+    ((input-history real $e- 3)) c break
+    ((input-history real $s- 3)) c break
+    ((and (input-history real $k- 3) (input-history real $-a 2))) t break
+    ((input-history real $k- 3)) d break
+    ((and (input-history real $t- 3) (input-history real $-a 2))) k break
+    ((input-history real $t- 3)) d break
+    ((input-history real $d- 3)) t break
+    ((and (input-history real $w- 3) (input-history real $-o 2))) m break
+    ((input-history real $w- 3)) v break
+    ((input-history real $r- 3)) w break
+    ((input-history real $m- 3)) w break
+    ((input-history real $y- 3)) r break
+    ((input-history real $v- 3)) r break
+    ((input-history real $u- 3)) i break
+    ((input-history real $i- 3)) u  break
+    () spc break
+  )
+)
+
+(defalias -spc
+  (switch
+    ((input-history real $-a 3)) o break
+    ((input-history real $-o 3)) a break
+    ((input-history real $-y 3)) l break
+    ((input-history real $-j 3)) b break
+    ((and (input-history real $-b 3) (input-history real $-e 2))) h break
+    ((input-history real $-b 3)) l break
+    ((input-history real $-l 3)) b break
+    ((input-history real $-h 3)) b break
+    ((input-history real $-f 3)) n break
+    ((input-history real $-n 3)) f break
+    ((input-history real $-p 3)) n break
+    ((input-history real $-g 3)) s break
+    ((input-history real $-e 3)) g break
+    ((input-history real $-s 3)) g break
+    () spc break
+  )
+)
