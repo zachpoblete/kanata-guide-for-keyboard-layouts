@@ -2,10 +2,6 @@
 ;; A more complete Kanata implementation: https://github.com/samuelborrasca/D5akl
 ;; (Has layers for navigation and symbols.)
 
-(defcfg
-  concurrent-tap-hold yes
-)
-
 (defvar
   chord-timeout 30
 )
