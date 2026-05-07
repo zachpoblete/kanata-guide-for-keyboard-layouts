@@ -361,7 +361,7 @@ See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setu
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
 
 -   [`hold-backtick-to-switch-layouts.kbd`](layouts/hold-backtick-to-switch-layouts.kbd)
-    -   Makes holding the `` ` ``/`~` key  toggle between QWERTY and your alt layout.
+    -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
 -   [`gallium-with-qwerty-shortcuts.kbd`](layouts/gallium-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
 -   [`graphite.kbd`](layouts/graphite.kbd)
