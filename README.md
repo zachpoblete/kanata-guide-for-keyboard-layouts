@@ -147,7 +147,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 1.  Download Kanata v1.7.0:
 
     -   Most people should download the [`arm64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re using an Intel Mac, download the [`x86_64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If you’re on an Intel Mac, download the [`x86_64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable (looks like `kanata_macos_cmd_allowed_...`).
 
@@ -208,7 +208,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 1.  Download Kanata:
 
     -   Most people should download the [`arm64` version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If you’re using an Intel Mac, download the [`x64` version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   If you’re on an Intel Mac, download the [`x64` version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
 1.  Extract the downloaded zip file.
 
