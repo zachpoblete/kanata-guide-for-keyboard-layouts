@@ -87,6 +87,8 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 >   **⚠️ Warning:**
 >   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added to Kanata in [v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been reported to [work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
+If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
+
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
 1.  Download [Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
@@ -127,6 +129,8 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 >   **⚠️ Warning:**
 >   There was a report of Kanata [not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack was able to [run Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+
+If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
 
 1.  Download the [Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -194,6 +198,8 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <details>
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
+
+If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
 
 1.  Download the [Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
