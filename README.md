@@ -21,7 +21,7 @@ This guide shows you how to set up an alternate layout with Kanata, edit the lay
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/example.kbd/example.kbd) and put it in the same folder as the Kanata executable (looks like `kanata_windows_gui_winIOv2_cmd_allowed_...` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (looks like `kanata_windows_gui_winIOv2_cmd_allowed_...` in the extracted zip).
 
 1.  Open the folder in a terminal.
 
@@ -58,7 +58,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/example.kbd/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_linux_cmd_allowed_x64` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_linux_cmd_allowed_x64` in the extracted zip).
 
 1.  Open the folder in a terminal.
 
@@ -97,7 +97,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/example.kbd/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_macos_cmd_allowed_x64` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_macos_cmd_allowed_x64` in the extracted zip).
 
 1.  Open the folder in a terminal.
 
@@ -161,7 +161,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 
 1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/example.kbd/example.kbd) and put it in the same folder as the Kanata executable.
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable.
 
 1.  Open the folder in a terminal.
 
@@ -232,7 +232,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 
 1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/example.kbd/example.kbd) and put it in the same folder as the Kanata executable.
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable.
 
 1.  Open the folder in a terminal.
 
@@ -346,7 +346,7 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1. Download [`kanata.service`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/kanata.service/kanata.service) and save it in `/etc/systemd/system/`.
+1. Download [`kanata.service`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in `/etc/systemd/system/`.
 
 1. Edit this line in `kanata.service` accordingly:
 
