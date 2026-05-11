@@ -197,7 +197,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 
 1.  Open a terminal and activate the driver:
 
-    ```
+    ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
@@ -340,7 +340,7 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
 
 1. Open a terminal and enable `kanata.service` on startup:
 
-    ```
+    ```shell
     sudo systemctl enable kanata.service
     ```
 
@@ -353,7 +353,31 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#6-optional-install-as-a-launchdaemon).
+1. Download [`dev.kanata.kanata.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+
+1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/example.kbd` under `ProgramArguments`:
+
+    ```plist
+    <key>ProgramArguments</key>
+    <array>
+        <string>/path/to/kanata-executable</string>
+        <string>--cfg</string>
+        <string>/path/to/example.kbd</string>
+    </array>
+    ```
+
+1. Open a terminal and run Kanata as a Launch Daemon background process:
+
+    ```shell
+    sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
+    sudo launchctl bootstrap system /Library/LaunchDaemons/dev.kanata.kanata.plist
+    ```
+
+If you edit your Kanata config and want to reload the daemon with your changes, run:
+
+```shell
+sudo launchctl kickstart -k system/dev.kanata.kanata
+```
 
 </details>
 
