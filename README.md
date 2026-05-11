@@ -314,7 +314,7 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1.  Move the shortcut to the startup folder: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
-    -   If you want to use your alt layout immediately after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
+    -   If you want to use your alt layout *immediately* after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
 
 </details>
 
