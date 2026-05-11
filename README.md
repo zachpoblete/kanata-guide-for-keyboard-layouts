@@ -302,11 +302,6 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 <summary><strong>Windows</strong></summary>
 <p></p>
 
->   **💡 Tip:**
->   See the [Windows discussion](https://github.com/jtroo/kanata/discussions/193).
-
-This is a manual method, but it reliably lets you use your alt layout immediately after signing in:
-
 1.  Make a shortcut of the Kanata executable.
 
 1.  Open the shortcut’s properties.
@@ -317,9 +312,9 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
     "path\to\kanata.exe" --cfg "path\to\example.kbd" --nodelay
     ```
 
-1.  Move the shortcut to the Desktop.
+1.  Move the shortcut to the startup folder: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
-1.  Double click the shortcut after signing in.
+    -   If you want to use your alt layout immediately after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
 
 </details>
 
