@@ -87,7 +87,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 >   **⚠️ Warning:**
 >   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added to Kanata in [v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been reported to [work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
+If Karabiner Elements is installed: Open **System Settings → General → Login Items** and disable **Karabiner-Elements Privileged Daemons**.
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
@@ -130,7 +130,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 >   **⚠️ Warning:**
 >   There was a report of Kanata [not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack was able to [run Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
+If Karabiner Elements is installed: Open **System Settings → General → Login Items** and disable **Karabiner-Elements Privileged Daemons**.
 
 1.  Download the [Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -140,7 +140,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
     ```
 
-1.  Open **System Settings → General → Login Items & Extensions → Driver Extensions** and toggle on the entry for `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+1.  Open **System Settings → General → Login Items → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
     -   If you previously ran `deactivate`, restart your computer.
 
@@ -191,7 +191,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons v2**.
+If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons**.
 
 1.  Download the [Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
@@ -201,7 +201,7 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
-1.  Open **System Settings → General → Login Items & Extensions → Driver Extensions** and toggle on the entry for `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
     -   If you previously ran `deactivate`, restart your computer.
 
