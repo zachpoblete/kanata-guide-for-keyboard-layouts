@@ -144,14 +144,6 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 
     -   If you previously ran `deactivate`, restart your computer.
 
-1.  Verify the Karabiner daemon is running:
-
-    ```shell
-    sudo launchctl list | grep org.pqrs
-    ```
-
-    You should see `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon` listed.
-
 1.  Download Kanata v1.7.0:
 
     -   Most people should download the [`arm64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
@@ -212,14 +204,6 @@ If Karabiner Elements is installed: Open **System Settings → General → Login
 1.  Open **System Settings → General → Login Items & Extensions → Driver Extensions** and toggle on the entry for `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
     -   If you previously ran `deactivate`, restart your computer.
-
-1.  Verify the Karabiner daemon is running:
-
-    ```shell
-    sudo launchctl list | grep org.pqrs
-    ```
-
-    You should see `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon` listed.
 
 1.  Download Kanata:
 
