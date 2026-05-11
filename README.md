@@ -357,7 +357,7 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
 
 1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/example.kbd` under `ProgramArguments`:
 
-    ```plist
+    ```xml
     <key>ProgramArguments</key>
     <array>
         <string>/path/to/kanata-executable</string>
