@@ -346,7 +346,19 @@ This is a manual method, but it reliably lets you use your alt layout immediatel
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-See the [Linux discussion (reply in thread)](https://github.com/jtroo/kanata/discussions/130#discussioncomment-10227272).
+1. Download [`kanata.service`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/kanata.service/kanata.service) and save it in `/etc/systemd/system/`.
+
+1. Edit this line in `kanata.service` accordingly:
+
+    ```
+    ExecStart=/path/to/kanata-executable -c /path/to/example.kbd
+    ```
+
+1. Open a terminal and enable `kanata.service` on startup:
+
+    ```
+    sudo systemctl enable kanata.service
+    ```
 
 </details>
 
