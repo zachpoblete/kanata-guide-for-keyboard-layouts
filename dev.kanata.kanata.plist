@@ -7,9 +7,9 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/kanata</string>
-        <string>-c</string>
-        <string>/etc/kanata/kanata.kbd</string>
+        <string>/path/to/kanata-executable</string>
+        <string>--cfg</string>
+        <string>/path/to/kanata-config.kbd</string>
     </array>
 
     <key>UserName</key>
