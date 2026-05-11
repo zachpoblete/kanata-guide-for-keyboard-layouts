@@ -306,10 +306,10 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1.  Open the shortcut’s properties.
 
-1.  Edit **Target** by appending `--cfg "path\to\example.kbd" --nodelay`. The full target should look like:
+1.  Edit **Target** by appending `--cfg "path\to\kanata-config.kbd" --nodelay`. The full target should look like:
 
     ```
-    "path\to\kanata.exe" --cfg "path\to\example.kbd" --nodelay
+    "path\to\kanata.exe" --cfg "path\to\kanata-config.kbd" --nodelay
     ```
 
 1.  Move the shortcut to the startup folder: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
@@ -330,7 +330,7 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 1. Edit this line in `kanata.service` accordingly:
 
     ```
-    ExecStart=/path/to/kanata-executable -c /path/to/example.kbd
+    ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
     ```
 
 1. Open a terminal and enable `kanata.service` on startup:
@@ -350,14 +350,14 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1. Download [`dev.kanata.kanata.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
-1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/example.kbd` under `ProgramArguments`:
+1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` under `ProgramArguments`:
 
     ```xml
     <key>ProgramArguments</key>
     <array>
         <string>/path/to/kanata-executable</string>
         <string>--cfg</string>
-        <string>/path/to/example.kbd</string>
+        <string>/path/to/kanata-config.kbd</string>
     </array>
     ```
 
