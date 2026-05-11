@@ -329,7 +329,7 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1. Edit this line in `kanata.service` accordingly:
 
-    ```
+    ```desktop
     ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
     ```
 
