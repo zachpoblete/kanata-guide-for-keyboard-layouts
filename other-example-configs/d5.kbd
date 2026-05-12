@@ -24,7 +24,7 @@
 ;; Aliases and variables
 
 (deftemplate key (defsrc label output)
-  (defalias $label (chord chords $label))
+  (defalias $label (chord combos $label))
   (defvar $label $defsrc)
 )
 
@@ -57,9 +57,9 @@
 (t! key .    -s s)
 
 ;;──────────────────────────────────────────────────────────────────────────────
-;; Chords
+;; Combos
 
-(defchords chords $chord-timeout
+(defchords combos $chord-timeout
   ;; Single keys:
   (c-) c
   (e-) e
