@@ -314,7 +314,9 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1.  Move the shortcut to the startup folder: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
-    -   If you want to use your alt layout *immediately* after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
+Your Kanata config will now run in the background on startup.
+
+If you want to use your alt layout *immediately* after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
 
 </details>
 
@@ -333,11 +335,13 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
     ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
     ```
 
-1. Open a terminal and run this command to enable `kanata.service` on startup:
+1. Open a terminal and run:
 
     ```shell
     sudo systemctl enable kanata.service
     ```
+
+Your Kanata config will now run in the background on startup.
 
 </details>
 
@@ -361,12 +365,14 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
     </array>
     ```
 
-1. Open a terminal and run Kanata as a Launch Daemon background process:
+1. Open a terminal and run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/dev.kanata.kanata.plist
     ```
+
+Your Kanata config will now run in the background on startup.
 
 If you edit your Kanata config and want to reload the daemon with your changes, run:
 
