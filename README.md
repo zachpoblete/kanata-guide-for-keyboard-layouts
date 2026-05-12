@@ -391,12 +391,12 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](other-example-configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
--   [`graphite.kbd`](other-example-configs/graphite.kbd)
-    -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`symbol-layer.kbd`](other-example-configs/symbol-layer.kbd)
     -   A layer for typing symbols
 -   [`navigation-layer.kbd`](other-example-configs/navigation-layer.kbd)
     -   A layer for navigation keys
+-   [`graphite.kbd`](other-example-configs/graphite.kbd)
+    -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`taipo.kbd`](other-example-configs/taipo.kbd)
