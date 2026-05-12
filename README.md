@@ -327,13 +327,13 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 1. Download [`kanata.service`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in `/etc/systemd/system/`.
 
-1. Edit this line in `kanata.service` accordingly:
+1. Open `kanata.service` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` in this line:
 
     ```desktop
     ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
     ```
 
-1. Open a terminal and enable `kanata.service` on startup:
+1. Open a terminal and run this command to enable `kanata.service` on startup:
 
     ```shell
     sudo systemctl enable kanata.service
