@@ -1,0 +1,20 @@
+(defsrc
+  q    w    e    r    t      y    u    i    o    p
+  a    s    d    f    g      h    j    k    l    ;
+  z    x    c    v    b      n    m    ,    .    /
+                             ralt
+)
+
+(deflayer gallium
+  b    l    d    c    v      j    y    o    u    ,
+  n    r    t    s    g      p    h    a    e    i
+  x    q    m    w    z      k    f    '    ;    .
+                            (layer-while-held navigation)
+)
+
+(deflayer navigation
+  _    _    _    _    _      pgup home  ↑   end  tab
+  met  alt  sft  ctl  _      pgdn  ←    ↓    →   ent
+  _    _    _    _    _      esc  bspc ins  del  _
+                             _
+)
