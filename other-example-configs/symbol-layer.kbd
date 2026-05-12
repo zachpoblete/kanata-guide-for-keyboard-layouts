@@ -1,0 +1,62 @@
+;; Original symbol layer: https://getreuer.info/posts/keyboards/symbol-layer/index.html#my-symbol-layer
+;; (slightly modified for Gallium)
+
+(defsrc
+   q   w   e   r   t     y   u   i   o   p
+   a   s   d   f   g     h   j   k   l   ;
+   z   x   c   v   b     n   m   ,   .   /
+                         ralt
+)
+
+(deflayer gallium
+   b   l   d   c   v     j   y   o   u   ,
+   n   r   t   s   g     p   h   a   e   i
+   x   q   m   w   z     k   f   '   ;   .
+                        (layer-while-held symbol)
+)
+
+(deflayer symbol
+  @`  @<  @>  @-  @|    @^  @{  @}  @$  @,
+  @!  @*  @/  @=  @&    @#  @lp @rp @_  @qt
+  @~  @+  @[  @]  @%    @@  @:  @'  @;  @.
+                         _
+)
+
+(defalias
+  !  S-1
+  @  S-2
+  #  S-3
+  $  S-4
+  %  S-5
+  ^  S-6
+  &  S-7
+  *  S-8
+
+  lp S-9
+  rp S-0
+  [  [
+  ]  ]
+  {  S-[
+  }  S-]
+  <  S-,
+  >  S-.
+
+  /  /
+  \  \    ;; unused
+  |  S-\
+  -  -
+  _  S--
+  =  =
+  +  S-=
+
+  ,  ,
+  .  .
+  ;  ;
+  :  S-;
+  ?  S-/  ;; unused
+
+  '  '
+  qt S-'
+  `  `
+  ~  S-`
+)

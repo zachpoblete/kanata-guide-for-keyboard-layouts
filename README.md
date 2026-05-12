@@ -387,6 +387,8 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
 -   [`graphite.kbd`](other-example-configs/graphite.kbd)
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
+-   [`symbol-layer.kbd`](other-example-configs/symbol-layer.kbd)
+    -   A separate layer for typing symbols
 -   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`whirl.kbd`](other-example-configs/whirl.kbd)
