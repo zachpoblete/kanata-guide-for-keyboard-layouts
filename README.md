@@ -381,23 +381,23 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 >   [!NOTE]
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
 
--   [`hold-backtick-to-switch-layouts.kbd`](layouts/hold-backtick-to-switch-layouts.kbd)
+-   [`hold-backtick-to-switch-layouts.kbd`](other-example-configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
--   [`alt-layout-with-qwerty-shortcuts.kbd`](layouts/alt-layout-with-qwerty-shortcuts.kbd)
+-   [`alt-layout-with-qwerty-shortcuts.kbd`](other-example-configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
--   [`graphite.kbd`](layouts/graphite.kbd)
+-   [`graphite.kbd`](other-example-configs/graphite.kbd)
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
--   [`night.kbd`](layouts/night.kbd)
+-   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
--   [`whirl.kbd`](layouts/whirl.kbd)
+-   [`whirl.kbd`](other-example-configs/whirl.kbd)
     -   A layout that uses a [magic key](https://layouts.wiki/reference/terminology/magic/)
--   [`afterburner.kbd`](layouts/afterburner.kbd)
+-   [`afterburner.kbd`](other-example-configs/afterburner.kbd)
     -   A layout that uses a skip magic key
--   [`nordrassil.kbd`](layouts/nordrassil.kbd)
+-   [`nordrassil.kbd`](other-example-configs/nordrassil.kbd)
     -   A layout that uses chiral magic keys
--   [`d5.kbd`](layouts/d5.kbd)
+-   [`d5.kbd`](other-example-configs/d5.kbd)
     -   A layout that uses chiral skip magic keys
--   [`power.kbd`](layouts/power.kbd)
+-   [`power.kbd`](other-example-configs/power.kbd)
     -   A layout with 162 Layers
 
 ## See also
