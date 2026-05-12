@@ -1,0 +1,139 @@
+;; Inkeys wiki page: https://inkeys.wiki/en/keymaps/taipo
+
+(defcfg
+  sequence-timeout 2000  ;; for function keys
+)
+
+(defvar
+  chord-timeout    50
+  one-shot-timeout 2000
+)
+
+(defsrc
+   q   w   e   r       u   i   o   p
+   a   s   d   f       j   k   l   ;
+           c   v       n   m
+)
+
+(deflayer taipo
+  @r- @s- @n- @i-    @-i @-n @-s @-r
+  @a- @o- @t- @e-    @-e @-t @-o @-a
+         @it- @ot-  @-ot @-it
+)
+
+;; We define two chord groups (one for each hand) instead of just one chord
+;; group for both hands so that the left and right hand keys are isolated from
+;; each other. Otherwise, you could accidentally activate a combo using keys
+;; from both the left and right hand when typing fast.
+(t! defchords left-combos)
+(t! defchords right-combos)
+
+(deftemplate key (key)
+  (concat $key -) (chord left-combos  $key)
+  (concat - $key) (chord right-combos $key)
+)
+
+(defalias
+  (t! key e )
+  (t! key t )
+  (t! key a )
+  (t! key o )
+  (t! key i )
+  (t! key n )
+  (t! key s )
+  (t! key r )
+  (t! key it)
+  (t! key ot)
+)
+
+(defalias
+  fn sldr
+
+  oss (one-shot $one-shot-timeout sft)
+  osc (one-shot $one-shot-timeout ctl)
+  osa (one-shot $one-shot-timeout alt)
+  osm (one-shot $one-shot-timeout met)
+)
+
+(deftemplate defchords (name)
+  (defchords $name $chord-timeout
+    ;; We use the macro action so that pressing a combo then pressing the same combo on the
+    ;; other hand reliably outputs a repeat.
+
+    ;; Columns:
+    ;;     Base                       + Inner Thumb                     + Outer Thumb
+
+    ;; Single keys:
+    (i      ) (macro i)          (it i      ) (macro S-i)          (ot i      ) (macro S-0)
+    (  n    ) (macro n)          (it   n    ) (macro S-n)          (ot   n    ) (macro ])
+    (    s  ) (macro s)          (it     s  ) (macro S-s)          (ot     s  ) (macro S-])
+    (      r) (macro r)          (it       r) (macro S-r)          (ot       r) (macro S-.)
+    (e      ) (macro e)          (it e      ) (macro S-e)          (ot e      ) (macro S-9)
+    (  t    ) (macro t)          (it   t    ) (macro S-t)          (ot   t    ) (macro [)
+    (    o  ) (macro o)          (it     o  ) (macro S-o)          (ot     o  ) (macro S-[)
+    (      a) (macro a)          (it       a) (macro S-a)          (ot       a) (macro S-,)
+    (it     ) (macro spc)
+    (ot     ) (macro bspc)
+
+    ;; Horizontal combos:
+    (i n s  ) (macro tab)        (it i n s  ) (macro del)          (ot i n s  ) @fn
+    (e t o  ) (macro ent)        (it e t o  ) (macro esc)          (ot e t o  ) (macro ralt)
+    (i n    ) (macro y)          (it i n    ) (macro S-y)          (ot i n    ) (macro Digit5)
+    (e t    ) (macro h)          (it e t    ) (macro S-h)          (ot e t    ) (macro Digit0)
+    (    s r) (macro b)          (it     s r) (macro S-b)          (ot     s r) (macro Digit9)
+    (    o a) (macro l)          (it     o a) (macro S-l)          (ot     o a) (macro Digit4)
+    (i     r) (macro g)          (it i     r) (macro S-g)          (ot i     r) (macro S-3)
+    (e     a) (macro d)          (it e     a) (macro S-d)          (ot e     a) (macro S-2)
+    (  n s  ) (macro p)          (it   n s  ) (macro S-p)          (ot   n s  ) (macro Digit7)
+    (  t o  ) (macro u)          (it   t o  ) (macro S-u)          (ot   t o  ) (macro Digit2)
+    (i   s  ) (macro f)          (it i   s  ) (macro S-f)          (ot i   s  ) (macro Digit6)
+    (e   o  ) (macro c)          (it e   o  ) (macro S-c)          (ot e   o  ) (macro Digit1)
+    (  n   r) (macro z)          (it   n   r) (macro S-z)          (ot   n   r) (macro Digit8)
+    (  t   a) (macro q)          (it   t   a) (macro S-q)          (ot   t   a) (macro Digit3)
+
+    ;; Diagonal combos:
+    (i   o  ) (macro k)          (it i   o  ) (macro S-k)          (ot i   o  ) (macro S-=)
+    (e   s  ) (macro v)          (it e   s  ) (macro S-v)          (ot e   s  ) (macro S-8)
+    (  n   a) (macro j)          (it   n   a) (macro S-j)          (ot   n   a) (macro =)
+    (  t   r) (macro x)          (it   t   r) (macro S-x)          (ot   t   r) (macro S-6)
+    (i     a) (macro w)          (it i     a) (macro S-w)          (ot i     a) (macro S-7)
+    (e     r) (macro m)          (it e     r) (macro S-m)          (ot e     r) (macro S-4)
+    (  n o  ) (macro -)          (it   n o  ) (macro S--)          (ot   n o  ) (macro S-5)
+    (  t s  ) (macro /)          (it   t s  ) (macro \)            (ot   t s  ) (macro S-\)
+    (i t    ) (macro S-1)        (it i t    ) (macro S-/)
+    (e n    ) (macro ,)          (it e n    ) (macro .)            (ot e n    ) (macro S-`)
+    (    s a) (macro ')          (it     s a) (macro S-')          (ot     s a) (macro `)
+    (    o r) (macro ;)          (it     o r) (macro S-;)
+
+    ;; Vertical combos:
+    (i e      ) @oss             (it i e      ) (macro ←)          (ot i e      ) (macro pgdn)
+    (  n t    ) @osc             (it   n t    ) (macro ↓)          (ot   n t    ) (macro end)
+    (    s o  ) @osa             (it     s o  ) (macro ↑)          (ot     s o  ) (macro home)
+    (      r a) @osm             (it       r a) (macro →)          (ot       r a) (macro pgup)
+  )
+)
+
+(deftemplate fkey (fkey sequence)
+  (defseq $fkey $sequence)
+  (defvirtualkeys $fkey $fkey)
+)
+
+(t! fkey f1  (1))
+(t! fkey f2  (2))
+(t! fkey f3  (3))
+(t! fkey f4  (4))
+(t! fkey f5  (5))
+(t! fkey f6  (6))
+(t! fkey f7  (7))
+(t! fkey f8  (8))
+(t! fkey f9  (9))
+(t! fkey f10 (0 0))
+(t! fkey f11 (0 1))
+(t! fkey f12 (0 2))
+(t! fkey f13 (0 3))
+(t! fkey f14 (0 4))
+(t! fkey f15 (0 5))
+(t! fkey f16 (0 6))
+(t! fkey f17 (0 7))
+(t! fkey f18 (0 8))
+(t! fkey f19 (0 9))
