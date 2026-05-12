@@ -191,7 +191,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items & Extensions** and disable **Karabiner-Elements Privileged Daemons**.
+Go to **System Settings → General → Login Items & Extensions → App Background Activity** and disable **Karabiner-Elements Privileged Daemons** or **Karabiner-Elements Privileged Daemons v2**.
 
 1.  Download the [Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
