@@ -395,7 +395,7 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`symbol-layer.kbd`](other-example-configs/symbol-layer.kbd)
     -   A layer for typing symbols
--   [`navigation-layer.kbd`](other-example-configs/symbol-layer.kbd)
+-   [`navigation-layer.kbd`](other-example-configs/navigation-layer.kbd)
     -   A layer for navigation keys
 -   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
