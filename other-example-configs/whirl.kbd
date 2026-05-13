@@ -20,10 +20,10 @@
 
 (defalias *
   (switch
+    ((key-history g 1)) s break
+    ((key-history u 1)) e break
     ((key-history w 1)) h break
     ((key-history y 1)) , break
-    ((key-history u 1)) e break
-    ((key-history g 1)) s break
     ((key-history ' 1)) r break
     () rpt break
   )
