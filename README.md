@@ -291,7 +291,7 @@ You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendat
 Using a different layout is just a matter of editing the keys in `deflayer` (and renaming the layer to match).
 
 >   [!TIP]
->   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into a Kanata config file.
+>   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
 ## Run Kanata on startup
 
