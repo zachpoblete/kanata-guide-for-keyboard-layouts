@@ -60,7 +60,7 @@
     ($previous-key-is-*)
       (multi
         @release-*
-        ;; Send "*N**or**dr**as**s**i**l**":
+        ;; Type "*N**or**dr**as**s**i**l**":
         (macro @* S-n @* @* o r @* @* d r @* @* a s @* @* s @* @* i @* @* l @* @*)) break
     () rpt break
   )
