@@ -400,7 +400,7 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 -   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`taipo.kbd`](other-example-configs/taipo.kbd)
-    -   A chorded layout that can be used one-handed
+    -   A chorded layout that can also be used one-handed
 -   [`whirl.kbd`](other-example-configs/whirl.kbd)
     -   A layout that uses a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](other-example-configs/afterburner.kbd)
