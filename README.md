@@ -87,8 +87,6 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 >   **⚠️ Warning:**
 >   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added to Kanata in [v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been reported to [work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items** and disable **Karabiner-Elements Privileged Daemons**.
-
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
 1.  Download [Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
@@ -130,19 +128,32 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 >   **⚠️ Warning:**
 >   There was a report of Kanata [not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack was able to [run Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-If Karabiner Elements is installed: Open **System Settings → General → Login Items** and disable **Karabiner-Elements Privileged Daemons**.
-
 1.  Download the [Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
-1.  Open a terminal and activate the driver:
+1.  Open a terminal and run:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
     ```
 
-1.  Open **System Settings → General → Login Items → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
-
     -   If you previously ran `deactivate`, restart your computer.
+
+1.  Open **System Settings → Privacy & Security → Security** and look for:
+
+    > System software from application “Karabiner-VirtualHIDDevice-Manager” was blocked from loading.
+
+    Click **Allow**.
+
+    -   If there is any problem with the **Allow** button, see [this page](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
+
+1. Download [`org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+
+1. Run:
+
+    ```shell
+    sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    ```
 
 1.  Download Kanata v1.7.0:
 
@@ -195,15 +206,24 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Download the [Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
-1.  Open a terminal and activate the driver:
+1.  Open a terminal and run:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
+    -   If you previously ran `deactivate`, restart your computer.
+
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-    -   If you previously ran `deactivate`, restart your computer.
+1. Download [`org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+
+1. Run:
+
+    ```shell
+    sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    ```
 
 1.  Download Kanata:
 
