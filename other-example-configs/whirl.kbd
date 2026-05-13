@@ -24,7 +24,7 @@
     ((key-history y 1)) , break
     ((key-history u 1)) e break
     ((key-history g 1)) s break
-    ((key-history ' 1)) m break
+    ((key-history ' 1)) r break
     () rpt break
   )
 )
