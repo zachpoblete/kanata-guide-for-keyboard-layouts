@@ -37,14 +37,14 @@
 )
 
 (defalias
-  (t! key e )
-  (t! key t )
-  (t! key a )
-  (t! key o )
   (t! key i )
   (t! key n )
   (t! key s )
   (t! key r )
+  (t! key e )
+  (t! key t )
+  (t! key a )
+  (t! key o )
   (t! key it)
   (t! key ot)
 )
