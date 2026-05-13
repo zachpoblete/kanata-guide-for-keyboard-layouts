@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, tap-hold, and combos.
 
-This guide shows you how to set up an alternate layout with Kanata, edit the layout, and run Kanata on startup.
+This guide shows you how to set up an alternate layout with Kanata, edit the layout, and run Kanata in the background on startup.
 
 ## Set up a layout with Kanata
 
@@ -293,7 +293,7 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 >   [!TIP]
 >   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
-## Run Kanata on startup
+## Run Kanata in the background on startup
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
