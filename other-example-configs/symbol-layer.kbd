@@ -10,7 +10,7 @@
 
 (deflayer gallium
    b   l   d   c   v     j   f   o   u   ,
-   n   r   t   s   g     y   h   a   e   i   /
+   n   r   t   s   g     y   h   a   e   i
    x   q   m   w   z     k   p   '   ;   .
                          (layer-while-held symbol)
 )
