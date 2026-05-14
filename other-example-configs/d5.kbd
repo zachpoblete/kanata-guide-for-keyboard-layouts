@@ -3,7 +3,7 @@
 ;; (Has layers for navigation and symbols.)
 
 (defvar
-  chord-timeout 30
+  chord-timeout 50
 )
 
 (defsrc
