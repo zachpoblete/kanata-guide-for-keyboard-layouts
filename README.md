@@ -419,6 +419,8 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](other-example-configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
+-   [`buggy.kbd`](other-example-configs/buggy.kbd)
+    -   A layout with two alpha layers
 -   [`taipo.kbd`](other-example-configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
 -   [`whirl.kbd`](other-example-configs/whirl.kbd)

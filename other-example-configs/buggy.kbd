@@ -1,0 +1,118 @@
+;; Github repository: https://github.com/flarefin/zmk-config-buggy
+;; (Only the alpha layers are included in this Kanata config.)
+
+(defvar
+  sticky-layer-timeout 1000
+  chord-timeout 30
+)
+
+(defsrc
+      w  e  r       u  i  o
+   a  s  d  f       j  k  l ;
+          c  v     n  m
+)
+
+(deflayer alpha1
+     @l @d @y      @m @o @u
+  @n @r @t @s      @h @a @i @e
+        spc @n1  @s1 @a2
+)
+
+(deflayer alpha2
+     @x @v @g      @k @q @,
+  @p @w @b @c      @f @z @. @j
+          _  _    _  @a1
+)
+
+;;──────────────────────────────────────────────────────────────────────────────
+;; Aliases
+
+(defalias
+;; The key mapped to the a2 alias acts like a ZMK sticky layer key:
+;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
+
+;; Pressing the sticky layer key then pressing a key on the alpha2
+;; layer immediately switches back to the alpha1 layer - even if the
+;; sticky layer key is still held.
+
+;; This means you don’t have to release the sticky layer key before
+;; pressing a key on the alpha1 layer. This behavior is good because
+;; the alpha1 keys are more frequent than the alpha2 keys.
+
+;; We implement sticky layer keys in Kanata using:
+;; -   the one-shot + layer-while-held actions in the alias
+;; -   the release-layer action for every key in the alpha2 layer
+  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
+
+  a1 (layer-switch alpha1)
+  s1 ()  ;; This is for the symbol layer, but it is not included in this config.
+  n1 ()  ;; This is for the navigation layer, but it is not included in this config.
+)
+
+(deftemplate a1 (key)
+  $key (chord alpha1 $key)
+)
+
+(deftemplate a2 (key)
+  $key (multi (chord alpha2 $key) (release-layer alpha2))
+)
+
+(defalias
+  (t! a1 n)
+  (t! a1 r)    (t! a1 l)
+  (t! a1 t)    (t! a1 d)
+  (t! a1 s)    (t! a1 y)
+  (t! a1 h)    (t! a1 m)
+  (t! a1 a)    (t! a1 o)
+  (t! a1 i)    (t! a1 u)
+  (t! a1 e)
+
+  (t! a2 p)
+  (t! a2 w)    (t! a2 x)
+  (t! a2 b)    (t! a2 v)
+  (t! a2 c)    (t! a2 g)
+  (t! a2 f)    (t! a2 k)
+  (t! a2 z)    (t! a2 q)
+  (t! a2 .)    (t! a2 ,)
+  (t! a2 j)
+)
+
+;;──────────────────────────────────────────────────────────────────────────────
+;; Combos
+
+;; For some reason, we need layer 1 and layer 2 to be in separate chord groups.
+
+(defchords alpha1 $chord-timeout
+  (n) n
+  (r) r    (l) l
+  (t) t    (d) d
+  (s) s    (y) y
+  (h) h    (m) m
+  (a) a    (o) o
+  (i) i    (u) u
+  (e) e
+
+  (r l) (macro r l)
+  (t d) (macro t d)
+  (y s) (macro y s)
+  (h m) (macro h m)
+  (o a) (macro o a)
+  (u i) (macro u i)
+
+)
+
+(defchords alpha2 $chord-timeout
+  (p) p
+  (w) w    (x) x
+  (b) b    (v) v
+  (c) c    (g) g
+  (f) f    (k) k
+  (z) z    (q) q
+  (.) .    (,) ,
+  (j) j
+
+  (c g) (macro c k)
+  (f k) (macro f f)
+  (q z) (macro q u i)
+  (. ,) (macro . . .)
+)
