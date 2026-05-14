@@ -19,8 +19,8 @@
 )
 
 (defvar
-  magic-defsrc-key h
-  skip-magic-defsrc-key j
+  magic-key-src h
+  skip-magic-key-src j
 )
 
 (defalias magic
@@ -79,7 +79,7 @@
 (defalias #
   (switch
     ;; If the previous key pressed was the skip magic key, repeat the skip magic rule:
-    ((input-history real $skip-magic-defsrc-key 2)) @skip-magic break
+    ((input-history real $skip-magic-key-src 2)) @skip-magic break
 
     () @magic break
   )
@@ -88,7 +88,7 @@
 (defalias $
   (switch
     ;; If the second-to-last key pressed was the magic key, skip-repeat the magic rule:
-    ((input-history real $magic-defsrc-key 3)) @magic break
+    ((input-history real $magic-key-src 3)) @magic break
 
     () @skip-magic break
   )
