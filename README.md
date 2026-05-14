@@ -407,32 +407,32 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 >   [!NOTE]
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
 
--   [`hold-backtick-to-switch-layouts.kbd`](other-example-configs/hold-backtick-to-switch-layouts.kbd)
+-   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
--   [`alt-layout-with-qwerty-shortcuts.kbd`](other-example-configs/alt-layout-with-qwerty-shortcuts.kbd)
+-   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
--   [`symbol-layer.kbd`](other-example-configs/symbol-layer.kbd)
+-   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
     -   A layer for typing symbols
--   [`navigation-layer.kbd`](other-example-configs/navigation-layer.kbd)
+-   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
     -   A layer for navigation keys
--   [`graphite.kbd`](other-example-configs/graphite.kbd)
+-   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
--   [`night.kbd`](other-example-configs/night.kbd)
+-   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
--   [`buggy.kbd`](other-example-configs/buggy.kbd)
+-   [`buggy.kbd`](configs/buggy.kbd)
     -   A layout with two alpha layers
--   [`taipo.kbd`](other-example-configs/taipo.kbd)
+-   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
--   [`whirl.kbd`](other-example-configs/whirl.kbd)
+-   [`whirl.kbd`](configs/whirl.kbd)
     -   A layout that uses a [magic key](https://layouts.wiki/reference/terminology/magic/)
--   [`afterburner.kbd`](other-example-configs/afterburner.kbd)
+-   [`afterburner.kbd`](configs/afterburner.kbd)
     -   A layout that uses a skip magic key
--   [`nordrassil.kbd`](other-example-configs/nordrassil.kbd)
+-   [`nordrassil.kbd`](configs/nordrassil.kbd)
     -   A layout that uses chiral magic keys
--   [`d5.kbd`](other-example-configs/d5.kbd)
+-   [`d5.kbd`](configs/d5.kbd)
     -   A layout that uses chiral skip magic keys
--   [`power.kbd`](other-example-configs/power.kbd)
-    -   A layout with 162 Layers
+-   [`power.kbd`](configs/power.kbd)
+    -   A layout with 162 layers
 
 ## See also
 
