@@ -24,10 +24,11 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Keys
 
-;; We define two chord groups (one for each hand) instead of just one chord
-;; group for both hands so that the left and right hand keys are isolated from
-;; each other. Otherwise, you could accidentally activate a combo using keys
-;; from both the left and right hand when typing fast.
+;; We define two chord groups (one for each hand) instead of just one
+;; chord group for both hands so that the left and right hand keys are
+;; isolated from each other. Otherwise, you could accidentally
+;; activate a combo using keys from both the left and right hand when
+;; typing fast.
 (t! defchords left-combos)
 (t! defchords right-combos)
 
@@ -105,8 +106,8 @@
 
 (deftemplate defchords (name)
   (defchords $name $chord-timeout
-    ;; We use the macro action so that pressing a combo then pressing the same combo on the
-    ;; other hand reliably outputs a repeat.
+    ;; We use the macro action so that pressing a combo then pressing the
+    ;; same combo on the other hand reliably outputs a repeat.
 
     ;; Columns:
     ;;     Base                       + Inner Thumb                      + Outer Thumb
