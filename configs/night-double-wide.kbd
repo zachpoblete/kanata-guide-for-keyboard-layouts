@@ -1,0 +1,15 @@
+;; Source (official website): https://valorance.net/night/images/night_rowstag.png
+
+(defsrc
+  q w e r t y u i o p [ ]
+  a s d f g h j k l ; ' ent
+  z x c v b n m , . / rsft
+       spc      ralt
+)
+
+(deflayer night-double-wide
+  b f l k q • • ' g o u .
+  n s h t m • • y c a e i
+  x v j d z • • p w ; /
+        r       spc
+)
