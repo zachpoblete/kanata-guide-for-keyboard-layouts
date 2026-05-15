@@ -1,4 +1,4 @@
-;; Source (Github): https://github.com/GalileoBlues/Gallium/blob/21a8a7bb64a80acd67e06b5209e30559688121fe/Kanata/Gallium.cfg#L42-L49
+;; Source (Github): https://github.com/GalileoBlues/Gallium/blob/21a8a7bb64a80acd67e06b5209e30559688121fe/Kanata/Gallium.cfg#L60-L67
 
 (defsrc
   q w e r t  y u i o p
