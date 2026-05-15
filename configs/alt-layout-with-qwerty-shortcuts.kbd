@@ -14,6 +14,15 @@
 
 (deflayermap (qwerty)
   _ use-defsrc
+
+  ;; These are needed when pressing multiple modifiers so that releasing
+  ;; the first modifier pressed doesn’t release the qwerty layer early.
+  lctl @lctl
+  lalt @lalt
+  lmet @lmet
+  rmet @rmet
+  ralt @ralt
+  rctl @rctl
 )
 
 (defalias
