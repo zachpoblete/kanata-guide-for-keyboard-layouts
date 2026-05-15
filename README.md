@@ -402,7 +402,7 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 
 </details>
 
-## Other example configs
+## Example configs
 
 >   [!NOTE]
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
