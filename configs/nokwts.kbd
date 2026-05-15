@@ -1,0 +1,13 @@
+;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1339405810513477653
+
+(defsrc
+  q w e r t  y u i o p
+   a s d f g  h j k l ; '
+    z x c v b  n m , . /
+)
+
+(deflayer nokwts
+  z m r l f  j y o u '
+   n t h s b  c d e i a ,
+    x q w k v  p g / . ;
+)
