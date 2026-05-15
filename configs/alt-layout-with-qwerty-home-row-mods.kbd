@@ -1,0 +1,48 @@
+(defvar
+  tap-time  200
+  hold-time 200
+)
+
+(defsrc
+   q  w  e  r  t    y  u  i  o  p
+   a  s  d  f  g    h  j  k  l  ;  '
+   z  x  c  v  b    n  m  ,  .  /
+)
+
+(deflayer gallium
+   b  l  d  c  v    j  f  o  u  ,
+  @n @r @t @s  g    y @h @a @e @i  /
+   x  q  m  w  z    k  p  '  ;  .
+)
+
+(deftemplate hrm (key mod)
+  $key (tap-hold
+    $tap-time
+    $hold-time
+    $key
+    (multi $mod (layer-while-held qwerty))
+  )
+)
+
+(defalias
+  (t! hrm n lmet)
+  (t! hrm r lalt)
+  (t! hrm t lsft)
+  (t! hrm s lctl)
+  (t! hrm h rctl)
+  (t! hrm a rsft)
+  (t! hrm e ralt)
+  (t! hrm i rmet)
+)
+
+(deflayermap (qwerty)
+  _ use-defsrc
+  (t! hrm a lmet)
+  (t! hrm s lalt)
+  (t! hrm d lsft)
+  (t! hrm f lctl)
+  (t! hrm j rctl)
+  (t! hrm k rsft)
+  (t! hrm l ralt)
+  (t! hrm ; rmet)
+)
