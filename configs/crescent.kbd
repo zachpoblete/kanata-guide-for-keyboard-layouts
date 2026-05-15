@@ -1,0 +1,188 @@
+;; Github repository (archive): https://web.archive.org/web/20241117014412/https://github.com/ClemenPine/crescent
+
+(defvar
+  one-shot-timeout 2000
+  chord-timeout    50
+)
+
+(defsrc
+   q  w  e  r       u  i  o  p
+   a  s  d  f       j  k  l  ;
+            v b   n
+)
+
+(deflayer crescent
+  @c @r @s @t      @a @e @u @i
+  @c @r @s @t      @a @e @u @i
+            ␣ ␣   @n
+)
+
+(defalias
+  c (chord crescent c)
+  r (chord crescent r)
+  s (chord crescent s)
+  t (chord crescent t)
+  n (chord crescent n)
+  a (chord crescent a)
+  e (chord crescent e)
+  u (chord crescent u)
+  i (chord crescent i)
+
+  ctl (one-shot $one-shot-timeout ctl)
+  alt (one-shot $one-shot-timeout alt)
+  sft (one-shot $one-shot-timeout sft)
+  met (one-shot $one-shot-timeout met)
+)
+
+(defchords crescent $chord-timeout
+  ;; 2-key combos:
+  (c                  )  c
+  (  r                )  r
+  (    s              )  s
+  (      t            )  t
+  (          n        )  n
+  (            a      )  a
+  (              e    )  e
+  (                u  )  u
+  (                  i)  i
+
+  (c r                )  w
+  (c   s              )  f
+  (c     t            )  g
+  (c         n        )  q
+  (c           a      )  '
+  (c             e    ) @#
+  (c               u  )  y
+  (c                 i)  p
+
+  (  r s              )  x
+  (  r   t            )  j
+  (  r       n        )  l
+  (  r         a      ) @!
+  (  r           e    ) @@
+  (  r             u  )  _
+  (  r               i)  ,
+
+  (    s t            )  d
+  (    s     n        )  z
+  (    s       a      )  `
+  (    s         e    )  bspc
+  (    s           u  )  v
+  (    s             i)  b
+
+  (      t   n        )  m
+  (      t     a      )  ent
+  (      t       e    )  tab
+  (      t         u  )  k
+  (      t           i)  /
+
+  (          n a      ) @lp
+  (          n   e    ) @rp
+  (          n     u  )  h
+  (          n       i) @?
+
+  (            a e    )  o
+  (            a   u  )  -
+  (            a     i)  .
+
+  (              e u  ) @qt
+  (              e   i) @:
+
+  (                u i) @;
+
+  ;; 3-key combos:
+  (c r       n        ) @|
+  (c r         a      ) @*
+  (c r           e    ) @+
+  (c r             u  ) @<
+  (c r               i) @>
+
+  (c   s     n        )  \
+  (c   s       a      ) @^
+  (c   s         e    )  =
+  (c   s           u  )  [
+  (c   s             i)  ]
+
+  (c     t   n        ) @{
+  (c     t     a      )  1
+  (c     t       e    )  2
+  (c     t         u  )  3
+  (c     t           i)  0
+
+  (  r s     n        ) @&
+  (  r s       a      )  ←
+  (  r s         e    )  ↓
+  (  r s           u  )  ↑
+  (  r s             i)  →
+
+  (  r   t   n        ) @~
+  (  r   t     a      )  4
+  (  r   t       e    )  5
+  (  r   t         u  )  6
+  (  r   t           i) @%
+
+  (    s t   n        ) @}
+  (    s t     a      )  7
+  (    s t       e    )  8
+  (    s t         u  )  9
+  (    s t           i) @$
+
+  ;; Modifiers:
+  (c             e u  ) @ctl
+  (  r           e u  ) @alt
+  (    s         e u  ) @sft
+  (      t       e u  ) @met
+
+  (c r           e u  ) (multi @ctl @alt)
+  (c   s         e u  ) (multi @ctl @sft)
+  (c     t       e u  ) (multi @ctl @met)
+  (  r s         e u  ) (multi @alt @sft)
+  (  r   t       e u  ) (multi @alt @met)
+
+  (c r s         e u  ) (multi @ctl @alt @sft)
+  (c r   t       e u  ) (multi @ctl @alt @met)
+  (c   s t       e u  ) (multi @ctl @sft @met)
+  (  r s t       e u  ) (multi @alt @sft @met)
+
+  (c r s t       e u  ) (multi @ctl @alt @sft @met)
+)
+
+;; Symbol aliases:
+(defalias
+  !  S-1
+  @  S-2
+  #  S-3
+  $  S-4
+  %  S-5
+  ^  S-6
+  &  S-7
+  *  S-8
+
+  lp S-9
+  rp S-0
+  [  [
+  ]  ]
+  {  S-[
+  }  S-]
+  <  S-,
+  >  S-.
+
+  /  /
+  \  \
+  |  S-\
+  -  -
+  _  S--
+  =  =
+  +  S-=
+
+  ,  ,
+  .  .
+  ;  ;
+  :  S-;
+  ?  S-/
+
+  '  '
+  qt S-'
+  `  `
+  ~  S-`
+)

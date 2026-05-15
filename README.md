@@ -421,6 +421,8 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`buggy.kbd`](configs/buggy.kbd)
     -   A layout with two alpha layers
+-   [`crescent.kbd`](configs/crescent.kbd)
+    -   A layout with only 10 keys, one for each finger
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
 -   [`whirl.kbd`](configs/whirl.kbd)
