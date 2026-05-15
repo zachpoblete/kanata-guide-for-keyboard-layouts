@@ -1,6 +1,6 @@
 (defvar
-  tap-repress-timeout 200
-  hold-timeout        200
+  tap-time  200
+  hold-time 200
 )
 
 (defsrc
@@ -15,18 +15,13 @@
    x  q  m  w  z    k  p  '  ;  .
 )
 
-(deftemplate hrm (key mod)
-  $key (tap-hold $tap-repress-timeout $hold-timeout $key $mod)
-)
-
 (defalias
-  (t! hrm n lmet)
-  (t! hrm r lalt)
-  (t! hrm t lctl)
-  (t! hrm s lsft)
-
-  (t! hrm h rsft)
-  (t! hrm a rctl)
-  (t! hrm e ralt)
-  (t! hrm i rmet)
+  n (tap-hold $tap-time $hold-time n lmet)
+  r (tap-hold $tap-time $hold-time r lalt)
+  t (tap-hold $tap-time $hold-time t lsft)
+  s (tap-hold $tap-time $hold-time s lctl)
+  h (tap-hold $tap-time $hold-time h rctl)
+  a (tap-hold $tap-time $hold-time a rsft)
+  e (tap-hold $tap-time $hold-time e ralt)
+  i (tap-hold $tap-time $hold-time i rmet)
 )
