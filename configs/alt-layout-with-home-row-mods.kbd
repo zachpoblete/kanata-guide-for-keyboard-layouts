@@ -1,0 +1,32 @@
+(defvar
+  tap-repress-timeout 200
+  hold-timeout        200
+)
+
+(defsrc
+   q  w  e  r  t    y  u  i  o  p
+   a  s  d  f  g    h  j  k  l  ;  '
+   z  x  c  v  b    n  m  ,  .  /
+)
+
+(deflayer gallium
+   b  l  d  c  v    j  f  o  u  ,
+  @n @r @t @s  g    y @h @a @e @i  /
+   x  q  m  w  z    k  p  '  ;  .
+)
+
+(deftemplate hrm (key mod)
+  $key (tap-hold $tap-repress-timeout $hold-timeout $key $mod)
+)
+
+(defalias
+  (t! hrm n lmet)
+  (t! hrm r lalt)
+  (t! hrm t lctl)
+  (t! hrm s lsft)
+
+  (t! hrm h rsft)
+  (t! hrm a rctl)
+  (t! hrm e ralt)
+  (t! hrm i rmet)
+)
