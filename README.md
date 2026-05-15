@@ -415,6 +415,10 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
+-   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
+    -   Adds [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods) to an alt layout
+-   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
+    -   Adds home row mods to an alt layout that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
     -   A layer for typing symbols
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
