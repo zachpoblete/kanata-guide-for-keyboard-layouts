@@ -21,7 +21,7 @@ This guide shows you how to set up an alternate layout with Kanata, edit the lay
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (looks like `kanata_windows_gui_winIOv2_cmd_allowed_...` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
 
 1.  Open the folder in a terminal.
 
@@ -58,7 +58,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_linux_cmd_allowed_x64` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
 
 1.  Open the folder in a terminal.
 
@@ -95,7 +95,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable (named `kanata_macos_cmd_allowed_x64` in the extracted zip).
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
 
 1.  Open the folder in a terminal.
 
@@ -232,11 +232,11 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Extract the downloaded zip file.
 
-1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable (looks like `kanata_macos_cmd_allowed_...` in the extracted zip).
+1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the extracted Kanata executable (looks like `kanata_macos_cmd_allowed_...`).
 
 1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable.
+1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executables.
 
 1.  Open the folder in a terminal.
 
