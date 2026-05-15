@@ -420,7 +420,7 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 
 ### Layouts
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
+    -   A layout with custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`buggy.kbd`](configs/buggy.kbd)
@@ -430,13 +430,13 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
 -   [`whirl.kbd`](configs/whirl.kbd)
-    -   A layout that uses a [magic key](https://layouts.wiki/reference/terminology/magic/)
+    -   A layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)
-    -   A layout that uses a skip magic key
+    -   A layout with a skip magic key
 -   [`nordrassil.kbd`](configs/nordrassil.kbd)
-    -   A layout that uses chiral magic keys
+    -   A layout with chiral magic keys
 -   [`d5.kbd`](configs/d5.kbd)
-    -   A layout that uses chiral skip magic keys
+    -   A layout with chiral skip magic keys
 -   [`power.kbd`](configs/power.kbd)
     -   A layout with 162 layers
 
