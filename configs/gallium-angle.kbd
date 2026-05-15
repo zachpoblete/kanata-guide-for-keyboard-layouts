@@ -1,0 +1,13 @@
+;; Source (Github): https://github.com/GalileoBlues/Gallium/blob/21a8a7bb64a80acd67e06b5209e30559688121fe/Kanata/Gallium.cfg#L42-L49
+
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+   z x c v b  n m , . /
+)
+
+(deflayer gallium-angle
+  b l d c z  j f o u ,
+  n r t s v  y h a e i /
+   q m w g x  k p ' ; .
+)
