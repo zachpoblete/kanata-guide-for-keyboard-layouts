@@ -407,6 +407,8 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 >   [!NOTE]
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
 
+### General configs
+
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
@@ -415,6 +417,8 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   A layer for typing symbols
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
     -   A layer for navigation keys
+
+### Layouts
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout that uses custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](configs/night.kbd)
@@ -435,6 +439,17 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
     -   A layout that uses chiral skip magic keys
 -   [`power.kbd`](configs/power.kbd)
     -   A layout with 162 layers
+
+### Fingermaps
+
+-   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
+    -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
+-   [`night-wide.kbd`](configs/night-wide.kbd)
+    -   A thumb-alpha layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
+-   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
+    -   A thumb-alpha layout that has been double-wide modded
+-   [`nokwts.kbd`](configs/nokwts.kbd)
+    -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
 ## See also
 
