@@ -12,6 +12,15 @@
   @lctl @lalt @lmet @rmet @ralt @rctl
 )
 
+(defalias
+  lctl (multi lctl (layer-while-held qwerty))
+  lalt (multi lalt (layer-while-held qwerty))
+  lmet (multi lmet (layer-while-held qwerty))
+  rmet (multi rmet (layer-while-held qwerty))
+  ralt (multi ralt (layer-while-held qwerty))
+  rctl (multi rctl (layer-while-held qwerty))
+)
+
 (deflayermap (qwerty)
   _ use-defsrc
 
@@ -23,13 +32,4 @@
   rmet @rmet
   ralt @ralt
   rctl @rctl
-)
-
-(defalias
-  lctl (multi lctl (layer-while-held qwerty))
-  lalt (multi lalt (layer-while-held qwerty))
-  lmet (multi lmet (layer-while-held qwerty))
-  rmet (multi rmet (layer-while-held qwerty))
-  ralt (multi ralt (layer-while-held qwerty))
-  rctl (multi rctl (layer-while-held qwerty))
 )
