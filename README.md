@@ -290,7 +290,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of `example.kbd` with this, then run Kanata again:
+Replace the contents of `example.kbd` with this and save:
 
 ```
 (defsrc
@@ -305,6 +305,8 @@ Replace the contents of `example.kbd` with this, then run Kanata again:
   z k q g w  b h ' ; ,
 )
 ```
+
+Run Kanata again.
 
 You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
 
