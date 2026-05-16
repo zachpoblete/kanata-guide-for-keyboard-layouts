@@ -397,7 +397,7 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 ## Before the example configs
 
-Here are a few concepts that will help you read them:
+Here are a few concepts that will help you read and edit them:
 
 -   Everything in a Kanata config follows this form: `(command argument1 argument2 ...)`
 
