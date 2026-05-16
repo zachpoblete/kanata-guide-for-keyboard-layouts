@@ -2,22 +2,22 @@
   q w e r t  y u i o p
   a s d f g  h j k l ; '
   z x c v b  n m , . /
-  lctl lalt lmet rmet ralt rctl
+  lctl lmet lalt ralt rmet rctl
 )
 
 (deflayer gallium
   b l d c v  j f o u ,
   n r t s g  y h a e i /
   x q m w z  k p ' ; .
-  @lctl @lalt @lmet @rmet @ralt @rctl
+  @lctl @lmet @lalt @ralt @rmet @rctl
 )
 
 (defalias
   lctl (multi lctl (layer-while-held qwerty))
-  lalt (multi lalt (layer-while-held qwerty))
   lmet (multi lmet (layer-while-held qwerty))
-  rmet (multi rmet (layer-while-held qwerty))
+  lalt (multi lalt (layer-while-held qwerty))
   ralt (multi ralt (layer-while-held qwerty))
+  rmet (multi rmet (layer-while-held qwerty))
   rctl (multi rctl (layer-while-held qwerty))
 )
 
@@ -27,9 +27,9 @@
   ;; These are needed when pressing multiple modifiers so that releasing
   ;; the first modifier pressed doesn’t release the qwerty layer early.
   lctl @lctl
-  lalt @lalt
   lmet @lmet
-  rmet @rmet
+  lalt @lalt
   ralt @ralt
+  rmet @rmet
   rctl @rctl
 )
