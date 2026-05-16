@@ -99,7 +99,6 @@
   (h m) (macro h m)
   (o a) (macro o a)
   (u i) (macro u i)
-
 )
 
 (defchords alpha2 $chord-timeout
