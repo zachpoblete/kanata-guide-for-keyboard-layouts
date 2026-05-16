@@ -520,7 +520,7 @@ All Kanata actions, configuration entries, and features are explained in detail 
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
-**Advanced Layouts**
+**Advanced layouts**
 
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
