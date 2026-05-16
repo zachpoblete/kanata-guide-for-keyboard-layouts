@@ -344,12 +344,6 @@ Your Kanata config will now run in the background on startup.
 
 Your Kanata config will now run in the background on startup.
 
-If you edit your Kanata config and want to reload the daemon with your changes, run:
-
-```shell
-sudo launchctl kickstart -k system/dev.kanata.kanata
-```
-
 </details>
 
 ## Edit the layout
