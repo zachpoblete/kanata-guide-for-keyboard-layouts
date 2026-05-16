@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, tap-hold, and combos.
 
-This guide shows you how to set up an alternate layout with Kanata, edit the layout, and run Kanata in the background on startup.
+This guide shows you how to set up an alternate layout with Kanata, run Kanata in the background on startup, and edit the layout. The list of [example configs](#example-configs) shows you just what Kanata can do.
 
 ## Set up a layout with Kanata
 
@@ -100,7 +100,6 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 1.  Open the folder in a terminal.
 
     If you don’t know how: Right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-
     -   If that option doesn’t appear: Go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
@@ -135,7 +134,6 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
     ```
-
     -   If you previously ran `deactivate`, restart your computer.
 
 1.  Open **System Settings → Privacy & Security → Security** and look for:
@@ -143,7 +141,6 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
     > System software from application “Karabiner-VirtualHIDDevice-Manager” was blocked from loading.
 
     Click **Allow**.
-
     -   If there is any problem with the **Allow** button, see [this page](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
 1. Download [`org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
@@ -211,7 +208,6 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
-
     -   If you previously ran `deactivate`, restart your computer.
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
@@ -266,54 +262,6 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 **Troubleshooting:** See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
-
-## Edit the layout
-
-`example.kbd` consists of two parts, `defsrc` and `deflayer`:
-
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
-
-(deflayer gallium
-  b l d c v  j f o u ,
-  n r t s g  y h a e i /
-  x q m w z  k p ' ; .
-)
-```
-
--   `defsrc` is your keyboard’s original layout (QWERTY).
--   `deflayer` remaps it to Gallium.
-
-Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
-
-Replace the contents of `example.kbd` with this and save:
-
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
-
-(deflayer sturdy
-  v m l c p  x f o u j
-  s t r d y  . n a e i /
-  z k q g w  b h ' ; ,
-)
-```
-
-Run Kanata again.
-
-You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
-
-Using a different layout is just a matter of editing the keys in `deflayer` (and renaming the layer to match).
-
->   [!TIP]
->   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
 ## Run Kanata in the background on startup
 
@@ -404,12 +352,151 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 
 </details>
 
+## Edit the layout
+
+`example.kbd` consists of two parts, `defsrc` and `deflayer`:
+
+```
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+)
+
+(deflayer gallium
+  b l d c v  j f o u ,
+  n r t s g  y h a e i /
+  x q m w z  k p ' ; .
+)
+```
+
+-   `defsrc` is your keyboard’s original layout (QWERTY).
+    -   If your keyboard differs from the `defsrc` above, see how to remap [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+-   `deflayer` remaps it to Gallium.
+
+Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
+
+Replace the contents of `example.kbd` with this and save:
+
+```
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+)
+
+(deflayer sturdy
+  v m l c p  x f o u j
+  s t r d y  . n a e i /
+  z k q g w  b h ' ; ,
+)
+```
+
+Run Kanata again.
+
+You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
+
+Using a different layout is just a matter of editing the keys in `deflayer` (and renaming the layer to match).
+
+>   [!TIP]
+>   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
+
+## Before the example configs
+
+Here are a few concepts that will help you read them:
+
+-   Everything in a Kanata config follows this form: `(command argument1 argument2 ...)`
+
+-   **Comments** are added to a config by prefixing it with `;;`.
+
+    -   For example:
+
+        ```
+        ;; This is a comment.
+        ;; Comments are ignored.
+
+        (defsrc
+           caps a s d f  ;; This is an inline comment.
+        )
+        ```
+
+-   **Actions** are what make Kanata powerful.
+
+    -   For example, `(layer-switch layer-name)` changes the active base layer to `layer-name`.
+
+    -   Actions can be put directly inside `deflayer` like so:
+
+        ```
+        (defsrc
+           caps a s d f
+        )
+
+        (deflayer example
+          (tap-hold 200 200 caps lctl) a s d f
+        )
+        ```
+
+        This config uses the `tap-hold` action to make holding Caps Lock activate Left Control.
+
+-   **Aliases** are named shortcuts for actions.
+
+    -   Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
+
+    -   Let’s use an alias for the `tap-hold` action from the previous example:
+
+        ```
+        (defsrc
+           caps a s d f
+        )
+
+        (deflayer example
+          @caps a s d f
+        )
+
+        (defalias caps
+          (tap-hold 200 200 caps lctl)
+        )
+        ```
+
+        This is equivalent to the previous example.
+
+-   **Variables** are named shortcuts for strings or lists.
+
+    -   Defined in `defvar`, variables are used by prefixing the variable name with `$`.
+
+    -   Let’s use variables for the `200 200` parameters so that their purpose is clearer:
+
+        ```
+        (defvar
+          tap-time  200
+          hold-time 200
+        )
+
+        (defsrc
+          caps a s d f
+        )
+
+        (deflayer example
+         @caps a s d f
+        )
+
+        (defalias caps
+          (tap-hold $tap-time $hold-time caps lctl)
+        )
+        ```
+
+        This is equivalent to the previous examples.
+
+You now have a good grasp of the basic tools used in almost every config.
+
+All Kanata actions, configuration entries, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
+
 ## Example configs
 
 >   [!NOTE]
 >   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
 
-### General configs
+**General configs**
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
@@ -424,17 +511,29 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
     -   A layer for navigation keys
 
-### Layouts
+**Layouts**
+
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout with custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
+-   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
+    -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
+-   [`night-wide.kbd`](configs/night-wide.kbd)
+    -   A thumb-alpha layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
+-   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
+    -   A thumb-alpha layout that has been double-wide modded
+-   [`nokwts.kbd`](configs/nokwts.kbd)
+    -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
+
+**Advanced Layouts**
+
+-   [`taipo.kbd`](configs/taipo.kbd)
+    -   A chorded layout that can also be used one-handed
 -   [`buggy.kbd`](configs/buggy.kbd)
     -   A layout with two alpha layers
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   A layout with only 10 keys, one for each finger
--   [`taipo.kbd`](configs/taipo.kbd)
-    -   A chorded layout that can also be used one-handed
 -   [`whirl.kbd`](configs/whirl.kbd)
     -   A layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)
@@ -446,22 +545,13 @@ sudo launchctl kickstart -k system/dev.kanata.kanata
 -   [`power.kbd`](configs/power.kbd)
     -   A layout with 162 layers
 
-### Fingermaps
+## Reference links
 
--   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
-    -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
--   [`night-wide.kbd`](configs/night-wide.kbd)
-    -   A thumb-alpha layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
--   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   A thumb-alpha layout that has been double-wide modded
--   [`nokwts.kbd`](configs/nokwts.kbd)
-    -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
-
-## See also
-
--   [vscode-kanata](https://github.com/rszyma/vscode-kanata)
-    -   A VS Code extension that adds language support for Kanata config files
+-   [Kanata Configuration Guide](https://jtroo.github.io/config.html)
+-   [List of known Kanata issues](https://github.com/jtroo/kanata/blob/main/docs/platform-known-issues.adoc)
+-   [Key names for `defsrc` and `deflayermap`](https://jtroo.github.io/config.html#key-names)
 -   [Windows: Enable Kanata in elevated windows](https://jtroo.github.io/config.html#windows-only-work-elevated)
+-   [VS Code: Kanata language support](https://github.com/rszyma/vscode-kanata)
 
 ## Feedback
 
