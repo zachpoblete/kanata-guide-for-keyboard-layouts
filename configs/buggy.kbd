@@ -28,7 +28,7 @@
 ;; Aliases
 
 (defalias
-;; The key mapped to the a2 alias acts like a ZMK sticky layer key:
+;; The key mapped to the a2 alias emulates a ZMK sticky layer key:
 ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 
 ;; Pressing the sticky layer key then pressing a key on the alpha2
@@ -43,6 +43,7 @@
 ;; -   the one-shot + layer-while-held actions in the alias
 ;; -   the release-layer action for every key in the alpha2 layer
   a2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
+  ;; one-shot + layer-while-held actions for sticky layer key behavior
 
   a1 (layer-switch alpha1)
   s1 ()  ;; This is for the symbol layer, but it is not included in this config.
@@ -54,7 +55,7 @@
 )
 
 (deftemplate a2 (key)
-  $key (multi (chord alpha2 $key) (release-layer alpha2))
+  $key (multi (chord alpha2 $key) (release-layer alpha2))  ;; release-layer action for sticky layer key behavior
 )
 
 (defalias
