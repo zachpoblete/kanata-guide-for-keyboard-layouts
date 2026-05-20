@@ -542,6 +542,8 @@ All Kanata actions, configuration entries, and features are explained in detail 
     -   A layout with chiral magic keys
 -   [`d5.kbd`](configs/d5.kbd)
     -   A layout with chiral skip magic keys
+-   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
+    -   A layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
 -   [`power.kbd`](configs/power.kbd)
     -   A layout with 162 layers
 
