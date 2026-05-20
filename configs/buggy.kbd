@@ -1,5 +1,5 @@
 ;; Github repository: https://github.com/flarefin/zmk-config-buggy
-;; (Only the alpha layers are included in this Kanata config.)
+;; Only the alpha layers are included in this Kanata config.
 
 (defvar
   sticky-layer-timeout 1000
