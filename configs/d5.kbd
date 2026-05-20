@@ -7,17 +7,17 @@
 )
 
 (defsrc
-         w   e   r             u   i   o
-         s   d   f   g     h   j   k   l
-     z   x   c   v   b     n   m   ,   .   /
-           lalt spc          ralt rctl
+         w   e   r              u   i   o
+         s   d   f   g      h   j   k   l
+     z   x   c   v   b      n   m   ,   .   /
+           lalt spc           ralt rctl
 )
 
 (deflayer d5
-        @c- @k- @w-          @-b @-f @-g
-        @e- @t- @r- @y-  @-y @-l @-n @-e
-  @spc- @s- @d- @m- @v-  @-j @-h @-p @-s @-spc
-            @u- @i-          @-a @-o
+        @c- @k- @w-           @-b @-f @-g
+        @e- @t- @r- @y-   @-y @-l @-n @-e
+  @spc- @s- @d- @m- @v-   @-j @-h @-p @-s @-spc
+            @u- @i-           @-a @-o
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
@@ -127,42 +127,78 @@
 
 (defalias spc-
   (switch
-    ((input-history real $c- 3)) s break
-    ((input-history real $e- 3)) c break
-    ((input-history real $s- 3)) c break
-    ((and (input-history real $k- 3) (input-history real $-a 2))) t break
-    ((input-history real $k- 3)) d break
-    ((and (input-history real $t- 3) (input-history real $-a 2))) k break
-    ((input-history real $t- 3)) d break
-    ((input-history real $d- 3)) t break
-    ((and (input-history real $w- 3) (input-history real $-o 2))) m break
-    ((input-history real $w- 3)) v break
-    ((input-history real $r- 3)) w break
-    ((input-history real $m- 3)) w break
-    ((input-history real $y- 3)) r break
-    ((input-history real $v- 3)) r break
-    ((input-history real $u- 3)) i break
-    ((input-history real $i- 3)) u  break
+    ;; Chiral check - if the previous key wasn’t from the left hand, output space and break:
+    ((not(or
+      (input-history real $c- 2)
+      (input-history real $e- 2)
+      (input-history real $s- 2)
+      (input-history real $k- 2)
+      (input-history real $t- 2)
+      (input-history real $d- 2)
+      (input-history real $w- 2)
+      (input-history real $r- 2)
+      (input-history real $m- 2)
+      (input-history real $y- 2)
+      (input-history real $v- 2)
+      (input-history real $u- 2)
+      (input-history real $i- 2)
+    ))) spc break
+
+    ;; Skip magic check:
+    ((key-history c 2)) s break
+    ((key-history e 2)) c break
+    ((key-history s 2)) c break
+    ((and (key-history k 2) (key-history a 1))) t break
+    ((key-history k 2)) d break
+    ((and (key-history t 2) (key-history a 1))) k break
+    ((key-history t 2)) d break
+    ((key-history d 2)) t break
+    ((and (key-history w 2) (key-history o 1))) m break
+    ((key-history w 2)) v break
+    ((key-history r 2)) w break
+    ((key-history m 2)) w break
+    ((key-history y 2)) r break
+    ((key-history v 2)) r break
+    ((key-history u 2)) i break
+    ((key-history i 2)) u break
     () spc break
   )
 )
 
 (defalias -spc
   (switch
-    ((input-history real $-a 3)) o break
-    ((input-history real $-o 3)) a break
-    ((input-history real $-y 3)) l break
-    ((input-history real $-j 3)) b break
-    ((and (input-history real $-b 3) (input-history real $-e 2))) h break
-    ((input-history real $-b 3)) l break
-    ((input-history real $-l 3)) b break
-    ((input-history real $-h 3)) b break
-    ((input-history real $-f 3)) n break
-    ((input-history real $-n 3)) f break
-    ((input-history real $-p 3)) n break
-    ((input-history real $-g 3)) s break
-    ((input-history real $-e 3)) g break
-    ((input-history real $-s 3)) g break
+    ;; Chiral check - if the previous key wasn’t from the right hand, output space and break:
+    ((not(or
+      (input-history real $-a 2)
+      (input-history real $-o 2)
+      (input-history real $-y 2)
+      (input-history real $-j 2)
+      (input-history real $-b 2)
+      (input-history real $-l 2)
+      (input-history real $-h 2)
+      (input-history real $-f 2)
+      (input-history real $-n 2)
+      (input-history real $-p 2)
+      (input-history real $-g 2)
+      (input-history real $-e 2)
+      (input-history real $-s 2)
+    ))) spc break
+
+    ;; Skip magic check:
+    ((key-history a 2)) o break
+    ((key-history o 2)) a break
+    ((key-history y 2)) l break
+    ((key-history j 2)) b break
+    ((and (key-history b 2) (key-history e 1))) h break
+    ((key-history b 2)) l break
+    ((key-history l 2)) b break
+    ((key-history h 2)) b break
+    ((key-history f 2)) n break
+    ((key-history n 2)) f break
+    ((key-history p 2)) n break
+    ((key-history g 2)) s break
+    ((key-history e 2)) g break
+    ((key-history s 2)) g break
     () spc break
   )
 )
