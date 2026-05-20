@@ -35,7 +35,6 @@
 )
 
 (defchords crescent $chord-timeout
-  ;; 2-key combos:
   (c                  )  c
   (  r                )  r
   (    s              )  s
@@ -46,6 +45,7 @@
   (                u  )  u
   (                  i)  i
 
+  ;; 2-key combos:
   (c r                )  w
   (c   s              )  f
   (c     t            )  g
