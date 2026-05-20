@@ -21,7 +21,7 @@
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
-;; Aliases and variables
+;; Aliases, variables, and templates
 
 (deftemplate key (defsrc label output)
   (defalias $label (chord combos $label))
@@ -56,38 +56,53 @@
 (t! key l    -e e)
 (t! key .    -s s)
 
+;; When a layout has repeated keys, repeat cases need to be handled
+;; such that if the key is already down, we release it first before
+;; outputting it again (the rpt action does this automatically):
+(deftemplate output (key)
+  $key
+  (switch
+    ($key)
+      (multi
+        (release-key $key)
+        (macro $key)  ;; For some reason, we need the macro action to output $key.
+      ) break
+    () $key break
+  )
+)
+
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Combos
 
 (defchords combos $chord-timeout
   ;; Single keys:
-  (c-) c
-  (e-) e
-  (s-) s
-  (k-) k
-  (t-) t
-  (d-) d
-  (w-) w
-  (r-) r
-  (m-) m
-  (y-) y
-  (v-) v
-  (u-) u
-  (i-) i
+  (c-) (t! output c)
+  (e-) (t! output e)
+  (s-) (t! output s)
+  (k-) (t! output k)
+  (t-) (t! output t)
+  (d-) (t! output d)
+  (w-) (t! output w)
+  (r-) (t! output r)
+  (m-) (t! output m)
+  (y-) (t! output y)
+  (v-) (t! output v)
+  (u-) (t! output u)
+  (i-) (t! output i)
 
-  (-a) a
-  (-o) o
-  (-y) y
-  (-j) j
-  (-b) b
-  (-l) l
-  (-h) h
-  (-f) f
-  (-n) n
-  (-p) p
-  (-g) g
-  (-e) e
-  (-s) s
+  (-a) (t! output a)
+  (-o) (t! output o)
+  (-y) (t! output y)
+  (-j) (t! output j)
+  (-b) (t! output b)
+  (-l) (t! output l)
+  (-h) (t! output h)
+  (-f) (t! output f)
+  (-n) (t! output n)
+  (-p) (t! output p)
+  (-g) (t! output g)
+  (-e) (t! output e)
+  (-s) (t! output s)
 
   ;; Vertical combos:
   (e- c-) (macro e c)
@@ -109,17 +124,17 @@
   (-e -s) (macro e s)
 
   ;; Horizontal combos:
-  (e- t-   ) o
-  (   t- r-) a
-  (c-    w-) z
-  (e-    r-) x
-  (s-    m-) q
+  (e- t-   ) (t! output o)
+  (   t- r-) (t! output a)
+  (c-    w-) (t! output z)
+  (e-    r-) (t! output x)
+  (s-    m-) (t! output q)
 
-  (-l -n   ) i
-  (   -n -e) u
-  (-b    -g) z
-  (-l    -e) x
-  (-h    -s) q
+  (-l -n   ) (t! output i)
+  (   -n -e) (t! output u)
+  (-b    -g) (t! output z)
+  (-l    -e) (t! output x)
+  (-h    -s) (t! output q)
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
@@ -145,22 +160,22 @@
     ))) spc break
 
     ;; Skip magic check:
-    ((key-history c 2)) s break
-    ((key-history e 2)) c break
-    ((key-history s 2)) c break
-    ((and (key-history k 2) (key-history a 1))) t break
-    ((key-history k 2)) d break
-    ((and (key-history t 2) (key-history a 1))) k break
-    ((key-history t 2)) d break
-    ((key-history d 2)) t break
-    ((and (key-history w 2) (key-history o 1))) m break
-    ((key-history w 2)) v break
-    ((key-history r 2)) w break
-    ((key-history m 2)) w break
-    ((key-history y 2)) r break
-    ((key-history v 2)) r break
-    ((key-history u 2)) i break
-    ((key-history i 2)) u break
+    ((key-history c 2)) (t! output s) break
+    ((key-history e 2)) (t! output c) break
+    ((key-history s 2)) (t! output c) break
+    ((and (key-history k 2) (key-history a 1))) (t! output t) break
+    ((key-history k 2)) (t! output d) break
+    ((and (key-history t 2) (key-history a 1))) (t! output k) break
+    ((key-history t 2)) (t! output d) break
+    ((key-history d 2)) (t! output t) break
+    ((and (key-history w 2) (key-history o 1))) (t! output m) break
+    ((key-history w 2)) (t! output v) break
+    ((key-history r 2)) (t! output w) break
+    ((key-history m 2)) (t! output w) break
+    ((key-history y 2)) (t! output r) break
+    ((key-history v 2)) (t! output r) break
+    ((key-history u 2)) (t! output i) break
+    ((key-history i 2)) (t! output u) break
     () spc break
   )
 )
@@ -185,20 +200,20 @@
     ))) spc break
 
     ;; Skip magic check:
-    ((key-history a 2)) o break
-    ((key-history o 2)) a break
-    ((key-history y 2)) l break
-    ((key-history j 2)) b break
-    ((and (key-history b 2) (key-history e 1))) h break
-    ((key-history b 2)) l break
-    ((key-history l 2)) b break
-    ((key-history h 2)) b break
-    ((key-history f 2)) n break
-    ((key-history n 2)) f break
-    ((key-history p 2)) n break
-    ((key-history g 2)) s break
-    ((key-history e 2)) g break
-    ((key-history s 2)) g break
+    ((key-history a 2)) (t! output o) break
+    ((key-history o 2)) (t! output a) break
+    ((key-history y 2)) (t! output l) break
+    ((key-history j 2)) (t! output b) break
+    ((and (key-history b 2) (key-history e 1))) (t! output h) break
+    ((key-history b 2)) (t! output l) break
+    ((key-history l 2)) (t! output b) break
+    ((key-history h 2)) (t! output b) break
+    ((key-history f 2)) (t! output n) break
+    ((key-history n 2)) (t! output f) break
+    ((key-history p 2)) (t! output n) break
+    ((key-history g 2)) (t! output s) break
+    ((key-history e 2)) (t! output g) break
+    ((key-history s 2)) (t! output g) break
     () spc break
   )
 )
