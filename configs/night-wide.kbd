@@ -1,4 +1,4 @@
-;; Source (official website): https://valorance.net/night/images/night_rowstag.png
+;; Original layout: https://valorance.net/night/images/night_rowstag.png
 
 (defsrc
   q w e r t y u i o p [
