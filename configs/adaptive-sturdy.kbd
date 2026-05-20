@@ -59,8 +59,10 @@
 ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 
 ;; We implement sticky layer keys (adaptive keys) in Kanata using:
-;; -   the one-shot + layer-while-held actions in the adaptive key alias/action
-;; -   the release-layer action for every key in the layer switched to by the adaptive key
+;; -   the one-shot + layer-while-held actions in the adaptive key
+;;     alias/action
+;; -   the release-layer action for every key in the layer switched to by
+;;     the adaptive key
 
 (deftemplate . (key adaptive-key)
   (multi
