@@ -524,10 +524,10 @@ All Kanata actions, configuration entries, and features are explained in detail 
 
 **Advanced layouts**
 
--   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
-    -   A layout with only two rows
 -   [`nastic.kbd`](configs/nastic.kbd)
     -   A layout with repeated keys
+-   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
+    -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
 -   [`buggy.kbd`](configs/buggy.kbd)
