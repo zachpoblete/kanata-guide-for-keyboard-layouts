@@ -108,6 +108,7 @@
   (defchords $name $chord-timeout
     ;; We use the macro action so that pressing a combo then pressing the
     ;; same combo on the other hand reliably outputs a repeat.
+    ;; See nastic.kbd for a method that doesn’t use macro.
 
     ;; Columns:
     ;;     Base                       + Inner Thumb                      + Outer Thumb

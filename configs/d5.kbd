@@ -56,9 +56,10 @@
 (t! key l    -e e)
 (t! key .    -s s)
 
-;; When a layout has repeated keys, repeat cases need to be handled
-;; such that if the key is already down, we release it first before
-;; outputting it again (the rpt action does this automatically):
+;; When pressing a key can output a different key that is already
+;; down, Kanata must first release the key before outputting it again;
+;; otherwise, the second press of the key won’t be outputted.
+;; See nastic.kbd for an implementation that doesn’t use macro.
 (deftemplate output (key)
   $key
   (switch

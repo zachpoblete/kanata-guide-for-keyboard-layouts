@@ -94,31 +94,10 @@
   )
 )
 
-;; Here’s the naive approach to the magic rule template:
-
-#|
-(deftemplate magic-rule (input-key recency action)
-  ((key-history $input-key $recency))
-    (if-equal $action rpt
-      $input-key)
-    (if-not-equal $action rpt
-      $action)
-    break
-)
-|#
-
-;; Following the skip magic rules, typing `no$e` should output "none".
-;; But with the naive approach, if the user were still holding down
-;; `n` when they pressed `$`, then the second "n" wouldn’t be
-;; outputted and the actual output would be "noe". The problem seems
-;; to be that you can’t output a key that is still being held down.
-
-;; The magic rule template below fixes this by *releasing* the output key
-;; before pressing it:
-
-;; (The built-in `rpt` action already releases the key to repeat if
-;; it’s still down, so we’re just doing it manually for magic.)
-
+;; When pressing a key can output a different key that is already
+;; down, Kanata must first release the key before outputting it again;
+;; otherwise, the second press of the key won’t be outputted.
+;; See nastic.kbd for an implementation that doesn’t use macro.
 (deftemplate magic-rule (input-key recency action)
   ((key-history $input-key $recency))
     (if-equal $action rpt

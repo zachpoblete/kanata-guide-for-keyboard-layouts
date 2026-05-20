@@ -1,0 +1,38 @@
+(defsrc
+  q  w  e  r  t    y  u  i  o  p
+  a  s  d  f  g    h  j  k  l  ;
+     x  c  v  b    n  m
+                   ralt
+)
+
+(deflayer nastic
+  p  m  d  f @y   @y  q  u  o  j
+  n  c  t  s  g    x  r  i  a  h
+     w  k  v  b    z  l
+                      e
+)
+
+(t! repeated-key y)
+
+;; When pressing a key can output a different key that is already
+;; down, Kanata must first release the key before outputting it again;
+;; otherwise, the second press of the key won’t be outputted.
+;; (The rpt action actually does this automatically.)
+(deftemplate repeated-key (key)
+  (defvirtualkeys $key
+    $key
+  )
+
+  (defalias $key
+    (switch
+      ($key)
+        (multi
+          (release-key $key)  ;; Release key first before outputting it again.
+          ;; $key  ;; For some reason, this doesn’t work and we need to use a virtual key.
+          (on-press   press-vkey   $key)
+          (on-release release-vkey $key)
+        ) break
+      () $key break
+    )
+  )
+)
