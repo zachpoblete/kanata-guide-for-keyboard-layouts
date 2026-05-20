@@ -519,6 +519,8 @@ All Kanata actions, configuration entries, and features are explained in detail 
     -   A thumb-alpha layout that has been double-wide modded
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
+-   [`gallium-with-vert-combos.kbd`](configs/gallium-with-vert-combos.kbd)
+    -   A layout with vertical combos
 
 **Advanced layouts**
 
