@@ -61,7 +61,6 @@
 ;; otherwise, the second press of the key won’t be outputted.
 ;; See nastic.kbd for an implementation that doesn’t use macro.
 (deftemplate output (key)
-  $key
   (switch
     ($key)
       (multi
