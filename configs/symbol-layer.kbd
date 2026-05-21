@@ -1,5 +1,5 @@
 ;; Original symbol layer: https://getreuer.info/posts/keyboards/symbol-layer/index.html#my-symbol-layer
-;; (slightly modified for Gallium)
+;; This Kanata config slightly modifies the original symbol layer for Gallium.
 
 (defsrc
    q   w   e   r   t     y   u   i   o   p
