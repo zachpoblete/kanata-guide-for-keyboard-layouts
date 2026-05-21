@@ -530,6 +530,8 @@ All Kanata actions, top-level lists, and features are explained in detail in the
 
 -   [`lucens.kbd`](configs/lucens.kbd)
     -   A layout with a second layer for typing German letters
+-   [`compose.kbd`](configs/compose.kbd)
+    -   A layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
     -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)

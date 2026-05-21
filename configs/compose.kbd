@@ -1,0 +1,56 @@
+;; Source (Wikipedia): https://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations
+
+(defcfg
+  sequence-timeout    2000
+  sequence-input-mode hidden-delay-type
+)
+
+(defsrc
+       q w e r t  y u i o p
+       a s d f g  h j k l ; '
+  lsft z x c v b  n m , . / rsft
+                  ralt
+)
+
+(deflayer gallium
+       b l d c v  j f o u ,
+       n r t s g  y h a e i /
+  lsft x q m w z  k p ' ; . rsft
+                  @compose
+)
+
+(defalias compose
+  sldr
+)
+
+(deftemplate compose-sequence (character sequence)
+  (defvirtualkeys $character (unicode $character))
+  (defseq $character $sequence)
+)
+
+;; This template is needed because shifted compose sequences have at
+;; least two ways they can be triggered:
+;; 1.  `S-(Key1 Key2)` or
+;;     -   Press and hold Shift
+;;     -   Press Key1
+;;     -   Press Key2
+;; 2.  `S-Key1 S-Key2` or
+;;     -   Press and hold Shift
+;;     -   Press Key1
+;;     -   Release Shift
+;;     -   Press and hold Shift
+;;     -   Press Key2
+(deftemplate shifted-compose-sequence (character sequence1 sequence2)
+  (defvirtualkeys $character (unicode $character))
+  (defseq $character $sequence1)
+  (defseq $character $sequence2)
+)
+
+(t! compose-sequence         ä (S-'   a))
+(t! shifted-compose-sequence Ä (S-' S-a) (S-(' a)))
+(t! compose-sequence         ö (S-'   o))
+(t! shifted-compose-sequence Ö (S-' S-o) (S-(S-o)))
+(t! compose-sequence         ü (S-'   u))
+(t! shifted-compose-sequence Ü (S-' S-u) (S-(S-u)))
+(t! compose-sequence         ß (  s   s))
+(t! shifted-compose-sequence ẞ (S-s S-s) (S-(S-s)))
