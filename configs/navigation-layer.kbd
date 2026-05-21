@@ -13,8 +13,8 @@
 )
 
 (deflayer navigation
-  _    _    _    _    _      pgup home  ↑   end  tab
-  met  alt  sft  ctl  _      pgdn  ←    ↓    →   ent
+  _    _    _    _    _      pgup home ↑    end  tab
+  met  alt  sft  ctl  _      pgdn ←    ↓    →    ent
   _    _    _    _    _      esc  bspc ins  del  _
                              _
 )
