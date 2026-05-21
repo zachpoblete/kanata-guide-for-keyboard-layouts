@@ -39,7 +39,7 @@
   (e) e
 
   (r l) (macro r l)
-  (c s) (macro c s)
+  (s c) (macro s c)
   (o a) (macro o a)
   (u e) (macro u e)
 )
