@@ -528,6 +528,8 @@ All Kanata actions, top-level lists, and features are explained in detail in the
 
 **Advanced layouts**
 
+-   [`lucens.kbd`](configs/lucens.kbd)
+    -   A layout with a second layer for typing German letters
 -   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
     -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
