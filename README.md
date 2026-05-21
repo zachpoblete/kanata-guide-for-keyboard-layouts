@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, tap-hold, and combos.
 
-This guide shows you how to set up an alternate layout with Kanata, run Kanata on startup, and edit the layout. The list of [example configs](#example-configs) shows you what Kanata can do.
+This guide shows you how to set up an alternate layout with Kanata, run Kanata on startup, and edit the layout. The [example configs](#example-configs) show you what Kanata can do.
 
 ## Set up a layout with Kanata
 
@@ -16,12 +16,12 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 1.  Download Kanata:
 
-    -   Most people should download the [`x64` version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   If you’re using Windows on ARM, download the [`arm64` version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+    -   Most people should [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
+    -   If you’re using Windows on ARM, [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
+1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -29,17 +29,17 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 1.  Run Kanata:
 
-    **x64**
+    -   If you downloaded the x64 version, run:
 
-    ```cmd
-    .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
-    ```
+        ```cmd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
+        ```
 
-    **arm64**
+    -   If you downloaded the arm64 version, run:
 
-    ```cmd
-    .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
-    ```
+        ```cmd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
+        ```
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
@@ -54,11 +54,11 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  Download [Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
+1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
+1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -85,17 +85,17 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <p></p>
 
 >   **⚠️ Warning:**
->   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added to Kanata in [v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been reported to [work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
+>   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
-1.  Download [Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
     -   Note: This is the latest version.
 
 1.  Extract the downloaded zip file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executables.
+1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -125,9 +125,9 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <p></p>
 
 >   **⚠️ Warning:**
->   There was a report of Kanata [not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack was able to [run Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+>   There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack [explains how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-1.  Download the [Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
+1.  [Download the Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
 1.  Open a terminal and run:
 
@@ -141,9 +141,9 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
     > System software from application “Karabiner-VirtualHIDDevice-Manager” was blocked from loading.
 
     Click **Allow**.
-    -   If there is any problem with the **Allow** button, see [this page](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
+    -   If there is any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
-1. Download [`org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
 1. Run:
 
@@ -154,14 +154,14 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Download Kanata v1.7.0:
 
-    -   Most people should download the [`arm64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re on an Intel Mac, download the [`x86_64` version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   Most people should [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If you’re on an Intel Mac, [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
-1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable (looks like `kanata_macos_cmd_allowed_...`).
+1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
 
-1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable.
+1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable.
+1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
 
 1.  Open the folder in a terminal.
 
@@ -170,19 +170,19 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Run Kanata:
 
-    **arm64**
+    -   If you downloaded the arm64 version, run:
 
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
-    sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
-    ```
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
+        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
+        ```
 
-    **x64**
+    -   If you downloaded the x86_64 version, run:
 
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_x64  # Make Kanata runnable.
-    sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
-    ```
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_x86_64  # Make Kanata runnable.
+        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
+        ```
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
@@ -201,7 +201,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 If Karabiner Elements is installed: Go to **System Settings → General → Login Items & Extensions → App Background Activity** and disable **Karabiner-Elements Privileged Daemons** or **Karabiner-Elements Privileged Daemons v2**.
 
-1.  Download the [Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
+1.  [Download the Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
 1.  Open a terminal and run:
 
@@ -212,7 +212,7 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1. Download [`org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
 1. Run:
 
@@ -223,16 +223,16 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Download Kanata:
 
-    -   Most people should download the [`arm64` version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If you’re on an Intel Mac, download the [`x64` version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   Most people should [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
+    -   If you’re on an Intel Mac, [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
 1.  Extract the downloaded zip file.
 
-1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the extracted Kanata executable (looks like `kanata_macos_cmd_allowed_...`).
+1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the extracted Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
 
-1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable.
+1.  Open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file.
 
-1.  Download [`example.kbd`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executables.
+1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -241,19 +241,19 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Run Kanata:
 
-    **arm64**
+    -   If you downloaded the arm64 version, run:
 
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
-    sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
-    ```
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
+        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
+        ```
 
-    **x64**
+    -   If you downloaded the x64 version, run:
 
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_x64  # Make Kanata runnable.
-    sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
-    ```
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_x64  # Make Kanata runnable.
+        sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
+        ```
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
@@ -272,7 +272,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Make a shortcut of the Kanata executable.
+1.  Make a shortcut of the Kanata executable file.
 
 1.  Open the shortcut’s properties.
 
@@ -286,7 +286,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Your Kanata config will now run in the background on startup.
 
-If you want to use your alt layout *immediately* after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
+To use your alt layout _immediately_ after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
 
 </details>
 
@@ -297,7 +297,7 @@ If you want to use your alt layout *immediately* after startup: Move the shortcu
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1. Download [`kanata.service`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in `/etc/systemd/system/`.
+1. [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in `/etc/systemd/system/`.
 
 1. Open `kanata.service` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` in this line:
 
@@ -322,7 +322,7 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1. Download [`dev.kanata.kanata.plist`](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
 1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` under `ProgramArguments`:
 
