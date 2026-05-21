@@ -1,5 +1,5 @@
 ;; Original layout: https://github.com/GalileoBlues/Gallium
-;; This Kanata config uses vertical combos to fix certain SFBs
+;; This Kanata config uses vertical combos to fix certain SFBs.
 
 (defvar
   chord-timeout 50

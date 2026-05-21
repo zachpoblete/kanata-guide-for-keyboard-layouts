@@ -1,4 +1,6 @@
 ;; GitHub repository: https://github.com/empressabyss/nordrassil
+;; This Kanata config uses the 2024 version of Nordrassil as the 2025
+;; version does not have its magic rules specified.
 
 (defcfg
   process-unmapped-keys yes  ;; So that repeat rules work for unmapped keys
@@ -11,8 +13,6 @@
    lalt spc   ralt rctl
 )
 
-;; This is the 2024 version of Nordrassil as the 2025 version does not have its
-;; magic rules specified.
 (deflayer nordrassil
   q y o u -   j g n w k
   h i e a .   p d r s l z
