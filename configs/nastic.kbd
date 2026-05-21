@@ -32,8 +32,8 @@
           (release-key $key)  ;; Release key first before outputting it again.
           ;; $key  ;; For some reason, this doesn’t work and we need to use a virtual key.
           (on-press   press-vkey   $key)
-          (on-release release-vkey $key)
-        ) break
+          (on-release release-vkey $key))
+        break
       () $key break
     )
   )

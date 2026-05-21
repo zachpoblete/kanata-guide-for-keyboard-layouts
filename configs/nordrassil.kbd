@@ -27,8 +27,8 @@
 
 (defvar previous-key-is-*
   (and
-    (key-history 8 1)
-    (or (key-history lsft 2) (key-history rsft 2))
+   (key-history 8 1)
+   (or (key-history lsft 2) (key-history rsft 2))
   )
 )
 
@@ -61,7 +61,8 @@
       (multi
         @release-*
         ;; Type "*N**or**dr**as**s**i**l**":
-        (macro @* S-n @* @* o r @* @* d r @* @* a s @* @* s @* @* i @* @* l @* @*)) break
+        (macro @* S-n @* @* o r @* @* d r @* @* a s @* @* s @* @* i @* @* l @* @*))
+      break
     () rpt break
   )
 )

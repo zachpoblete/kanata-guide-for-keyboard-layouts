@@ -65,8 +65,8 @@
     ($key)
       (multi
         (release-key $key)
-        (macro $key)  ;; For some reason, we need the macro action to output $key.
-      ) break
+        (macro $key))  ;; For some reason, we need the macro action to output $key.
+      break
     () $key break
   )
 )
@@ -144,39 +144,40 @@
   (switch
     ;; Chiral check - if the previous key wasn’t from the left hand, output space and break:
     ((not(or
-      (input-history real $c- 2)
-      (input-history real $e- 2)
-      (input-history real $s- 2)
-      (input-history real $k- 2)
-      (input-history real $t- 2)
-      (input-history real $d- 2)
-      (input-history real $w- 2)
-      (input-history real $r- 2)
-      (input-history real $m- 2)
-      (input-history real $y- 2)
-      (input-history real $v- 2)
-      (input-history real $u- 2)
-      (input-history real $i- 2)
-    ))) spc break
+          (input-history real $c- 2)
+          (input-history real $e- 2)
+          (input-history real $s- 2)
+          (input-history real $k- 2)
+          (input-history real $t- 2)
+          (input-history real $d- 2)
+          (input-history real $w- 2)
+          (input-history real $r- 2)
+          (input-history real $m- 2)
+          (input-history real $y- 2)
+          (input-history real $v- 2)
+          (input-history real $u- 2)
+          (input-history real $i- 2))))
+      spc
+      break
 
     ;; Skip magic check:
-    ((key-history c 2)) (t! output s) break
-    ((key-history e 2)) (t! output c) break
-    ((key-history s 2)) (t! output c) break
-    ((and (key-history k 2) (key-history a 1))) (t! output t) break
-    ((key-history k 2)) (t! output d) break
-    ((and (key-history t 2) (key-history a 1))) (t! output k) break
-    ((key-history t 2)) (t! output d) break
-    ((key-history d 2)) (t! output t) break
-    ((and (key-history w 2) (key-history o 1))) (t! output m) break
-    ((key-history w 2)) (t! output v) break
-    ((key-history r 2)) (t! output w) break
-    ((key-history m 2)) (t! output w) break
-    ((key-history y 2)) (t! output r) break
-    ((key-history v 2)) (t! output r) break
-    ((key-history u 2)) (t! output i) break
-    ((key-history i 2)) (t! output u) break
-    () spc break
+    ((key-history c 2))                          (t! output s) break
+    ((key-history e 2))                          (t! output c) break
+    ((key-history s 2))                          (t! output c) break
+    ((and (key-history k 2) (key-history a 1)))  (t! output t) break
+    ((key-history k 2))                          (t! output d) break
+    ((and (key-history t 2) (key-history a 1)))  (t! output k) break
+    ((key-history t 2))                          (t! output d) break
+    ((key-history d 2))                          (t! output t) break
+    ((and (key-history w 2) (key-history o 1)))  (t! output m) break
+    ((key-history w 2))                          (t! output v) break
+    ((key-history r 2))                          (t! output w) break
+    ((key-history m 2))                          (t! output w) break
+    ((key-history y 2))                          (t! output r) break
+    ((key-history v 2))                          (t! output r) break
+    ((key-history u 2))                          (t! output i) break
+    ((key-history i 2))                          (t! output u) break
+    ()                                           spc           break
   )
 )
 
@@ -184,36 +185,37 @@
   (switch
     ;; Chiral check - if the previous key wasn’t from the right hand, output space and break:
     ((not(or
-      (input-history real $-a 2)
-      (input-history real $-o 2)
-      (input-history real $-y 2)
-      (input-history real $-j 2)
-      (input-history real $-b 2)
-      (input-history real $-l 2)
-      (input-history real $-h 2)
-      (input-history real $-f 2)
-      (input-history real $-n 2)
-      (input-history real $-p 2)
-      (input-history real $-g 2)
-      (input-history real $-e 2)
-      (input-history real $-s 2)
-    ))) spc break
+          (input-history real $-a 2)
+          (input-history real $-o 2)
+          (input-history real $-y 2)
+          (input-history real $-j 2)
+          (input-history real $-b 2)
+          (input-history real $-l 2)
+          (input-history real $-h 2)
+          (input-history real $-f 2)
+          (input-history real $-n 2)
+          (input-history real $-p 2)
+          (input-history real $-g 2)
+          (input-history real $-e 2)
+          (input-history real $-s 2))))
+      spc
+      break
 
     ;; Skip magic check:
-    ((key-history a 2)) (t! output o) break
-    ((key-history o 2)) (t! output a) break
-    ((key-history y 2)) (t! output l) break
-    ((key-history j 2)) (t! output b) break
-    ((and (key-history b 2) (key-history e 1))) (t! output h) break
-    ((key-history b 2)) (t! output l) break
-    ((key-history l 2)) (t! output b) break
-    ((key-history h 2)) (t! output b) break
-    ((key-history f 2)) (t! output n) break
-    ((key-history n 2)) (t! output f) break
-    ((key-history p 2)) (t! output n) break
-    ((key-history g 2)) (t! output s) break
-    ((key-history e 2)) (t! output g) break
-    ((key-history s 2)) (t! output g) break
-    () spc break
+    ((key-history a 2))                          (t! output o) break
+    ((key-history o 2))                          (t! output a) break
+    ((key-history y 2))                          (t! output l) break
+    ((key-history j 2))                          (t! output b) break
+    ((and (key-history b 2) (key-history e 1)))  (t! output h) break
+    ((key-history b 2))                          (t! output l) break
+    ((key-history l 2))                          (t! output b) break
+    ((key-history h 2))                          (t! output b) break
+    ((key-history f 2))                          (t! output n) break
+    ((key-history n 2))                          (t! output f) break
+    ((key-history p 2))                          (t! output n) break
+    ((key-history g 2))                          (t! output s) break
+    ((key-history e 2))                          (t! output g) break
+    ((key-history s 2))                          (t! output g) break
+    ()                                           spc           break
   )
 )
