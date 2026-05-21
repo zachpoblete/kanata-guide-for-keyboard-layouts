@@ -401,7 +401,7 @@ Here are a few concepts that will help you read and edit them:
 
 -   **Configs are made of lists** with the form `(command argument1 argument2 ...)`.
 
-    - The arguments can also be lists.
+    -   The arguments can also be lists.
 
 -   **Comments** are added by prefixing them with `;;`.
 
