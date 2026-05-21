@@ -521,10 +521,6 @@ All Kanata actions, top-level lists, and features are explained in detail in the
     -   A thumb-alpha layout that has been double-wide modded
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
--   [`nastic.kbd`](configs/nastic.kbd)
-    -   A layout with repeated keys
--   [`gallium-with-vert-combos.kbd`](configs/gallium-with-vert-combos.kbd)
-    -   A layout with vertical combos
 
 **Advanced layouts**
 
@@ -532,14 +528,18 @@ All Kanata actions, top-level lists, and features are explained in detail in the
     -   A layout with a second layer for typing German letters
 -   [`compose.kbd`](configs/compose.kbd)
     -   A layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
+-   [`gallium-with-vert-combos.kbd`](configs/gallium-with-vert-combos.kbd)
+    -   A layout with vertical combos
 -   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
     -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   A chorded layout that can also be used one-handed
--   [`buggy.kbd`](configs/buggy.kbd)
-    -   A layout with two alpha layers
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   A layout with only 10 keys, one for each finger
+-   [`buggy.kbd`](configs/buggy.kbd)
+    -   A layout with two alpha layers
+-   [`nastic.kbd`](configs/nastic.kbd)
+    -   A layout with repeated keys
 -   [`whirl.kbd`](configs/whirl.kbd)
     -   A layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)
