@@ -399,9 +399,11 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 Here are a few concepts that will help you read and edit them:
 
--   Everything in a Kanata config follows this form: `(command argument1 argument2 ...)`
+-   **Configs are made of lists** with the form `(command argument1 argument2 ...)`.
 
--   **Comments** are added to a config by prefixing it with `;;`.
+    - The arguments can also be lists.
+
+-   **Comments** are added by prefixing them with `;;`.
 
     -   For example:
 
@@ -483,7 +485,7 @@ Here are a few concepts that will help you read and edit them:
 
 You now have a good grasp of the basic tools used in almost every config.
 
-All Kanata actions, configuration entries, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
+All Kanata actions, top-level lists, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
 
 ## Example configs
 
