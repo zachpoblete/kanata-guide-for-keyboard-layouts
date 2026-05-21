@@ -3,7 +3,7 @@
 
 (defvar
   sticky-layer-timeout 1000
-  chord-timeout 30
+  chord-timeout 50
 )
 
 (defsrc
