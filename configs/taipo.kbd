@@ -167,8 +167,8 @@
 ;; Function keys
 
 (deftemplate fkey (fkey sequence)
-  (defseq $fkey $sequence)
   (defvirtualkeys $fkey $fkey)
+  (defseq $fkey $sequence)
 )
 
 (t! fkey f1  (1))
