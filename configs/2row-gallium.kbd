@@ -6,15 +6,15 @@
 )
 
 (defsrc
-   q  w  e  r  t     y  u  i  o  p
-   a  s  d  f  g     h  j  k  l  ;
-              v   b   n
+   q  w  e  r  t    y  u  i  o  p
+   a  s  d  f  g    h  j  k  l  ;
+            v          n
 )
 
 (deflayer gallium
-  @b @l @d @c @v    @j @f @o @u @,
-  @n @r @t @s @g    @y @h @a @e @i
-             spc spc spc
+  @b @l @d @c @v   @j @f @o @u @,
+  @n @r @t @s @g   @y @h @a @e @i
+           spc        spc
 )
 
 (defalias

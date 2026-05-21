@@ -6,15 +6,15 @@
 )
 
 (defsrc
-   q  w  e  r       u  i  o  p
-   a  s  d  f       j  k  l  ;
-            v b   n
+   q  w  e  r    u  i  o  p
+   a  s  d  f    j  k  l  ;
+            v    n
 )
 
 (deflayer crescent
-  @c @r @s @t      @a @e @u @i
-  @c @r @s @t      @a @e @u @i
-            ␣ ␣   @n
+  @c @r @s @t   @a @e @u @i
+  @c @r @s @t   @a @e @u @i
+           spc  @n
 )
 
 (defalias

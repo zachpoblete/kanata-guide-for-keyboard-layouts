@@ -7,21 +7,21 @@
 )
 
 (defsrc
-      w  e  r       u  i  o
-   a  s  d  f       j  k  l ;
-          c  v     n  m
+      w  e  r     u  i  o
+   a  s  d  f     j  k  l  ;
+         c  v     n  m
 )
 
 (deflayer alpha1
-     @l @d @y      @m @o @u
-  @n @r @t @s      @h @a @i @e
-        spc @n1  @s1 @a2
+     @l @d @y    @m @o @u
+  @n @r @t @s    @h @a @i @e
+       spc @n1  @s1 @a2
 )
 
 (deflayer alpha2
-     @x @v @g      @k @q @,
-  @p @w @b @c      @f @z @. @j
-          _  _    _  @a1
+     @x @v @g    @k @q @,
+  @p @w @b @c    @f @z @. @j
+         _  _     _ @a1
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
