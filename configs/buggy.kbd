@@ -7,21 +7,21 @@
 )
 
 (defsrc
-      w  e  r     u  i  o
-   a  s  d  f     j  k  l  ;
-         c  v     n  m
+      w  e  r    u  i  o
+   a  s  d  f    j  k  l  ;
+            v    n
 )
 
 (deflayer alpha1
-     @l @d @y    @m @o @u
-  @n @r @t @s    @h @a @i @e
-       spc @n1  @s1 @a2
+     @l @d @y   @m @o @u
+  @n @r @t @s   @h @a @i @e
+           spc  @a2
 )
 
 (deflayer alpha2
-     @x @v @g    @k @q @,
-  @p @w @b @c    @f @z @. @j
-         _  _     _ @a1
+     @x @v @g   @k @q @,
+  @p @w @b @c   @f @z @. @j
+            _   @a1
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
@@ -47,8 +47,6 @@
   ;; one-shot + layer-while-held actions for sticky layer key behavior
 
   a1 (layer-switch alpha1)
-  s1 ()  ;; This is for the symbol layer, but it is not included in this config.
-  n1 ()  ;; This is for the navigation layer, but it is not included in this config.
 )
 
 (deftemplate a1 (key)
