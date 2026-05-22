@@ -143,9 +143,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     Click **Allow**.
     -   If there’s any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1. In the terminal, run:
+1.  In the terminal, run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -199,7 +199,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-1. If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions**.
+1.  If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions**.
 
     In the **App Background Activity** section, disable the following if you see them:
 
@@ -218,9 +218,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1. In the terminal, run:
+1.  In the terminal, run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -280,17 +280,21 @@ Expand the instructions for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Make a shortcut of the Kanata executable file.
+1.  Create a shortcut of the Kanata executable file: hold the `Alt` key and drag the file anywhere inside the folder.
 
-1.  Open the shortcut’s properties.
+1.  Right-click the shortcut and select **Properties**.
 
-1.  Edit **Target** by appending `--cfg "path\to\kanata-config.kbd" --nodelay`. The full target should look like:
+1.  In the **Target** field, append <code> --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay</code>.
 
-    ```
-    "path\to\kanata.exe" --cfg "path\to\kanata-config.kbd" --nodelay
-    ```
+    Replace _`KANATA_CONFIG_PATH`_ with the path to the Kanata config file.
 
-1.  Move the shortcut to the startup folder: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`.
+    The full target will look like:
+
+    <pre>
+    "<var>KANATA_EXECUTABLE_PATH</var>" --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
+    </pre>
+
+1.  Move the shortcut to the startup folder: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
 Your Kanata config will now run in the background on startup.
 
@@ -303,17 +307,22 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1. [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
+1.  [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
 
-1. Open the `kanata.service` file with a text editor.
+1.  Open the `kanata.service` file with a text editor.
 
-1. In the `ExecStart` line, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
+1.  Edit the `ExecStart` line:
 
-    ```desktop
-    ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
-    ```
+    <pre>
+    ExecStart=<var>KANATA_EXECUTABLE_PATH</var> -c <var>KANATA_CONFIG_PATH</var> --nodelay
+    </pre>
 
-1. Open a terminal and run:
+    Replace the following:
+
+    -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
+    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+
+1.  Open a terminal and run:
 
     ```shell
     sudo systemctl enable kanata.service
@@ -330,22 +339,28 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1. Open the `dev.kanata.kanata.plist` file with a text editor.
+1.  Open the `dev.kanata.kanata.plist` file with a text editor.
 
-1. In the `ProgramArguments` key, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
+1.  Edit the `ProgramArguments` key:
 
-    ```xml
-    <key>ProgramArguments</key>
-    <array>
-        <string>/path/to/kanata-executable</string>
-        <string>--cfg</string>
-        <string>/path/to/kanata-config.kbd</string>
-    </array>
-    ```
+    <pre>
+    &lt;key&gt;ProgramArguments&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;<var>KANATA_EXECUTABLE_PATH</var>&lt;/string&gt;
+        &lt;string&gt;--cfg&lt;/string&gt;
+        &lt;string&gt;<var>KANATA_CONFIG_PATH</var>&lt;/string&gt;
+        &lt;string&gt;--nodelay&lt;/string&gt;
+    &lt;/array&gt;
+    </pre>
 
-1. Open a terminal and run:
+    Replace the following:
+
+    -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
+    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+
+1.  Open a terminal and run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist

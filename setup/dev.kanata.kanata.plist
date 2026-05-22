@@ -7,9 +7,10 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/path/to/kanata-executable</string>
+        <string>KANATA_EXECUTABLE_PATH</string>
         <string>--cfg</string>
-        <string>/path/to/kanata-config.kbd</string>
+        <string>KANATA_CONFIG_PATH</string>
+        <string>--nodelay</string>
     </array>
 
     <key>UserName</key>
