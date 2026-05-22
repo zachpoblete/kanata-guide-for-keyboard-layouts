@@ -142,7 +142,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
     Click **Allow**.
     -   If there’s any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
 
 1. In the terminal, run:
 
@@ -215,7 +215,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
 
 1. In the terminal, run:
 
@@ -325,7 +325,7 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
+1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
 
 1. Open the `dev.kanata.kanata.plist` file with a text editor.
 
@@ -370,12 +370,12 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 ```
 
 -   `defsrc` is your keyboard’s original layout (QWERTY).
-    -   If your keyboard differs from the `defsrc` above, see how to remap [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   If your keyboard differs from the `defsrc` above, see how to [remap non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
 -   `deflayer` remaps it to Gallium.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of the `example.kbd` file with this and save:
+Replace the contents of the `example.kbd` file with this:
 
 ```
 (defsrc
@@ -391,7 +391,7 @@ Replace the contents of the `example.kbd` file with this and save:
 )
 ```
 
-Run Kanata again.
+Save the file and run Kanata again.
 
 You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
 
@@ -409,7 +409,7 @@ Here are a few concepts that will help you read and edit them.
 
 <ul>
 
-Lists have the form `(command argument1 argument2 ...)`.
+Most lists have the form `(command argument1 argument2 ...)`.
 
 The arguments can also be lists.
 
