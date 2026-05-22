@@ -16,8 +16,8 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 1.  Download Kanata:
 
-    -   Most people should [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   If you’re using Windows on ARM, [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+    -   Most users: [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
+    -   ARM users: [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
 1.  Extract the downloaded zip file.
 
@@ -153,8 +153,8 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Download Kanata v1.7.0:
 
-    -   Most people should [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re on an Intel Mac, [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   Most users: [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   Intel users: [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
 
@@ -198,7 +198,10 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If Karabiner Elements is installed: go to **System Settings → General → Login Items & Extensions → App Background Activity** and disable **Karabiner-Elements Privileged Daemons** or **Karabiner-Elements Privileged Daemons v2**.
+1. If Karabiner Elements is installed: open **System Settings → General → Login Items & Extensions → App Background Activity** and disable the following if you see them:
+
+    -   Disable **Karabiner-Elements Privileged Daemons**.
+    -   Disable **Karabiner-Elements Privileged Daemons v2**.
 
 1.  [Download the Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
@@ -207,7 +210,8 @@ If Karabiner Elements is installed: go to **System Settings → General → Logi
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
-    -   If you previously ran `deactivate`, restart your computer.
+
+    If you previously ran `deactivate`, restart your computer.
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
@@ -222,8 +226,8 @@ If Karabiner Elements is installed: go to **System Settings → General → Logi
 
 1.  Download Kanata:
 
-    -   Most people should [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If you’re on an Intel Mac, [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   Most users: [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
+    -   Intel users: [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
 1.  Extract the downloaded zip file.
 
@@ -403,7 +407,9 @@ Here are a few concepts that will help you read and edit them.
 
 <ul>
 
-Lists have the form `(command argument1 argument2 ...)`. The arguments can also be lists.
+Lists have the form `(command argument1 argument2 ...)`.
+
+The arguments can also be lists.
 
 </ul>
 
