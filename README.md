@@ -411,27 +411,23 @@ Here are a few concepts that will help you read and edit them:
     ;; Comments are ignored.
 
     (defsrc
-        caps a s d f  ;; This is an inline comment.
+       caps a s d f  ;; This is an inline comment.
     )
     ```
 
--   **Actions** are what make Kanata powerful.
+-   **Actions** are what you bind to keys.
 
-    For example, `(layer-switch layer-name)` changes the active base layer to `layer-name`.
-
-    Actions can be put directly inside `deflayer` like so:
+    This config uses the `tap-hold` action to make holding Caps Lock activate Left Control:
 
     ```
     (defsrc
-        caps a s d f
+       caps a s d f
     )
 
     (deflayer example
-        (tap-hold 200 200 caps lctl) a s d f
+      (tap-hold 200 200 caps lctl) a s d f
     )
     ```
-
-    This config uses the `tap-hold` action to make holding Caps Lock activate Left Control.
 
 -   **Aliases** are named shortcuts for actions.
 
@@ -441,15 +437,15 @@ Here are a few concepts that will help you read and edit them:
 
     ```
     (defsrc
-        caps a s d f
+       caps a s d f
     )
 
     (deflayer example
-        @caps a s d f
+      @caps a s d f
     )
 
     (defalias caps
-        (tap-hold 200 200 caps lctl)
+      (tap-hold 200 200 caps lctl)
     )
     ```
 
@@ -463,20 +459,20 @@ Here are a few concepts that will help you read and edit them:
 
     ```
     (defvar
-        tap-time  200
-        hold-time 200
+      tap-time  200
+      hold-time 200
     )
 
     (defsrc
-        caps a s d f
+       caps a s d f
     )
 
     (deflayer example
-        @caps a s d f
+      @caps a s d f
     )
 
     (defalias caps
-        (tap-hold $tap-time $hold-time caps lctl)
+      (tap-hold $tap-time $hold-time caps lctl)
     )
     ```
 
@@ -490,8 +486,8 @@ Here are a few concepts that will help you read and edit them:
 
     ```
     (deftemplate compose-sequences (character sequence)
-        (defvirtualkeys $character (unicode $character))
-        (defseq $character $sequence)
+      (defvirtualkeys $character (unicode $character))
+      (defseq $character $sequence)
     )
 
     (t! compose-sequences æ (a e))
