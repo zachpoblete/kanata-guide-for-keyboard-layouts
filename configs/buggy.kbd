@@ -28,25 +28,14 @@
 ;; Aliases
 
 (defalias
-  ;; The key mapped to the a2 alias emulates a ZMK sticky layer key:
-  ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
-
-  ;; Pressing the sticky layer key then pressing a key on the alpha2
-  ;; layer immediately switches back to the alpha1 layer - even if the
-  ;; sticky layer key is still held.
-
-  ;; This means you don’t have to release the sticky layer key before
-  ;; pressing a key on the alpha1 layer. This behavior is good because
-  ;; the alpha1 keys are more frequent than the alpha2 keys.
-
-  ;; We implement sticky layer keys in Kanata using:
-  ;; -   the one-shot + layer-while-held actions in the alias
-  ;; -   the release-layer action for every key in the alpha2 layer
-
-  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
-  ;; one-shot + layer-while-held actions for sticky layer key behavior
-
   a1 (layer-switch alpha1)
+
+  ;; Pressing the a2 key switches to the alpha2 layer. When you press
+  ;; a key on that layer, you immediately switch back to the alpha1
+  ;; layer - even if the a2 key is still held. This behavior is
+  ;; equivalent to a ZMK sticky layer:
+  ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
+  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
 )
 
 (deftemplate a1 (key)
@@ -54,7 +43,7 @@
 )
 
 (deftemplate a2 (key)
-  $key (multi (chord alpha2 $key) (release-layer alpha2))  ;; release-layer action for sticky layer key behavior
+  $key (multi (chord alpha2 $key) (release-layer alpha2))  ;; release-layer for sticky layer behavior
 )
 
 (defalias
@@ -80,7 +69,7 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Combos
 
-;; For some reason, we need layer 1 and layer 2 to be in separate chord groups.
+;; alpha1 and alpha2 need to be separate chord groups.
 
 (defchords alpha1 $chord-timeout
   (n) n

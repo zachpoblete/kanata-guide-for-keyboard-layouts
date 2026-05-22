@@ -536,7 +536,7 @@ All Kanata actions, top-level lists, and features are explained in detail in the
 **Layouts**
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with custom shift keys (e.g. typing `Shift + ,` outputs `?`, not `<`)
+    -   A layout with custom shift keys (for example, typing `Shift + ,` outputs `?`, not `<`)
 -   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)

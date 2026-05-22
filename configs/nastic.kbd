@@ -16,10 +16,13 @@
 
 (t! repeated-key y)
 
-;; When pressing a key can output a different key that is already
-;; down, Kanata must first release the key before outputting it again;
-;; otherwise, the second press of the key won’t be outputted.
-;; (The rpt action actually does this automatically.)
+;; There’s a problem when two keys both output $key: Pressing the
+;; first key outputs $key as expected, but if you keep holding down
+;; the first key then press the second key, the second key outputs
+;; nothing instead of $key again.
+
+;; The repeated-key template fixes this: if $key is active, release
+;; $key before outputting it again.
 (deftemplate repeated-key (key)
   (defvirtualkeys $key
     $key
@@ -29,8 +32,10 @@
     (switch
       ($key)
         (multi
-          (release-key $key)  ;; Release key first before outputting it again.
-          ;; $key  ;; For some reason, this doesn’t work and we need to use a virtual key.
+          (release-key $key)
+
+          ;; $key  ;; Using $key directly here outputs nothing, and it’s unclear why.
+          ;; Using a virtual key works:
           (on-press   press-vkey   $key)
           (on-release release-vkey $key))
         break

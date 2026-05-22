@@ -47,31 +47,22 @@
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
-;; Adaptive key layer template
+;; Adaptive key template
 
 ;; Pressing the adaptive key switches to a layer that swaps the desired
 ;; letters. When you press a key on that layer, you immediately switch
-;; back to the base layer - even if the adaptive key is still held.
-;; This means holding the adaptive key won’t result in a swap you
-;; didn’t intend.
-
-;; The adaptive keys in this config emulate ZMK sticky layer keys:
+;; back to the base layer - even if the adaptive key is still held. This
+;; behavior is equivalent to a ZMK sticky layer:
 ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
-
-;; We implement sticky layer keys (adaptive keys) in Kanata using:
-;; -   the one-shot + layer-while-held actions in the adaptive key
-;;     alias/action
-;; -   the release-layer action for every key in the layer switched to by
-;;     the adaptive key
 
 (deftemplate . (key adaptive-key)
   (multi
     (if-equal     $key $adaptive-key
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
-      ;; one-shot + layer-while-held actions for sticky layer key behavior
+       ;; one-shot + layer-while-held for sticky layer key behavior
     (if-not-equal $key $adaptive-key
       (release-layer $adaptive-key))
-      ;; release-layer action for sticky layer key behavior
+       ;; release-layer for sticky layer key behavior
     $key
   )
 )
@@ -81,17 +72,19 @@
                                   a s d f g  h j k l ; '
                                   z x c v b  n m , . /
                                 )
+  ;; Create the adaptive key layer:
   (deflayer $ak
     (t! . $q $ak)(t! . $w $ak)(t! . $e $ak)(t! . $r $ak)(t! . $t $ak)    (t! . $y $ak)(t! . $u $ak)(t! . $i $ak)(t! . $o $ak)(t! . $p $ak)
     (t! . $a $ak)(t! . $s $ak)(t! . $d $ak)(t! . $f $ak)(t! . $g $ak)    (t! . $h $ak)(t! . $j $ak)(t! . $k $ak)(t! . $l $ak)(t! . $; $ak)(t! . $' $ak)
     (t! . $z $ak)(t! . $x $ak)(t! . $c $ak)(t! . $v $ak)(t! . $b $ak)    (t! . $n $ak)(t! . $m $ak)(t! . $, $ak)(t! . $. $ak)(t! . $/ $ak)
   )
 
+  ;; Create the adaptive key alias:
   (defalias $ak
     (multi
       $ak
       (one-shot $adaptive-key-timeout (layer-while-held $ak))
-      ;; one-shot + layer-while-held actions for sticky layer key behavior
+       ;; one-shot + layer-while-held for sticky layer key behavior
     )
   )
 )
