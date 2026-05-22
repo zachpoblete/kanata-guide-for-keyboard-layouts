@@ -395,7 +395,7 @@ Save the file and run Kanata again.
 
 You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
 
-Using a different layout is just a matter of editing the keys in `deflayer` (and renaming the layer to match).
+You now know how to use a different layout: edit the keys in `deflayer` (and rename the layer to match).
 
 >   [!TIP]
 >   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
