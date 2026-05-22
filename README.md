@@ -85,7 +85,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 10 and older</strong></summary>
 <p></p>
 
->   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
+>   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
@@ -126,7 +126,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack [explains how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-1.  [Download the Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
+1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
 1.  Open a terminal and run:
 
@@ -204,7 +204,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     -   Disable **Karabiner-Elements Privileged Daemons**.
     -   Disable **Karabiner-Elements Privileged Daemons v2**.
 
-1.  [Download the Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
+1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
 1.  Open a terminal and run:
 
@@ -373,7 +373,7 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 ```
 
 -   `defsrc` is your keyboard’s original layout (QWERTY).
-    -   If your keyboard differs from the `defsrc` above, see how to [remap non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   If your keyboard differs from the `defsrc` in the `example.kbd` file, see how to [remap non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
 -   `deflayer` remaps it to Gallium.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
