@@ -199,7 +199,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-1. If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions → App Background Activity** and disable the following if you see them:
+1. If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions**.
+
+    Under **App Background Activity**, disable the following if you see them:
 
     -   Disable **Karabiner-Elements Privileged Daemons**.
     -   Disable **Karabiner-Elements Privileged Daemons v2**.
