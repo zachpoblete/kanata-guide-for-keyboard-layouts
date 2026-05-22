@@ -12,13 +12,13 @@
             v    n
 )
 
-(deflayer alpha1
+(deflayer alpha-1
      @l @d @y   @m @o @u
   @n @r @t @s   @h @a @i @e
            spc  @a2
 )
 
-(deflayer alpha2
+(deflayer alpha-2
      @x @v @g   @k @q @,
   @p @w @b @c   @f @z @. @j
             _   @a1
@@ -28,22 +28,22 @@
 ;; Aliases
 
 (defalias
-  a1 (layer-switch alpha1)
+  a1 (layer-switch alpha-1)
 
-  ;; Pressing the a2 key switches to the alpha2 layer. When you press
-  ;; a key on that layer, you immediately switch back to the alpha1
+  ;; Pressing the a2 key switches to the alpha-2 layer. When you press
+  ;; a key on that layer, you immediately switch back to the alpha-1
   ;; layer - even if the a2 key is still held. This behavior is
   ;; equivalent to a ZMK sticky layer:
   ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
-  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
+  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha-2))
 )
 
 (deftemplate a1 (key)
-  $key (chord alpha1 $key)
+  $key (chord alpha-1 $key)
 )
 
 (deftemplate a2 (key)
-  $key (multi (chord alpha2 $key) (release-layer alpha2))  ;; release-layer for sticky layer behavior
+  $key (multi (chord alpha-2 $key) (release-layer alpha-2))  ;; release-layer for sticky layer behavior
 )
 
 (defalias
@@ -69,9 +69,9 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Combos
 
-;; alpha1 and alpha2 need to be separate chord groups.
+;; alpha-1 and alpha-2 need to be separate chord groups.
 
-(defchords alpha1 $chord-timeout
+(defchords alpha-1 $chord-timeout
   (n) n
   (r) r    (l) l
   (t) t    (d) d
@@ -89,7 +89,7 @@
   (u i) (macro u i)
 )
 
-(defchords alpha2 $chord-timeout
+(defchords alpha-2 $chord-timeout
   (p) p
   (w) w    (x) x
   (b) b    (v) v

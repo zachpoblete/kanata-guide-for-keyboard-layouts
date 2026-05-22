@@ -40,10 +40,10 @@
 ;;     -   Release Shift
 ;;     -   Press and hold Shift
 ;;     -   Press Key2
-(deftemplate shifted-compose-sequence (character sequence1 sequence2)
+(deftemplate shifted-compose-sequence (character sequence-1 sequence-2)
   (defvirtualkeys $character (unicode $character))
-  (defseq $character $sequence1)
-  (defseq $character $sequence2)
+  (defseq $character $sequence-1)
+  (defseq $character $sequence-2)
 )
 
 (t! compose-sequence         ä (S-'   a))
