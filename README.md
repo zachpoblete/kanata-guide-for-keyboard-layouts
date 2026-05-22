@@ -6,9 +6,10 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 ## Set up a layout with Kanata
 
+Expand the instructions for your operating system.
+
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
-
 
 <details>
 <summary><strong>Windows</strong></summary>
@@ -25,7 +26,7 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: right-click an empty space inside the folder and select **Open in Terminal**.
+    If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
 1.  Run Kanata:
 
@@ -43,7 +44,7 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 </details>
 
@@ -62,7 +63,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: right-click an empty space inside the folder and select **Open in Terminal**.
+    If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
 1.  Run Kanata:
 
@@ -73,7 +74,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 </details>
 
@@ -98,8 +99,8 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -110,7 +111,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 **Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
@@ -164,8 +165,8 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -185,7 +186,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 **Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
@@ -198,7 +199,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-1. If Karabiner Elements is installed: open **System Settings → General → Login Items & Extensions → App Background Activity** and disable the following if you see them:
+1. If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions → App Background Activity** and disable the following if you see them:
 
     -   Disable **Karabiner-Elements Privileged Daemons**.
     -   Disable **Karabiner-Elements Privileged Daemons v2**.
@@ -239,8 +240,8 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -260,13 +261,15 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 **Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
 
 ## Run Kanata on startup
+
+Expand the instructions for your operating system.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -403,7 +406,6 @@ You now know how to use a different layout: edit the keys in `deflayer` (and ren
 ## Before the example configs
 
 Here are a few concepts that will help you read and edit them.
-
 
 **Lists** make up configs.
 
