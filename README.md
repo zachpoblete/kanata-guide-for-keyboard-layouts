@@ -143,7 +143,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     Click **Allow**.
     -   If there’s any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
 1. In the terminal, run:
 
@@ -201,7 +201,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1. If Karabiner Elements is installed, open **System Settings → General → Login Items & Extensions**.
 
-    Under **App Background Activity**, disable the following if you see them:
+    In the **App Background Activity** section, disable the following if you see them:
 
     -   Disable **Karabiner-Elements Privileged Daemons**.
     -   Disable **Karabiner-Elements Privileged Daemons v2**.
@@ -218,7 +218,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Open **System Settings → General → Login Items & Extensions → Extensions** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
+1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
 1. In the terminal, run:
 
@@ -330,11 +330,11 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in the `/Library/LaunchDaemons` folder.
+1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
 
 1. Open the `dev.kanata.kanata.plist` file with a text editor.
 
-1. Under `ProgramArguments`, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
+1. In the `ProgramArguments` key, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
 
     ```xml
     <key>ProgramArguments</key>
