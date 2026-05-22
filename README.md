@@ -534,7 +534,7 @@ All Kanata top-level lists, actions, and features are explained in detail in the
 **Layouts**
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with custom shift keys (for example, typing `Shift + ,` outputs `?`, not `<`)
+    -   A layout with custom shift keys (for example, typing `Shift + ,` outputs `?` instead of `<`)
 -   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
@@ -583,7 +583,7 @@ All Kanata top-level lists, actions, and features are explained in detail in the
 -   [List of known Kanata issues](https://github.com/jtroo/kanata/blob/main/docs/platform-known-issues.adoc)
 -   [Key names for `defsrc` and `deflayermap`](https://jtroo.github.io/config.html#key-names)
 -   [Windows: enable Kanata in elevated windows](https://jtroo.github.io/config.html#windows-only-work-elevated)
--   [VS Code: kanata language support](https://github.com/rszyma/vscode-kanata)
+-   [VS Code: Kanata language support](https://github.com/rszyma/vscode-kanata)
 
 ## Feedback
 
