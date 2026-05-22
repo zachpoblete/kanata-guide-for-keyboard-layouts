@@ -144,7 +144,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
-1. Run:
+1. In the terminal, run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -217,7 +217,7 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
-1. Run:
+1. In the terminal, run:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -289,8 +289,6 @@ Stop Kanata by holding `Left Control + Space + Escape`.
 
 Your Kanata config will now run in the background on startup.
 
-To use your alt layout _immediately_ after startup: move the shortcut to the Desktop and double click the shortcut upon signing in.
-
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -300,9 +298,11 @@ To use your alt layout _immediately_ after startup: move the shortcut to the Des
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1. [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in `/etc/systemd/system/`.
+1. [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
 
-1. Open `kanata.service` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` in this line:
+1. Open the `kanata.service` file with a text editor.
+
+1. In the `ExecStart` line, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
 
     ```desktop
     ExecStart=/path/to/kanata-executable -c /path/to/kanata-config.kbd
@@ -327,7 +327,9 @@ Your Kanata config will now run in the background on startup.
 
 1. [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
-1. Open `dev.kanata.kanata.plist` and edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd` under `ProgramArguments`:
+1. Open the `dev.kanata.kanata.plist` file with a text editor.
+
+1. Under `ProgramArguments`, edit `/path/to/kanata-executable` and `/path/to/kanata-config.kbd`:
 
     ```xml
     <key>ProgramArguments</key>
@@ -351,7 +353,7 @@ Your Kanata config will now run in the background on startup.
 
 ## Edit the layout
 
-`example.kbd` consists of two parts, `defsrc` and `deflayer`:
+The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 
 ```
 (defsrc
@@ -373,7 +375,7 @@ Your Kanata config will now run in the background on startup.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of `example.kbd` with this and save:
+Replace the contents of the `example.kbd` file with this and save:
 
 ```
 (defsrc
