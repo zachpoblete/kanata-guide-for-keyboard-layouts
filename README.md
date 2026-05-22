@@ -499,39 +499,9 @@ This is equivalent to the previous examples.
 
 </ul>
 
-**Templates** are reusable pieces of code that can take parameters.
-
-<ul>
-
-Defined in `deftemplate`, templates are used via the `t!` list item.
-
-For example, this template defines compose sequences more concisely (see [`compose.kbd`](configs/compose.kbd)):
-
-```
-(deftemplate compose-sequences (character sequence)
-  (defvirtualkeys $character (unicode $character))
-  (defseq $character $sequence)
-)
-
-(t! compose-sequences æ (a e))
-(t! compose-sequences ä (S-' a))
-```
-
-This is equivalent to:
-
-```
-(defvirtualkeys æ (unicode æ))
-(defseq æ (a e))
-
-(defvirtualkeys ä (unicode ä))
-(defseq ä (S-' a))
-```
-
-</ul>
-
 You now have a good grasp of the tools used in almost every config.
 
-All Kanata actions, top-level lists, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
+All Kanata top-level lists, actions, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
 
 ## Example configs
 
