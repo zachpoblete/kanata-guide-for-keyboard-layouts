@@ -428,7 +428,7 @@ For example:
 
 <ul>
 
-This config uses the `tap-hold` action to make holding Caps Lock activate Left Control:
+This example uses the `tap-hold` action to make holding Caps Lock activate Left Control:
 
 ```
 (defsrc
