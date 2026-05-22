@@ -25,7 +25,7 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 1.  Open the folder in a terminal.
 
-    -   If you don’t know how: Right-click an empty space inside the folder and select **Open in Terminal**.
+    If you don’t know how: right-click an empty space inside the folder and select **Open in Terminal**.
 
 1.  Run Kanata:
 
@@ -43,7 +43,7 @@ This guide shows you how to set up an alternate layout with Kanata, run Kanata o
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding: `Left Control + Space + Escape`.
+Stop Kanata by holding `Left Control + Space + Escape`.
 
 </details>
 
@@ -62,7 +62,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    -   If you don’t know how: Right-click an empty space inside the folder and select **Open in Terminal**.
+    If you don’t know how: right-click an empty space inside the folder and select **Open in Terminal**.
 
 1.  Run Kanata:
 
@@ -73,7 +73,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding: `Left Control + Space + Escape`.
+Stop Kanata by holding `Left Control + Space + Escape`.
 
 </details>
 
@@ -84,8 +84,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>macOS 10 and older</strong></summary>
 <p></p>
 
->   **⚠️ Warning:**
->   It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
+>   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS Catalina (v10.15)](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
@@ -99,8 +98,8 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: Right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: Go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -111,9 +110,9 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding: `Left Control + Space + Escape`.
+Stop Kanata by holding `Left Control + Space + Escape`.
 
-**Troubleshooting:** See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
 
@@ -124,8 +123,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>macOS 11 and 12</strong></summary>
 <p></p>
 
->   **⚠️ Warning:**
->   There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack [explains how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+>   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack [explains how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
 1.  [Download the Karabiner driver (v3.1.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -134,14 +132,15 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
     ```
-    -   If you previously ran `deactivate`, restart your computer.
+
+    If you previously ran `deactivate`, restart your computer.
 
 1.  Open **System Settings → Privacy & Security → Security** and look for:
 
     > System software from application “Karabiner-VirtualHIDDevice-Manager” was blocked from loading.
 
     Click **Allow**.
-    -   If there is any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
+    -   If there’s any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
 
 1. [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) (don’t change the filename) and save it in `/Library/LaunchDaemons`.
 
@@ -165,8 +164,8 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: Right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: Go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -186,9 +185,9 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding: `Left Control + Space + Escape`.
+Stop Kanata by holding `Left Control + Space + Escape`.
 
-**Troubleshooting:** See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
 
@@ -199,7 +198,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If Karabiner Elements is installed: Go to **System Settings → General → Login Items & Extensions → App Background Activity** and disable **Karabiner-Elements Privileged Daemons** or **Karabiner-Elements Privileged Daemons v2**.
+If Karabiner Elements is installed: go to **System Settings → General → Login Items & Extensions → App Background Activity** and disable **Karabiner-Elements Privileged Daemons** or **Karabiner-Elements Privileged Daemons v2**.
 
 1.  [Download the Karabiner driver (v6.2.0)](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
@@ -236,8 +235,8 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how: Right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear: Go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
+    If you don’t know how: right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If that option doesn’t appear: go to **Finder → Services → Services Settings... → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -257,9 +256,9 @@ If Karabiner Elements is installed: Go to **System Settings → General → Logi
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
 
-Stop Kanata by holding: `Left Control + Space + Escape`.
+Stop Kanata by holding `Left Control + Space + Escape`.
 
-**Troubleshooting:** See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
 
@@ -286,7 +285,7 @@ Stop Kanata by holding: `Left Control + Space + Escape`.
 
 Your Kanata config will now run in the background on startup.
 
-To use your alt layout _immediately_ after startup: Move the shortcut to the Desktop and double click the shortcut upon signing in.
+To use your alt layout _immediately_ after startup: move the shortcut to the Desktop and double click the shortcut upon signing in.
 
 </details>
 
@@ -401,113 +400,113 @@ Here are a few concepts that will help you read and edit them:
 
 -   **Configs are made of lists** with the form `(command argument1 argument2 ...)`.
 
-    -   The arguments can also be lists.
+    The arguments can also be lists.
 
 -   **Comments** are added by prefixing them with `;;`.
 
-    -   For example:
+    For example:
 
-        ```
-        ;; This is a comment.
-        ;; Comments are ignored.
+    ```
+    ;; This is a comment.
+    ;; Comments are ignored.
 
-        (defsrc
-           caps a s d f  ;; This is an inline comment.
-        )
-        ```
+    (defsrc
+        caps a s d f  ;; This is an inline comment.
+    )
+    ```
 
 -   **Actions** are what make Kanata powerful.
 
-    -   For example, `(layer-switch layer-name)` changes the active base layer to `layer-name`.
+    For example, `(layer-switch layer-name)` changes the active base layer to `layer-name`.
 
-    -   Actions can be put directly inside `deflayer` like so:
+    Actions can be put directly inside `deflayer` like so:
 
-        ```
-        (defsrc
-           caps a s d f
-        )
+    ```
+    (defsrc
+        caps a s d f
+    )
 
-        (deflayer example
-          (tap-hold 200 200 caps lctl) a s d f
-        )
-        ```
+    (deflayer example
+        (tap-hold 200 200 caps lctl) a s d f
+    )
+    ```
 
-        This config uses the `tap-hold` action to make holding Caps Lock activate Left Control.
+    This config uses the `tap-hold` action to make holding Caps Lock activate Left Control.
 
 -   **Aliases** are named shortcuts for actions.
 
-    -   Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
+    Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 
-    -   Let’s use an alias for the `tap-hold` action from the previous example:
+    Use an alias for the `tap-hold` action from the previous example:
 
-        ```
-        (defsrc
-           caps a s d f
-        )
+    ```
+    (defsrc
+        caps a s d f
+    )
 
-        (deflayer example
-          @caps a s d f
-        )
+    (deflayer example
+        @caps a s d f
+    )
 
-        (defalias caps
-          (tap-hold 200 200 caps lctl)
-        )
-        ```
+    (defalias caps
+        (tap-hold 200 200 caps lctl)
+    )
+    ```
 
-        This is equivalent to the previous example.
+    This is equivalent to the previous example.
 
 -   **Variables** are named shortcuts for strings or lists.
 
-    -   Defined in `defvar`, variables are used by prefixing the variable name with `$`.
+    Defined in `defvar`, variables are used by prefixing the variable name with `$`.
 
-    -   Let’s use variables for the `200 200` parameters so that their purpose is clearer:
+    Use variables for the `200 200` parameters so that their purpose is clearer:
 
-        ```
-        (defvar
-          tap-time  200
-          hold-time 200
-        )
+    ```
+    (defvar
+        tap-time  200
+        hold-time 200
+    )
 
-        (defsrc
-          caps a s d f
-        )
+    (defsrc
+        caps a s d f
+    )
 
-        (deflayer example
-         @caps a s d f
-        )
+    (deflayer example
+        @caps a s d f
+    )
 
-        (defalias caps
-          (tap-hold $tap-time $hold-time caps lctl)
-        )
-        ```
+    (defalias caps
+        (tap-hold $tap-time $hold-time caps lctl)
+    )
+    ```
 
-        This is equivalent to the previous examples.
+    This is equivalent to the previous examples.
 
 -   **Templates** are reusable config snippets that can take parameters.
 
-    -   Defined in `deftemplate`, templates are used by using the `t!` list item.
+    Defined in `deftemplate`, templates are used via the `t!` list item.
 
-    -   For example, this template defines compose sequences more concisely (see [`compose.kbd`](configs/compose.kbd)):
+    For example, this template defines compose sequences more concisely (see [`compose.kbd`](configs/compose.kbd)):
 
-        ```
-        (deftemplate compose-sequences (character sequence)
-          (defvirtualkeys $character (unicode $character))
-          (defseq $character $sequence)
-        )
+    ```
+    (deftemplate compose-sequences (character sequence)
+        (defvirtualkeys $character (unicode $character))
+        (defseq $character $sequence)
+    )
 
-        (t! compose-sequences æ (a e))
-        (t! compose-sequences ä (S-' a))
-        ```
+    (t! compose-sequences æ (a e))
+    (t! compose-sequences ä (S-' a))
+    ```
 
-        This is equivalent to:
+    This is equivalent to:
 
-        ```
-        (defvirtualkeys æ (unicode æ))
-        (defseq æ (a e))
+    ```
+    (defvirtualkeys æ (unicode æ))
+    (defseq æ (a e))
 
-        (defvirtualkeys ä (unicode ä))
-        (defseq ä (S-' a))
-        ```
+    (defvirtualkeys ä (unicode ä))
+    (defseq ä (S-' a))
+    ```
 
 You now have a good grasp of the tools used in almost every config.
 
@@ -584,8 +583,8 @@ All Kanata actions, top-level lists, and features are explained in detail in the
 -   [Kanata Configuration Guide](https://jtroo.github.io/config.html)
 -   [List of known Kanata issues](https://github.com/jtroo/kanata/blob/main/docs/platform-known-issues.adoc)
 -   [Key names for `defsrc` and `deflayermap`](https://jtroo.github.io/config.html#key-names)
--   [Windows: Enable Kanata in elevated windows](https://jtroo.github.io/config.html#windows-only-work-elevated)
--   [VS Code: Kanata language support](https://github.com/rszyma/vscode-kanata)
+-   [Windows: enable Kanata in elevated windows](https://jtroo.github.io/config.html#windows-only-work-elevated)
+-   [VS Code: kanata language support](https://github.com/rszyma/vscode-kanata)
 
 ## Feedback
 
