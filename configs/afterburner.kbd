@@ -99,18 +99,18 @@
 ;; press the skip magic key, the skip magic key outputs nothing
 ;; instead of $key again.
 
-;; The magic-rule template fixes this: if $key is active, release
-;; $key before outputting it again.
-;; See nastic.kbd for an implementation that doesn’t use macro.
+;; The magic-rule template fixes this: if $key is active, release $key
+;; before outputting it again. See nastic.kbd for an implementation
+;; that doesn’t use macro to output $key.
 (deftemplate magic-rule (input-key recency action)
   ((key-history $input-key $recency))
     (if-equal $action rpt
       (multi
         (release-key $input-key)
-        (macro $input-key)))  ;; For some reason, we need the macro action to output $input-key.
+        (macro $input-key)))
     (if-not-equal $action rpt
       (multi
         (release-key $action)  ;; This assumes $action is a single key.
-        (macro $action)))  ;; For some reason, we need the macro action to output $action.
+        (macro $action)))
     break
 )

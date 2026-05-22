@@ -61,15 +61,15 @@
 ;; the first key then press the second key, the second key outputs
 ;; nothing instead of $key again.
 
-;; The output template fixes this: if $key is active, release
-;; $key before outputting it again.
-;; See nastic.kbd for an implementation that doesn’t use macro.
+;; The output template fixes this: if $key is active, release $key
+;; before outputting it again. See nastic.kbd for an implementation
+;; that doesn’t use macro to output $key.
 (deftemplate output (key)
   (switch
     ($key)
       (multi
         (release-key $key)
-        (macro $key))  ;; For some reason, we need the macro action to output $key.
+        (macro $key))
       break
     () $key break
   )

@@ -24,7 +24,7 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Keys
 
-;; We define two chord groups (one for each hand) instead of just one
+;; Define two chord groups (one for each hand) instead of just one
 ;; chord group for both hands so that the left and right hand keys are
 ;; isolated from each other. Otherwise, you could accidentally
 ;; activate a combo using keys from both the left and right hand when
@@ -106,9 +106,9 @@
 
 (deftemplate defchords (name)
   (defchords $name $chord-timeout
-    ;; We use the macro action so that pressing a combo then pressing the
-    ;; same combo on the other hand reliably outputs a repeat.
-    ;; See nastic.kbd for a method that doesn’t use macro.
+    ;; Use the macro action so that repeat letters are reliably
+    ;; outputted. See nastic.kbd for a method that doesn’t use
+    ;; macro.
 
     ;; Columns:
     ;;     Base                       + Inner Thumb                      + Outer Thumb
