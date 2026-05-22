@@ -396,113 +396,138 @@ Using a different layout is just a matter of editing the keys in `deflayer` (and
 
 ## Before the example configs
 
-Here are a few concepts that will help you read and edit them:
+Here are a few concepts that will help you read and edit them.
 
--   **Configs are made of lists** with the form `(command argument1 argument2 ...)`.
 
-    The arguments can also be lists.
+**Lists** make up configs.
 
--   **Comments** are added by prefixing them with `;;`.
+<ul>
 
-    For example:
+Lists have the form `(command argument1 argument2 ...)`. The arguments can also be lists.
 
-    ```
-    ;; This is a comment.
-    ;; Comments are ignored.
+</ul>
 
-    (defsrc
-       caps a s d f  ;; This is an inline comment.
-    )
-    ```
+**Comments** are added by prefixing them with `;;`.
 
--   **Actions** are what you bind to keys.
+<ul>
 
-    This config uses the `tap-hold` action to make holding Caps Lock activate Left Control:
+For example:
 
-    ```
-    (defsrc
-       caps a s d f
-    )
+```
+;; This is a comment.
+;; Comments are ignored.
 
-    (deflayer example
-      (tap-hold 200 200 caps lctl) a s d f
-    )
-    ```
+(defsrc
+   caps a s d f  ;; This is an inline comment.
+)
+```
 
--   **Aliases** are named shortcuts for actions.
+</ul>
 
-    Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
+**Actions** are what you bind to keys.
 
-    Use an alias for the `tap-hold` action from the previous example:
+<ul>
 
-    ```
-    (defsrc
-       caps a s d f
-    )
+This config uses the `tap-hold` action to make holding Caps Lock activate Left Control:
 
-    (deflayer example
-      @caps a s d f
-    )
+```
+(defsrc
+   caps a s d f
+)
 
-    (defalias caps
-      (tap-hold 200 200 caps lctl)
-    )
-    ```
+(deflayer example
+  (tap-hold 200 200 caps lctl) a s d f
+)
+```
 
-    This is equivalent to the previous example.
+</ul>
 
--   **Variables** are named shortcuts for strings or lists.
+**Aliases** are named shortcuts for actions.
 
-    Defined in `defvar`, variables are used by prefixing the variable name with `$`.
+<ul>
 
-    Use variables for the `200 200` parameters so that their purpose is clearer:
+Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 
-    ```
-    (defvar
-      tap-time  200
-      hold-time 200
-    )
+Use an alias for the `tap-hold` action from the previous example:
 
-    (defsrc
-       caps a s d f
-    )
+```
+(defsrc
+   caps a s d f
+)
 
-    (deflayer example
-      @caps a s d f
-    )
+(deflayer example
+  @caps a s d f
+)
 
-    (defalias caps
-      (tap-hold $tap-time $hold-time caps lctl)
-    )
-    ```
+(defalias caps
+  (tap-hold 200 200 caps lctl)
+)
+```
 
-    This is equivalent to the previous examples.
+This is equivalent to the previous example.
 
--   **Templates** are reusable config snippets that can take parameters.
+</ul>
 
-    Defined in `deftemplate`, templates are used via the `t!` list item.
+**Variables** are named shortcuts for strings or lists.
 
-    For example, this template defines compose sequences more concisely (see [`compose.kbd`](configs/compose.kbd)):
+<ul>
 
-    ```
-    (deftemplate compose-sequences (character sequence)
-      (defvirtualkeys $character (unicode $character))
-      (defseq $character $sequence)
-    )
+Defined in `defvar`, variables are used by prefixing the variable name with `$`.
 
-    (t! compose-sequences æ (a e))
-    (t! compose-sequences ä (S-' a))
-    ```
+Use variables for the `200 200` parameters so that their purpose is clearer:
 
-    This is equivalent to:
+```
+(defvar
+  tap-time  200
+  hold-time 200
+)
 
-    ```
-    (defvirtualkeys æ (unicode æ))
-    (defseq æ (a e))
+(defsrc
+   caps a s d f
+)
 
-    (defvirtualkeys ä (unicode ä))
-    (defseq ä (S-' a))
-    ```
+(deflayer example
+  @caps a s d f
+)
+
+(defalias caps
+  (tap-hold $tap-time $hold-time caps lctl)
+)
+```
+
+This is equivalent to the previous examples.
+
+</ul>
+
+**Templates** are reusable pieces of code that can take parameters.
+
+<ul>
+
+Defined in `deftemplate`, templates are used via the `t!` list item.
+
+For example, this template defines compose sequences more concisely (see [`compose.kbd`](configs/compose.kbd)):
+
+```
+(deftemplate compose-sequences (character sequence)
+  (defvirtualkeys $character (unicode $character))
+  (defseq $character $sequence)
+)
+
+(t! compose-sequences æ (a e))
+(t! compose-sequences ä (S-' a))
+```
+
+This is equivalent to:
+
+```
+(defvirtualkeys æ (unicode æ))
+(defseq æ (a e))
+
+(defvirtualkeys ä (unicode ä))
+(defseq ä (S-' a))
+```
+
+</ul>
 
 You now have a good grasp of the tools used in almost every config.
 
