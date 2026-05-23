@@ -156,8 +156,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Download Kanata v1.7.0:
 
-    -   Most users: [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   Intel users: [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If you’re on an Apple Silicon Mac, [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If you’re on an Intel-based Mac, [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
 
@@ -231,8 +231,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Download Kanata:
 
-    -   Most users: [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   Intel users: [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   If you’re on an Apple Silicon Mac (most users), [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
+    -   If you’re on an Intel-based Mac, [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
 1.  Extract the downloaded zip file.
 
