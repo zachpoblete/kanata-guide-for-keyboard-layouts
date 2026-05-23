@@ -32,13 +32,13 @@ Expand the instructions for your operating system.
 
 1.  Run Kanata:
 
-    -   If you downloaded the x64 version, run:
+    -   If you downloaded the x64 version, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
         ```
 
-    -   If you downloaded the arm64 version, run:
+    -   If you downloaded the arm64 version, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
@@ -67,10 +67,10 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
     If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata:
+1.  Run Kanata. The `chmod` command only needs to be run the first time.
 
     ```shell
-    chmod +x kanata_linux_cmd_allowed_x64  # Make Kanata runnable.
+    chmod +x kanata_linux_cmd_allowed_x64
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
@@ -104,10 +104,10 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata:
+1.  Run Kanata. The `chmod` command only needs to be run the first time.
 
     ```shell
-    chmod +x kanata_macos_cmd_allowed_x64  # Make Kanata runnable.
+    chmod +x kanata_macos_cmd_allowed_x64
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
@@ -130,13 +130,13 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
-1.  Open a terminal and run:
+1.  Open a terminal and activate the driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
     ```
 
-    If you previously ran `deactivate`, restart your computer.
+    If you previously ran the `deactivate` command, restart your computer.
 
 1.  Open **System Settings → Privacy & Security → Security** and look for:
 
@@ -147,7 +147,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, run:
+1.  Run the daemon at boot:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -172,17 +172,17 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Run Kanata:
 
-    -   If you downloaded the arm64 version, run:
+    -   If you downloaded the arm64 version, run the following commands. The `chmod` command only needs to be run the first time.
 
         ```shell
-        chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
+        chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you downloaded the x86_64 version, run:
+    -   If you downloaded the x86_64 version, run the following commands. The `chmod` command only needs to be run the first time.
 
         ```shell
-        chmod +x kanata_macos_cmd_allowed_x86_64  # Make Kanata runnable.
+        chmod +x kanata_macos_cmd_allowed_x86_64
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
@@ -210,7 +210,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
-1.  Open a terminal and run:
+1.  Open a terminal and activate the driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -222,7 +222,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, run:
+1.  Run the daemon at boot:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -249,17 +249,17 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Run Kanata:
 
-    -   If you downloaded the arm64 version, run:
+    -   If you downloaded the arm64 version, run the following commands. The `chmod` command only needs to be run the first time.
 
         ```shell
-        chmod +x kanata_macos_cmd_allowed_arm64  # Make Kanata runnable.
+        chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you downloaded the x64 version, run:
+    -   If you downloaded the x64 version, run the following commands. The `chmod` command only needs to be run the first time.
 
         ```shell
-        chmod +x kanata_macos_cmd_allowed_x64  # Make Kanata runnable.
+        chmod +x kanata_macos_cmd_allowed_x64
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
@@ -324,7 +324,7 @@ Your Kanata config will now run in the background on startup.
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
     -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
 
-1.  Open a terminal and run:
+1.  Open a terminal and enable the service:
 
     ```shell
     sudo systemctl enable kanata.service
@@ -362,7 +362,7 @@ Your Kanata config will now run in the background on startup.
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
     -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
 
-1.  Open a terminal and run:
+1.  Open a terminal and run the daemon at boot:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
