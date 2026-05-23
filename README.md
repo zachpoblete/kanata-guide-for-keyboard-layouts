@@ -44,7 +44,7 @@ Expand the instructions for your operating system.
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -74,7 +74,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -111,7 +111,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -181,7 +181,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -260,7 +260,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -394,7 +394,7 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 
 -   `defsrc` is your keyboard’s original layout (QWERTY).
     -   If your keyboard differs from the `defsrc` in the `example.kbd` file, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
--   `deflayer` remaps it to Gallium.
+-   `deflayer` remaps your keyboard to Gallium.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
@@ -416,7 +416,7 @@ Replace the contents of the `example.kbd` file with the following configuration:
 
 Save the file and run Kanata again.
 
-You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&thinsp;&mdash;&thinsp;its output is now `v`.
+You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `v`.
 
 You now know how to use a different layout: edit the keys in `deflayer` (and rename the layer to match).
 
