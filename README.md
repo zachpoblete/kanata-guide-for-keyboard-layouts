@@ -130,7 +130,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
 
-### Set up the Karabiner driver
+<h3>Set up the Karabiner driver</h3>
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -153,7 +153,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-### Set up a layout with Kanata
+<h3>Set up a layout with Kanata</h3>
 
 1.  Download Kanata v1.7.0:
 
@@ -204,7 +204,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
 
-### Set up the Karabiner driver
+<h3>Set up the Karabiner driver</h3>
 
 1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
@@ -232,7 +232,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-### Set up a layout with Kanata
+<h3>Set up a layout with Kanata</h3>
 
 1.  Download Kanata:
 
