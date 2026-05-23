@@ -102,7 +102,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata. The `chmod` command only needs to be run the first time.
 
@@ -138,7 +138,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
     If you previously ran the `deactivate` command, restart your computer.
 
-1.  Enable the Karabiner system extension: open **System Settings → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+1.  Enable the Karabiner system extension: open **System Preferences → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
 1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
@@ -154,16 +154,16 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     -   If you’re on an Apple Silicon Mac, [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
     -   If you’re on an Intel-based Mac, [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
-1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the extracted Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
+1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the extracted Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
 
-1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file.
+1.  Enable Input Monitoring: open **System Preferences → Privacy & Security → Input Monitoring** and add the Kanata executable file.
 
 1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
@@ -238,7 +238,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If that option doesn’t appear, go to **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata:
 
