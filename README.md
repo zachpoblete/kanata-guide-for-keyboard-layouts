@@ -138,12 +138,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
     If you previously ran the `deactivate` command, restart your computer.
 
-1.  Open **System Settings → Privacy & Security → Security** and look for:
-
-    > System software from application “Karabiner-VirtualHIDDevice-Manager” was blocked from loading.
-
-    Click **Allow**.
-    -   If there’s any problem with the **Allow** button, see this Karabiner Elements page on the [Allow button not working](https://github.com/pqrs-org/pqrs.org/blob/b494129e70992cd72bf28805de0dbe485361bbd5/sites/karabiner-elements/content/en/docs/help/troubleshooting/kext-allow-button-does-not-work/index.md).
+1.  Open **System Settings → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
 1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
