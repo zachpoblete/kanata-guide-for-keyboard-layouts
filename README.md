@@ -24,7 +24,7 @@ Expand the instructions for your operating system.
 
 1.  Extract the downloaded zip file.
 
-1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -61,7 +61,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -97,7 +97,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -140,9 +140,11 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Enable the Karabiner system extension: open **System Preferences → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Karabiner daemon plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist). Don’t change the filename.
 
-1.  Run the daemon at boot:
+    Save the plist file in the `/Library/LaunchDaemons` folder.
+
+1.  In the terminal, load the daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -151,14 +153,14 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Download Kanata v1.7.0:
 
-    -   If you’re on an Apple Silicon Mac, [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re on an Intel-based Mac, [download the x86_64 version](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If you’re on an Apple Silicon Mac, [download the arm64 executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If you’re on an Intel-based Mac, [download the x86_64 executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
-1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the extracted Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
+1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
 
 1.  Enable Input Monitoring: open **System Preferences → Privacy & Security → Input Monitoring** and add the Kanata executable file.
 
-1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
 
 1.  Open the folder in a terminal.
 
@@ -213,9 +215,11 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Enable the Karabiner system extension: Open **System Settings → General → Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1.  [Download the `org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Karabiner daemon plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist). Don’t change the filename.
 
-1.  Run the daemon at boot:
+    Save the plist file in the `/Library/LaunchDaemons` folder.
+
+1.  In the terminal, load the daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -229,11 +233,11 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file.
 
-1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the extracted Kanata executable file (looks like `kanata_macos_cmd_allowed_...`).
+1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the extracted Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file.
+1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the same Kanata executable file.
 
-1.  [Download the `example.kbd` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -306,7 +310,7 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the `kanata.service` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
+1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
 
 1.  Open the `kanata.service` file with a text editor.
 
@@ -338,7 +342,7 @@ Your Kanata config will now run in the background on startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1.  [Download the `dev.kanata.kanata.plist` file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
 
 1.  Open the `dev.kanata.kanata.plist` file with a text editor.
 
@@ -359,7 +363,7 @@ Your Kanata config will now run in the background on startup.
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
     -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
 
-1.  Open a terminal and run the daemon at boot:
+1.  Open a terminal and load the daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
@@ -552,7 +556,7 @@ All Kanata top-level lists, actions, and features are explained in detail in the
 **Layouts**
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with custom shift keys (for example, typing `Shift + ,` outputs `?` instead of `<`)
+    -   A layout with custom shift keys&hairsp;&mdash;&hairsp;for example, typing `Shift + ,` outputs `?` instead of `<`
 -   [`night.kbd`](configs/night.kbd)
     -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
