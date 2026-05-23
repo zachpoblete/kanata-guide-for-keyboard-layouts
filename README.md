@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, tap-hold, and combos.
 
-This guide shows you how to set up an alternate layout with Kanata, run Kanata on startup, and edit the layout.
+This guide shows you how to set up a layout with Kanata, run Kanata on startup, and edit the layout.
 
 The [example configs](#example-configs) help kick-start your setup.
 
@@ -128,6 +128,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
+To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
 1.  Open a terminal and activate the driver:
@@ -150,6 +152,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
+
+Set up a layout with Kanata:
 
 1.  Download Kanata v1.7.0:
 
@@ -198,7 +202,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-1.  If Karabiner Elements is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
+To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+
+1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
     -   Disable **Karabiner-Elements Privileged Daemons**.
     -   Disable **Karabiner-Elements Privileged Daemons v2**.
@@ -225,6 +231,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
+
+Set up a layout with Kanata:
 
 1.  Download Kanata:
 
@@ -376,7 +384,7 @@ Your Kanata config will now run in the background on startup.
 
 ## Edit the layout
 
-The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
+The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 ```
 (defsrc
@@ -392,13 +400,17 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 )
 ```
 
--   `defsrc` is your keyboard’s original layout (QWERTY).
-    -   If your keyboard differs from the `defsrc` in the `example.kbd` file, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
--   `deflayer` remaps your keyboard to Gallium.
+-   `defsrc` defines your keyboard’s original layout, usually QWERTY.
+
+    If your keyboard differs from the `defsrc` in the preceding config, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+
+-   `deflayer` defines a keyboard layer.
+
+    In the preceding config, `deflayer` creates a layer named `gallium` that remaps your keyboard to the Gallium layout.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of the `example.kbd` file with the following configuration:
+Replace the contents of the `example.kbd` file with the following config:
 
 ```
 (defsrc
@@ -418,7 +430,7 @@ Save the file and run Kanata again.
 
 You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `v`.
 
-You now know how to use a different layout: edit the keys in `deflayer` (and rename the layer to match).
+To use a different layout, edit the keys in `deflayer` (and rename the layer to match).
 
 >   [!TIP]
 >   To quickly try new layouts, use the `!cmini view [layout]` command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
@@ -494,7 +506,20 @@ Use an alias for the `tap-hold` action from the previous example:
 )
 ```
 
-This is equivalent to the previous example.
+This is equivalent to the previous examples.
+
+You can define multiple aliases in a single `defalias`:
+
+```
+(defalias
+  a (tap-hold 200 200 a lmet)
+  s (tap-hold 200 200 s lalt)
+  d (tap-hold 200 200 d lsft)
+  f (tap-hold 200 200 f lctl)
+)
+```
+
+Most lists that start with `def` can define multiple things, such as `defvar` for variables.
 
 </ul>
 
@@ -504,7 +529,7 @@ This is equivalent to the previous example.
 
 Defined in `defvar`, variables are used by prefixing the variable name with `$`.
 
-Use variables for the `200 200` parameters so that their purpose is clearer:
+Use variables for the `200 200` parameters from the previous examples so that their purpose is clearer:
 
 ```
 (defvar
@@ -531,7 +556,7 @@ This is equivalent to the previous examples.
 
 You now have a good grasp of the tools used in almost every config.
 
-All Kanata top-level lists, actions, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
+All top-level lists, actions, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
 
 ## Example configs
 
