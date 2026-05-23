@@ -1,10 +1,10 @@
 # Kanata Guide for Alt Layouts
 
-[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, tap-hold, and combos.
+[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
 This guide shows you how to set up a layout with Kanata, run Kanata on startup, and edit the layout.
 
-The [example configs](#example-configs) help kick-start your setup.
+See the [example configs](#example-configs) for a showcase of what Kanata can do.
 
 ## Set up a layout with Kanata
 
@@ -583,13 +583,13 @@ All top-level lists, actions, and features are explained in detail in the [Confi
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout with custom shift keys&hairsp;&mdash;&hairsp;for example, typing `Shift + ,` outputs `?` instead of `<`
 -   [`night.kbd`](configs/night.kbd)
-    -   A [thumb-alpha](https://layouts.wiki/guides/start/recommendations/#thumb-alpha) layout
+    -   A layout with a letter key on one of the thumbs
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
     -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
-    -   A thumb-alpha layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
+    -   A layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   A thumb-alpha layout that has been double-wide modded
+    -   A layout that has been double-wide modded
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
@@ -599,12 +599,12 @@ All top-level lists, actions, and features are explained in detail in the [Confi
     -   A layout with a second layer for typing German letters
 -   [`compose.kbd`](configs/compose.kbd)
     -   A layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
--   [`gallium-with-vert-combos.kbd`](configs/gallium-with-vert-combos.kbd)
-    -   A layout with vertical combos
--   [`2row-gallium.kbd`](configs/2row-gallium.kbd)
+-   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
+    -   A layout with combos&hairsp;&mdash;&hairsp;pressing two keys at once with the same finger
+-   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
     -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
-    -   A chorded layout that can also be used one-handed
+    -   A layout that can be used one-handed
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   A layout with only 10 keys, one for each finger
 -   [`nastic.kbd`](configs/nastic.kbd)

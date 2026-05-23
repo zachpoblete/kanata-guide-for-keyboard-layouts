@@ -1,5 +1,5 @@
-;; Keymap Drawer visual: https://caksoylar.github.io/keymap-drawer?keymap_yaml=H4sIAAAAAAACA4XNzUrDQBTF8X2e4tDNbE6kSb_HB_AhSiiTWG3aSaYmE2ssfXdvHUQQZO7iLg4_-FszusFrXCtn-50_DE3Z71rnja9dq5HfL_wbEmvGfdfrBFB52rkLnoy19dCo-wSk2JaEJZ6JingnjsQL4YiBUFTFD2uJjvBET7wSI3EgDLEn6iKpXFO670yK61ljOyWyaUGcND4kIMuffnH7xZngLOC3KM4F5wE3UTwTPAv4EsVzwfOAP6N4IXgR8CmKl4KXAZ-jeCV4FfBETaJ8LXwd-GMUbwRvAn74B38BEXeGQV8CAAA%3D
-;; This Kanata config uses vertical combos and maps them to Gallium’s original bottom row.
+;; This layout only has two rows by using combos and mapping those
+;; combos to Gallium’s original bottom row.
 
 (defvar
   chord-timeout 50
