@@ -583,7 +583,7 @@ All top-level lists, actions, and features are explained in detail in the [Confi
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout with custom shift keys&hairsp;&mdash;&hairsp;for example, typing `Shift + ,` outputs `?` instead of `<`
 -   [`night.kbd`](configs/night.kbd)
-    -   A layout with a letter key on one of the thumbs
+    -   A layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
     -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
