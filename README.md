@@ -4,7 +4,7 @@
 
 This guide shows you how to set up an alternate layout with Kanata, run Kanata on startup, and edit the layout.
 
-The [example configuration files](#example-configs) help kick-start your setup.
+The [example configs](#example-configs) help kick-start your setup.
 
 ## Set up a layout with Kanata
 
