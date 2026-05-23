@@ -22,9 +22,9 @@ Expand the instructions for your operating system.
     -   Most users: [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   ARM users: [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
-1.  Extract the downloaded zip file.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -59,9 +59,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
-1.  Extract the downloaded zip file.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -95,9 +95,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
     -   Note: This is the latest version.
 
-1.  Extract the downloaded zip file.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the extracted Kanata executable files.
+1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
@@ -128,7 +128,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
+
+### Set up the Karabiner driver
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -151,7 +153,7 @@ To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabin
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-Set up a layout with Kanata:
+### Set up a layout with Kanata
 
 1.  Download Kanata v1.7.0:
 
@@ -200,7 +202,9 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
+
+### Set up the Karabiner driver
 
 1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
@@ -228,16 +232,16 @@ To use Kanata, set up the [Karabiner driver](https://github.com/pqrs-org/Karabin
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-Set up a layout with Kanata:
+### Set up a layout with Kanata
 
 1.  Download Kanata:
 
     -   If you’re on an Apple Silicon Mac (most users), [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If you’re on an Intel-based Mac, [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
-1.  Extract the downloaded zip file.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the extracted Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
 1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the same Kanata executable file.
 
