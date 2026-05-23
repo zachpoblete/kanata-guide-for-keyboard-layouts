@@ -396,7 +396,7 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 ```
 
 -   `defsrc` is your keyboard’s original layout (QWERTY).
-    -   If your keyboard differs from the `defsrc` in the `example.kbd` file, see how to [remap non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   If your keyboard differs from the `defsrc` in the `example.kbd` file, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
 -   `deflayer` remaps it to Gallium.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
