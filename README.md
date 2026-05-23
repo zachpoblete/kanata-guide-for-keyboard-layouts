@@ -582,8 +582,6 @@ All Kanata top-level lists, actions, and features are explained in detail in the
     -   A chorded layout that can also be used one-handed
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   A layout with only 10 keys, one for each finger
--   [`buggy.kbd`](configs/buggy.kbd)
-    -   A layout with two alpha layers
 -   [`nastic.kbd`](configs/nastic.kbd)
     -   A layout with repeated keys
 -   [`whirl.kbd`](configs/whirl.kbd)
@@ -596,6 +594,8 @@ All Kanata top-level lists, actions, and features are explained in detail in the
     -   A layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
     -   A layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
+-   [`buggy.kbd`](configs/buggy.kbd)
+    -   A layout with two alpha layers
 -   [`power.kbd`](configs/power.kbd)
     -   A layout with 162 layers
 
