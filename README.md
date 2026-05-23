@@ -126,7 +126,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <summary><strong>macOS 11 and 12</strong></summary>
 <p></p>
 
->   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack [explains how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+>   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -286,7 +286,11 @@ Expand the instructions for your operating system.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  In the **Target** field, append <code> --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay</code>.
+1.  Append the following arguments to the **Target** field:
+
+    <pre>
+     --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
+    </pre>
 
     Replace _`KANATA_CONFIG_PATH`_ with the path to the Kanata config file.
 
@@ -397,7 +401,7 @@ The `example.kbd` file consists of two parts, `defsrc` and `deflayer`:
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of the `example.kbd` file with this:
+Replace the contents of the `example.kbd` file with the following configuration:
 
 ```
 (defsrc
