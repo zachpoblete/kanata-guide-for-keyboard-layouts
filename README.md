@@ -459,7 +459,7 @@ The arguments can also be lists.
 
 </ul>
 
-**Comments** are prefixed with `;;`.
+**Comments** are prefixed with two semicolons `;;`.
 
 <ul>
 
