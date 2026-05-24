@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
+[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
 This guide shows you how to set up Kanata and run it at startup.
 
@@ -514,8 +514,6 @@ Use an alias for the `tap-hold` action from the previous example:
 )
 ```
 
-This is equivalent to the previous examples.
-
 You can define multiple aliases in a single `defalias`:
 
 ```
@@ -557,8 +555,6 @@ Use variables for the `200 200` parameters from the previous examples:
   (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
-
-This is equivalent to the previous examples.
 
 </ul>
 
@@ -639,6 +635,6 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 
 ## Feedback
 
-If anything in this guide is unclear or doesn’t work, please open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
+If anything in the guide is unclear or doesn’t work, please open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
 Suggestions appreciated!
