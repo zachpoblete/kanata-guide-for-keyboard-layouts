@@ -382,7 +382,7 @@ Your Kanata config will now run in the background at startup.
 
 </details>
 
-## The Kanata config format
+## Kanata configuration format
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
