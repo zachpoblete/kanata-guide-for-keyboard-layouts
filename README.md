@@ -2,11 +2,11 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
-This guide shows you how to set up a layout with Kanata, run Kanata on startup, and change the layout.
+This guide shows you how to set up Kanata and run it at startup.
 
-See the [example configs](#example-configs) for a showcase of what Kanata can do.
+The guide also explains the configuration format. See the [example configs](#example-configs) to explore what Kanata can do.
 
-## Set up a layout with Kanata
+## Set up Kanata
 
 Expand the instructions for your operating system.
 
@@ -153,7 +153,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-### Set up a layout with Kanata
+### Set up Kanata
 
 1.  Download Kanata v1.7.0:
 
@@ -232,7 +232,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     ```
 
-### Set up a layout with Kanata
+### Set up Kanata
 
 1.  Download Kanata:
 
@@ -276,7 +276,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 </details>
 
-## Run Kanata on startup
+## Run Kanata at startup
 
 Expand the instructions for your operating system.
 
@@ -307,7 +307,7 @@ Expand the instructions for your operating system.
 
 1.  Move the shortcut to the startup folder: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
-Your Kanata config will now run in the background on startup.
+Your Kanata config will now run in the background at startup.
 
 </details>
 
@@ -339,7 +339,7 @@ Your Kanata config will now run in the background on startup.
     sudo systemctl enable kanata.service
     ```
 
-Your Kanata config will now run in the background on startup.
+Your Kanata config will now run in the background at startup.
 
 </details>
 
@@ -378,11 +378,11 @@ Your Kanata config will now run in the background on startup.
     sudo launchctl bootstrap system /Library/LaunchDaemons/dev.kanata.kanata.plist
     ```
 
-Your Kanata config will now run in the background on startup.
+Your Kanata config will now run in the background at startup.
 
 </details>
 
-## Change the layout
+## The Kanata config format
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
@@ -410,7 +410,9 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Change the layout to the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy):
+### Change the layout
+
+Use the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy):
 
 1. Open the `example.kbd` config with a text editor.
 
@@ -441,9 +443,9 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
-## Before the example configs
+### More concepts
 
-Here are a few concepts that will help you read and edit them.
+The following concepts will help you read and edit the [example configs](#example-configs).
 
 **Lists** make up configs.
 
@@ -455,7 +457,7 @@ The arguments can also be lists.
 
 </ul>
 
-**Comments** are added by prefixing them with `;;`.
+**Comments** are prefixed with `;;`.
 
 <ul>
 
@@ -561,8 +563,6 @@ This is equivalent to the previous examples.
 </ul>
 
 You now have a good grasp of the tools used in almost every config.
-
-All top-level lists, actions, and features are explained in detail in the [Configuration Guide](https://jtroo.github.io/config.html).
 
 ## Example configs
 
