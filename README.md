@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. Kanata lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
-This guide shows you how to set up a layout with Kanata, run Kanata on startup, and edit the layout.
+This guide shows you how to set up a layout with Kanata, run Kanata on startup, and change the layout.
 
 See the [example configs](#example-configs) for a showcase of what Kanata can do.
 
@@ -382,7 +382,7 @@ Your Kanata config will now run in the background on startup.
 
 </details>
 
-## Edit the layout
+## Change the layout
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
@@ -410,25 +410,31 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Replace the contents of the `example.kbd` file with the following config:
+Change the layout to the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy):
 
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
+1. Open the `example.kbd` config with a text editor.
 
-(deflayer sturdy
-  v m l c p  x f o u j
-  s t r d y  . n a e i /
-  z k q g w  b h ' ; ,
-)
-```
+1. Replace the contents with the following config:
 
-Save the file and run Kanata again.
+    ```
+    (defsrc
+      q w e r t  y u i o p
+      a s d f g  h j k l ; '
+      z x c v b  n m , . /
+    )
 
-You’re using the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `v`.
+    (deflayer sturdy
+      v m l c p  x f o u j
+      s t r d y  . n a e i /
+      z k q g w  b h ' ; ,
+    )
+    ```
+
+1. Save the file.
+
+1. Run Kanata with the `example.kbd` config again.
+
+Press your `q` key. Its output is now `v`.
 
 To use a different layout, edit the keys in `deflayer` (and rename the layer to match).
 
