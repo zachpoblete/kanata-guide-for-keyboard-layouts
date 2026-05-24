@@ -4,7 +4,7 @@
 
 This guide shows you how to set up Kanata and run it at startup.
 
-The guide also explains the configuration format. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also explains the Kanata configuration format. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
