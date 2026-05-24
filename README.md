@@ -566,8 +566,7 @@ You now have a good grasp of the tools used in almost every config.
 
 ## Example configs
 
->   [!NOTE]
->   Learn more about any Kanata feature used below in the [Configuration Guide](https://jtroo.github.io/config.html).
+To learn about any Kanata feature used in a config, see the [Configuration Guide](https://jtroo.github.io/config.html)
 
 **General configs**
 
