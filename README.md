@@ -144,9 +144,9 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  Enable the Karabiner system extension: open **System Preferences → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1.  [Download the Karabiner daemon plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, load the daemon:
+1.  In the terminal, load the Karabiner daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -223,9 +223,9 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  Enable the Karabiner system extension: Open **System Settings → General → Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1.  [Download the Karabiner daemon plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, load the daemon:
+1.  In the terminal, load the Karabiner daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
@@ -377,7 +377,7 @@ Your Kanata config will now run in the background at startup.
 
 1. Save the file.
 
-1.  Open a terminal and load the daemon:
+1.  Open a terminal and load the Kanata daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
