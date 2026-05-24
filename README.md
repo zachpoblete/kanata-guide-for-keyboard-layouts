@@ -573,7 +573,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
-    -   Makes holding `Control`, `Alt`, or `Super` temporarily switch to QWERTY
+    -   Makes holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
 -   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
     -   Adds [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods) to an alt layout
 -   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
@@ -586,7 +586,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 **Layouts**
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with custom shift keys&hairsp;&mdash;&hairsp;for example, typing `Shift + ,` outputs `?` instead of `<`
+    -   A layout with non-standard shift pairs
 -   [`night.kbd`](configs/night.kbd)
     -   A layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
@@ -605,7 +605,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`compose.kbd`](configs/compose.kbd)
     -   A layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
-    -   A layout with combos&hairsp;&mdash;&hairsp;pressing two keys at once with the same finger
+    -   A layout with combos
 -   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
     -   A layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
