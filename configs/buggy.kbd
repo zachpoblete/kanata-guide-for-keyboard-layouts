@@ -46,7 +46,7 @@
   $key (multi
     (chord alpha-2 $key)
     ;; Release layer for sticky layer behavior:
-    (release-layer alpha-2))
+    (release-layer alpha-2)
   )
 )
 
