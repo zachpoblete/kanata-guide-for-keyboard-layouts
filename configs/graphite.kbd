@@ -17,6 +17,6 @@
 (defalias
   ' (fork ' S-- (lsft rsft))  ;; Shift + ' ⟶ _
   , (fork , S-/ (lsft rsft))  ;; Shift + , ⟶ ?
-  - (fork - S-' (lsft rsft))  ;; Shift + , ⟶ "
+  - (fork - S-' (lsft rsft))  ;; Shift + - ⟶ "
   / (fork / S-, (lsft rsft))  ;; Shift + / ⟶ <
 )
