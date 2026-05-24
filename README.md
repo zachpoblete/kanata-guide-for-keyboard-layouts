@@ -24,21 +24,21 @@ Expand the instructions for your operating system.
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata:
+1.  Run Kanata with the example config:
 
-    -   If you downloaded the x64 version, run the following command:
+    -   x64:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
         ```
 
-    -   If you downloaded the arm64 version, run the following command:
+    -   arm64:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
@@ -61,13 +61,13 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
@@ -97,14 +97,14 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_x64
@@ -164,23 +164,23 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  Enable Input Monitoring: open **System Preferences → Privacy & Security → Input Monitoring** and add the Kanata executable file.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata:
+1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
 
-    -   If you downloaded the arm64 version, run the following commands. The `chmod` command only needs to be run the first time.
+    -   arm64:
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you downloaded the x86_64 version, run the following commands. The `chmod` command only needs to be run the first time.
+    -   x86_64:
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x86_64
@@ -245,23 +245,23 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the same Kanata executable file.
 
-1.  [Download the example configuration file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata:
+1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
 
-    -   If you downloaded the arm64 version, run the following commands. The `chmod` command only needs to be run the first time.
+    -   arm64:
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you downloaded the x64 version, run the following commands. The `chmod` command only needs to be run the first time.
+    -   x64:
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x64
