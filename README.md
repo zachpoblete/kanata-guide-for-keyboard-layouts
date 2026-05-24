@@ -307,6 +307,8 @@ Expand the instructions for your operating system.
     "<var>KANATA_EXECUTABLE_PATH</var>" --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
     </pre>
 
+1. Click **OK**.
+
 Your Kanata config will now run in the background at startup.
 
 </details>
@@ -332,6 +334,8 @@ Your Kanata config will now run in the background at startup.
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
     -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+
+1. Save the file.
 
 1.  Open a terminal and enable the service:
 
@@ -370,6 +374,8 @@ Your Kanata config will now run in the background at startup.
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
     -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+
+1. Save the file.
 
 1.  Open a terminal and load the daemon:
 
