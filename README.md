@@ -402,11 +402,11 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 -   `defsrc` defines your keyboard’s original layout, usually QWERTY.
 
-    If your keyboard differs from the `defsrc` in the preceding config, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+    If your original layout differs from the `defsrc` in the preceding config, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
 
 -   `deflayer` defines a keyboard layer.
 
-    In the preceding config, `deflayer` creates a layer named `gallium` that remaps your keyboard to the Gallium layout.
+    In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
@@ -519,7 +519,7 @@ You can define multiple aliases in a single `defalias`:
 )
 ```
 
-Most lists that start with `def` can define multiple things, such as `defvar` for variables.
+Similar lists items like `defvar` can also define multiple variables.
 
 </ul>
 
@@ -529,7 +529,7 @@ Most lists that start with `def` can define multiple things, such as `defvar` fo
 
 Defined in `defvar`, variables are used by prefixing the variable name with `$`.
 
-Use variables for the `200 200` parameters from the previous examples so that their purpose is clearer:
+Use variables for the `200 200` parameters from the previous examples:
 
 ```
 (defvar
