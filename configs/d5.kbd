@@ -23,9 +23,9 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Aliases, variables, and templates
 
-(deftemplate key (defsrc label)
-  (defalias $label (chord combos $label))
-  (defvar $label $defsrc)
+(deftemplate key (defsrc output)
+  (defalias $output (chord combos $output))
+  (defvar $output $defsrc)
 )
 
 (t! key w    c-)
