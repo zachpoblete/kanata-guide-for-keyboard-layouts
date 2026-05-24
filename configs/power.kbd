@@ -26,6 +26,7 @@
       ;; outputted. See nastic.kbd for a method that doesn’t use
       ;; macro.
       (macro $letter))
+
     (if-equal $sequence _base
       (if-in-list $letter (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca cha chi co con cou cour d day de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in inte inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl plac po pr pro prog pub r real ri ru s sa sc se sh sho shou si sm so st stat sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
         (layer-switch $letter)))
