@@ -43,7 +43,11 @@
 )
 
 (deftemplate a2 (key)
-  $key (multi (chord alpha-2 $key) (release-layer alpha-2))  ;; release-layer for sticky layer behavior
+  $key (multi
+    (chord alpha-2 $key)
+    ;; Release layer for sticky layer behavior:
+    (release-layer alpha-2))
+  )
 )
 
 (defalias

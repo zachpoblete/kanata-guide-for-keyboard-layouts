@@ -57,12 +57,12 @@
 
 (deftemplate . (key adaptive-key)
   (multi
+    ;; The following if-equal and if-not-equal conditions are for the
+    ;; sticky layer behavior:
     (if-equal     $key $adaptive-key
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
-       ;; one-shot + layer-while-held for sticky layer key behavior
     (if-not-equal $key $adaptive-key
       (release-layer $adaptive-key))
-       ;; release-layer for sticky layer key behavior
     $key
   )
 )
@@ -83,8 +83,8 @@
   (defalias $ak
     (multi
       $ak
+       ;; one-shot + layer-while-held for the sticky layer behavior:
       (one-shot $adaptive-key-timeout (layer-while-held $ak))
-       ;; one-shot + layer-while-held for sticky layer key behavior
     )
   )
 )
