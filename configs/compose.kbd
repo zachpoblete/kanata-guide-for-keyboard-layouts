@@ -28,8 +28,8 @@
   (defseq $character $sequence)
 )
 
-;; This template is needed because shifted compose sequences have at
-;; least two ways they can be triggered:
+;; The shifted-compose-sequence template is needed because shifted compose sequences
+;; have at least two ways they can be triggered:
 ;; 1.  `S-(Key1 Key2)` or
 ;;     -   Press and hold Shift
 ;;     -   Press Key1
