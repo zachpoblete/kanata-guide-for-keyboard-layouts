@@ -453,7 +453,7 @@ The following concepts will help you read and edit the [example configs](#exampl
 
 <ul>
 
-Most lists have the form `(command argument1 argument2 ...)`.
+Most lists have the form `(command argument1 argument2 ...)`. Think of the parentheses `()` as grouping related items together.
 
 The arguments can also be lists.
 
