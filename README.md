@@ -584,7 +584,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 **Layouts**
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with non-standard shift pairs
+    -   A layout with nonstandard shift pairs
 -   [`night.kbd`](configs/night.kbd)
     -   A layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
