@@ -578,7 +578,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
     -   Adds home row mods to an alt layout that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
-    -   A layer for typing symbols
+    -   A layer for symbol keys
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
     -   A layer for navigation keys
 
