@@ -32,23 +32,27 @@
 (t! defchords left-combos)
 (t! defchords right-combos)
 
+;; The following template defines two aliases given `$key`, one for
+;; the left hand and one for the right hand:
+;; - The left hand alias is prefixed with a `-`.
+;; - The right hand alias is suffixed with a `-`.
 (deftemplate key (key)
-  (concat $key -) (chord left-combos  $key)
-  (concat - $key) (chord right-combos $key)
+  (defalias
+    (concat $key -) (chord left-combos  $key)
+    (concat - $key) (chord right-combos $key)
+  )
 )
 
-(defalias
-  (t! key i )
-  (t! key n )
-  (t! key s )
-  (t! key r )
-  (t! key e )
-  (t! key t )
-  (t! key a )
-  (t! key o )
-  (t! key it)
-  (t! key ot)
-)
+(t! key i )
+(t! key n )
+(t! key s )
+(t! key r )
+(t! key e )
+(t! key t )
+(t! key a )
+(t! key o )
+(t! key it)
+(t! key ot)
 
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Symbol aliases
@@ -106,9 +110,9 @@
 
 (deftemplate defchords (name)
   (defchords $name $chord-timeout
-    ;; Use the macro action so that repeat letters are reliably
-    ;; outputted. See nastic.kbd for a method that doesn’t use
-    ;; macro.
+    ;; The chords use the macro action so that repeat letters are
+    ;; reliably outputted. See nastic.kbd for a method that doesn’t
+    ;; use macro.
 
     ;; Columns:
     ;;     Base                       + Inner Thumb                      + Outer Thumb
@@ -166,6 +170,7 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Function keys
 
+;; The following template maps a sequence to a function key.
 (deftemplate fkey (fkey sequence)
   (defvirtualkeys $fkey $fkey)
   (defseq $fkey $sequence)
