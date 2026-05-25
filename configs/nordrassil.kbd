@@ -7,17 +7,17 @@
 )
 
 (defsrc
-  q w e r t   y u i o p
-  a s d f g   h j k l ; '
-  z x c v b   n m , . /
-   lalt spc   ralt rctl
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+   lalt spc  ralt rctl
 )
 
 (deflayer nordrassil
-  q y o u -   j g n w k
-  h i e a .   p d r s l z
-  x / ' , ;   b c m f v
-    spc @L⟐   @R⟐ t
+  q y o u -  j g n w k
+  h i e a .  p d r s l z
+  x / ' , ;  b c m f v
+    spc @L⟐  @R⟐ t
 )
 
 (defalias
