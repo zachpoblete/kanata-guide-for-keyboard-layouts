@@ -566,7 +566,8 @@ You now have a good grasp of the tools used in almost every config.
 
 To learn about any Kanata feature used in a config, see the [Configuration Guide](https://jtroo.github.io/config.html)
 
-**General configs**
+<a name="general-configs"></a>
+<strong>General configs</strong>
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
@@ -581,7 +582,8 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
     -   A layer for navigation keys
 
-**Layouts**
+<a name="layouts"></a>
+<strong>Layouts</strong>
 
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   A layout with nonstandard shift pairs
@@ -596,7 +598,8 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
-**Advanced layouts**
+<a name="advanced-layouts"></a>
+<strong>Advanced layouts</strong>
 
 -   [`lucens.kbd`](configs/lucens.kbd)
     -   A layout with a second layer for typing German letters
