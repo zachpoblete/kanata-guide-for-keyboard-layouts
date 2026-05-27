@@ -4,7 +4,7 @@
 
 This guide shows you how to set up Kanata and run it at startup.
 
-The guide also explains the Kanata configuration format. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also explains how to edit Kanata configs and other key concepts. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
@@ -388,7 +388,7 @@ Your Kanata config will now run in the background at startup.
 
 </details>
 
-## Kanata configuration format
+## Edit the Kanata config
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
@@ -406,7 +406,7 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 )
 ```
 
--   `defsrc` defines your keyboard’s original layout. If your keyboard differs from the `defsrc` in the preceding config, see remapping [non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards).
+-   `defsrc` defines your keyboard’s original layout. If your keyboard differs from the `defsrc` in the preceding config, see [Non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
 -   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 
@@ -445,7 +445,9 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
-### More concepts
+## More config concepts
+
+[Edit the Kanata config](#Edit-the-Kanata-config) explains `defsrc` and `deflayer`.
 
 The following concepts will help you read and edit the [example configs](#example-configs).
 
@@ -570,7 +572,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 <strong>General configs</strong>
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Makes holding the `` ` ``/`~` key  toggle between your alt layout and QWERTY
+    -   Makes holding the backtick `` ` `` key toggle between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Makes holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
 -   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
