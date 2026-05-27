@@ -94,9 +94,10 @@
   )
 )
 
-;; Skip repeat rules have this issue: If you press the skip magic key
-;; while the second-to-last key is still held down, the skip magic key
-;; outputs nothing instead of outputting the second-to-last key again.
+;; Skip repeat rules have the following issue: if you press the skip
+;; magic key while the second-to-last key is still held down, the skip
+;; magic key outputs nothing instead of outputting the second-to-last
+;; key again.
 
 ;; The magic-rule template fixes the issue: if the output key is still
 ;; held down, release the output key before outputting it again. See
