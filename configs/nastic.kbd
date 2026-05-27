@@ -16,13 +16,18 @@
 
 (t! repeated-key y)
 
-;; There’s a problem when two keys both output $key: Pressing the
-;; first key outputs $key as expected, but if you keep holding down
-;; the first key then press the second key, the second key outputs
-;; nothing instead of $key again.
+;; The two `y` keys were not intended to be pressed consecutively, but
+;; their behavior when you press one while the other is still held
+;; down is unexpected:
 
-;; The repeated-key template fixes this: if $key is active, release
-;; $key before outputting it again.
+;; -   Press the first `y` key:
+;;     The first `y` key outputs `y` as expected.
+
+;; -   Press and hold the first `y` key then press the second `y` key:
+;;     The second `y` key outputs nothing instead of `y` again.
+
+;; The repeated-key template fixes the issue: if the output key is
+;; still held down, release the output key before outputting it again.
 (deftemplate repeated-key (key)
   (defvirtualkeys $key
     $key
@@ -35,7 +40,7 @@
           (release-key $key)
 
           ;; $key  ;; Using $key directly here outputs nothing, and it’s unclear why.
-          ;; Using a virtual key works:
+          ;; Instead, if you use a virtual key, it outputs the output key as expected:
           (on-press   press-vkey   $key)
           (on-release release-vkey $key))
         break

@@ -110,9 +110,9 @@
 
 (deftemplate defchords (name)
   (defchords $name $chord-timeout
-    ;; The chords use the macro action so that repeat letters are
-    ;; reliably outputted. See nastic.kbd for a method that doesn’t
-    ;; use macro.
+    ;; The chords use macro to fix an issue that happens when a layout has
+    ;; repeated keys. See nastic.kbd for an explanation of the issue and a
+    ;; solution that doesn’t use macro to output the repeated key.
 
     ;; Columns:
     ;;     Base                       + Inner Thumb                      + Outer Thumb

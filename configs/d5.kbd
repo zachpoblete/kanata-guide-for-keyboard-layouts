@@ -56,14 +56,9 @@
 (t! key l    -e)
 (t! key .    -s)
 
-;; There’s a problem when two keys both output $key: Pressing the
-;; first key outputs $key as expected, but if you keep holding down
-;; the first key then press the second key, the second key outputs
-;; nothing instead of $key again.
-
-;; The output template fixes this: if $key is active, release $key
-;; before outputting it again. See nastic.kbd for an implementation
-;; that doesn’t use macro to output $key.
+;; The output template fixes an issue that happens when a layout has
+;; repeated keys. See nastic.kbd for an explanation of the issue and a
+;; solution that doesn’t use macro to output the output key.
 (deftemplate output (key)
   (switch
     ($key)
