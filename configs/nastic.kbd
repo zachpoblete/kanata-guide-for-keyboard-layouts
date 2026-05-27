@@ -40,7 +40,7 @@
           (release-key $key)
 
           ;; $key  ;; Using $key directly here outputs nothing, and it’s unclear why.
-          ;; Instead, use a virtual key as it outputs the output key as expected:
+          ;; Instead, use a virtual key because it outputs the output key as expected:
           (on-press   press-vkey   $key)
           (on-release release-vkey $key))
         break
