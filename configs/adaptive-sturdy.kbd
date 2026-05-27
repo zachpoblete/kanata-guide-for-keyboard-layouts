@@ -83,7 +83,7 @@
   (defalias $ak
     (multi
       $ak
-       ;; one-shot + layer-while-held for the sticky layer behavior:
+       ;; Use the one-shot + layer-while-held actions for the sticky layer behavior:
       (one-shot $adaptive-key-timeout (layer-while-held $ak))
     )
   )
