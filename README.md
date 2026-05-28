@@ -4,7 +4,7 @@
 
 This guide shows you how to set up Kanata, run it at startup, and change your layout.
 
-The guide also explains key concepts for reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also explains additional concepts for reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
@@ -89,6 +89,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 >   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. Kanata has been [reported to work on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
@@ -115,8 +117,6 @@ Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/star
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
-**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -127,6 +127,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <p></p>
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
 
@@ -146,11 +148,18 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, load the Karabiner daemon:
+1.  In the terminal, register the Karabiner daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    sudo launchctl list | grep org.pqrs
+    ```
+
+    The output lists the Karabiner daemon:
+
+    ```
+    org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon
     ```
 
 ### Set up Kanata
@@ -191,8 +200,6 @@ Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/star
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
-**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -201,6 +208,8 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 <details>
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
+
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice).
 
@@ -225,11 +234,18 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
-1.  In the terminal, load the Karabiner daemon:
+1.  In the terminal, register the Karabiner daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
+    sudo launchctl list | grep org.pqrs
+    ```
+
+    The output lists the Karabiner daemon:
+
+    ```
+    org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon
     ```
 
 ### Set up Kanata
@@ -268,11 +284,9 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
-
-**Troubleshooting**: See [Kanata’s setup guide](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 </details>
 
@@ -289,7 +303,9 @@ Expand the instructions for your operating system.
 
 1.  Create a shortcut of the Kanata executable file: hold the `Alt` key and drag the file anywhere inside the folder.
 
-1.  Move the shortcut to the startup folder: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
+1.  Move the shortcut to the startup folder:
+
+    `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 1.  Right-click the shortcut and select **Properties**.
 
@@ -301,7 +317,7 @@ Expand the instructions for your operating system.
 
     Replace _`KANATA_CONFIG_PATH`_ with the path to the Kanata config file.
 
-    The full target will look like:
+    The full target is similar to the following:
 
     <pre>
     "<var>KANATA_EXECUTABLE_PATH</var>" --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
@@ -309,7 +325,9 @@ Expand the instructions for your operating system.
 
 1. Click **OK**.
 
-Your Kanata config will now run in the background at startup.
+1. To verify the shortcut runs properly, double click the shortcut. The Kanata tray icon appears in the system tray.
+
+Your Kanata config will run in the background at startup.
 
 </details>
 
@@ -341,9 +359,12 @@ Your Kanata config will now run in the background at startup.
 
     ```shell
     sudo systemctl enable kanata.service
+    sudo systemctl is-enabled kanata.service
     ```
 
-Your Kanata config will now run in the background at startup.
+    The output is the following
+
+Your Kanata config will run in the background at startup.
 
 </details>
 
@@ -361,13 +382,13 @@ Your Kanata config will now run in the background at startup.
 1.  Edit the `ProgramArguments` key:
 
     <pre>
-    &lt;key&gt;ProgramArguments&lt;/key&gt;
-    &lt;array&gt;
-        &lt;string&gt;<var>KANATA_EXECUTABLE_PATH</var>&lt;/string&gt;
-        &lt;string&gt;--cfg&lt;/string&gt;
-        &lt;string&gt;<var>KANATA_CONFIG_PATH</var>&lt;/string&gt;
-        &lt;string&gt;--nodelay&lt;/string&gt;
-    &lt;/array&gt;
+        &lt;key&gt;ProgramArguments&lt;/key&gt;
+        &lt;array&gt;
+            &lt;string&gt;<var>KANATA_EXECUTABLE_PATH</var>&lt;/string&gt;
+            &lt;string&gt;--cfg&lt;/string&gt;
+            &lt;string&gt;<var>KANATA_CONFIG_PATH</var>&lt;/string&gt;
+            &lt;string&gt;--nodelay&lt;/string&gt;
+        &lt;/array&gt;
     </pre>
 
     Replace the following:
@@ -377,14 +398,17 @@ Your Kanata config will now run in the background at startup.
 
 1. Save the file.
 
-1.  Open a terminal and load the Kanata daemon:
+1.  Open a terminal and register the Kanata daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/dev.kanata.kanata.plist
+    launchctl list | grep kanata
     ```
 
-Your Kanata config will now run in the background at startup.
+
+
+Your Kanata config will run in the background at startup.
 
 </details>
 
@@ -447,7 +471,7 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 
 [Change your layout](#change-your-layout) explains `defsrc` and `deflayer`.
 
-The following concepts will help you read and edit the [example configs](#example-configs).
+The following concepts help you read and edit the [example configs](#example-configs).
 
 **Lists** make up configs.
 
