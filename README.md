@@ -359,10 +359,7 @@ Your Kanata config will run in the background at startup.
 
     ```shell
     sudo systemctl enable kanata.service
-    sudo systemctl is-enabled kanata.service
     ```
-
-    The output is the following
 
 Your Kanata config will run in the background at startup.
 
@@ -406,7 +403,11 @@ Your Kanata config will run in the background at startup.
     launchctl list | grep kanata
     ```
 
+    The output lists the Kanata daemon:
 
+    ```
+    dev.kanata.kanata
+    ```
 
 Your Kanata config will run in the background at startup.
 
