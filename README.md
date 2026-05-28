@@ -4,7 +4,7 @@
 
 This guide shows you how to set up Kanata, run it at startup, and change the layout.
 
-The guide also explains key concepts to read and edit Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also explains key concepts for reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
