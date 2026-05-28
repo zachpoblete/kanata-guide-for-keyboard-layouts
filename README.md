@@ -406,7 +406,7 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 )
 ```
 
--   `defsrc` defines your keyboard’s original layout. If your keyboard differs from the `defsrc` in the preceding config, see [Non-US keyboards in Kanata](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+-   `defsrc` defines your keyboard’s original layout. The configs in this guide use the [US keyboard](configs/us-keyboard.kbd) for `defsrc`. If you use a different keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
 -   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 

@@ -1,0 +1,36 @@
+;; 60% US keyboard:
+(defsrc
+  `    1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ent
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet menu rctl
+)
+
+(deflayer gallium
+  `    1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  b    l    d    c    v    j    f    o    u    ,    [    ]    \
+  caps n    r    t    s    g    y    h    a    e    i    /    ent
+  lsft x    q    m    w    z    k    p    '    ;    .    rsft
+  lctl lmet lalt           spc            ralt rmet menu rctl
+)
+
+#|
+Abbreviated keys:
+
+spc  = Space
+bspc = Backspace
+tab  = Tab
+ent  = Enter
+caps = Caps Lock
+menu = Menu key
+
+lsft = Left Shift
+rsft = Right Shift
+lctl = Left Control
+rctl = Right Control
+lalt = Left Alt (or Left Option on macOS)
+ralt = Right Alt or AltGr (or Right Option on macOS)
+lmet = Left Windows or Super key (or Left Command on macOS)
+rmet = Right Windows or Super key (or Right Command on macOS)
+|#
