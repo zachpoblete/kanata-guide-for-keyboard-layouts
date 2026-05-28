@@ -570,65 +570,65 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 <strong>General configs</strong>
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Makes holding the backtick `` ` `` key toggle between your alt layout and QWERTY
+    -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
-    -   Makes holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
+    -   Holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
 -   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
-    -   Adds [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods) to an alt layout
+    -   Alt layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
-    -   Adds home row mods to an alt layout that temporarily switch to QWERTY
+    -   Alt layout with home row mods that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
-    -   A layer for symbol keys
+    -   Layer for symbol keys
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
-    -   A layer for navigation keys
+    -   Layer for navigation keys
 
 <a name="layouts"></a>
 <strong>Layouts</strong>
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   A layout with nonstandard shift pairs
+    -   Layout with nonstandard shift pairs
 -   [`night.kbd`](configs/night.kbd)
-    -   A layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
+    -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
-    -   A layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
+    -   Layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
-    -   A layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
+    -   Layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   A layout that has been double-wide modded
+    -   Layout that has been double-wide modded
 -   [`nokwts.kbd`](configs/nokwts.kbd)
-    -   A layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
+    -   Layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
 <a name="advanced-layouts"></a>
 <strong>Advanced layouts</strong>
 
 -   [`lucens.kbd`](configs/lucens.kbd)
-    -   A layout with a second layer for typing German letters
+    -   Layout with a second layer for typing German letters
 -   [`compose.kbd`](configs/compose.kbd)
-    -   A layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
+    -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
-    -   A layout with combos
+    -   Layout with combos
 -   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
-    -   A layout with only two rows
+    -   Layout with only two rows
 -   [`taipo.kbd`](configs/taipo.kbd)
-    -   A layout that can be used one-handed
+    -   Layout that can be used one-handed
 -   [`crescent.kbd`](configs/crescent.kbd)
-    -   A layout with only 10 keys, one for each finger
+    -   Layout with only 10 keys, one for each finger
 -   [`nastic.kbd`](configs/nastic.kbd)
-    -   A layout with repeated keys
+    -   Layout with repeated keys
 -   [`whirl.kbd`](configs/whirl.kbd)
-    -   A layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
+    -   Layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)
-    -   A layout with a skip magic key
+    -   Layout with a skip magic key
 -   [`nordrassil.kbd`](configs/nordrassil.kbd)
-    -   A layout with chiral magic keys
+    -   Layout with chiral magic keys
 -   [`d5.kbd`](configs/d5.kbd)
-    -   A layout with chiral skip magic keys
+    -   Layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
-    -   A layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
+    -   Layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
 -   [`buggy.kbd`](configs/buggy.kbd)
-    -   A layout with two alpha layers
+    -   Layout with two alpha layers
 -   [`power.kbd`](configs/power.kbd)
-    -   A layout with 162 layers
+    -   Layout with 162 layers
 
 ## Reference links
 
