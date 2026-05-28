@@ -1,4 +1,5 @@
 ;; Blog post: https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
+;; A layout with adaptive keys
 
 (defvar
   adaptive-key-timeout 1000

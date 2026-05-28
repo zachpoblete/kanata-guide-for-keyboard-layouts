@@ -1,4 +1,6 @@
 ;; Codeberg repository: https://codeberg.org/StrawberryTurtle/zilpzalp-D5
+;; A layout with chiral skip magic keys
+
 ;; A more complete Kanata implementation: https://github.com/samuelborrasca/D5akl
 ;; (Has layers for navigation and symbols.)
 

@@ -569,14 +569,14 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 <a name="general-configs"></a>
 <strong>General configs</strong>
 
--   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
+-   [`backtick-switches-layouts.kbd`](configs/backtick-switches-layouts.kbd)
     -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
--   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
+-   [`qwerty-shortcuts.kbd`](configs/qwerty-shortcuts.kbd)
     -   Holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
--   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
-    -   Alt layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
--   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
-    -   Alt layout with home row mods that temporarily switch to QWERTY
+-   [`home-row-mods.kbd`](configs/home-row-mods.kbd)
+    -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
+-   [`qwerty-home-row-mods.kbd`](configs/qwerty-home-row-mods.kbd)
+    -   Layout with home row mods that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
     -   Layer for symbol keys
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)

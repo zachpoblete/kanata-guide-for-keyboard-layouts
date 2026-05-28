@@ -1,4 +1,4 @@
-;; Source (Wikipedia): https://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations
+;; A layout with a compose key: https://en.wikipedia.org/wiki/Compose_key
 
 (defcfg
   sequence-timeout    2000

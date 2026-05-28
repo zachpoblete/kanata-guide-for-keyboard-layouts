@@ -1,3 +1,5 @@
+;; A layout with home row mods: https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
+
 (defvar
   tap-time  200
   hold-time 200

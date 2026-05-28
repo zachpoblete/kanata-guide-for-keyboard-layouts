@@ -1,4 +1,5 @@
 ;; Blog post: https://blog.simn.me/posts/2025/afterburner/
+;; A layout with a skip magic key
 
 (defcfg
   process-unmapped-keys yes  ;; So that repeat rules work for unmapped keys

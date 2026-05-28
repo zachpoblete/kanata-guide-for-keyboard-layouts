@@ -1,3 +1,6 @@
+;; A Kanata config that makes holding the Control, Alt, or Super keys
+;; temporarily switch to QWERTY
+
 (defsrc
   q w e r t  y u i o p
   a s d f g  h j k l ; '
