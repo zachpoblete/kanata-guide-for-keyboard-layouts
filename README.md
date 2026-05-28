@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
-This guide shows you how to set up Kanata, run it at startup, and change the layout.
+This guide shows you how to set up Kanata, run it at startup, and change your layout.
 
 The guide also explains key concepts for reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
 
@@ -388,7 +388,7 @@ Your Kanata config will now run in the background at startup.
 
 </details>
 
-## Change the layout
+## Change your layout
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
@@ -445,7 +445,7 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 
 ## More config concepts
 
-[Change the layout](#change-the-layout) explains `defsrc` and `deflayer`.
+[Change your layout](#change-your-layout) explains `defsrc` and `deflayer`.
 
 The following concepts will help you read and edit the [example configs](#example-configs).
 
