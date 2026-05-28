@@ -101,8 +101,8 @@
 
 ;; The magic-rule template fixes the issue: if the output key is still
 ;; held down, release the output key before outputting it again. See
-;; nastic.kbd for an implementation that doesn’t use macro to output
-;; the output key.
+;; nastic.kbd for an implementation that doesn’t use the macro action
+;; to output the output key.
 (deftemplate magic-rule (input-key recency action)
   ((key-history $input-key $recency))
     (if-equal $action rpt

@@ -22,9 +22,9 @@
     (if-equal $letter •
       •)
     (if-not-equal $letter •
-      ;; Use the macro action so that repeat letters are reliably
-      ;; outputted. See nastic.kbd for a method that doesn’t use
-      ;; macro.
+      ;; Use the macro action so that repeat letters are reliably outputted.
+      ;; See nastic.kbd for an explanation of the issue and a solution that
+      ;; doesn’t use macro to output the repeated key.
       (macro $letter))
 
     (if-equal $sequence _base

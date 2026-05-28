@@ -58,7 +58,7 @@
 
 ;; The output template fixes an issue that happens when a layout has
 ;; repeated keys. See nastic.kbd for an explanation of the issue and a
-;; solution that doesn’t use macro to output the output key.
+;; solution that doesn’t use the macro action to output the output key.
 (deftemplate output (key)
   (switch
     ($key)
