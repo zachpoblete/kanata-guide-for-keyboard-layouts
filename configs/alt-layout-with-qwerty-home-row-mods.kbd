@@ -1,4 +1,4 @@
-;; A layout with home row mods that temporarily switch to QWERTY
+;; An alt layout with home row mods that temporarily switch to QWERTY
 
 (defvar
   tap-time 200
