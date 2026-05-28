@@ -2,9 +2,9 @@
 
 [Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, combos, and tap-hold.
 
-This guide shows you how to set up Kanata and run it at startup.
+This guide shows you how to set up Kanata, run it at startup, and change the layout.
 
-The guide also explains how to edit Kanata configs and other key concepts. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also explains key concepts to read and edit Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
@@ -388,7 +388,7 @@ Your Kanata config will now run in the background at startup.
 
 </details>
 
-## Edit the Kanata config
+## Change the layout
 
 The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
@@ -411,8 +411,6 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 -   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
-
-### Change the layout
 
 Use the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy):
 
@@ -447,7 +445,7 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 
 ## More config concepts
 
-[Edit the Kanata config](#Edit-the-Kanata-config) explains `defsrc` and `deflayer`.
+[Change the layout](#change-the-layout) explains `defsrc` and `deflayer`.
 
 The following concepts will help you read and edit the [example configs](#example-configs).
 
