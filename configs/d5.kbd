@@ -2,7 +2,7 @@
 ;; A layout with chiral skip magic keys
 
 ;; A more complete Kanata implementation: https://github.com/samuelborrasca/D5akl
-;; (Has layers for navigation and symbols.)
+;; (Has layers for navigation and symbols)
 
 (defvar
   chord-timeout 50

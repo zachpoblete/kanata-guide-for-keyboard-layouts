@@ -1,4 +1,4 @@
-;; A Kanata config that makes holding the backtick ` key toggles
+;; A Kanata config that makes holding the backtick ` key toggle
 ;; between your alt layout and QWERTY
 
 (defvar

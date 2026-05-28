@@ -572,7 +572,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`backtick-switches-layouts.kbd`](configs/backtick-switches-layouts.kbd)
     -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
 -   [`qwerty-shortcuts.kbd`](configs/qwerty-shortcuts.kbd)
-    -   Holding the `Control`, `Alt`, or `Super` keys temporarily switch to QWERTY
+    -   Holding the `Control`, `Alt`, or `Super` keys temporarily switches to QWERTY
 -   [`home-row-mods.kbd`](configs/home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`qwerty-home-row-mods.kbd`](configs/qwerty-home-row-mods.kbd)
