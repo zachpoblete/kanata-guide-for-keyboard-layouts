@@ -63,6 +63,7 @@
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
     (if-not-equal $key $adaptive-key
       (release-layer $adaptive-key))
+
     $key
   )
 )
