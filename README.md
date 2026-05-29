@@ -48,7 +48,7 @@ Expand the instructions for your operating system.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
-To stop Kanata, press the key combination `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`. This key combination works regardless of what the keys are remapped to.
 
 </details>
 
@@ -78,7 +78,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
-To stop Kanata, press the key combination `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`. This key combination works regardless of what the keys are remapped to.
 
 </details>
 
@@ -117,7 +117,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
-To stop Kanata, press the key combination `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`. This key combination works regardless of what the keys are remapped to.
 
 </details>
 
@@ -196,7 +196,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
-To stop Kanata, press the key combination `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`. This key combination works regardless of what the keys are remapped to.
 
 </details>
 
@@ -280,7 +280,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
-To stop Kanata, press the key combination `Left Control + Space + Escape`.
+To stop Kanata, press the key combination `Left Control + Space + Escape`. This key combination works regardless of what the keys are remapped to.
 
 </details>
 
