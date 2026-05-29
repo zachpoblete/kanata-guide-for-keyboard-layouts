@@ -411,7 +411,7 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
+The `example.kbd` config consists of 2 parts, `defsrc` and `deflayer`:
 
 ```
 (defsrc
@@ -480,7 +480,7 @@ The arguments can also be lists.
 
 </ul>
 
-**Comments** are prefixed with two semicolons `;;`.
+**Comments** are prefixed with 2 semicolons `;;`.
 
 <ul>
 
@@ -611,13 +611,13 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 <strong>Advanced layouts</strong>
 
 -   [`lucens.kbd`](configs/lucens.kbd)
-    -   Layout with a second layer for typing German letters
+    -   Layout with a 2nd layer for typing German letters
 -   [`compose.kbd`](configs/compose.kbd)
     -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
     -   Layout with combos
 -   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
-    -   Layout with only two rows
+    -   Layout with only 2 rows
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   Layout that can be used one-handed
 -   [`crescent.kbd`](configs/crescent.kbd)
@@ -635,7 +635,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
     -   Layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
 -   [`buggy.kbd`](configs/buggy.kbd)
-    -   Layout with two alpha layers
+    -   Layout with 2 alpha layers
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
 
