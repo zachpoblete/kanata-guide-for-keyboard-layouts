@@ -1,10 +1,10 @@
 # Kanata Guide for Alt Layouts
 
-[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS. It lets you use [alternate layouts](https://layouts.wiki/guides/start/intro/) on any keyboard and supports advanced features like layers, home row mods, and magic keys.
+[Kanata](https://github.com/jtroo/kanata) is a keyboard remapper for Windows, Linux, and macOS that lets you use [alt layouts](https://layouts.wiki/guides/start/intro/) on any keyboard.
 
 This guide shows you how to set up Kanata, run it at startup, and change your layout.
 
-The guide also covers the basics of reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
+It also explains the basics of reading and editing Kanata configs. See the [example configs](#example-configs) to explore what's possible, such as symbol layers, home row mods, and magic keys.
 
 ## Set up Kanata
 
