@@ -158,11 +158,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl list | grep org.pqrs
     ```
 
-    The output lists the Karabiner daemon:
-
-    ```
-    org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon
-    ```
+    The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
 ### Set up Kanata
 
@@ -244,11 +240,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     sudo launchctl list | grep org.pqrs
     ```
 
-    The output lists the Karabiner daemon:
-
-    ```
-    org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon
-    ```
+    The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
 ### Set up Kanata
 
@@ -409,11 +401,7 @@ Your Kanata config will run in the background at startup.
     launchctl list | grep dev.kanata
     ```
 
-    The output lists the Kanata daemon:
-
-    ```
-    dev.kanata.kanata
-    ```
+    The output lists the Kanata daemon `dev.kanata.kanata`.
 
 Your Kanata config will run in the background at startup.
 
