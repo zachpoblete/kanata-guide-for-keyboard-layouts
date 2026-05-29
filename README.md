@@ -521,7 +521,7 @@ Use the `tap-hold` action to make holding Caps Lock activate Left Control:
 
 Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 
-Use an alias for the `tap-hold` action from the previous example:
+Use an alias for the `tap-hold` action:
 
 ```
 (deflayer example
@@ -554,7 +554,7 @@ Similar lists items like `defvar` can also define multiple variables.
 
 Defined in `defvar`, variables are used by prefixing the variable name with `$`.
 
-Use variables for the `200 200` parameters from the previous examples:
+Use variables for the `200 200` parameters:
 
 ```
 (defvar
