@@ -44,6 +44,8 @@ Expand the instructions for your operating system.
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
         ```
 
+    The Kanata tray icon appears in the system tray.
+
 Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
