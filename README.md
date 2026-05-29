@@ -4,7 +4,7 @@
 
 This guide shows you how to set up Kanata, run it at startup, and change your layout.
 
-The guide also explains concepts for reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
+The guide also covers the basics of reading and editing Kanata configs. See the [example configs](#example-configs) to explore what Kanata can do.
 
 ## Set up Kanata
 
@@ -468,7 +468,7 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
-## More config concepts
+## Config basics
 
 [Change your layout](#change-your-layout) explains `defsrc` and `deflayer`.
 
