@@ -217,8 +217,8 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
 
 1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
-    -   Disable **Karabiner-Elements Privileged Daemons**.
-    -   Disable **Karabiner-Elements Privileged Daemons v2**.
+    -   **Karabiner-Elements Privileged Daemons**
+    -   **Karabiner-Elements Privileged Daemons v2**
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
@@ -305,7 +305,9 @@ Expand the instructions for your operating system.
 
 1.  Move the shortcut to the startup folder:
 
-    `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
+    ```
+    %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+    ```
 
 1.  Right-click the shortcut and select **Properties**.
 
@@ -322,6 +324,8 @@ Expand the instructions for your operating system.
     <pre>
     "<var>KANATA_EXECUTABLE_PATH</var>" --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
     </pre>
+
+    _`KANATA_EXECUTABLE_PATH`_ is the path to the Kanata executable file.
 
 1. Click **OK**.
 
@@ -400,7 +404,7 @@ Your Kanata config will run in the background at startup.
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
     sudo launchctl bootstrap system /Library/LaunchDaemons/dev.kanata.kanata.plist
-    launchctl list | grep kanata
+    launchctl list | grep dev.kanata
     ```
 
     The output lists the Kanata daemon:
