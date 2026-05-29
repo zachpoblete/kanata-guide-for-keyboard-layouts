@@ -619,7 +619,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
     -   Layout with only 2 rows
 -   [`taipo.kbd`](configs/taipo.kbd)
-    -   Layout that can be used one-handed
+    -   Layout that can be used with 1 hand
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   Layout with only 10 keys, one for each finger
 -   [`nastic.kbd`](configs/nastic.kbd)
