@@ -295,7 +295,9 @@ Expand the instructions for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Create a shortcut of the Kanata executable file: hold the `Alt` key and drag the file anywhere inside the folder.
+1.  Create a shortcut of the Kanata executable file.
+
+    If you don’t know how, how the `Alt` key and drag the file anywhere inside the folder.
 
 1.  Move the shortcut to the startup folder:
 
@@ -522,10 +524,6 @@ Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 Use an alias for the `tap-hold` action from the previous example:
 
 ```
-(defsrc
-   caps a s d f
-)
-
 (deflayer example
   @caps a s d f
 )
@@ -562,14 +560,6 @@ Use variables for the `200 200` parameters from the previous examples:
 (defvar
   tap-time  200
   hold-time 200
-)
-
-(defsrc
-   caps a s d f
-)
-
-(deflayer example
-  @caps a s d f
 )
 
 (defalias caps
