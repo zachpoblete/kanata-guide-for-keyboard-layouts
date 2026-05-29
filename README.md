@@ -44,7 +44,7 @@ Expand the instructions for your operating system.
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -74,7 +74,7 @@ To stop Kanata, press the key combination `Left Control + Space + Escape`.
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -113,7 +113,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
@@ -196,7 +196,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is now `b`. Try other letters!
+Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&hairsp;&mdash;&hairsp;its output is `b`. Try other letters!
 
 To stop Kanata, press the key combination `Left Control + Space + Escape`.
 
