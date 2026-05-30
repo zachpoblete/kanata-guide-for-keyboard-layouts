@@ -6,7 +6,7 @@ In this guide:
 -   [Set up Kanata](#set-up-kanata)
 -   [Run Kanata at startup](#run-kanata-at-startup)
 -   [Change your layout](#change-your-layout)
--   [Config basics](#config-basics)
+-   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs) (symbol layers, home row mods, magic keys, and more)
 
 ## Set up Kanata
@@ -463,7 +463,7 @@ To use a different layout, edit the keys in `deflayer` (and rename the layer to 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
-## Config basics
+## Basics of a Kanata config
 
 [Change your layout](#change-your-layout) explains `defsrc` and `deflayer`.
 
