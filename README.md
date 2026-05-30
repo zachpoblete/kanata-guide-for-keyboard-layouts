@@ -50,7 +50,7 @@ Expand the instructions for your operating system.
 
     The Kanata tray icon appears in the system tray.
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
 
 **To stop Kanata, press the key combination `Left Control + Space + Escape`.** Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -80,7 +80,7 @@ Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/star
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
 
 **To stop Kanata, press the key combination `Left Control + Space + Escape`.** Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -119,7 +119,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
 
 **To stop Kanata, press the key combination `Left Control + Space + Escape`.** Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -198,7 +198,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
 
 **To stop Kanata, press the key combination `Left Control + Space + Escape`.** Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -282,7 +282,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
-Your keyboard is now using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
 
 **To stop Kanata, press the key combination `Left Control + Space + Escape`.** Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
