@@ -626,14 +626,6 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
 
-## Reference links
-
--   [Kanata Configuration Guide](https://jtroo.github.io/config.html)
--   [List of known Kanata issues](https://github.com/jtroo/kanata/blob/main/docs/platform-known-issues.adoc)
--   [Key names for `defsrc` and `deflayermap`](https://jtroo.github.io/config.html#key-names)
--   [Windows: enable Kanata in elevated windows](https://jtroo.github.io/config.html#windows-only-work-elevated)
--   [VS Code: Kanata language support](https://github.com/rszyma/vscode-kanata)
-
 ## Feedback
 
 Questions, bug reports, and suggestions are welcome&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
