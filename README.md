@@ -551,7 +551,7 @@ The following `defalias` defines aliases named `a`, `s`, `d`, and `f` that each 
 
 Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines multiple variables in a similar way to `defalias`.
 
-Use two variables for the two `200` parameters:
+Use two variables for the two `200` parameters in the `tap-hold` action:
 
 ```
 (defvar
