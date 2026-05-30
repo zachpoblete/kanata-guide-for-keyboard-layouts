@@ -649,4 +649,4 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 
 ## Feedback
 
-If anything in the guide is unclear or doesn’t work, or if you have suggestions, open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
+Questions, bug reports, and suggestions are welcome&hairsp;&mdash;&hairsp;open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
