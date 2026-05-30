@@ -31,6 +31,6 @@ lctl = Left Control
 rctl = Right Control
 lalt = Left Alt (or Left Option on macOS)
 ralt = Right Alt or AltGr (or Right Option on macOS)
-lmet = Left Windows or Super key (or Left Command on macOS)
-rmet = Right Windows or Super key (or Right Command on macOS)
+lmet = Left Windows key or Left Super key (or Left Command on macOS)
+rmet = Right Windows key or Left Super key (or Right Command on macOS)
 |#
