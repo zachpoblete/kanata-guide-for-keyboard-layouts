@@ -427,7 +427,7 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 )
 ```
 
--   `defsrc` defines your keyboard’s original layout. The configs in this guide use the [US keyboard](configs/us-keyboard.kbd) for `defsrc`. If you use a different keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+-   `defsrc` defines your keyboard’s original layout. The configs in this guide use the US keyboard for `defsrc`. If you use a different keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
 -   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 
@@ -437,7 +437,10 @@ Use a different layout:
 
 1.  Open the `example.kbd` config with a text editor.
 
-1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`. For the names of keys, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config and [Key names](https://jtroo.github.io/config.html#key-names).
+1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`.
+
+    -   For common key names you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
+    -   For all key names you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 1. Edit the keys in `deflayer` (and rename the layer to match.)
 
