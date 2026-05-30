@@ -2,7 +2,8 @@
 
 This guide shows you how to use [alt layouts](https://layouts.wiki/guides/start/intro/) with [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard.
 
-In this guide:
+### In this guide
+
 -   [Set up Kanata](#set-up-kanata)
 -   [Run Kanata at startup](#run-kanata-at-startup)
 -   [Change your layout](#change-your-layout)
