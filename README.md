@@ -435,13 +435,15 @@ Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
 Use a different layout:
 
-1. Open the `example.kbd` config with a text editor.
+1.  Open the `example.kbd` config with a text editor.
+
+1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`. For the names of keys, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config and [Key names](https://jtroo.github.io/config.html#key-names).
 
 1. Edit the keys in `deflayer` (and rename the layer to match.)
 
-1. Save the file.
+1.  Save the file.
 
-1. Run Kanata with the `example.kbd` config again.
+1.  Run Kanata with the `example.kbd` config again.
 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
