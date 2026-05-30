@@ -453,21 +453,11 @@ Use a different layout:
 
 ## Basics of a Kanata config
 
-[Change your layout](#change-your-layout) explains `defsrc` and `deflayer`.
+[Change your layout](#change-your-layout) explains the two requirements in a config, `defsrc` and `deflayer`.
 
 The following concepts help you read and edit the [example configs](#example-configs).
 
-**Lists** make up configs.
-
-<ul>
-
-Most lists have the form `(command argument1 argument2 ...)`. Think of the parentheses `()` as grouping related items together.
-
-The arguments can also be lists.
-
-</ul>
-
-**Comments** are prefixed with 2 semicolons `;;`.
+**Comments** are prefixed with two semicolons `;;`.
 
 <ul>
 
@@ -484,9 +474,21 @@ For example:
 
 </ul>
 
+**Lists** make up configs.
+
+<ul>
+
+Most lists have the form `(command argument1 argument2 ...)`. Think of the parentheses `()` as grouping related items together. The arguments can also be lists.
+
+Examples  of lists are `defsrc` and `deflayer`.
+
+</ul>
+
 **Actions** are what you bind to keys.
 
 <ul>
+
+Many actions are lists, such as the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold).
 
 Use the `tap-hold` action to make holding Caps Lock activate Left Control:
 
@@ -520,7 +522,17 @@ Use an alias for the `tap-hold` action:
 )
 ```
 
-You can define multiple aliases in a single `defalias`:
+`defalias` defines multiple aliases using the following form:
+
+```
+(defalias
+  alias-name1 action1
+  alias-name2 action2
+  ...
+)
+```
+
+The following `defalias` defines aliases named `a`, `s`, `d`, and `f` that each map to a `tap-hold` action:
 
 ```
 (defalias
@@ -531,17 +543,15 @@ You can define multiple aliases in a single `defalias`:
 )
 ```
 
-Similar lists items like `defvar` can also define multiple variables.
-
 </ul>
 
 **Variables** are named shortcuts for strings or lists.
 
 <ul>
 
-Defined in `defvar`, variables are used by prefixing the variable name with `$`.
+Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines multiple variables in a similar way to `defalias`.
 
-Use variables for the `200 200` parameters:
+Use two variables for the two `200` parameters:
 
 ```
 (defvar
