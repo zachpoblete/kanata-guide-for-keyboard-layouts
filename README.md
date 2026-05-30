@@ -433,33 +433,15 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
 
-Use the [Sturdy layout](https://layouts.wiki/guides/start/recommendations/#sturdy):
+Use a different layout:
 
 1. Open the `example.kbd` config with a text editor.
 
-1. Replace the contents with the following config:
-
-    ```
-    (defsrc
-      q w e r t  y u i o p
-      a s d f g  h j k l ; '
-      z x c v b  n m , . /
-    )
-
-    (deflayer sturdy
-      v m l c p  x f o u j
-      s t r d y  . n a e i /
-      z k q g w  b h ' ; ,
-    )
-    ```
+1. Edit the keys in `deflayer` (and rename the layer to match.)
 
 1. Save the file.
 
 1. Run Kanata with the `example.kbd` config again.
-
-Press your `q` key. Its output is now `v`.
-
-To use a different layout, edit the keys in `deflayer` (and rename the layer to match).
 
 >   [!TIP]
 >   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
