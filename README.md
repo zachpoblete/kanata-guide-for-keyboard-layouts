@@ -431,7 +431,7 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 -   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
 
-Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.
+**Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.**
 
 Use a different layout:
 
