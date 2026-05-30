@@ -297,13 +297,9 @@ Expand the instructions for your operating system.
 
 1.  Create a shortcut of the Kanata executable file.
 
-    If you don’t know how, how the `Alt` key and drag the file anywhere inside the folder.
+    If you don’t know how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
-1.  Move the shortcut to the startup folder:
-
-    ```
-    %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
-    ```
+1.  Move the shortcut to the startup folder `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
 1.  Right-click the shortcut and select **Properties**.
 
