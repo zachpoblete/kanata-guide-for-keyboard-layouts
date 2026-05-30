@@ -411,7 +411,7 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-The `example.kbd` config consists of 2 parts, `defsrc` and `deflayer`:
+The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 ```
 (defsrc
