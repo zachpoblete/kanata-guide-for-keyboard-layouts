@@ -467,7 +467,7 @@ For example:
 ;; Comments are ignored.
 
 (defsrc
-   caps a s d f  ;; This is an inline comment.
+  caps a s d f  ;; This is an inline comment.
 )
 ```
 
@@ -493,7 +493,7 @@ Use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
 
 ```
 (defsrc
-   caps a s d f
+  caps a s d f
 )
 
 (deflayer example
