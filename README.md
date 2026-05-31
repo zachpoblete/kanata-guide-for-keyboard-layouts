@@ -478,7 +478,7 @@ For example:
 
 <ul>
 
-Most lists have the form `(command argument1 argument2 ...)`. The parentheses `()` group related items together, and the arguments can be lists themselves.
+Most lists have the form `(command argument1 argument2 ...)`. The parentheses `()` group related items together. The arguments can be lists themselves.
 
 Examples of lists are `defsrc` and `deflayer`.
 
