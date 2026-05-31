@@ -433,7 +433,7 @@ The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
 
 **Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.**
 
-Use a different layout:
+Change your layout:
 
 1.  Open the `example.kbd` config with a text editor.
 
@@ -442,14 +442,13 @@ Use a different layout:
     -   For common key names you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
     -   For all key names you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-1. Edit the keys in `deflayer` (and rename the layer to match.)
+1.  Edit the keys in `deflayer` (and rename the layer to match.)
+
+    To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
 1.  Save the file.
 
 1.  Run Kanata with the `example.kbd` config again.
-
->   [!TIP]
->   To quickly try new layouts, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
 ## Basics of a Kanata config
 
