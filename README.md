@@ -442,7 +442,7 @@ Change your layout:
     -   For common keys you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-1.  Edit the keys in `deflayer` (and rename the layer to match.)
+1.  Edit the keys in `deflayer` (and rename the layer.) Match the number of keys in `deflayer` to the number of keys in `defsrc`.
 
     To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
