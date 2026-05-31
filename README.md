@@ -490,7 +490,7 @@ Examples of lists are `defsrc` and `deflayer`.
 
 Many actions are lists, such as the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold).
 
-Use the `tap-hold` action to make holding Caps Lock activate Left Control:
+Use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
 
 ```
 (defsrc
