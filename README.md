@@ -478,9 +478,9 @@ For example:
 
 <ul>
 
-Most lists have the form `(command argument1 argument2 ...)`. Think of the parentheses `()` as grouping related items together. The arguments can also be lists.
+Most lists have the form `(command argument1 argument2 ...)`. The parentheses `()` group related items together, and the arguments can be lists themselves.
 
-Examples  of lists are `defsrc` and `deflayer`.
+Examples of lists are `defsrc` and `deflayer`.
 
 </ul>
 
@@ -510,19 +510,7 @@ Use the `tap-hold` action to make holding Caps Lock activate Left Control:
 
 Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 
-Use an alias for the `tap-hold` action:
-
-```
-(deflayer example
-  @caps a s d f
-)
-
-(defalias caps
-  (tap-hold 200 200 caps lctl)
-)
-```
-
-`defalias` defines multiple aliases using the following form:
+`defalias` defines aliases using the following form:
 
 ```
 (defalias
@@ -532,14 +520,15 @@ Use an alias for the `tap-hold` action:
 )
 ```
 
-The following `defalias` defines aliases named `a`, `s`, `d`, and `f` that each map to a `tap-hold` action:
+Use an alias named `caps` for the `tap-hold` action:
 
 ```
+(deflayer example
+  @caps a s d f
+)
+
 (defalias
-  a (tap-hold 200 200 a lmet)
-  s (tap-hold 200 200 s lalt)
-  d (tap-hold 200 200 d lsft)
-  f (tap-hold 200 200 f lctl)
+  caps (tap-hold 200 200 caps lctl)
 )
 ```
 
@@ -549,9 +538,9 @@ The following `defalias` defines aliases named `a`, `s`, `d`, and `f` that each 
 
 <ul>
 
-Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines multiple variables in a similar way to `defalias`.
+Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines variables in a similar way to `defalias`.
 
-Use two variables for the two `200` parameters in the `tap-hold` action:
+Use variables named `tap-time` and `hold-time` for the two `200` parameters in the `tap-hold` action:
 
 ```
 (defvar
@@ -559,8 +548,8 @@ Use two variables for the two `200` parameters in the `tap-hold` action:
   hold-time 200
 )
 
-(defalias caps
-  (tap-hold $tap-time $hold-time caps lctl)
+(defalias
+  caps (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
 
