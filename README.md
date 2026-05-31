@@ -519,7 +519,7 @@ Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 )
 ```
 
-Define an alias for the `tap-hold` action:
+Replace the `tap-hold` action from the previous example with an alias:
 
 ```
 (defalias
