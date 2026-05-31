@@ -460,7 +460,7 @@ The following concepts help you read and edit the [example configs](#example-con
 
 <ul>
 
-For example:
+Use comments:
 
 ```
 ;; This is a comment.
