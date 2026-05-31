@@ -520,15 +520,15 @@ Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
 )
 ```
 
-Use an alias named `caps` for the `tap-hold` action:
+Define an alias for the `tap-hold` action:
 
 ```
-(deflayer example
-  @caps a s d f
-)
-
 (defalias
   caps (tap-hold 200 200 caps lctl)
+)
+
+(deflayer example
+  @caps a s d f
 )
 ```
 
@@ -540,7 +540,7 @@ Use an alias named `caps` for the `tap-hold` action:
 
 Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines variables in a similar way to `defalias`.
 
-Use variables named `tap-time` and `hold-time` for the two `200` parameters in the `tap-hold` action:
+In the previous example, the `tap-hold` action takes two `200` parameters. Replace them with variables:
 
 ```
 (defvar
