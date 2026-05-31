@@ -439,8 +439,8 @@ Change your layout:
 
 1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`.
 
-    -   For common key names you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
-    -   For all key names you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
+    -   For common keys you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
+    -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 1.  Edit the keys in `deflayer` (and rename the layer to match.)
 
