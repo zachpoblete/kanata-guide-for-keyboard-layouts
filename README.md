@@ -411,7 +411,7 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-The `example.kbd` config consists of two parts, `defsrc` and `deflayer`:
+The `example.kbd` config consists of a `defsrc` and `deflayer` entry:
 
 ```
 (defsrc
@@ -452,9 +452,17 @@ Change your layout:
 
 ## Basics of a Kanata config
 
-[Change your layout](#change-your-layout) explains the two requirements in a config, `defsrc` and `deflayer`.
-
 The following concepts help you read and edit the [example configs](#example-configs).
+
+**`defsrc` and `deflayer`** are the two required entries.
+
+<ul>
+
+They are explained in [Change your layout](#change-your-layout).
+
+You must have only one `defsrc` entry and at least one `deflayer` entry.
+
+</ul>
 
 **Comments** are prefixed with two semicolons `;;`.
 
