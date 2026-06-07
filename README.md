@@ -313,7 +313,7 @@ Expand the instructions for your operating system.
      --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
     </pre>
 
-    Replace _`KANATA_CONFIG_PATH`_ with the path to the Kanata config file.
+    Replace _`KANATA_CONFIG_PATH`_ with the path to your Kanata config file.
 
     The full target is similar to the following:
 
@@ -351,7 +351,7 @@ Your Kanata config will run in the background at startup.
     Replace the following:
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+    -   _`KANATA_CONFIG_PATH`_: the path to your Kanata config file
 
 1. Save the file.
 
@@ -391,7 +391,7 @@ Your Kanata config will run in the background at startup.
     Replace the following:
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+    -   _`KANATA_CONFIG_PATH`_: the path to your Kanata config file
 
 1. Save the file.
 
@@ -411,38 +411,30 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-The `example.kbd` config consists of a `defsrc` and `deflayer` entry:
-
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
-
-(deflayer gallium
-  b l d c v  j f o u ,
-  n r t s g  y h a e i /
-  x q m w z  k p ' ; .
-)
-```
-
--   `defsrc` defines your keyboard’s original layout. The configs in this guide use the US keyboard for `defsrc`. If you use a different keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
-
--   `deflayer` defines a keyboard layer. In the preceding config, `deflayer` creates the `gallium` layer, remapping your keyboard to the Gallium layout.
-
-**Kanata works by mapping keys from `defsrc` to `deflayer` position-by-position.**
-
-Change your layout:
-
 1.  Open the `example.kbd` config with a text editor.
 
-1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`.
+    ```
+    (defsrc
+      q w e r t  y u i o p
+      a s d f g  h j k l ; '
+      z x c v b  n m , . /
+    )
+
+    (deflayer gallium
+      b l d c v  j f o u ,
+      n r t s g  y h a e i /
+      x q m w z  k p ' ; .
+    )
+    ```
+
+    Kanata remaps a keyboard by mapping keys from the `defsrc` entry to the `deflayer` entry position-by-position.
+
+1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`. If your keyboard’s original layout differs from the preceding `defsrc` entry, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
     -   For common keys you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-1.  Edit the keys in `deflayer` (and rename the layer.) Match the number of keys in `deflayer` to the number of keys in `defsrc`.
+1.  In the `deflayer` entry, rename `gallium` to your layout and edit the keys. Match the number of keys in `deflayer` to the number of keys in `defsrc`.
 
     To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
 
@@ -453,16 +445,6 @@ Change your layout:
 ## Basics of a Kanata config
 
 The following concepts help you read and edit the [example configs](#example-configs).
-
-**`defsrc` and `deflayer`** are the two required entries.
-
-<ul>
-
-They are explained in [Change your layout](#change-your-layout).
-
-You must have only one `defsrc` entry and at least one `deflayer` entry.
-
-</ul>
 
 **Comments** are prefixed with two semicolons `;;`.
 
@@ -475,7 +457,7 @@ For example:
 ;; Comments are ignored.
 
 (defsrc
-  caps a s d f  ;; Comments can be appended at the end of a line.
+  caps a s d f  ;; Comments can be appended to a line.
 )
 ```
 
@@ -491,13 +473,13 @@ Usually, the first item is a command and the rest are arguments, such as in `def
 
 </ul>
 
-**Actions** are what you bind to keys.
+**Actions** are what you map to keys.
 
 <ul>
 
 Many actions are lists, such as the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold).
 
-Use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
+For example, use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
 
 ```
 (defsrc
@@ -542,7 +524,7 @@ Use an alias for the `tap-hold` action:
 
 </ul>
 
-**Variables** are named shortcuts for strings or lists.
+**Variables** are named shortcuts for a strings or lists.
 
 <ul>
 
@@ -646,4 +628,4 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 
 ## Feedback
 
-Found an issue or have a question? Open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) (you may mention me @novachromatic).
+Found an issue or have a question? Open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) (you may mention @novachromatic).
