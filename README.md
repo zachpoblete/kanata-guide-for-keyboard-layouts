@@ -411,7 +411,7 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-1.  Open the [`example.kbd`](configs/example.kbd) config with a text editor.
+1.  Open the [`example.kbd` config](configs/example.kbd) with a text editor.
 
     Kanata remaps a keyboard by mapping keys from the `defsrc` entry to the `deflayer` entry position-by-position.
 
