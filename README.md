@@ -477,7 +477,7 @@ For example:
 
 <ul>
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any number of space or tab characters.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any number of whitespace characters.
 
 Usually, the first item is a command and the rest are arguments, such as in `defsrc` and `deflayer`.
 
