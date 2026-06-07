@@ -95,7 +95,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 >   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. There was a [report of Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
@@ -134,7 +134,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 ### Set up the Karabiner driver
 
@@ -211,7 +211,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 ### Set up the Karabiner driver
 
@@ -568,13 +568,13 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
     -   Holding the `Control`, `Alt`, or `Super` keys temporarily switches to QWERTY
 -   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
-    -   Alt layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
+    -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
-    -   Alt layout with home row mods that temporarily switch to QWERTY
+    -   Layout with home row mods that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
-    -   Alt layout with a 2nd layer for symbol keys
+    -   Layout with a 2nd layer for symbol keys
 -   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
-    -   Alt layout with a 2nd layer for navigation keys
+    -   Layout with a 2nd layer for navigation keys
 
 <a name="layouts"></a>
 <strong>Layouts</strong>
@@ -596,7 +596,7 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 <strong>Advanced layouts</strong>
 
 -   [`lucens.kbd`](configs/lucens.kbd)
-    -   Layout with a 2nd layer for typing German letters
+    -   Layout with a 2nd layer for German letters
 -   [`compose.kbd`](configs/compose.kbd)
     -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
@@ -626,4 +626,4 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 
 ## Feedback
 
-Questions, bug reports, and suggestions are welcome&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or message me (@novachromatic) on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
+Found an issue or have a question? Open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) (you may mention me @novachromatic).
