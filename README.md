@@ -477,7 +477,7 @@ For example:
 
 <ul>
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any number of whitespace characters.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any amount of whitespace characters.
 
 Usually, the first item is a command and the rest are arguments, such as in `defsrc` and `deflayer`.
 
@@ -507,17 +507,18 @@ Use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
 
 <ul>
 
-Defined in `defalias`, aliases are used by prefixing the alias name with `@`.
-
-`defalias` defines aliases using the following form:
+Aliases are defined in a `defalias` entry, which has the following form:
 
 ```
 (defalias
-  alias-name1 action1
-  alias-name2 action2
+  alias1-name alias1-action
+  alias2-name alias2-action
+  alias3-name alias3-action
   ...
 )
 ```
+
+Aliases are used by prefixing the alias name with `@`.
 
 Use an alias for the `tap-hold` action:
 
@@ -537,9 +538,20 @@ Use an alias for the `tap-hold` action:
 
 <ul>
 
-Defined in `defvar`, variables are used by prefixing the variable name with `$`. `defvar` defines variables in a similar way to `defalias`.
+Variables are defined in a `defvar` entry, which has the following form:
 
-In the previous example, the `tap-hold` action takes two `200` parameters. Replace them with variables:
+```
+(defvar
+  variable1-name variable1-value
+  variable2-name variable2-value
+  variable3-name variable3-value
+  ...
+)
+```
+
+Variables are used by prefixing the variable name with `$`.
+
+Use variables for the two `200` parameters in the `tap-hold` action:
 
 ```
 (defvar
