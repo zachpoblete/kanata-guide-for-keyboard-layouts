@@ -1,5 +1,7 @@
 ;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1502775637390393455
-;; A layout with repeated keys
+
+;; This Kanata config implements a layout that has repeated keys.
+;; Specifically, Nastic has two `y` keys.
 
 (defsrc
   q  w  e  r  t    y  u  i  o  p
@@ -17,18 +19,10 @@
 
 (t! repeated-key y)
 
-;; The two `y` keys were not intended to be pressed consecutively, but
-;; their behavior when you press one while the other is still held
-;; down is unexpected:
-
-;; -   Press the first `y` key:
-;;     The first `y` key outputs `y` as expected.
-
-;; -   Press and hold the first `y` key then press the second `y` key:
-;;     The second `y` key outputs nothing instead of `y` again.
-
-;; The repeated-key template fixes the issue: if the output key is
-;; still held down, release the output key before outputting it again.
+;; Without the repeated-key template, pressing a 2nd `y` key while the
+;; 1st `y` key is still held outputs nothing because the `y` key is
+;; already considered pressed. This template fixes that by
+;; releasing `y` first, so the 2nd `y` can re-press it.
 (deftemplate repeated-key (key)
   (defvirtualkeys $key
     $key
@@ -40,8 +34,8 @@
         (multi
           (release-key $key)
 
-          ;; $key  ;; Using $key directly here outputs nothing, and it’s unclear why.
-          ;; Instead, use a virtual key because it outputs the output key as expected:
+          ;; $key  ;; Using $key directly here outputs nothing (reason unknown).
+          ;; Using a virtual key works as expected:
           (on-press   press-vkey   $key)
           (on-release release-vkey $key))
         break

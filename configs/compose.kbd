@@ -28,22 +28,14 @@
   (defseq $character $sequence)
 )
 
-;; The shifted-compose-sequence template is needed because shifted
-;; compose sequences have at least two ways they can be triggered:
-;; 1.  `S-(Key1 Key2)` or
-;;     -   Press and hold Shift
-;;     -   Press Key1
-;;     -   Press Key2
-;; 2.  `S-Key1 S-Key2` or
-;;     -   Press and hold Shift
-;;     -   Press Key1
-;;     -   Release Shift
-;;     -   Press and hold Shift
-;;     -   Press Key2
-(deftemplate shifted-compose-sequence (character sequence-1 sequence-2)
+;; The shifted-compose-sequence template defines two sequences
+;; because you can type shifted sequences in two ways:
+;; -  Hold shift throughout:      `S-(Key1 Key2)`
+;; -  Repress shift for each key: `S-Key1 S-Key2`
+(deftemplate shifted-compose-sequence (character sequence-shift-held sequence-shift-repressed)
   (defvirtualkeys $character (unicode $character))
-  (defseq $character $sequence-1)
-  (defseq $character $sequence-2)
+  (defseq $character $sequence-shift-held)
+  (defseq $character $sequence-shift-repressed)
 )
 
 (t! compose-sequence         ä ( S-' a))

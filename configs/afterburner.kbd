@@ -95,21 +95,18 @@
   )
 )
 
-;; Skip repeat rules have the following issue: if you press the skip
-;; magic key while the second-to-last key is still held down, the skip
-;; magic key outputs nothing instead of outputting the second-to-last
-;; key again.
-
-;; The magic-rule template fixes the issue: if the output key is still
-;; held down, release the output key before outputting it again. See
-;; nastic.kbd for an implementation that doesn’t use the macro action
-;; to output the output key.
+;; Without the magic-rule template, skip repeat rules don’t work:
+;; pressing the skip magic key while the second-to-last key is still
+;; held down outputs nothing. This template fixes that by releasing
+;; the output key before outputting it again.
 (deftemplate magic-rule (input-key recency action)
   ((key-history $input-key $recency))
     (if-equal $action rpt
       (multi
         (release-key $input-key)
         (macro $input-key)))
+        ;; For a solution that doesn’t use the macro action, see the
+        ;; repeated-key template in nastic.kbd
     (if-not-equal $action rpt
       (multi
         (release-key $action)  ;; This assumes $action is a single key.
