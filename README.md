@@ -463,9 +463,7 @@ Usually, the first item is a command and the rest are arguments, such as in the 
 
 <ul>
 
-Many actions are lists, such as the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold).
-
-For example, use the `tap-hold` action to make holding `Caps Lock` activate `Left Control`:
+For example, use the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold) to make holding `Caps Lock` activate `Left Control`:
 
 ```
 (defsrc
@@ -479,24 +477,23 @@ For example, use the `tap-hold` action to make holding `Caps Lock` activate `Lef
 
 </ul>
 
-**Aliases** are named shortcuts for actions.
+**Aliases** are named shortcuts for actions, referenced by prefixing the alias name with `@`.
 
 <ul>
 
-Aliases are defined in a `defalias` entry, which has the following form:
+Aliases are defined in a `defalias` entry:
 
 ```
 (defalias
   alias1-name alias1-action
   alias2-name alias2-action
-  alias3-name alias3-action
   ...
 )
 ```
 
-Aliases are used by prefixing the alias name with `@`.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the action it stands for.
 
-Use an alias for the `tap-hold` action:
+For example, use an alias for the `tap-hold` action:
 
 ```
 (defalias
@@ -510,24 +507,23 @@ Use an alias for the `tap-hold` action:
 
 </ul>
 
-**Variables** are named shortcuts for a strings or lists.
+**Variables** are named shortcuts for a strings or lists, referenced by prefixing the variable name with `$`.
 
 <ul>
 
-Variables are defined in a `defvar` entry, which has the following form:
+Variables are defined in a `defvar` entry:
 
 ```
 (defvar
   variable1-name variable1-value
   variable2-name variable2-value
-  variable3-name variable3-value
   ...
 )
 ```
 
-Variables are used by prefixing the variable name with `$`.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the value it stands for.
 
-Use variables for the two `200` parameters in the `tap-hold` action:
+For example, use variables for the numbers in the `tap-hold` action:
 
 ```
 (defvar
@@ -614,4 +610,4 @@ To learn about any Kanata feature used in a config, see the [Configuration Guide
 
 ## Feedback
 
-Found an issue or have a question? Open an [issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) (you may mention @novachromatic).
+Found an issue or have a question? [Open an issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) (you may mention @novachromatic).
