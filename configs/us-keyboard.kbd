@@ -1,4 +1,6 @@
-;; US keyboard:
+;; This Kanata config uses the US keyboard for the `defsrc` entry and
+;; explains the abbreviated keys at the end.
+
 (defsrc
   `    1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \

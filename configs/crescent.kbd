@@ -1,5 +1,7 @@
 ;; Github repository (archive): https://web.archive.org/web/20241117014412/https://github.com/ClemenPine/crescent
-;; A layout with only 10 keys, one for each finger
+
+;; This Kanata config implements a layout with only 10 keys, one for
+;; each finger.
 
 (defvar
   one-shot-timeout 2000

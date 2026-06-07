@@ -1,5 +1,7 @@
 ;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1296951439599341640
-;; A layout with a second layer for typing German letters
+
+;; This Kanata config implements a layout with a second layer for
+;; typing German letters.
 
 (defvar
   tap-time  200

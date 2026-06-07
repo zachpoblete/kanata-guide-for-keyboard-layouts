@@ -1,4 +1,5 @@
-;; A layout with a compose key: https://en.wikipedia.org/wiki/Compose_key
+;; This Kanata config implements a layout with a compose key:
+;; https://en.wikipedia.org/wiki/Compose_key
 
 (defcfg
   sequence-timeout    2000

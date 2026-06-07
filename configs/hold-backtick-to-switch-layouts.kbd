@@ -1,5 +1,5 @@
-;; A Kanata config that makes holding the backtick ` key toggle
-;; between your alt layout and QWERTY
+;; This Kanata config makes holding the backtick ` key toggle between
+;; your alt layout and QWERTY.
 
 (defvar
   tap-time  200

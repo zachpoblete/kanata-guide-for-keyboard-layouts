@@ -1,5 +1,7 @@
 ;; Official website: https://valorance.net/night/
-;; A layout with a thumb alpha key: https://layouts.wiki/guides/start/recommendations/#thumb-alpha
+
+;; This Kanata config implements a layout with a thumb alpha key:
+;; https://layouts.wiki/guides/start/recommendations/#thumb-alpha
 
 (defsrc
   q w e r t  y u i o p

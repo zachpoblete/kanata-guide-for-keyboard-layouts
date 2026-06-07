@@ -1,4 +1,5 @@
 ;; Original layout: https://github.com/GalileoBlues/Gallium
+
 ;; This Kanata config adds combos to Gallium to fix certain SFBs.
 
 (defvar

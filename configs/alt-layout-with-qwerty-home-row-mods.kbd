@@ -1,4 +1,5 @@
-;; An alt layout with home row mods that temporarily switch to QWERTY
+;; This Kanata config implements a layout with home row mods that
+;; temporarily switch to QWERTY.
 
 (defvar
   tap-time 200

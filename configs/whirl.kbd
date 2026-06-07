@@ -1,5 +1,7 @@
 ;; GitHub repository: https://github.com/Lenchog/Whirl
-;; A layout with a magic key: https://layouts.wiki/reference/terminology/magic/
+
+;; This Kanata config implements a layout with a magic key:
+;; https://layouts.wiki/reference/terminology/magic/
 
 (defcfg
   process-unmapped-keys yes  ;; So that repeat rules work for unmapped keys

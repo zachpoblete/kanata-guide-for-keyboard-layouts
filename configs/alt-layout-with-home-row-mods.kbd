@@ -1,4 +1,5 @@
-;; An alt layout with home row mods: https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
+;; This Kanata config implements a layout with home row mods:
+;; https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
 
 (defvar
   tap-time  200

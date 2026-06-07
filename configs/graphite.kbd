@@ -1,5 +1,6 @@
 ;; GitHub repository: https://github.com/rdavison/graphite-layout
-;; A layout with nonstandard shift pairs
+
+;; This Kanata config implements a layout with nonstandard shift pairs.
 
 (defsrc
         1  2  3  4  5    6  7  8  9  0  -  =

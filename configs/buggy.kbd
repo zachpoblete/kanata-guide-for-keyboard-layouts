@@ -1,7 +1,7 @@
 ;; Github repository: https://github.com/flarefin/zmk-config-buggy
-;; A layout with two alpha layers
 
-;; This Kanata config only includes the alpha layers.
+;; This Kanata config implements a layout with two alpha layers. It
+;; only includes the two alpha layers of Buggy.
 
 (defvar
   sticky-layer-timeout 1000

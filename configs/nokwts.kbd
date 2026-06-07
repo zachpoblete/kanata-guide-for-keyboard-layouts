@@ -1,5 +1,7 @@
 ;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1339405810513477653
-;; A layout that uses the Nokwts fingermap: https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752
+
+;; This Kanata config implements a layout that uses the Nokwts fingermap:
+;; https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752
 
 (defsrc
   q w e r t  y u i o p

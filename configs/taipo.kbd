@@ -1,5 +1,6 @@
 ;; Inkeys wiki page: https://inkeys.wiki/en/keymaps/taipo
-;; A layout that can be used one-handed
+
+;; This Kanata config implements a layout that can be used one-handed.
 
 (defcfg
   sequence-timeout 2000  ;; for function keys

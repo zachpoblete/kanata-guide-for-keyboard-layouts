@@ -1,5 +1,7 @@
 ;; Original layout: https://valorance.net/night/images/night_rowstag.png
-;; This Kanata config wide mods a layout: https://colemakmods.github.io/ergonomic-mods/wide.html
+
+;; This Kanata config wide mods a layout:
+;; https://colemakmods.github.io/ergonomic-mods/wide.html
 
 (defsrc
   q w e r t    u i o p [

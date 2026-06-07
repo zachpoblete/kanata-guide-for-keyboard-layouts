@@ -1,4 +1,4 @@
-;; An alt layout with a layer for navigation keys
+;; This Kanata config implements a layout with a layer for navigation keys.
 
 (defsrc
   q    w    e    r    t      y    u    i    o    p

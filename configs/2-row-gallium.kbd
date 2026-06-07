@@ -1,5 +1,5 @@
-;; A layout with only two rows by using combos and mapping those
-;; combos to Gallium’s original bottom row
+;; This Kanata config implements a layout with only two rows by using
+;; combos and mapping those combos to Gallium’s original bottom row.
 
 (defvar
   chord-timeout 50
