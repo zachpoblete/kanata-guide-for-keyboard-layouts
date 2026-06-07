@@ -521,7 +521,7 @@ Variables are defined in a `defvar` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the value it stands for.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value it stands for.
 
 For example, use variables for the numbers in the `tap-hold` action:
 
