@@ -27,8 +27,12 @@
 (deflayermap (qwerty)
   _ use-defsrc
 
-  ;; These are needed when pressing multiple modifiers so that releasing
-  ;; the first modifier pressed doesn’t release the qwerty layer early.
+  ;; Map each modifier to its alias so that holding any modifier keeps you on
+  ;; QWERTY. Without doing this: when pressing multiple modifiers, only the
+  ;; first modifier held keeps you on QWERTY because it came from Gallium and
+  ;; has `layer-while-held qwerty`; subsequent modifiers come from QWERTY
+  ;; where they don’t have `layer-while-held qwerty`, so releasing the first
+  ;; modifier exits QWERTY even if other modifiers are still held.
   lctl @lctl
   lmet @lmet
   lalt @lalt

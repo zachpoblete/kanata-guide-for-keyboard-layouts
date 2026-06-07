@@ -32,6 +32,11 @@
 
 (deflayermap (qwerty)
   _ use-defsrc
+
+  ;; When pressing multiple modifiers, the following mappings make sure
+  ;; that releasing the first modifier pressed doesn’t release QWERTY
+  ;; early. For a more detailed explanation, see
+  ;; alt-layout-with-qwerty-shortcuts.kbd
   a (tap-hold $tt $ht a (multi lmet (layer-while-held qwerty)))
   s (tap-hold $tt $ht s (multi lalt (layer-while-held qwerty)))
   d (tap-hold $tt $ht d (multi lsft (layer-while-held qwerty)))
