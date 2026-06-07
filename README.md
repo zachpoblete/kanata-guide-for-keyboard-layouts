@@ -411,32 +411,18 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-1.  Open the `example.kbd` config with a text editor.
-
-    ```
-    (defsrc
-      q w e r t  y u i o p
-      a s d f g  h j k l ; '
-      z x c v b  n m , . /
-    )
-
-    (deflayer gallium
-      b l d c v  j f o u ,
-      n r t s g  y h a e i /
-      x q m w z  k p ' ; .
-    )
-    ```
+1.  Open the [`example.kbd`](configs/example.kbd) config with a text editor.
 
     Kanata remaps a keyboard by mapping keys from the `defsrc` entry to the `deflayer` entry position-by-position.
 
-1.  To remap a key that isn’t in `defsrc`, add it to `defsrc`. If your keyboard’s original layout differs from the preceding `defsrc` entry, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+1.  To remap a key that isn’t in the `defsrc` entry, add it to the `defsrc` entry. If your keyboard’s original layout differs from the `defsrc` entry in the `example.kbd` config, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
-    -   For common keys you can use, see the [`us-keyboard.kbd`](configs/us-keyboard.kbd) config.
+    -   For common keys you can use, see the [`us-keyboard.kbd` config](configs/us-keyboard.kbd).
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-1.  In the `deflayer` entry, rename `gallium` to your layout and edit the keys. Match the number of keys in `deflayer` to the number of keys in `defsrc`.
+1.  In the `deflayer` entry, rename the `gallium` layer name to your layout and edit the keys. Match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry.
 
-    To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into `deflayer`.
+    To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into the `deflayer` entry.
 
 1.  Save the file.
 
@@ -469,7 +455,7 @@ For example:
 
 Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any amount of whitespace characters.
 
-Usually, the first item is a command and the rest are arguments, such as in `defsrc` and `deflayer`.
+Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
 </ul>
 
