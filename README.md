@@ -477,9 +477,9 @@ Use comments:
 
 <ul>
 
-Most lists have the form `(command argument1 argument2 ...)`. The parentheses `()` group related items together. Items are separated by any number of space or tab characters.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any number of space or tab characters.
 
-Examples of lists are `defsrc` and `deflayer`.
+Usually, the first item is a command and the rest are arguments, such as in `defsrc` and `deflayer`.
 
 </ul>
 
