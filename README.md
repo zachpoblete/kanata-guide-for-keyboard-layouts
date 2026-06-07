@@ -467,7 +467,7 @@ For example:
 ;; Comments are ignored.
 
 (defsrc
-  caps a s d f  ;; This is an inline comment.
+  caps a s d f  ;; Comments can be appended at the end of a line.
 )
 ```
 
