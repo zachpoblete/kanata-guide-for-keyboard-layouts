@@ -413,20 +413,44 @@ Your Kanata config will run in the background at startup.
 
 1.  Open the [`example.kbd` config](configs/example.kbd) with a text editor.
 
-    Kanata remaps a keyboard by mapping keys from the `defsrc` entry to the `deflayer` entry position-by-position.
-
-1.  To remap a key that isn’t in the `defsrc` entry, add it to the `defsrc` entry. If your keyboard’s original layout differs from the `defsrc` entry in the `example.kbd` config, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+2.  To remap a key that isn’t in the `defsrc` entry, add it to the `defsrc` entry.
 
     -   For common keys you can use, see the [`us-keyboard.kbd` config](configs/us-keyboard.kbd).
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
+    -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
-1.  In the `deflayer` entry, rename the `gallium` layer name to your layout and edit the keys. Match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry.
+3.  In the `deflayer` entry, rename the `gallium` layer name to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key in the `defsrc` entry is mapped to the key at the same position in the `deflayer` entry.
 
-    To make changing layouts easier, use the <code>!&NoBreak;cmini view [layout]</code> command in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy). This returns a text version of the layout that you can copy into the `deflayer` entry.
+    To get the text version of a layout for copying:
 
-1.  Save the file.
+<ul>
+<ol type="1">
 
-1.  Run Kanata with the `example.kbd` config again.
+<li>
+
+In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), use the following command:
+
+<pre>
+!cmini view <var>LAYOUT</var>
+</pre>
+
+Replace _`LAYOUT`_ with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
+
+</li>
+
+
+<li>
+
+Copy the returned layout into the `deflayer` entry.
+
+</li>
+
+</ol>
+</ul>
+
+4.  Save the file.
+
+5.  Run Kanata with the `example.kbd` config again.
 
 ## Basics of a Kanata config
 
