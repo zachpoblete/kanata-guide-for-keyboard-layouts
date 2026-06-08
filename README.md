@@ -417,7 +417,7 @@ Your Kanata config will run in the background at startup.
 
     -   For common keys you can use, see the [`us-keyboard.kbd` config](configs/us-keyboard.kbd).
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
-    -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+    -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
 
 3.  In the `deflayer` entry, rename the `gallium` layer name to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key in the `defsrc` entry is mapped to the key at the same position in the `deflayer` entry.
 
