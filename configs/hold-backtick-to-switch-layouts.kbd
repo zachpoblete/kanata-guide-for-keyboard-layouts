@@ -1,5 +1,5 @@
 ;; This Kanata config remaps your keyboard to the Gallium layout and
-;; makes holding the backtick ` key toggle between Gallium and QWERTY.
+;; toggles between Gallium and QWERTY when you hold the backtick ` key.
 
 (defvar
   tap-time  200

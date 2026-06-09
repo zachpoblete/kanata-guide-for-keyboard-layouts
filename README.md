@@ -564,9 +564,9 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 <strong>General configs</strong>
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
+    -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
-    -   Holding any modifier key, such as `Control`, temporarily switches to QWERTY
+    -   Temporarily switches to QWERTY when you hold any modifier key, such as `Control`
 -   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)

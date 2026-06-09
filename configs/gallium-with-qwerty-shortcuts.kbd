@@ -1,6 +1,6 @@
 ;; This Kanata config remaps your keyboard to the Gallium layout and
-;; makes holding any modifier key, such as Control, temporarily switch
-;; to QWERTY.
+;; temporarily switches to QWERTY when you hold any modifier key, such
+;; as Control.
 
 (defsrc
   q w e r t  y u i o p
