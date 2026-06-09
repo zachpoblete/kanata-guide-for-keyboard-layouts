@@ -8,7 +8,7 @@ This guide shows you how to use [alt layouts](https://layouts.wiki/guides/start/
 -   [Run Kanata at startup](#run-kanata-at-startup)
 -   [Change your layout](#change-your-layout)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
--   [Example configs](#example-configs) (toggling between layouts, custom shift pairs, magic keys, and more)
+-   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;toggling between layouts, custom shift pairs, magic keys, and more
 
 ## Set up Kanata
 
