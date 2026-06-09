@@ -452,6 +452,8 @@ Copy the returned layout into the `deflayer` entry.
 
 5.  Run Kanata with the `example.kbd` config again.
 
+Your keyboard is using your layout.
+
 ## Basics of a Kanata config
 
 The following concepts help you read and edit the [example configs](#example-configs).
