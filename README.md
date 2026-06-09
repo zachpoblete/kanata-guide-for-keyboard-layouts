@@ -571,9 +571,9 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
     -   Layout with home row mods that temporarily switch to QWERTY
--   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
+-   [`gallium-with-symbol-layer.kbd`](configs/gallium-with-symbol-layer.kbd)
     -   Layout with a 2nd layer for symbol keys
--   [`navigation-layer.kbd`](configs/navigation-layer.kbd)
+-   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
     -   Layout with a 2nd layer for navigation keys
 
 <a name="layouts"></a>
@@ -597,7 +597,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 
 -   [`lucens.kbd`](configs/lucens.kbd)
     -   Layout with a 2nd layer for German letters
--   [`compose.kbd`](configs/compose.kbd)
+-   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
     -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
     -   Layout with combos
