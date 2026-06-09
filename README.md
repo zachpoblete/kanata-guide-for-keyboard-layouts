@@ -441,7 +441,7 @@ Replace _`LAYOUT`_ with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;
 
 <li>
 
-Copy the returned layout into the `deflayer` entry.
+Copy the returned layout into the `deflayer` entry. Adjust the formatting as needed.
 
 </li>
 
