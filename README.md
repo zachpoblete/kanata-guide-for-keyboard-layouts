@@ -421,7 +421,7 @@ Your Kanata config will run in the background at startup.
 
 3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key here corresponds to the physical key in the same position in the `defsrc` entry; for example, `b` in the `gallium` layer corresponds to `q` in `defsrc`.
 
-    To get the text version of your layout for copying into the `deflayer` entry, follow these steps:
+    To avoid manually changing every key, get the text version of your layout for copying into `deflayer`:
 
 <ul>
 <ol type="1">
