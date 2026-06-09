@@ -413,13 +413,15 @@ Your Kanata config will run in the background at startup.
 
 1.  Open the [example config](configs/example.kbd) with a text editor.
 
-2.  To remap a key that isn’t in the `defsrc` entry, add it to the `defsrc` entry.
+    Each key in the `defsrc` entry is remapped to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-    -   For common key names, see the [US keyboard config](configs/us-keyboard.kbd).
-    -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
-    -   For any other key names, see [Key names](https://jtroo.github.io/config.html#key-names).
+2.  To remap a key that isn’t in the `defsrc` entry, add that key to the `defsrc` entry. The following references help you identify the correct key name:
 
-3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key here corresponds to the physical key in the same position in the `defsrc` entry; for example, `b` in the `gallium` layer corresponds to `q` in the `defsrc` entry.
+    -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
+    -   For non-US keys, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+
+3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
 
     To avoid manually changing every key, copy the text version of your layout into the `deflayer` entry:
 
