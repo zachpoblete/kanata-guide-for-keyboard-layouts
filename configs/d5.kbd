@@ -1,6 +1,7 @@
 ;; Codeberg repository: https://codeberg.org/StrawberryTurtle/zilpzalp-D5
 
-;; This Kanata config implements a layout with chiral skip magic keys.
+;; This Kanata config remaps your keyboard to D5, a layout with chiral
+;; skip magic keys. (Layers like D5’s navigation layer aren’t included.)
 
 (defvar
   chord-timeout 50

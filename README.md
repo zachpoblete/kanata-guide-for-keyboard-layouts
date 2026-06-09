@@ -565,11 +565,11 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
--   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
+-   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
     -   Holding any modifier key, such as `Control`, temporarily switches to QWERTY
--   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
+-   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
--   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
+-   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
     -   Layout with home row mods that temporarily switch to QWERTY
 -   [`symbol-layer.kbd`](configs/symbol-layer.kbd)
     -   Layout with a 2nd layer for symbol keys
@@ -580,7 +580,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 <strong>Layouts</strong>
 
 -   [`graphite.kbd`](configs/graphite.kbd)
-    -   Layout with nonstandard shift pairs
+    -   Layout with custom shift pairs
 -   [`night.kbd`](configs/night.kbd)
     -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)

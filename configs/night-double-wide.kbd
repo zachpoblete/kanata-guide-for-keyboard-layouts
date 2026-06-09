@@ -1,6 +1,7 @@
 ;; Original layout: https://valorance.net/night/images/night_rowstag.png
 
-;; This Kanata config double wide mods a layout.
+;; This Kanata config remaps your keyboard to the Night layout and
+;; double-wide mods it.
 
 (defsrc
   q w e r t      i o p [ ]

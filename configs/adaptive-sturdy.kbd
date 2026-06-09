@@ -1,6 +1,7 @@
-;; Blog post: https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
-
-;; This Kanata config implements a layout with adaptive keys.
+;; This Kanata config remaps your keyboard to Adaptive Sturdy, a
+;; layout with adaptive keys. For more information about adaptive
+;; keys, see:
+;; https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
 
 (defvar
   adaptive-key-timeout 1000

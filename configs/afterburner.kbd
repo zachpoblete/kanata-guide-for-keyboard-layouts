@@ -1,6 +1,7 @@
 ;; Blog post: https://blog.simn.me/posts/2025/afterburner/
 
-;; This Kanata config implements a layout with a skip magic key.
+;; This Kanata config remaps your keyboard to Afterburner, a layout
+;; with a skip magic key.
 
 (defcfg
   process-unmapped-keys yes  ;; so that repeat rules work for unmapped keys

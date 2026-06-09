@@ -1,8 +1,7 @@
 ;; GitHub repository: https://github.com/empressabyss/nordrassil
 
-;; This Kanata config implements Nordrassil, a layout with chiral
-;; magic keys. The 2024 version of Nordrassil is used as the 2025
-;; version does not have its magic rules specified.
+;; This Kanata config remaps your keyboard to the 2024 version of
+;; Nordrassil, a layout with chiral magic keys.
 
 (defcfg
   process-unmapped-keys yes  ;; so that repeat rules work for unmapped keys

@@ -1,6 +1,7 @@
 ;; Google Document: https://docs.google.com/document/d/1sDjlC13BW0mXdadjCmVmIIsoehFVcjwDBI3AQ1ItQKo
 
-;; This Kanata config implements a layout with 162 layers.
+;; This Kanata config remaps your keyboard to Power, a layout with 162
+;; layers.
 
 (defsrc
   q w e r t  y u i o p

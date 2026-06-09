@@ -1,5 +1,7 @@
-;; This Kanata config implements a layout with home row mods that
-;; temporarily switch to QWERTY.
+;; This Kanata config remaps your keyboard to the Gallium layout and
+;; adds home row mods that temporarily switch to QWERTY. For more
+;; information about home row mods, see:
+;; https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
 
 (defvar
   tap-time 200
@@ -37,7 +39,7 @@
   ;; When pressing multiple modifiers, the following mappings make sure
   ;; that releasing the first modifier pressed doesn’t release QWERTY
   ;; early. For a more detailed explanation, see
-  ;; alt-layout-with-qwerty-shortcuts.kbd
+  ;; gallium-with-qwerty-shortcuts.kbd
   a (tap-hold $tt $ht a (multi lmet (layer-while-held qwerty)))
   s (tap-hold $tt $ht s (multi lalt (layer-while-held qwerty)))
   d (tap-hold $tt $ht d (multi lsft (layer-while-held qwerty)))

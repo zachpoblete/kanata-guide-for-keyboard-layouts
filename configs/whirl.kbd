@@ -1,6 +1,7 @@
 ;; GitHub repository: https://github.com/Lenchog/Whirl
 
-;; This Kanata config implements a layout with a magic key:
+;; This Kanata config remaps your keyboard to Whirl, a layout with a
+;; magic key. For more information about magic keys, see:
 ;; https://layouts.wiki/reference/terminology/magic/
 
 (defcfg

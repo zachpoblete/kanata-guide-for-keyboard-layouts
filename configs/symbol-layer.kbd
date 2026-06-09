@@ -1,8 +1,9 @@
 ;; Original symbol layer: https://getreuer.info/posts/keyboards/symbol-layer/index.html#my-symbol-layer
 
-;; This Kanata config modifies Gertreuer’s symbol layer by making the
-;; punctuation marks `, . ' ;` appear at the same positions as on
-;; Gallium.
+;; This Kanata config remaps your keyboard to the Gallium layout and
+;; adds a symbol layer. The symbol layer is based on Gertreuer’s
+;; symbol layer, with the following keys kept at their Gallium
+;; positions: `, . ' ;`.
 
 (defsrc
    q   w   e   r   t     y   u   i   o   p
