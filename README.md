@@ -93,7 +93,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 <summary><strong>macOS 10 and older</strong></summary>
 <p></p>
 
->   **⚠️ Warning**: It’s unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. There was a [report of Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
+>   **⚠️ Warning**: It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. There was a [report of Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
 If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
@@ -132,7 +132,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 <summary><strong>macOS 11 and 12</strong></summary>
 <p></p>
 
->   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242). (Presumably, the user was using Kanata v1.6.1 at the time.) Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
+>   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242); presumably, the user was using Kanata v1.6.1 at the time. Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
 If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
@@ -428,7 +428,7 @@ Your Kanata config will run in the background at startup.
 
 <li>
 
-In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), use the following command:
+In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), send the following message:
 
 <pre>
 !cmini view <var>LAYOUT</var>
@@ -614,7 +614,7 @@ To learn about any Kanata feature, see the [Configuration Guide](https://jtroo.g
 -   [`afterburner.kbd`](configs/afterburner.kbd)
     -   Layout with a skip magic key
 -   [`nordrassil.kbd`](configs/nordrassil.kbd)
-    -   Layout with chiral magic keys
+    -   Layout with [chiral magic keys](https://github.com/zachpoblete/alt-layout-glossary#chiral-magic-keys)
 -   [`d5.kbd`](configs/d5.kbd)
     -   Layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
