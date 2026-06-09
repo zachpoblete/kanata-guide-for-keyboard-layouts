@@ -411,13 +411,13 @@ Your Kanata config will run in the background at startup.
 
 ## Change your layout
 
-1.  Open the [`example.kbd` config](configs/example.kbd) with a text editor.
+1.  Open the [example config](configs/example.kbd) with a text editor.
 
 2.  To remap a key that isn’t in the `defsrc` entry, add it to the `defsrc` entry.
 
-    -   For common keys you can use, see the [`us-keyboard.kbd` config](configs/us-keyboard.kbd).
-    -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
+    -   For common key names, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   For any other key names, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key here corresponds to the physical key in the same position in the `defsrc` entry; for example, `b` in the `gallium` layer corresponds to `q` in the `defsrc` entry.
 
@@ -450,7 +450,7 @@ Copy the returned layout into the `deflayer` entry. Adjust the formatting as nee
 
 4.  Save the file.
 
-5.  Run Kanata with the `example.kbd` config again.
+5.  Run Kanata with the example config again.
 
 Your keyboard is using your layout.
 
@@ -566,7 +566,7 @@ To learn about any Kanata feature, see the [Configuration Guide](https://jtroo.g
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Holding the backtick `` ` `` key toggles between your alt layout and QWERTY
 -   [`alt-layout-with-qwerty-shortcuts.kbd`](configs/alt-layout-with-qwerty-shortcuts.kbd)
-    -   Holding the `Control`, `Alt`, or `Super` keys temporarily switches to QWERTY
+    -   Holding any modifier key, such as `Control`, temporarily switches to QWERTY
 -   [`alt-layout-with-home-row-mods.kbd`](configs/alt-layout-with-home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`alt-layout-with-qwerty-home-row-mods.kbd`](configs/alt-layout-with-qwerty-home-row-mods.kbd)
