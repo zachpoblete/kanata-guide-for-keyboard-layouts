@@ -3,7 +3,7 @@
 ;; This Kanata config implements a layout with a skip magic key.
 
 (defcfg
-  process-unmapped-keys yes  ;; So that repeat rules work for unmapped keys
+  process-unmapped-keys yes  ;; so that repeat rules work for unmapped keys
 )
 
 (defsrc
@@ -21,8 +21,8 @@
 )
 
 (defvar
-  magic-key-src h
-  skip-magic-key-src j
+  magic-key-src      h  ;; `h` in defsrc is mapped to the magic key
+  skip-magic-key-src j  ;; `j` in defsrc is mapped to the skip magic key
 )
 
 (defalias magic
@@ -72,9 +72,9 @@
     (t! magic-rule ; 2 e)
     (t! magic-rule ' 2 rpt)
 
-    ;; If you want skip-repeat for the rest of the keys on your keyboard,
-    ;; add `rpt` cases for them following the format above. (I haven’t
-    ;; found a way to do “Else skip-repeat”, unfortunately.)
+    ;; To extend skip-repeat to other keys, add additional `rpt` cases
+    ;; above following the same format. There is no known way to do “Else
+    ;; skip-repeat”, unfortunately.
   )
 )
 

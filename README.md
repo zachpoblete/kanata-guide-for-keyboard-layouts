@@ -351,7 +351,7 @@ Your Kanata config will run in the background at startup.
     Replace the following:
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to your Kanata config file
+    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
 
 1. Save the file.
 
@@ -391,7 +391,7 @@ Your Kanata config will run in the background at startup.
     Replace the following:
 
     -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to your Kanata config file
+    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
 
 1. Save the file.
 
@@ -419,7 +419,7 @@ Your Kanata config will run in the background at startup.
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
     -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
 
-3.  In the `deflayer` entry, rename the `gallium` layer name to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key in the `defsrc` entry is mapped to the key at the same position in the `deflayer` entry.
+3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key in the `deflayer` entry maps to the key in the same position in the `defsrc` entry.
 
     To get the text version of your layout for copying into the `deflayer` entry, follow these steps:
 
@@ -566,7 +566,7 @@ You now have a good grasp of the tools used in almost every config.
 
 ## Example configs
 
-To learn about any Kanata feature used in a config, see the [Configuration Guide](https://jtroo.github.io/config.html).
+To learn about any Kanata feature, see the [Configuration Guide](https://jtroo.github.io/config.html).
 
 <a name="general-configs"></a>
 <strong>General configs</strong>

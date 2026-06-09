@@ -5,7 +5,7 @@
 ;; have its magic rules specified.
 
 (defcfg
-  process-unmapped-keys yes  ;; So that repeat rules work for unmapped keys
+  process-unmapped-keys yes  ;; so that repeat rules work for unmapped keys
 )
 
 (defsrc

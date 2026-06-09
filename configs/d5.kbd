@@ -56,9 +56,9 @@
   (defvar $output $defsrc)
 )
 
-;; The output template fixes an issue that happens when a layout has
-;; repeated keys. For an explanation of the issue, see the
-;; repeated-key template in nastic.kbd
+;; The output template fixes an issue that repeated keys cause. For an
+;; explanation of the issue, see the repeated-key template in
+;; nastic.kbd
 (deftemplate output (key)
   (switch
     ($key)
