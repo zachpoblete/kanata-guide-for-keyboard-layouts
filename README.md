@@ -483,11 +483,11 @@ Usually, the first item is a command and the rest are arguments, such as in the 
 
 </ul>
 
-**Actions** are what you map to keys.
+**Actions** let you map a key to do something other than pressing a different key.
 
 <ul>
 
-For example, use the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold) to make holding `Caps Lock` activate `Left Control`:
+The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold), letting you activate `Left Control` by holding `Caps Lock`:
 
 ```
 (defsrc
@@ -501,7 +501,7 @@ For example, use the [`tap-hold` action](https://jtroo.github.io/config.html#tap
 
 </ul>
 
-**Aliases** are named shortcuts for actions, referenced by prefixing the alias name with `@`.
+**Aliases** are named shortcuts for actions.
 
 <ul>
 
@@ -515,9 +515,9 @@ Aliases are defined in a `defalias` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the action it stands for.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the action it maps to. An alias is used by prefixing the alias name with `@`.
 
-For example, use an alias for the `tap-hold` action:
+The following example uses an alias for the `tap-hold` action:
 
 ```
 (defalias
@@ -531,7 +531,7 @@ For example, use an alias for the `tap-hold` action:
 
 </ul>
 
-**Variables** are named shortcuts for a strings or lists, referenced by prefixing the variable name with `$`.
+**Variables** are named shortcuts for a strings or lists.
 
 <ul>
 
@@ -545,9 +545,9 @@ Variables are defined in a `defvar` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value it stands for.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value it maps to. A variable is used by prefixing the variable name with `$`.
 
-For example, use variables for the numbers in the `tap-hold` action:
+The following example uses variables for the numbers in the `tap-hold` action:
 
 ```
 (defvar
