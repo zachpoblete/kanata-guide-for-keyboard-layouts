@@ -588,7 +588,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 -   [`night-wide.kbd`](configs/night-wide.kbd)
     -   Layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   Layout that has been double-wide modded
+    -   Layout that has been wide modded twice
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   Layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
