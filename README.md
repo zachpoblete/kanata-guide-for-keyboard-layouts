@@ -50,7 +50,7 @@ Expand the instructions for your operating system.
 
     The Kanata tray icon appears in the system tray.
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -80,7 +80,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -95,7 +95,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 >   **⚠️ Warning**: It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was added in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so you may need to start there. There was a [report of Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
-If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
 
@@ -119,7 +119,7 @@ If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanat
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -134,7 +134,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 >   **⚠️ Warning**: There was a [report of Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242); presumably, the user was using Kanata v1.6.1 at the time. Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
 
-If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 ### Set up the Karabiner driver
 
@@ -198,7 +198,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -211,7 +211,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 <summary><strong>macOS 13 and newer</strong></summary>
 <p></p>
 
-If you encounter any issue, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
 ### Set up the Karabiner driver
 
@@ -282,7 +282,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;its output is `b`.
+Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -325,7 +325,7 @@ Expand the instructions for your operating system.
 
 1. Click **OK**.
 
-1. To verify the shortcut runs properly, double click the shortcut. The Kanata tray icon appears in the system tray.
+1. To verify the shortcut runs properly, double-click the shortcut. The Kanata tray icon appears in the system tray.
 
 Your Kanata config will run in the background at startup.
 
@@ -413,7 +413,7 @@ Your Kanata config will run in the background at startup.
 
 1.  Open the [example config](configs/example.kbd) with a text editor.
 
-    Each key in the `defsrc` entry is remapped to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+    Each physical key in the `defsrc` entry is remapped to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
 2.  To remap a key that isn’t in the `defsrc` entry, add that key to the `defsrc` entry. The following references help you identify the correct key name:
 
@@ -481,7 +481,7 @@ For example:
 
 <ul>
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by any amount of whitespace characters.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by one or more whitespace characters.
 
 Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
@@ -519,7 +519,7 @@ Aliases are defined in a `defalias` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by the action it maps to. An alias is used by prefixing the alias name with `@`.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action it maps to. An alias is used by prefixing the alias name with `@`.
 
 The following example uses an alias for the `tap-hold` action:
 
@@ -535,7 +535,7 @@ The following example uses an alias for the `tap-hold` action:
 
 </ul>
 
-**Variables** are named shortcuts for a strings or lists.
+**Variables** are named shortcuts for strings or lists.
 
 <ul>
 
@@ -584,13 +584,13 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 -   [`night.kbd`](configs/night.kbd)
     -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
-    -   Layout that has been [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html)
+    -   Layout with [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
-    -   Layout that has been [wide modded](https://colemakmods.github.io/ergonomic-mods/wide.html)
+    -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   Layout that has been wide modded twice
+    -   Layout with wide mod applied twice
 -   [`nokwts.kbd`](configs/nokwts.kbd)
-    -   Layout that uses the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
+    -   Layout with the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
 <a name="advanced-layouts"></a>
 <strong>Advanced layouts</strong>

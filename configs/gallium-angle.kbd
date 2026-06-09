@@ -1,7 +1,7 @@
 ;; Source (Github): https://github.com/GalileoBlues/Gallium/blob/21a8a7bb64a80acd67e06b5209e30559688121fe/Kanata/Gallium.cfg#L60-L67
 
-;; This Kanata config remaps your keyboard to the Gallium layout and
-;; angle mods it. For more information about angle mod, see:
+;; This Kanata config remaps your keyboard to the Gallium layout with
+;; angle mod. For more information about angle mod, see:
 ;; https://colemakmods.github.io/ergonomic-mods/angle.html
 
 (defsrc

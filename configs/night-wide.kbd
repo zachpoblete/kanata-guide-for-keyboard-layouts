@@ -1,7 +1,7 @@
 ;; Original layout: https://valorance.net/night/images/night_rowstag.png
 
-;; This Kanata config remaps your keyboard to the Night layout and
-;; wide mods it. For more information about wide mod, see:
+;; This Kanata config remaps your keyboard to the Night layout with
+;; wide mod. For more information about wide mod, see:
 ;; https://colemakmods.github.io/ergonomic-mods/wide.html
 
 (defsrc
