@@ -556,8 +556,6 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 </ul>
 
-You now have a good grasp of the tools used in almost every config.
-
 ## Example configs
 
 For more information about any Kanata feature, see the [Configuration Guide](https://jtroo.github.io/config.html).
