@@ -1,6 +1,6 @@
 ;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1502775637390393455
 
-;; This Kanata config implements a layout that has repeated keys.
+;; This Kanata config implements a layout that has duplicate keys.
 ;; Specifically, Nastic has two `y` keys.
 
 (defsrc
@@ -17,13 +17,13 @@
                       e
 )
 
-(t! repeated-key y)
+(t! duplicate-key y)
 
-;; Without the repeated-key template, pressing a 2nd `y` key while the
+;; Without the duplicate-key template, pressing a 2nd `y` key while the
 ;; 1st `y` key is still held outputs nothing because the `y` key is
 ;; already considered pressed. This template fixes that by
 ;; releasing `y` first, so the 2nd `y` can re-press it.
-(deftemplate repeated-key (key)
+(deftemplate duplicate-key (key)
   (defvirtualkeys $key
     $key
   )

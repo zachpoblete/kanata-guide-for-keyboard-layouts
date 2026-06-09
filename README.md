@@ -608,7 +608,7 @@ To learn about any Kanata feature, see the [Configuration Guide](https://jtroo.g
 -   [`crescent.kbd`](configs/crescent.kbd)
     -   Layout with only 10 keys, one for each finger
 -   [`nastic.kbd`](configs/nastic.kbd)
-    -   Layout with repeated keys
+    -   Layout with duplicate keys
 -   [`whirl.kbd`](configs/whirl.kbd)
     -   Layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)

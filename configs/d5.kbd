@@ -56,8 +56,8 @@
   (defvar $output $defsrc)
 )
 
-;; The output template fixes an issue that repeated keys cause. For an
-;; explanation of the issue, see the repeated-key template in
+;; The output template fixes an issue that duplicate keys cause. For an
+;; explanation of the issue, see the duplicate-key template in
 ;; nastic.kbd
 (deftemplate output (key)
   (switch
@@ -66,7 +66,7 @@
         (release-key $key)
         (macro $key))
         ;; For a solution that doesn’t use the macro action, see the
-        ;; repeated-key template in nastic.kbd
+        ;; duplicate-key template in nastic.kbd
       break
     () $key break
   )

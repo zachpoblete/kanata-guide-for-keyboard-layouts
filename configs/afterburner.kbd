@@ -107,7 +107,7 @@
         (release-key $input-key)
         (macro $input-key)))
         ;; For a solution that doesn’t use the macro action, see the
-        ;; repeated-key template in nastic.kbd
+        ;; duplicate-key template in nastic.kbd
     (if-not-equal $action rpt
       (multi
         (release-key $action)  ;; This assumes $action is a single key.

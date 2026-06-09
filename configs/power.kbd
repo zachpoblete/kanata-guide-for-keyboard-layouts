@@ -24,7 +24,7 @@
     (if-not-equal $letter •
       ;; Use the macro action so that repeat letters are reliably outputted.
       ;; For an explanation of the issue and a solution that doesn’t use the
-      ;; macro action, see the repeated-key template in nastic.kbd
+      ;; macro action, see the duplicate-key template in nastic.kbd
       (macro $letter))
 
     ;; Unfortunately, variables can’t be used inside templates, so the
