@@ -419,9 +419,9 @@ Your Kanata config will run in the background at startup.
     -   For all keys you can use, see [Key names](https://jtroo.github.io/config.html#key-names).
     -   For non-US keyboards, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
 
-3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key here corresponds to the physical key in the same position in the `defsrc` entry; for example, `b` in the `gallium` layer corresponds to `q` in `defsrc`.
+3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;each key here corresponds to the physical key in the same position in the `defsrc` entry; for example, `b` in the `gallium` layer corresponds to `q` in the `defsrc` entry.
 
-    To avoid manually changing every key, get the text version of your layout for copying into `deflayer`:
+    To avoid manually changing every key, copy the text version of your layout into the `deflayer` entry:
 
 <ul>
 <ol type="1">
