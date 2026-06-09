@@ -1,6 +1,6 @@
 ;; This Kanata config remaps your keyboard to the Gallium layout and
-;; adds home row mods that temporarily switch to QWERTY. For more
-;; information about home row mods, see:
+;; adds home row mods that use QWERTY. For more information about home
+;; row mods, see:
 ;; https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
 
 (defvar
