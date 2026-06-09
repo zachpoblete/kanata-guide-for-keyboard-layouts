@@ -537,7 +537,7 @@ The following example uses an alias for the `tap-hold` action:
 
 <ul>
 
-Variables are defined in a `defvar` entry, similar to a `defalias` entry. A variable is used by prefixing the variable name with `$`.
+Variables are defined in a `defvar` entry in a similar way to aliases. A variable is used by prefixing the variable name with `$`.
 
 The following example uses variables for the numbers in the `tap-hold` action:
 
