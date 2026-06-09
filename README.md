@@ -485,7 +485,7 @@ Usually, the first item is a command and the rest are arguments, such as in the 
 
 </ul>
 
-**Actions** let you map a key to do something other than pressing a different key.
+**Actions** let you go beyond remapping a key to a different key.
 
 <ul>
 
