@@ -458,7 +458,7 @@ Your keyboard is using your layout.
 
 ## Basics of a Kanata config
 
-The following concepts help you read and edit the [example configs](#example-configs).
+The following concepts help you read and edit the [Example configs](#example-configs).
 
 **Comments** are prefixed with two semicolons `;;`.
 
