@@ -342,7 +342,7 @@ Your Kanata config will run in the background at startup.
 
 1.  Open the Kanata service file with a text editor.
 
-1.  Edit the `ExecStart` line:
+1.  Edit the line that begins with `ExecStart`:
 
     <pre>
     ExecStart=<var>KANATA_EXECUTABLE_PATH</var> --cfg <var>KANATA_CONFIG_PATH</var> --nodelay
