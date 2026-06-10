@@ -309,19 +309,19 @@ Expand the instructions for your operating system.
 
 1.  Append the following arguments to the **Target** field:
 
-    <pre>
-     --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
-    </pre>
+    ```
+     --cfg "KANATA_CONFIG_PATH" --nodelay
+    ```
 
-    Replace _`KANATA_CONFIG_PATH`_ with the path to your Kanata config file.
+    Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file.
 
     The full target is similar to the following:
 
     <pre>
-    "<var>KANATA_EXECUTABLE_PATH</var>" --cfg "<var>KANATA_CONFIG_PATH</var>" --nodelay
+    "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
     </pre>
 
-    _`KANATA_EXECUTABLE_PATH`_ is the path to the Kanata executable file.
+    `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file.
 
 1. Click **OK**.
 
@@ -345,13 +345,13 @@ Your Kanata config will run in the background at startup.
 1.  Edit the following line:
 
     <pre>
-    ExecStart=<var>KANATA_EXECUTABLE_PATH</var> --cfg <var>KANATA_CONFIG_PATH</var> --nodelay
+    ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay
     </pre>
 
     Replace the following:
 
-    -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file
+    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file
 
 1. Save the file.
 
@@ -381,17 +381,17 @@ Your Kanata config will run in the background at startup.
     <pre>
         &lt;key&gt;ProgramArguments&lt;/key&gt;
         &lt;array&gt;
-            &lt;string&gt;<var>KANATA_EXECUTABLE_PATH</var>&lt;/string&gt;
+            &lt;string&gt;KANATA_EXECUTABLE_PATH&lt;/string&gt;
             &lt;string&gt;--cfg&lt;/string&gt;
-            &lt;string&gt;<var>KANATA_CONFIG_PATH</var>&lt;/string&gt;
+            &lt;string&gt;KANATA_CONFIG_PATH&lt;/string&gt;
             &lt;string&gt;--nodelay&lt;/string&gt;
         &lt;/array&gt;
     </pre>
 
     Replace the following:
 
-    -   _`KANATA_EXECUTABLE_PATH`_: the path to the Kanata executable file
-    -   _`KANATA_CONFIG_PATH`_: the path to the Kanata config file
+    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file
+    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file
 
 1. Save the file.
 
@@ -432,11 +432,11 @@ Your Kanata config will run in the background at startup.
 
 In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), send the following message:
 
-<pre>
-!cmini view <var>LAYOUT</var>
-</pre>
+```
+!cmini view LAYOUT
+```
 
-Replace _`LAYOUT`_ with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
+Replace `LAYOUT` with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
 
 </li>
 
