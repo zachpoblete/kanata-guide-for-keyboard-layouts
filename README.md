@@ -413,7 +413,7 @@ Your Kanata config will run in the background at startup.
 
 1.  Open the [example config](configs/example.kbd) with a text editor.
 
-    Each physical key in the `defsrc` entry is remapped to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+    The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
 2.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Identify the correct key names with the following references:
 
