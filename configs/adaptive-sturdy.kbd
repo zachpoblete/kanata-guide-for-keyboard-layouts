@@ -7,6 +7,8 @@
 
 (defvar
   adaptive-key-timeout 1000
+  ;; length of time (in ms) until the adaptive key layer is released
+  ;; after pressing the adaptive key
 )
 
 (defsrc
@@ -22,65 +24,71 @@
 )
 
 #|
-The adaptive-swap template defines an alias named $adaptive-key and
-one or more adaptive swaps. Using the $adaptive-key alias presses the
-adaptive key and switches to a ZMK sticky layer that swaps the desired
-letters. For more information about ZMK sticky layers, see:
-https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
+The adaptive-key template creates an alias that switches to a layer
+where you can swap one or more keys.
 
-Usage:
-  (t! adaptive-swap $adaptive-key
+Syntax:
+  (t! adaptive-key $adaptive-key
     $action1 $action2 ... $actionN
   )
-  ;; Note: Use the $adaptive-key alias in a deflayer entry.
 
 Parameters:
   $adaptive-key
     The adaptive key. Must be a valid key name.
-  $action
-    (Only becomes available after the adaptive key is pressed.)
-    The key or action that activates when the corresponding physical key
-    in the same sequence position defined in defsrc is pressed.
+  $action1 ... $actionN
+    The actions of the adaptive key layer. An action activates when its
+    corresponding defsrc key is pressed.
+
+Description:
+  This template creates an adaptive key alias named $adaptive-key that
+  switches to an adaptive key layer also named $adaptive-key.
+
+  The adaptive key layer remaps each physical key in the defsrc entry to
+  a key or action in the same position in the adaptive key layer.
+
+  The adaptive key layer emulates a ZMK sticky layer. For more
+  information about ZMK sticky layers, see:
+  https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 |#
 
-;; In the following adaptive swap, pressing `c` swaps `k` and `m`:
-(t! adaptive-swap c  ;; `c` is the adaptive key.
+;; Create the `c` adaptive key alias that swaps `k` and `m` after
+;; pressing `c`:
+(t! adaptive-key c
    _  k  _  c  _    _  _  _  _  _     ;; `c` is here to visualize how the `ck` and `cm` bigrams would be typed.
    _  _  _  _  _    _  _  _  _  _  _
    _  m  _  _  _    _  _  _  _  _
 )
 
-(t! adaptive-swap l
+(t! adaptive-key l
    _  _  l  y  _    _  _  _  _  _
    _  _  _  _  c    _  _  _  _  _  _
    _  _  _  _  _    _  _  _  _  _
 )
 
-(t! adaptive-swap p
+(t! adaptive-key p
    _  _  n  _  p    _  r  _  _  _
    _  _  f  _  _    _  l  _  _  _  _
    _  _  _  _  _    _  _  _  _  _
 )
 
-(t! adaptive-swap s
+(t! adaptive-key s
    _  _  _  _  _    _  _  _  _  _
    s  _  k  _  _    _  _  _  _  _  _
    _  r  _  _  _    _  _  _  _  _
 )
 
-(t! adaptive-swap u
+(t! adaptive-key u
    _  _  _  _  _    _  _  e  u  _
    _  _  _  _  _    _  _  _  o  _  _
    _  _  _  _  _    _  _  _  _  _
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
-;; Adaptive swap template
+;; Adaptive key template
 
 (deftemplate . (key adaptive-key)
   (multi
-    ;; The following if-equal and if-not-equal conditions are for the ZMK
-    ;; sticky layer behavior:
+    ;; Switch to the adaptive key layer:
     (if-equal     $key $adaptive-key
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
     (if-not-equal $key $adaptive-key
@@ -90,11 +98,11 @@ Parameters:
   )
 )
 
-(deftemplate adaptive-swap (ak  ;; (= adaptive key)
-                             q w e r t  y u i o p
-                             a s d f g  h j k l ; '
-                             z x c v b  n m , . /
-                           )
+(deftemplate adaptive-key (ak  ;; (= adaptive key)
+                            q w e r t  y u i o p
+                            a s d f g  h j k l ; '
+                            z x c v b  n m , . /
+                          )
   ;; Create the adaptive key layer:
   (deflayer $ak
     (t! . $q $ak)(t! . $w $ak)(t! . $e $ak)(t! . $r $ak)(t! . $t $ak)    (t! . $y $ak)(t! . $u $ak)(t! . $i $ak)(t! . $o $ak)(t! . $p $ak)
@@ -106,7 +114,8 @@ Parameters:
   (defalias $ak
     (multi
       $ak
-       ;; Use the one-shot + layer-while-held actions for the ZMK sticky layer behavior:
+
+       ;; Switch to the adaptive key layer:
       (one-shot $adaptive-key-timeout (layer-while-held $ak))
     )
   )
