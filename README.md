@@ -73,7 +73,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
     If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
@@ -97,7 +97,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  Install the [Karabiner kernel extension](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10. The [Kmonad instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) for installing the kernel extension (kext) may be helpful.
+1.  Install the [Karabiner kernel extension (kext)](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;the [KMonad installation instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) may be helpful.
 
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
@@ -112,7 +112,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_x64
@@ -182,7 +182,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     -   arm64:
 
@@ -266,7 +266,7 @@ To use Kanata, you first need to set up the [Karabiner driver](https://github.co
     If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config. The `chmod` command only needs to be run the first time.
+1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     -   arm64:
 
