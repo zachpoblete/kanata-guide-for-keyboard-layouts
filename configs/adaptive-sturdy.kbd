@@ -28,7 +28,7 @@ adaptive key and switches to a ZMK sticky layer that swaps the desired
 letters. For more information about ZMK sticky layers, see:
 https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 
-Syntax:
+Usage:
   (t! adaptive-swap $adaptive-key
     $action1 $action2 ... $actionN
   )
