@@ -136,6 +136,8 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
+The following sections show you how to set up the Karabiner driver and Kanata itself.
+
 ### Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
@@ -164,7 +166,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Set up Kanata
+### Set up the Kanata executable
 
 1.  Download Kanata v1.7.0:
 
@@ -213,6 +215,8 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
+The following sections show you how to set up the Karabiner driver and Kanata itself.
+
 ### Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
@@ -246,7 +250,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Set up Kanata
+### Set up the Kanata executable
 
 1.  Download Kanata:
 
