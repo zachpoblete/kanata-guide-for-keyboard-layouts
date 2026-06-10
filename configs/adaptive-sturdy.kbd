@@ -5,12 +5,6 @@
 ;; swaps, see:
 ;; https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
 
-(defvar
-  adaptive-key-timeout 1000
-  ;; length of time (in ms) until the adaptive key layer is released
-  ;; after pressing the adaptive key
-)
-
 (defsrc
    q  w  e  r  t    y  u  i  o  p
    a  s  d  f  g    h  j  k  l  ;  '
@@ -50,6 +44,12 @@ Description:
   information about ZMK sticky layers, see:
   https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 |#
+
+(defvar
+  adaptive-key-timeout 1000
+  ;; length of time (in ms) until the adaptive key layer is released
+  ;; after pressing the adaptive key
+)
 
 ;; Create the `c` adaptive key alias that swaps `k` and `m` after
 ;; pressing `c`:
