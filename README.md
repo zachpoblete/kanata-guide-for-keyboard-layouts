@@ -418,7 +418,7 @@ Your Kanata config will run in the background at startup.
 2.  To remap a key that isn’t in the `defsrc` entry, add that key to the `defsrc` entry. The following references help you identify the correct key name:
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
-    -   For non-US keys, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
     -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
