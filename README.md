@@ -481,7 +481,7 @@ For example:
 
 <ul>
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by one or more whitespace characters.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
 
 Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
@@ -618,7 +618,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 -   [`d5.kbd`](configs/d5.kbd)
     -   Layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
-    -   Layout with [adaptive keys](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
+    -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
 -   [`buggy.kbd`](configs/buggy.kbd)
     -   Layout with 2 alpha layers
 -   [`power.kbd`](configs/power.kbd)
