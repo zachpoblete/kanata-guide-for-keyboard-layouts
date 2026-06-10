@@ -18,8 +18,8 @@
 )
 
 #|
-The adaptive-key template creates an alias that switches to a layer
-where you can swap one or more keys.
+The adaptive-key template creates an alias that presses the adaptive
+key and switches to a layer where you can swap one or more keys.
 
 Syntax:
   (t! adaptive-key $adaptive-key
@@ -35,7 +35,8 @@ Parameters:
 
 Description:
   This template creates an adaptive key alias named $adaptive-key that
-  switches to an adaptive key layer also named $adaptive-key.
+  presses the adaptive key and switches to an adaptive key layer also
+  named $adaptive-key.
 
   The adaptive key layer remaps each physical key in the defsrc entry to
   a key or action in the same position in the adaptive key layer.
