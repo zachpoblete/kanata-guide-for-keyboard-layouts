@@ -415,7 +415,7 @@ Your Kanata config will run in the background at startup.
 
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-2.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Identify the correct key names with the following references:
+2.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Find valid key names with the following references:
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
