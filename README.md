@@ -325,7 +325,7 @@ Expand the instructions for your operating system.
 
 1. Click **OK**.
 
-1. To verify the shortcut runs properly, double-click the shortcut. The Kanata tray icon appears in the system tray.
+1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
 Your Kanata config will run in the background at startup.
 
