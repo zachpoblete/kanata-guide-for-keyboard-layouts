@@ -138,7 +138,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 ### Set up the Karabiner driver
 
-To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
@@ -215,7 +215,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 ### Set up the Karabiner driver
 
-To use Kanata, you first need to set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
+To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
 1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
@@ -415,7 +415,7 @@ Your Kanata config will run in the background at startup.
 
     Each physical key in the `defsrc` entry is remapped to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-2.  To remap a key that isn’t in the `defsrc` entry, add that key to the `defsrc` entry. The following references help you identify the correct key name:
+2.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Identify the correct key names with the following references:
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
