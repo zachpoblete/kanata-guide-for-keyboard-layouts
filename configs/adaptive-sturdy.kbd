@@ -34,9 +34,8 @@ Parameters:
     corresponding defsrc key is pressed.
 
 Description:
-  This template creates an adaptive key alias named $adaptive-key that
-  presses the adaptive key and switches to an adaptive key layer also
-  named $adaptive-key.
+  This template creates an alias named $adaptive-key. The alias presses
+  the adaptive key and switches to a layer also named $adaptive-key.
 
   The adaptive key layer remaps each physical key in the defsrc entry to
   a key or action in the same position in the adaptive key layer.
