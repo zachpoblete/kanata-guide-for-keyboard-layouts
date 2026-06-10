@@ -340,12 +340,12 @@ Your Kanata config will run in the background at startup.
 
 1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
 
-1.  Open the `kanata.service` file with a text editor.
+1.  Open the Kanata service file with a text editor.
 
 1.  Edit the `ExecStart` line:
 
     <pre>
-    ExecStart=<var>KANATA_EXECUTABLE_PATH</var> -c <var>KANATA_CONFIG_PATH</var> --nodelay
+    ExecStart=<var>KANATA_EXECUTABLE_PATH</var> --cfg <var>KANATA_CONFIG_PATH</var> --nodelay
     </pre>
 
     Replace the following:
@@ -372,9 +372,9 @@ Your Kanata config will run in the background at startup.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder. Don’t change the filename.
 
-1.  Open the `dev.kanata.kanata.plist` file with a text editor.
+1.  Open the Kanata plist file with a text editor.
 
 1.  Edit the `ProgramArguments` key:
 
