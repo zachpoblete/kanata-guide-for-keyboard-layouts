@@ -8,11 +8,11 @@ This guide shows you how to use [alt layouts](https://layouts.wiki/guides/start/
 -   [Run Kanata at startup](#run-kanata-at-startup)
 -   [Change your layout](#change-your-layout)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
--   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;toggling layouts, custom shift pairs, magic keys, and more
+-   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
 ## Set up Kanata
 
-Expand the instructions for your operating system.
+Expand the section for your operating system.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -21,28 +21,72 @@ Expand the instructions for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Download Kanata:
+1.  To check whether your computer uses an x64 or arm64 processor, expand the section for your version of Windows:
 
-    -   Most users: [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   ARM users: [download the arm64 version](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+<ul>
+<details>
+<summary><strong>Windows 10</strong></summary>
+<p></p>
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Open the **Settings** app.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+    If you’re not sure how, right-click the **Start** icon on the taskbar and select **Settings**.
 
-1.  Open the folder in a terminal.
+1.  In the navigation menu, click **System**.
 
-    If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
+1.  In the navigation panel that appears, scroll to the end and click **About**.
 
-1.  Run Kanata with the example config:
+1.  In the **Device specifications** section, look for the **System type** item:
 
-    -   x64:
+    -   “64-bit operating system, **x64**-based processor” means you’re using an **x64** processor.
+    -   “64-bit operating system, **ARM**-based processor” means you’re using an **arm64** processor.
+
+</details>
+</ul>
+
+<ul>
+<details>
+<summary><strong>Windows 11</strong></summary>
+<p></p>
+
+1.  Open the **Settings** app.
+
+    If you’re not sure how, right-click the **Start** icon on the taskbar and select **Settings**.
+
+1.  In the navigation panel, click **System**.
+
+1.  Scroll to the end of the page and click **About**.
+
+1.  In the **Device info** section, look for the **System type** item:
+
+    -   “64-bit operating system, **x64**-based processor” means you’re using an **x64** processor.
+    -   “64-bit operating system, **ARM**-based processor” means you’re using an **arm64** processor.
+
+</details>
+</ul>
+
+2.  Download Kanata:
+
+    -   If you’re using an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
+    -   If you’re using an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+
+2.  Extract the downloaded zip file. It contains the Kanata executable files.
+
+2.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+
+2.  Open the folder in a terminal.
+
+    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
+
+2.  Run Kanata with the example config:
+
+    -   If you’re using an **x64** processor, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
         ```
 
-    -   arm64:
+    -   If you’re using an **arm64** processor, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
@@ -71,7 +115,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how, right-click an empty space inside the folder and select **Open in Terminal**.
+    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
 1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -109,7 +153,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
@@ -168,10 +212,19 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Set up the Kanata executable
 
+1.  Check whether your computer uses an arm64 or x86_64 processor:
+
+    1.  Click the **Apple icon** menu and select **About This Mac**.
+
+    1.  In the window that appears, look for either a **Chip** or **Processor** item:
+
+        -   **Chip** means you’re using an **arm64** processor.
+        -   **Processor** means you’re using an **x86_64** processor.
+
 1.  Download Kanata v1.7.0:
 
-    -   If you’re on an Apple Silicon Mac, [download the arm64 executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re on an Intel-based Mac, [download the x86_64 executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If you’re using an **arm64** processor: [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If you’re using an **x86_64** processor: [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
 
@@ -181,19 +234,19 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run Kanata with the example config.
 
-    -   arm64:
+    -   If you’re using an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   x86_64:
+    -   If you’re using an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x86_64
@@ -252,34 +305,43 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Set up the Kanata executable
 
+1.  Check whether your computer uses an arm64 or x64 processor:
+
+    1.  Click the **Apple icon** menu and select **About This Mac**.
+
+    1.  In the window that appears, look for either a **Chip** or **Processor** item:
+
+        -   **Chip** means you’re using an **arm64** processor.
+        -   **Processor** means you’re using an **x64** processor.
+
 1.  Download Kanata:
 
-    -   If you’re on an Apple Silicon Mac (most users), [download the arm64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If you’re on an Intel-based Mac, [download the x64 version](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   If you’re using an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
+    -   If you’re using an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Extract the downloaded zip file. It contains the Kanata executable files. The name of the Kanata executable file you’ll be using for the next steps starts `kanata_macos_cmd_allowed_`.
 
 1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the same Kanata executable file.
+1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
 1.  Open the folder in a terminal.
 
-    If you don’t know how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run Kanata with the example config.
 
-    -   arm64:
+    -   If you’re using an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   x64:
+    -   If you’re using an **x64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x64
@@ -294,7 +356,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 ## Run Kanata at startup
 
-Expand the instructions for your operating system.
+Expand the section for your operating system.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -305,13 +367,13 @@ Expand the instructions for your operating system.
 
 1.  Create a shortcut of the Kanata executable file.
 
-    If you don’t know how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
+    If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
 1.  Move the shortcut to the startup folder `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  Append the following arguments to the **Target** field:
+1.  Add the following arguments to the end of the **Target** field:
 
     ```
      --cfg "KANATA_CONFIG_PATH" --nodelay
@@ -419,44 +481,29 @@ Your Kanata config will run in the background at startup.
 
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-2.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Find valid key names with the following references:
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Find valid key names with the following references:
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
     -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-3.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
+1.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
 
     To avoid manually changing every key, copy the text version of your layout into the `deflayer` entry:
 
-<ul>
-<ol type="1">
+    1.  In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), send the following message:
 
-<li>
+        ```
+        !cmini view LAYOUT
+        ```
 
-In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), send the following message:
+        Replace `LAYOUT` with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
 
-```
-!cmini view LAYOUT
-```
+    1.  Copy the returned layout into the `deflayer` entry. Adjust the formatting as needed.
 
-Replace `LAYOUT` with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
+1.  Save the file.
 
-</li>
-
-
-<li>
-
-Copy the returned layout into the `deflayer` entry. Adjust the formatting as needed.
-
-</li>
-
-</ol>
-</ul>
-
-4.  Save the file.
-
-5.  Run Kanata with the example config again.
+1.  Run Kanata with the example config again.
 
 Your keyboard is using your layout.
 
