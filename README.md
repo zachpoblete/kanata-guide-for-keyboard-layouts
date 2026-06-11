@@ -214,7 +214,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Set up the Kanata executable
 
-1.  Check whether your computer uses an arm64 or x86_64 processor:
+Kanata has two versions, one for arm64 processors and one for x64 processors.
+
+1.  To check what processor your computer uses, follow these steps:
 
     1.  Click the **Apple icon** menu and select **About This Mac**.
 
@@ -307,7 +309,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Set up the Kanata executable
 
-1.  Check whether your computer uses an arm64 or x64 processor:
+Kanata has two versions, one for arm64 processors and one for x64 processors.
+
+1.  To check what processor your computer uses, follow these steps:
 
     1.  Click the **Apple icon** menu and select **About This Mac**.
 
@@ -321,7 +325,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files. The name of the Kanata executable file you’ll be using for the next steps starts `kanata_macos_cmd_allowed_`.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
 1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
