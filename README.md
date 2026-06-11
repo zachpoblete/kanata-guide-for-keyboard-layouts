@@ -291,7 +291,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
-    If you previously ran `deactivate`, restart your computer.
+    If you previously ran the `deactivate` command, restart your computer.
 
 1.  Enable the Karabiner system extension: Open **System Settings → General → Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
