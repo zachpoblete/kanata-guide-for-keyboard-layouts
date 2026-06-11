@@ -227,8 +227,8 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 1.  Download Kanata v1.7.0:
 
-    -   If your computer uses an **arm64** processor: [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If your computer uses an **x86_64** processor: [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If your computer uses an **arm64** processor, [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If your computer uses an **x86_64** processor, [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
 
