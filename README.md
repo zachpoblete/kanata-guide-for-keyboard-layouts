@@ -69,8 +69,8 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 2.  Download Kanata:
 
-    -   If you’re using an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   If you’re using an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+    -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
+    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
 2.  Extract the downloaded zip file. It contains the Kanata executable files.
 
@@ -82,13 +82,13 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 2.  Run Kanata with the example config:
 
-    -   If you’re using an **x64** processor, run the following command:
+    -   If your computer uses an **x64** processor, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
         ```
 
-    -   If you’re using an **arm64** processor, run the following command:
+    -   If your computer uses an **arm64** processor, run the following command:
 
         ```cmd
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
@@ -225,8 +225,8 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata v1.7.0:
 
-    -   If you’re using an **arm64** processor: [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If you’re using an **x86_64** processor: [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
+    -   If your computer uses an **arm64** processor: [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
+    -   If your computer uses an **x86_64** processor: [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
 
 1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
 
@@ -241,14 +241,14 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Run Kanata with the example config.
 
-    -   If you’re using an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you’re using an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+    -   If your computer uses an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x86_64
@@ -318,8 +318,8 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata:
 
-    -   If you’re using an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If you’re using an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
+    -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files. The name of the Kanata executable file you’ll be using for the next steps starts `kanata_macos_cmd_allowed_`.
 
@@ -336,14 +336,14 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Run Kanata with the example config.
 
-    -   If you’re using an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
         sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
         ```
 
-    -   If you’re using an **x64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+    -   If your computer uses an **x64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x64
