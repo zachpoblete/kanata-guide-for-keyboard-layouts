@@ -96,7 +96,7 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
     The Kanata tray icon appears in the system tray.
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -126,7 +126,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -165,7 +165,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
     ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -257,7 +257,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
         ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -354,7 +354,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
         ```
 
-Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -399,7 +399,7 @@ Expand the section for your operating system.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
-Your Kanata config will run in the background at startup.
+Kanata will run your config in the background at startup.
 
 </details>
 
@@ -433,7 +433,7 @@ Your Kanata config will run in the background at startup.
     sudo systemctl enable kanata.service
     ```
 
-Your Kanata config will run in the background at startup.
+Kanata will run your config in the background at startup.
 
 </details>
 
@@ -477,7 +477,7 @@ Your Kanata config will run in the background at startup.
 
     The output lists the Kanata daemon `dev.kanata.kanata`.
 
-Your Kanata config will run in the background at startup.
+Kanata will run your config in the background at startup.
 
 </details>
 
@@ -511,7 +511,7 @@ Your Kanata config will run in the background at startup.
 
 1.  Run Kanata with the example config again.
 
-Your keyboard is using your layout.
+Kanata is running your layout.
 
 ## Basics of a Kanata config
 
