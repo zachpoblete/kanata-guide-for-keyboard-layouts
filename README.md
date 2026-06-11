@@ -76,7 +76,7 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 2.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
-2.  Open the folder in a terminal.
+2.  Open the folder with the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -115,7 +115,7 @@ Your keyboard is using the [Gallium layout](https://layouts.wiki/guides/start/re
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
-1.  Open the folder in a terminal.
+1.  Open the folder with the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -153,7 +153,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
-1.  Open the folder in a terminal.
+1.  Open the folder with the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -236,7 +236,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
 
-1.  Open the folder in a terminal.
+1.  Open the folder with the Kanata executable file in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -333,7 +333,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
 
-1.  Open the folder in a terminal.
+1.  Open the folder with the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
