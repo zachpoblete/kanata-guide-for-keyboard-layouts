@@ -21,7 +21,9 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  To check whether your computer uses an x64 or arm64 processor, expand the section for your version of Windows:
+Kanata has two versions, one for x64 processors and one for arm64 processors.
+
+1.  To check what processor your computer uses, expand the section for your version of Windows:
 
 <ul>
 <details>
