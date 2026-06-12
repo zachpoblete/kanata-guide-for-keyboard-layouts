@@ -40,42 +40,51 @@
 
 (defalias skip-magic
   (switch
+    ;; Skip magic rules:
     (t! magic-rule a 2 o)
     (t! magic-rule b 2 n)
-    (t! magic-rule c 2 rpt)
     (t! magic-rule d 2 t)
-    (t! magic-rule e 2 rpt)
     (t! magic-rule f 2 s)
     (t! magic-rule g 2 s)
     (t! magic-rule h 2 y)
-    (t! magic-rule i 2 rpt)
     (t! magic-rule j 2 y)
     (t! magic-rule k 2 t)
     (t! magic-rule l 2 r)
     (t! magic-rule m 2 k)
-    (t! magic-rule n 2 rpt)
     (t! magic-rule o 2 a)
     (t! magic-rule p 2 n)
     (t! magic-rule q 2 e)
     (t! magic-rule r 2 l)
-    (t! magic-rule s 2 rpt)
-    (t! magic-rule t 2 rpt)
     (t! magic-rule u 2 e)
     (t! magic-rule v 2 t)
-    (t! magic-rule w 2 rpt)
     (t! magic-rule x 2 t)
     (t! magic-rule y 2 h)
-    (t! magic-rule z 2 rpt)
     (t! magic-rule , 2 i)
     (t! magic-rule . 2 i)
     (t! magic-rule - 2 i)
     (t! magic-rule / 2 a)
     (t! magic-rule ; 2 e)
+
+    ;; Skip repeat rules:
+    (t! magic-rule c 2 rpt)
+    (t! magic-rule e 2 rpt)
+    (t! magic-rule i 2 rpt)
+    (t! magic-rule n 2 rpt)
+    (t! magic-rule s 2 rpt)
+    (t! magic-rule t 2 rpt)
+    (t! magic-rule w 2 rpt)
+    (t! magic-rule z 2 rpt)
     (t! magic-rule ' 2 rpt)
 
-    ;; To extend skip-repeat to other keys, add additional `rpt` cases
-    ;; above following the same format. There is no known way to do “Else
-    ;; skip-repeat”, unfortunately.
+    #|
+    To extend skip repeat to other keys, add additional repeat cases
+    using the following format:
+      (t! magic-rule $key 2 rpt)
+
+    $key is the key to skip repeat.
+
+    No known way exists to do “Else skip-repeat”, unfortunately.
+    |#
   )
 )
 
