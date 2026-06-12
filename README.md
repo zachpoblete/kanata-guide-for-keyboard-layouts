@@ -190,7 +190,17 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
 
-1.  Open a terminal and activate the driver:
+1.  Open a terminal.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Press `Command + Space`.
+
+    1.  In the **Spotlight Search** box that appears, enter `terminal`.
+
+    1.  Double-click **Terminal**. The Terminal app opens.
+
+1.  In the terminal, activate the driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
@@ -285,7 +295,17 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
 
-1.  Open a terminal and activate the driver:
+1.  Open a terminal.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Press `Command + Space`.
+
+    1.  In the **Spotlight Search** box that appears, enter `terminal`.
+
+    1.  Double-click **Terminal**. The Terminal app opens.
+
+1.  In the terminal, activate the driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
