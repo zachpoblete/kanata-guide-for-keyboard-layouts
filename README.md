@@ -495,7 +495,7 @@ Kanata will run your config in the background at startup.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
 
-    To avoid manually changing every key, copy the text version of your layout into the `deflayer` entry:
+    To avoid manually changing keys, copy the text version of your layout into the `deflayer` entry:
 
     1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
