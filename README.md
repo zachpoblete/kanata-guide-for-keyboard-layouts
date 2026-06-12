@@ -469,7 +469,7 @@ Expand the section for your operating system.
 
     1.  Click **OK**. The startup folder opens.
 
-1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an example config](#run-kanata-with-the-example-config).
+1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an example config](#run-kanata-with-an-example-config).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
@@ -619,7 +619,7 @@ Kanata will run your config in the background at startup.
 
 1.  Save the file.
 
-1.  [Run Kanata with an example config](#run-kanata-with-the-example-config).
+1.  [Run Kanata with an example config](#run-kanata-with-an-example-config).
 
 Kanata is running your layout.
 
