@@ -511,7 +511,7 @@ Kanata will run your config in the background at startup.
 
     1.  Open the example config and paste the layout into the `deflayer` entry.
 
-1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys.
+1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys as needed.
 
 1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
 
