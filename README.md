@@ -74,32 +74,6 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 2.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-2.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
-
-2.  Open the folder with the Kanata executable files in a terminal.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
-
-2.  Run Kanata with the example config:
-
-    -   If your computer uses an **x64** processor, run the following command:
-
-        ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
-        ```
-
-    -   If your computer uses an **arm64** processor, run the following command:
-
-        ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
-        ```
-
-    The Kanata tray icon appears in the system tray.
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
-
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -112,23 +86,6 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
-
-1.  Open the folder with the Kanata executable files in a terminal.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
-
-1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
-
-    ```shell
-    chmod +x kanata_linux_cmd_allowed_x64
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
-    ```
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -150,24 +107,6 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     -   Note: This is the latest version.
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
-
-1.  Open the folder with the Kanata executable files in a terminal.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
-
-1.  Run Kanata with the example config. You only need to run the `chmod` command the first time you run Kanata.
-
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_x64
-    sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
-    ```
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -243,33 +182,6 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
 
 1.  Enable Input Monitoring: open **System Preferences → Privacy & Security → Input Monitoring** and add the Kanata executable file.
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable file.
-
-1.  Open the folder with the Kanata executable file in a terminal.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
-
-1.  Run Kanata with the example config.
-
-    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
-
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_arm64
-        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
-        ```
-
-    -   If your computer uses an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
-
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_x86_64
-        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
-        ```
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -351,14 +263,157 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files.
+</details>
+
+## Run Kanata with an example config
+
+Expand the section for your operating system.
+
+<!----------------------------------------------------------------------------->
+<!-- Windows -->
+
+<details>
+<summary><strong>Windows</strong></summary>
+<p></p>
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+
+1.  Open the folder with the Kanata executable files in a terminal.
+
+    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
+
+1.  Run Kanata with an example config:
+
+    -   If your computer uses an **x64** processor, run the following command:
+
+        ```cmd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example.kbd
+        ```
+
+    -   If your computer uses an **arm64** processor, run the following command:
+
+        ```cmd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
+        ```
+
+    The Kanata tray icon appears in the system tray.
+
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
+</details>
+
+<!----------------------------------------------------------------------------->
+<!-- Linux -->
+
+<details>
+<summary><strong>Linux</strong></summary>
+<p></p>
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+
+1.  Open the folder with the Kanata executable files in a terminal.
+
+    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
+
+1.  Run Kanata with an example config. You only need to run the `chmod` command the first time you run Kanata.
+
+    ```shell
+    chmod +x kanata_linux_cmd_allowed_x64
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg example.kbd
+    ```
+
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
+</details>
+
+<!----------------------------------------------------------------------------->
+<!-- macOS 10 and older -->
+
+<details>
+<summary><strong>macOS 10 and older</strong></summary>
+<p></p>
+
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
 
 1.  Open the folder with the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with the example config.
+1.  Run Kanata with an example config. You only need to run the `chmod` command the first time you run Kanata.
+
+    ```shell
+    chmod +x kanata_macos_cmd_allowed_x64
+    sudo ./kanata_macos_cmd_allowed_x64 --cfg example.kbd
+    ```
+
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
+</details>
+
+<!----------------------------------------------------------------------------->
+<!-- macOS 11 and 12 -->
+
+<details>
+<summary><strong>macOS 11 and 12</strong></summary>
+<p></p>
+
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the downloaded Kanata executable file.
+
+1.  Open the folder with the Kanata executable file in a terminal.
+
+    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+
+1.  Run Kanata with an example config.
+
+    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_arm64
+        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example.kbd
+        ```
+
+    -   If your computer uses an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+
+        ```shell
+        chmod +x kanata_macos_cmd_allowed_x86_64
+        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example.kbd
+        ```
+
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
+</details>
+
+<!----------------------------------------------------------------------------->
+<!-- macOS 13 and newer -->
+
+<details>
+<summary><strong>macOS 13 and newer</strong></summary>
+<p></p>
+
+If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+
+1.  Open the folder with the Kanata executable files in a terminal.
+
+    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+
+1.  Run Kanata with an example config.
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -391,21 +446,35 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Create a shortcut of the Kanata executable file.
+1.  Open the startup folder.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Press `Windows + R`. The **Run** dialog appears.
+
+    1.  In the **Open** box, enter the following path:
+
+        ```
+        %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+        ```
+
+    1.  Click **OK**. The startup folder opens.
+
+1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an example config](#run-kanata-with-the-example-config).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
-1.  Move the shortcut to the startup folder `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`.
+1.  Move the shortcut of the Kanata executable to the startup folder.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  Add the following arguments to the end of the **Target** field:
+1.  In the **Properties** dialog that appears, add the following arguments to the end of the **Target** field:
 
     ```
      --cfg "KANATA_CONFIG_PATH" --nodelay
     ```
 
-    Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file.
+    Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Users\username\Documents\Kanata\example.kbd`.
 
     The full target is similar to the following:
 
@@ -413,9 +482,9 @@ Expand the section for your operating system.
     "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
     </pre>
 
-    `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file.
+    `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
-1. Click **OK**.
+1. In the **Properties** dialog, click **OK**.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
@@ -442,8 +511,8 @@ Kanata will run your config in the background at startup.
 
     Replace the following:
 
-    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file
-    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file
+    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_linux_cmd_allowed_x64`
+    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/Documents/Kanata/example.kbd`
 
 1. Save the file.
 
@@ -482,8 +551,8 @@ Kanata will run your config in the background at startup.
 
     Replace the following:
 
-    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file
-    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file
+    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_macos_cmd_allowed_arm64`
+    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/Documents/Kanata/example.kbd`
 
 1. Save the file.
 
@@ -503,7 +572,9 @@ Kanata will run your config in the background at startup.
 
 ## Change your layout
 
-1.  Open the [example config](configs/example.kbd) with a text editor.
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd) and put it in the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+
+1.  Open the example config with a text editor.
 
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
@@ -537,7 +608,7 @@ Kanata will run your config in the background at startup.
 
 1.  Save the file.
 
-1.  Run Kanata with the example config again.
+1.  [Run Kanata with an example config](#run-kanata-with-the-example-config).
 
 Kanata is running your layout.
 
