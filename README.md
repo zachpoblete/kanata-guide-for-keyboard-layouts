@@ -497,15 +497,17 @@ Kanata will run your config in the background at startup.
 
     To avoid manually changing every key, copy the text version of your layout into the `deflayer` entry:
 
-    1.  In the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy), send the following message:
+    1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
-        ```
-        !cmini view LAYOUT
-        ```
+    1.  In the **Search** box, search for your layout.
 
-        Replace `LAYOUT` with the name of your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `gallium`.
+    1.  Click the row of your layout.
 
-    1.  Copy the returned layout into the `deflayer` entry. Adjust the formatting as needed.
+    1.  To copy your layout as text, click the graphic of your layout that appears.
+
+        ![](resources/cmini-browser-copy-layout-as-text.png)
+
+    1.  Open the example config and paste the layout into the `deflayer` entry. Adjust the formatting as needed.
 
 1.  Save the file.
 
