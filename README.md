@@ -5,6 +5,7 @@ This guide shows you how to use [alt layouts](https://layouts.wiki/guides/start/
 ### In this guide
 
 -   [Set up Kanata](#set-up-kanata)
+-   [Run Kanata with an example config](#run-kanata-with-an-example-config)
 -   [Run Kanata at startup](#run-kanata-at-startup)
 -   [Change your layout](#change-your-layout)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
