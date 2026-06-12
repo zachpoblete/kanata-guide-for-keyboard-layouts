@@ -1,5 +1,5 @@
-;; This Kanata config remaps a US keyboard to the Gallium layout. For
-;; a legend of the abbreviated key names, see the end of the file.
+;; This Kanata config remaps the US keyboard to the Gallium layout.
+;; For a legend of the abbreviated key names, see the end of the file.
 
 (defsrc
   `    1    2    3    4    5    6    7    8    9    0    -    =    bspc
