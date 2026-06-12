@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-This guide takes you from zero to typing on an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard.
+Go from zero to typing on an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no programming experience required.
 
 ### In this guide
 
