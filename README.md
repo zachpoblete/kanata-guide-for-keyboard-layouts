@@ -299,8 +299,6 @@ Expand the section for your operating system.
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example.kbd
         ```
 
-    The Kanata tray icon appears in the system tray.
-
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
