@@ -40,8 +40,8 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  In the **Device specifications** section, look for the **System type** item:
 
-    -   “64-bit operating system, **x64**-based processor” means you’re using an **x64** processor.
-    -   “64-bit operating system, **ARM**-based processor” means you’re using an **arm64** processor.
+    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
 
 </details>
 </ul>
@@ -61,8 +61,8 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  In the **Device info** section, look for the **System type** item:
 
-    -   “64-bit operating system, **x64**-based processor” means you’re using an **x64** processor.
-    -   “64-bit operating system, **ARM**-based processor” means you’re using an **arm64** processor.
+    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
 
 </details>
 </ul>
@@ -487,7 +487,9 @@ Kanata will run your config in the background at startup.
 
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. Find valid key names with the following references:
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
+
+    Find valid key names with the following references. The references may be used for both the `defsrc` entry and the `deflayer` entry.
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
@@ -495,9 +497,7 @@ Kanata will run your config in the background at startup.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys.
-
-    To avoid manually changing keys, copy the text version of your layout into the `deflayer` entry:
+1.  To avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
 
     1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
@@ -505,15 +505,15 @@ Kanata will run your config in the background at startup.
 
     1.  Click the row of your layout.
 
-    1.  To copy your layout as text, click the graphic of your layout that appears.
+    1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
 
         ![](resources/cmini-browser-copy-layout-as-text.png)
 
     1.  Open the example config and paste the layout into the `deflayer` entry.
 
-1.  Match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry.
+1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys.
 
-1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add and remove space characters as needed.
+1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
 
 1.  Save the file.
 
