@@ -489,7 +489,7 @@ Kanata will run your config in the background at startup.
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
-    Find valid key names with the following references. The references may be used for both the `defsrc` entry and the `deflayer` entry.
+    Find valid key names with the following references. The references may be used for both the `defsrc` and `deflayer` entries.
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
