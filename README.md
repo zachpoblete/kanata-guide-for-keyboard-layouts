@@ -493,13 +493,15 @@ Kanata will run your config in the background at startup.
     -   For keys not found on a US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
     -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 
-1.  In the `deflayer` entry, rename the `gallium` layer to your layout and edit the keys.
+1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
+
+1.  In the `deflayer` entry, edit the keys.
 
     To avoid manually changing keys, copy the text version of your layout into the `deflayer` entry:
 
     1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
-    1.  In the **Search** box, search for your layout.
+    1.  In the **Search** box, enter the name of your layout.
 
     1.  Click the row of your layout.
 
