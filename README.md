@@ -492,7 +492,7 @@ Kanata will run your config in the background at startup.
     Find valid key names with the following references. The references may be used for both the `defsrc` and `deflayer` entries.
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
-    -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards).
+    -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
     -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
