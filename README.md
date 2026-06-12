@@ -507,7 +507,11 @@ Kanata will run your config in the background at startup.
 
         ![](resources/cmini-browser-copy-layout-as-text.png)
 
-    1.  Open the example config and paste the layout into the `deflayer` entry. Adjust the formatting as needed.
+    1.  Open the example config and paste the layout into the `deflayer` entry.
+
+1.  Match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry.
+
+1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add and remove space characters as needed.
 
 1.  Save the file.
 
