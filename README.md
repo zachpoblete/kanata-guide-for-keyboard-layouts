@@ -6,7 +6,7 @@ This guide shows you how to use [alt layouts](https://layouts.wiki/guides/start/
 
 -   [Set up Kanata](#set-up-kanata)
 -   [Run Kanata with an example config](#run-kanata-with-an-example-config)
--   [Run Kanata at startup](#run-kanata-at-startup)
+-   [Run a Kanata config at startup](#run-a-kanata-config-at-startup)
 -   [Change your layout](#change-your-layout)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
@@ -444,7 +444,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 </details>
 
-## Run Kanata at startup
+## Run a Kanata config at startup
 
 Expand the section for your operating system.
 
