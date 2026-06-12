@@ -1,11 +1,13 @@
 # Kanata Guide for Alt Layouts
 
-Go from zero to typing on an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no programming experience required.
+Go from zero to typing on an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard.
+
+You don’t need any programming experience to get started.
 
 ### In this guide
 
 -   [Set up Kanata](#set-up-kanata)
--   [Run Kanata with an example config](#run-kanata-with-an-example-config)
+-   [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout)
 -   [Run a Kanata config at startup](#run-a-kanata-config-at-startup)
 -   [Change your layout](#change-your-layout)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
@@ -266,7 +268,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 </details>
 
-## Run Kanata with an example config
+## Run Kanata with an alt layout
 
 Expand the section for your operating system.
 
@@ -285,7 +287,7 @@ Expand the section for your operating system.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata with an example config:
+1.  Run Kanata with an alt layout:
 
     -   If your computer uses an **x64** processor, run the following command:
 
@@ -320,7 +322,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run Kanata with an example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run Kanata with an alt layout. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
@@ -351,7 +353,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with an example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run Kanata with an alt layout. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_x64
@@ -382,7 +384,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with an example config.
+1.  Run Kanata with an alt layout.
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -422,7 +424,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  Run Kanata with an example config.
+1.  Run Kanata with an alt layout.
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -469,7 +471,7 @@ Expand the section for your operating system.
 
     1.  Click **OK**. The startup folder opens.
 
-1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an example config](#run-kanata-with-an-example-config).
+1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
@@ -619,7 +621,7 @@ Kanata will run your config in the background at startup.
 
 1.  Save the file.
 
-1.  [Run Kanata with an example config](#run-kanata-with-an-example-config).
+1.  To run Kanata with the example config, see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
 Kanata is running your layout.
 
