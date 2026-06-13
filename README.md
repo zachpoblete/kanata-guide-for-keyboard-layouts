@@ -35,7 +35,7 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  Open the **Settings** app.
 
-    If you’re not sure how, right-click the **Start** icon on the taskbar and select **Settings**.
+    If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
 1.  In the navigation menu, click **System**.
 
@@ -56,7 +56,7 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  Open the **Settings** app.
 
-    If you’re not sure how, right-click the **Start** icon on the taskbar and select **Settings**.
+    If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
 1.  In the navigation panel, click **System**.
 
@@ -448,9 +448,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Change your layout
 
-1.  If you haven’t ran Kanata with the [example config](configs/example-config.kbd), see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
-
-1.  Open the example config with a plain text editor.
+1.  If you haven’t ran Kanata with the [example config](configs/example-config.kbd) yet, see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
     The example config is a text file:
 
@@ -468,7 +466,23 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
     )
     ```
 
+    The `defsrc` entry lists physical keys of your keyboard.
+
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+
+1.  Open the example config with a plain text editor.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Right-click the example config.
+
+    1.  Select **Open with**.
+
+    1.  Select the default text editor for your operating system:
+
+        -   Windows: **Notepad**
+        -   Linux: **gedit**, or whichever text editor came with your desktop environment
+        -   macOS: **TextEdit**
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
@@ -572,6 +586,18 @@ Kanata will run your config in the background at startup.
 
 1.  Open the Kanata service file with a plain text editor.
 
+    If you’re not sure how, follow these steps:
+
+    1.  Right-click the example config.
+
+    1.  Select **Open with**.
+
+    1.  Select the default text editor for your operating system:
+
+        -   Windows: **Notepad**
+        -   Linux: **gedit**, or whichever text editor came with your desktop environment
+        -   macOS: **TextEdit**
+
 1.  Edit the following line:
 
     <pre>
@@ -605,6 +631,18 @@ Kanata will run your config in the background at startup.
 1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder. Don’t change the filename.
 
 1.  Open the Kanata plist file with a plain text editor.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Right-click the example config.
+
+    1.  Select **Open with**.
+
+    1.  Select the default text editor for your operating system:
+
+        -   Windows: **Notepad**
+        -   Linux: **gedit**, or whichever text editor came with your desktop environment
+        -   macOS: **TextEdit**
 
 1.  Edit the `ProgramArguments` key:
 
