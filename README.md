@@ -75,8 +75,6 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
-<a name="windows-extract-kanata-executables"></a>
-
 2.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_windows_`.
 
 </details>
@@ -283,7 +281,7 @@ Expand the section for your operating system.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as [the Kanata executable files you extracted](#windows-extract-kanata-executables).
+1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
 1.  Open the folder with the Kanata executable files in a terminal.
 
@@ -318,7 +316,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in the last step of [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
 1.  Open the folder with the Kanata executable files in a terminal.
 
@@ -348,7 +346,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in the last step of [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
 1.  Open the folder with the Kanata executable files in a terminal.
 
@@ -516,7 +514,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  Save the file.
 
-1.  To run the example config using Kanata, see the last step in [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+1.  To run the example config using Kanata, see the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
 
 Kanata is running your layout.
 
