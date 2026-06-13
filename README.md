@@ -9,7 +9,7 @@ You don’t need any programming experience to get started.
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
 -   [Change your layout](#change-your-layout)
--   [Set up a Kanata config to run every time you log in to your computer](#set-up-a-kanata-config-to-run-every-time-you-log-in-to-your-computer)
+-   [Set up your layout to run every time you log in to your computer](#set-up-your-layout-to-run-every-time-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
@@ -279,7 +279,7 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
@@ -314,7 +314,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
@@ -344,7 +344,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
@@ -375,7 +375,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
 
 1.  Move the example config to the same folder as the downloaded Kanata executable file.
 
@@ -415,7 +415,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
@@ -518,7 +518,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 Kanata is running your layout.
 
-## Set up a Kanata config to run every time you log in to your computer
+## Set up your layout to run every time you log in to your computer
 
 Expand the section for your operating system.
 
