@@ -796,8 +796,7 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 For more information about any Kanata feature, see the [Configuration Guide](https://jtroo.github.io/config.html).
 
-<a name="general-configs"></a>
-<strong>General configs</strong>
+### General configs
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
@@ -812,8 +811,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 -   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
     -   Layout with a 2nd layer for navigation keys
 
-<a name="layouts"></a>
-<strong>Layouts</strong>
+### Layouts
 
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   Layout with custom shift pairs
@@ -828,8 +826,7 @@ For more information about any Kanata feature, see the [Configuration Guide](htt
 -   [`nokwts.kbd`](configs/nokwts.kbd)
     -   Layout with the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
-<a name="advanced-layouts"></a>
-<strong>Advanced layouts</strong>
+### Advanced layouts
 
 -   [`lucens.kbd`](configs/lucens.kbd)
     -   Layout with a 2nd layer for German letters
