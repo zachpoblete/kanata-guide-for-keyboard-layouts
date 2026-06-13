@@ -500,7 +500,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  Save the file.
 
-1.  To run Kanata with the example config, see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
+1.  To run Kanata with the example config, see the last step in [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
 Kanata is running your layout.
 
