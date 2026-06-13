@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to set up and use an [alt layout](https://layouts.wiki/guides/start/intro/) with [Kanata](https://github.com/jtroo/kanata)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a software for remapping any keyboard, with support for layers, tap-hold, and more.
+This guide shows you how to set up and use an [alt layout](https://layouts.wiki/guides/start/intro/) with [Kanata](https://github.com/jtroo/kanata)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a software for remapping any keyboard, with support for advanced features like layers, tap-hold, and more.
 
 You don’t need any programming experience to get started.
 
@@ -9,7 +9,7 @@ You don’t need any programming experience to get started.
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
 -   [Change your layout](#change-your-layout)
--   [Run a Kanata config when you log in](#run-a-kanata-config-when-you-log-in)
+-   [Run a Kanata config when you log in to your computer](#run-a-kanata-config-when-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
@@ -518,7 +518,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 Kanata is running your layout.
 
-## Run a Kanata config when you log in
+## Run a Kanata config when you log in to your computer
 
 Expand the section for your operating system.
 
@@ -571,7 +571,7 @@ Expand the section for your operating system.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
-Kanata will run your config when you log in.
+Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
@@ -617,7 +617,7 @@ Kanata will run your config when you log in.
     sudo systemctl enable kanata.service
     ```
 
-Kanata will run your config when you log in.
+Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
@@ -673,7 +673,7 @@ Kanata will run your config when you log in.
 
     The output lists the Kanata daemon `dev.kanata.kanata`.
 
-Kanata will run your config when you log in.
+Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
