@@ -9,7 +9,7 @@ You don’t need any programming experience to get started.
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
 -   [Change your layout](#change-your-layout)
--   [Set up your layout to run every time you log in to your computer](#set-up-your-layout-to-run-every-time-you-log-in-to-your-computer)
+-   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
@@ -518,7 +518,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 Kanata is running your layout.
 
-## Set up your layout to run every time you log in to your computer
+## Run your layout automatically when you log in to your computer
 
 Expand the section for your operating system.
 
