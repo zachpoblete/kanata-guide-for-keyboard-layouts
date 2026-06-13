@@ -99,7 +99,7 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 <summary><strong>macOS 10 and older</strong></summary>
 <p></p>
 
->   **⚠️ Warning**: It is unclear whether the latest version of Kanata works with macOS 10 and older. Support for macOS 10 was introduced in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so try starting there&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;one user [confirmed Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
+>   **⚠️ Warning**: It is unclear whether the latest version of Kanata works on macOS 10 and older. Support for macOS 10 was introduced in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so try starting there&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;one user [confirmed Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
@@ -283,7 +283,7 @@ Expand the section for your operating system.
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
-1.  Open the folder with the Kanata executable files in a terminal.
+1.  Open the folder containing the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -318,7 +318,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
-1.  Open the folder with the Kanata executable files in a terminal.
+1.  Open the folder containing the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -348,7 +348,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
-1.  Open the folder with the Kanata executable files in a terminal.
+1.  Open the folder containing the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -379,7 +379,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the downloaded Kanata executable file.
 
-1.  Open the folder with the Kanata executable file in a terminal.
+1.  Open the folder containing the Kanata executable file in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -419,7 +419,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable files you extracted in [Set up Kanata](#set-up-kanata).
 
-1.  Open the folder with the Kanata executable files in a terminal.
+1.  Open the folder containing the Kanata executable files in a terminal.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -486,7 +486,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
-    Find valid key names with the following references. The references may be used for both the `defsrc` and `deflayer` entries.
+    Find valid key names using the following references. The references may be used for both the `defsrc` and `deflayer` entries.
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
