@@ -448,11 +448,25 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Change your layout
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd).
+1.  If you haven’t ran Kanata with the [example config](configs/example.kbd), see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
-1.  Move the example config to the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+1.  Open the example config with a plain text editor.
 
-1.  Open the example config with a text editor.
+    The example config is a text file:
+
+    ```
+    (defsrc
+      q w e r t  y u i o p
+      a s d f g  h j k l ; '
+      z x c v b  n m , . /
+    )
+
+    (deflayer gallium
+      b l d c v  j f o u ,
+      n r t s g  y h a e i /
+      x q m w z  k p ' ; .
+    )
+    ```
 
     The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
@@ -556,7 +570,7 @@ Kanata will run your config in the background at startup.
 
 1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
 
-1.  Open the Kanata service file with a text editor.
+1.  Open the Kanata service file with a plain text editor.
 
 1.  Edit the following line:
 
@@ -590,7 +604,7 @@ Kanata will run your config in the background at startup.
 
 1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder. Don’t change the filename.
 
-1.  Open the Kanata plist file with a text editor.
+1.  Open the Kanata plist file with a plain text editor.
 
 1.  Edit the `ProgramArguments` key:
 
