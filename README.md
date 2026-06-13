@@ -8,8 +8,8 @@ You don’t need any programming experience to get started.
 
 -   [Set up Kanata](#set-up-kanata)
 -   [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout)
--   [Run a Kanata config at startup](#run-a-kanata-config-at-startup)
 -   [Change your layout](#change-your-layout)
+-   [Run a Kanata config at startup](#run-a-kanata-config-at-startup)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
@@ -446,6 +446,50 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 </details>
 
+## Change your layout
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd).
+
+1.  Move the example config to the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
+
+1.  Open the example config with a text editor.
+
+    The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
+
+    Find valid key names with the following references. The references may be used for both the `defsrc` and `deflayer` entries.
+
+    -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
+    -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+    -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+
+1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
+
+1.  To avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
+
+    1.  Open the [cmini browser](https://cminibrowser.com/) website.
+
+    1.  In the **Search** box, enter the name of your layout.
+
+    1.  Click the row of your layout.
+
+    1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
+
+        ![](resources/cmini-browser-copy-layout-as-text.png)
+
+    1.  Open the example config and paste the layout into the `deflayer` entry.
+
+1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys as needed.
+
+1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
+
+1.  Save the file.
+
+1.  To run Kanata with the example config, see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
+
+Kanata is running your layout.
+
 ## Run a Kanata config at startup
 
 Expand the section for your operating system.
@@ -580,50 +624,6 @@ Kanata will run your config in the background at startup.
 Kanata will run your config in the background at startup.
 
 </details>
-
-## Change your layout
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example.kbd).
-
-1.  Move the example config to the same folder as the Kanata executable files you downloaded in [Set up Kanata](#set-up-kanata).
-
-1.  Open the example config with a text editor.
-
-    The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
-
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
-
-    Find valid key names with the following references. The references may be used for both the `defsrc` and `deflayer` entries.
-
-    -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
-    -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
-    -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
-
-1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
-
-1.  To avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
-
-    1.  Open the [cmini browser](https://cminibrowser.com/) website.
-
-    1.  In the **Search** box, enter the name of your layout.
-
-    1.  Click the row of your layout.
-
-    1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
-
-        ![](resources/cmini-browser-copy-layout-as-text.png)
-
-    1.  Open the example config and paste the layout into the `deflayer` entry.
-
-1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys as needed.
-
-1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
-
-1.  Save the file.
-
-1.  To run Kanata with the example config, see [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
-
-Kanata is running your layout.
 
 ## Basics of a Kanata config
 
