@@ -130,7 +130,9 @@ The following sections show you how to set up the Karabiner driver and Kanata it
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg) and run the installer.
+1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg). You must download v3.1.0 because that is the last version supporting macOS 11 and 12.
+
+1.  Run the Karabiner driver installer.
 
 1.  Open a terminal.
 
@@ -177,7 +179,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
         -   **Chip** means you’re using an **arm64** processor.
         -   **Processor** means you’re using an **x86_64** processor.
 
-1.  Download Kanata v1.7.0:
+1.  Download Kanata v1.7.0. You must download v1.7.0 because that is the last version supporting macOS 11 and 12.
 
     -   If your computer uses an **arm64** processor, [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
     -   If your computer uses an **x86_64** processor, [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
@@ -208,7 +210,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     -   **Karabiner-Elements Privileged Daemons**
     -   **Karabiner-Elements Privileged Daemons v2**
 
-1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg) and run the installer.
+1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because that is the version supported by Kanata.
+
+1.  Run the Karabiner driver installer.
 
 1.  Open a terminal.
 
