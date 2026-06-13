@@ -9,7 +9,7 @@ You don’t need any programming experience to get started.
 -   [Set up Kanata](#set-up-kanata)
 -   [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout)
 -   [Change your layout](#change-your-layout)
--   [Run a Kanata config at startup](#run-a-kanata-config-at-startup)
+-   [Run a Kanata config when you log in](#run-a-kanata-config-when-you-log-in)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, custom shift pairs, magic keys, and more
 
@@ -518,7 +518,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 Kanata is running your layout.
 
-## Run a Kanata config at startup
+## Run a Kanata config when you log in
 
 Expand the section for your operating system.
 
@@ -571,7 +571,7 @@ Expand the section for your operating system.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
-Kanata will run your config in the background at startup.
+Kanata will run your config in the background when you log in.
 
 </details>
 
@@ -617,7 +617,7 @@ Kanata will run your config in the background at startup.
     sudo systemctl enable kanata.service
     ```
 
-Kanata will run your config in the background at startup.
+Kanata will run your config in the background when you log in.
 
 </details>
 
@@ -673,7 +673,7 @@ Kanata will run your config in the background at startup.
 
     The output lists the Kanata daemon `dev.kanata.kanata`.
 
-Kanata will run your config in the background at startup.
+Kanata will run your config in the background when you log in.
 
 </details>
 
