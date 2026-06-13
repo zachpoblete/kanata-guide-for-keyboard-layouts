@@ -452,27 +452,27 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Change your layout
 
-1.  If you haven’t ran the [example config](configs/example-config.kbd) using Kanata yet, see [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+The [example config](configs/example-config.kbd) is a text file:
 
-    The example config is a text file:
+```
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+)
 
-    ```
-    (defsrc
-      q w e r t  y u i o p
-      a s d f g  h j k l ; '
-      z x c v b  n m , . /
-    )
+(deflayer gallium
+  b l d c v  j f o u ,
+  n r t s g  y h a e i /
+  x q m w z  k p ' ; .
+)
+```
 
-    (deflayer gallium
-      b l d c v  j f o u ,
-      n r t s g  y h a e i /
-      x q m w z  k p ' ; .
-    )
-    ```
+The `defsrc` entry lists physical keys you want to remap.
 
-    The `defsrc` entry lists physical keys of your keyboard.
+The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
-    The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+1.  If you haven’t ran the example config using Kanata yet, see [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
 
 1.  Open the example config with a plain text editor.
 
@@ -490,7 +490,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
-    Find valid key names using the following references. The references may be used for both the `defsrc` and `deflayer` entries.
+    Find valid key names using the following references. These references are used for both the `defsrc` and `deflayer` entries:
 
     -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
     -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
