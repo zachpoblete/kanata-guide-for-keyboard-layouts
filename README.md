@@ -687,18 +687,17 @@ In [Change your layout](#change-your-layout), you learned about the two required
 
 The following concepts help you read and edit the [Example configs](#example-configs).
 
-**Comments** are prefixed with two semicolons `;;`.
+**Comments** are notes that Kanata ignores.
 
 <ul>
 
-For example:
+Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
 
 ```
 ;; This is a comment.
-;; Comments are ignored.
 
 (defsrc
-  caps a s d f  ;; Comments can be appended to a line.
+  caps a s d f  ;; Comments can be added to the end of a line.
 )
 ```
 
