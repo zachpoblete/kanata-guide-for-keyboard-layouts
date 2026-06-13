@@ -529,7 +529,7 @@ Expand the section for your operating system.
 
     1.  Click **OK**. The startup folder opens.
 
-1.  Create a shortcut of the Kanata executable file you ran in [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
+1.  Create a shortcut of the Kanata executable file you ran in the last step of [Run Kanata with an alt layout](#run-kanata-with-an-alt-layout).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
