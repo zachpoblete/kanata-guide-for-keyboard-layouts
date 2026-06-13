@@ -679,6 +679,8 @@ Kanata will run your config in the background when you log in to your computer.
 
 ## Basics of a Kanata config
 
+In [Change your layout](#change-your-layout), you learned about the two required entries in a Kanata config, `defsrc` and `deflayer`.
+
 The following concepts help you read and edit the [Example configs](#example-configs).
 
 **Comments** are prefixed with two semicolons `;;`.
