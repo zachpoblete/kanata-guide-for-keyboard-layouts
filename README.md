@@ -472,6 +472,8 @@ The `defsrc` entry lists physical keys you want to remap.
 
 The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
 
+To change your layout, follow these steps:
+
 1.  If you haven’t ran the example config using Kanata yet, see [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
 
 1.  Open the example config with a plain text editor.
