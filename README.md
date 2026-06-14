@@ -9,6 +9,7 @@ You don’t need any programming experience to get started.
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
 -   [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config)
+-   [How the example config works](#how-the-example-config-works)
 -   [Change your layout](#change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
@@ -461,9 +462,9 @@ To stop running the layout, see [Stop running an alt layout or any Kanata config
 
 To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
-## Change your layout
+## How the example config works
 
-The [example config](configs/example-config.kbd) is a text file:
+The [example config](configs/example-config.kbd) is a text file with the following contents:
 
 ```
 (defsrc
@@ -479,13 +480,19 @@ The [example config](configs/example-config.kbd) is a text file:
 )
 ```
 
-The `defsrc` entry lists physical keys you want to remap.
+The `defsrc` entry lists the physical keys of your keyboard.
 
-The `gallium` layer remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, `q` in the `defsrc` entry is remapped to `b` in the `gallium` layer.
+The `deflayer` entry creates a layer named `gallium`.
 
-To change your layout, follow these steps:
+**How Kanata remaps your keyboard using the example config**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
+
+## Change your layout
+
+In this section, you will modify the [example config](configs/example-config.kbd) to use the layout that you want.
 
 1.  If you haven’t ran the example config using Kanata yet, see [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+
+1.  Read [How the example config works](#how-the-example-config-works).
 
 1.  Open the example config with a plain text editor.
 
@@ -511,7 +518,7 @@ To change your layout, follow these steps:
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  To avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
+1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
 
     1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
@@ -696,7 +703,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 ## Basics of a Kanata config
 
-In [Change your layout](#change-your-layout), you learned about the two required entries in a Kanata config, `defsrc` and `deflayer`.
+In [How the example config works](#how-the-example-config-works), you learn about the two required entries in a config, `defsrc` and `deflayer`.
 
 The following concepts help you read and edit the [Example configs](#example-configs).
 
