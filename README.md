@@ -480,9 +480,9 @@ The [example config](configs/example-config.kbd) is a text file with the followi
 
 The `defsrc` entry lists the physical keys of your keyboard.
 
-The `deflayer` entry creates a layer named `gallium`.
+The `deflayer` entry creates a keyboard layer named `gallium`.
 
-**How Kanata remaps your keyboard using the example config**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
+**How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
 
 ## Change your layout
 
