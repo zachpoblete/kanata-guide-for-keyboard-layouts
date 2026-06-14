@@ -8,6 +8,7 @@ You don’t need any programming experience to get started.
 
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
+-   [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config)
 -   [Change your layout](#change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
@@ -292,18 +293,20 @@ Expand the section for your operating system.
     -   If your computer uses an **x64** processor, run the following command:
 
         ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example-config.kbd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example-config.kbd --nodelay
         ```
 
     -   If your computer uses an **arm64** processor, run the following command:
 
         ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example-config.kbd
+        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example-config.kbd --nodelay
         ```
+
+    For information about the [`--nodelay` argument](https://jtroo.github.io/config.html#args-nodelay) used in the preceding command, see [Remove startup delay](https://jtroo.github.io/config.html#args-nodelay).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+To stop running the layout, see [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
 
 </details>
 
@@ -326,12 +329,14 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
+
+    For information about the [`--nodelay` argument](https://jtroo.github.io/config.html#args-nodelay) used in the preceding command, see [Remove startup delay](https://jtroo.github.io/config.html#args-nodelay).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+To stop running the layout, see [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
 
 </details>
 
@@ -357,12 +362,14 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_x64
-    sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd
+    sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
+
+    For information about the [`--nodelay` argument](https://jtroo.github.io/config.html#args-nodelay) used in the preceding command, see [Remove startup delay](https://jtroo.github.io/config.html#args-nodelay).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+To stop running the layout, see [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
 
 </details>
 
@@ -390,19 +397,21 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
-        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd
+        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd --nodelay
         ```
 
     -   If your computer uses an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x86_64
-        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example-config.kbd
+        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example-config.kbd --nodelay
         ```
+
+    For information about the [`--nodelay` argument](https://jtroo.github.io/config.html#args-nodelay) used in the preceding command, see [Remove startup delay](https://jtroo.github.io/config.html#args-nodelay).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+To stop running the layout, see [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
 
 </details>
 
@@ -430,21 +439,27 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_arm64
-        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd
+        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd --nodelay
         ```
 
     -   If your computer uses an **x64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
         ```shell
         chmod +x kanata_macos_cmd_allowed_x64
-        sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd
+        sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
         ```
+
+    For information about the [`--nodelay` argument](https://jtroo.github.io/config.html#args-nodelay) used in the preceding command, see [Remove startup delay](https://jtroo.github.io/config.html#args-nodelay).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+To stop running the layout, see [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
 
 </details>
+
+## Stop running an alt layout or any Kanata config
+
+To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 ## Change your layout
 
