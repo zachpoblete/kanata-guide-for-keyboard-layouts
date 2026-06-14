@@ -605,7 +605,7 @@ Kanata will run your config in the background when you log in to your computer.
 
     If you’re not sure how, follow these steps:
 
-    1.  Right-click the example config.
+    1.  Right-click the Kanata service file.
 
     1.  Select **Open with**.
 
@@ -651,7 +651,7 @@ Kanata will run your config in the background when you log in to your computer.
 
     If you’re not sure how, follow these steps:
 
-    1.  Right-click the example config.
+    1.  Right-click the Kanata plist file.
 
     1.  Select **Open with**.
 
