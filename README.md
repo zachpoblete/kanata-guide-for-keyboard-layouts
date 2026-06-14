@@ -878,7 +878,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
     1.  Click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-icon-light.svg"><img alt="" src="resources\github-download-icon-dark.svg"></picture>
     **Download**.
 
--   In the last step, replace `example-config.kbd` with the name of the example config you downloaded.
+-   In the command in the last step, replace `example-config.kbd` with the name of the example config you downloaded.
 
 ## Key names
 
