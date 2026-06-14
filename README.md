@@ -802,6 +802,8 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 To learn about any Kanata feature, see the [Basics of a Kanata config](#basics-of-a-kanata-config) section of this guide and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
+To run one of the example configs, see the [Run one of the example configs](#run-one-of-the-example-configs) section of this guide.
+
 ### General configs
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
@@ -862,6 +864,21 @@ To learn about any Kanata feature, see the [Basics of a Kanata config](#basics-o
     -   Layout with 2 alpha layers
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
+
+## Run one of the example configs
+
+Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata) section of this guide with the following changes:
+
+-   Instead of downloading the [`example-config.kbd`](configs/example-config.kbd) file, download one of the example configs from the [Example configs](#example-configs) section of this guide.
+
+    If you’re not sure how, follow these steps:
+
+    1.  In the [Example configs](#example-configs) section of this guide, open the link of the example config you want to download.
+
+    1.  Click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-icon-dark.svg"><img alt="" src="resources\github-download-icon-light.svg"></picture>
+    **Download**.
+
+-   In the last step, replace `example-config.kbd` with the name of the example config you downloaded.
 
 ## Key names
 
