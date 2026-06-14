@@ -13,7 +13,7 @@ You don’t need any programming experience to get started.
 -   [Change your layout](#change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Basics of a Kanata config](#basics-of-a-kanata-config)
--   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, using an alt layout with QWERTY shortcuts, magic keys, and more
+-   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
 
 ## Set up Kanata
 
