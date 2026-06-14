@@ -488,7 +488,7 @@ The `deflayer` entry creates a layer named `gallium`.
 
 ## Change your layout
 
-For pre-made Kanata configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [config for the Graphite layout](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see [Layouts](#layouts).
+For pre-made Kanata configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [Graphite config](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see [Layouts](#layouts).
 
 In this section, you will modify the [example config](configs/example-config.kbd) to use the layout that you want.
 
