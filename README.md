@@ -703,7 +703,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 ## Basics of a Kanata config
 
-In [How the example config works](#how-the-example-config-works), you learn about the two required entries in a config, `defsrc` and `deflayer`.
+To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see [How the example config works](#how-the-example-config-works).
 
 The following concepts help you read and edit the [Example configs](#example-configs).
 
@@ -814,7 +814,7 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 ## Example configs
 
-For more information about any Kanata feature, see [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
+To learn about any Kanata feature, see [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 ### General configs
 
