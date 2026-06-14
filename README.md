@@ -814,7 +814,7 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 ## Example configs
 
-For more information about any Kanata feature, see the [Configuration Guide](https://jtroo.github.io/config.html).
+For more information about any Kanata feature, see [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 ### General configs
 
