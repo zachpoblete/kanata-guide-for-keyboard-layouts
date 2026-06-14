@@ -488,11 +488,15 @@ The `deflayer` entry creates a layer named `gallium`.
 
 For pre-made Kanata configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [Graphite config](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see [Layouts](#layouts).
 
-In this section, you will modify the [example config](configs/example-config.kbd) to use the layout that you want.
+In this section, you modify the [example config](configs/example-config.kbd) to use the layout that you want.
+
+### Before you start
 
 1.  If you haven’t ran the example config using Kanata yet, see [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
 
 1.  Read [How the example config works](#how-the-example-config-works).
+
+### Edit the example config
 
 1.  Open the example config with a plain text editor.
 
@@ -508,29 +512,11 @@ In this section, you will modify the [example config](configs/example-config.kbd
         -   Linux: **gedit**, or whichever text editor came with your desktop environment
         -   macOS: **TextEdit**
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
-
-    Find valid key names using the following references. These references are used for both the `defsrc` and `deflayer` entries:
-
-    -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
-    -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
-    -   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see [Key names](#key-names).
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, copy the text version of your layout into the `deflayer` entry:
-
-    1.  Open the [cmini browser](https://cminibrowser.com/) website.
-
-    1.  In the **Search** box, enter the name of your layout.
-
-    1.  Click the row of your layout.
-
-    1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
-
-        ![](resources/cmini-browser-copy-layout-as-text.png)
-
-    1.  Open the example config and paste the layout into the `deflayer` entry.
+1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, [copy the text version of your layout into the `deflayer` entry](#copy-the-text-version-of-your-layout-into-a-deflayer-entry).
 
 1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys as needed.
 
@@ -538,9 +524,9 @@ In this section, you will modify the [example config](configs/example-config.kbd
 
 1.  Save the file.
 
-1.  To run the example config using Kanata, see the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+### Run your layout
 
-Kanata is running your layout.
+ To run the example config using Kanata, see the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
 
 ## Run your layout automatically when you log in to your computer
 
@@ -876,6 +862,30 @@ To learn about any Kanata feature, see [Basics of a Kanata config](#basics-of-a-
     -   Layout with 2 alpha layers
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
+
+## Key names
+
+To find valid key names, see the following references. These references are used for both the `defsrc` and `deflayer` entries:
+
+-   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
+-   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+-   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+
+## Copy the text version of your layout into a `deflayer` entry
+
+1.  Open the [cmini browser](https://cminibrowser.com/) website.
+
+1.  In the **Search** box, enter the name of your layout.
+
+1.  Click the row of your layout.
+
+1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
+
+    ![](resources/cmini-browser-copy-layout-as-text.png)
+
+1.  Open your config with a plain text editor.
+
+1.  Paste the layout into a `deflayer` entry.
 
 ## Feedback
 
