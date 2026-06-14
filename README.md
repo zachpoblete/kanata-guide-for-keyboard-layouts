@@ -28,54 +28,50 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  To check what processor your computer uses, expand the section for your version of Windows:
 
-<ul>
-<details>
-<summary><strong>Windows 10</strong></summary>
-<p></p>
+    <details>
+    <summary><strong>Windows 10</strong></summary>
+    <p></p>
 
-1.  Open the **Settings** app.
+    1.  Open the **Settings** app.
 
-    If you’re not sure how, right-click the **Start** menu and select **Settings**.
+        If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
-1.  In the navigation menu, click **System**.
+    1.  In the navigation menu, click **System**.
 
-1.  In the navigation panel that appears, scroll to the end and click **About**.
+    1.  In the navigation panel that appears, scroll to the end and click **About**.
 
-1.  In the **Device specifications** section, look for the **System type** item:
+    1.  In the **Device specifications** section, look for the **System type** item:
 
-    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
+        -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+        -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
 
-</details>
-</ul>
+    </details>
 
-<ul>
-<details>
-<summary><strong>Windows 11</strong></summary>
-<p></p>
+    <details>
+    <summary><strong>Windows 11</strong></summary>
+    <p></p>
 
-1.  Open the **Settings** app.
+    1.  Open the **Settings** app.
 
-    If you’re not sure how, right-click the **Start** menu and select **Settings**.
+        If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
-1.  In the navigation panel, click **System**.
+    1.  In the navigation panel, click **System**.
 
-1.  Scroll to the end of the page and click **About**.
+    1.  Scroll to the end of the page and click **About**.
 
-1.  In the **Device info** section, look for the **System type** item:
+    1.  In the **Device info** section, look for the **System type** item:
 
-    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
+        -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+        -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
 
-</details>
-</ul>
+    </details>
 
-2.  Download Kanata:
+1.  Download Kanata:
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
 
-2.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_windows_`.
+1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_windows_`.
 
 </details>
 
