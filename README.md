@@ -847,9 +847,9 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
 
 To find valid key names for the `defsrc` and `deflayer` entries, see the following references:
 
--   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
+-   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
+-   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
--   For any other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 
 ## Copy the text version of your layout into a `deflayer` entry
 
