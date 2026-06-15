@@ -691,11 +691,11 @@ Kanata will run your config in the background when you log in to your computer.
 
 To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see the [How the example config works](#how-the-example-config-works) section of this guide.
 
-The following concepts help you read and edit other configs in the [Example configs](#example-configs) section of this guide.
+The following concepts help you read and edit the configs in the [Example configs](#example-configs) section of this guide.
 
-**Comments** are notes that Kanata ignores.
+### Comments
 
-<ul>
+Kanata ignores comments.
 
 Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
 
@@ -707,21 +707,17 @@ Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&
 )
 ```
 
-</ul>
+### Lists
 
-**Lists** make up configs.
-
-<ul>
+Configs are made of lists.
 
 Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
 
 Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
-</ul>
+### Actions
 
-**Actions** let you go beyond remapping a key to a different key.
-
-<ul>
+Actions let you go beyond remapping a key to a different key.
 
 The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold), letting you activate `Left Control` by holding `Caps Lock`:
 
@@ -735,11 +731,9 @@ The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.
 )
 ```
 
-</ul>
+### Aliases
 
-**Aliases** are named shortcuts for actions.
-
-<ul>
+Aliases are named shortcuts for actions.
 
 Aliases are defined in a `defalias` entry:
 
@@ -765,11 +759,9 @@ The following example uses an alias for the `tap-hold` action:
 )
 ```
 
-</ul>
+### Variables
 
-**Variables** are named shortcuts for strings or lists.
-
-<ul>
+Variables are named shortcuts for strings or lists.
 
 Variables are defined in a `defvar` entry:
 
@@ -795,8 +787,6 @@ The following example uses variables for the numbers in the `tap-hold` action:
   caps (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
-
-</ul>
 
 ## Example configs
 
