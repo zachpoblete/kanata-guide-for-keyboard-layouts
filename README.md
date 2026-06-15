@@ -500,17 +500,7 @@ This section shows you how to change the layout of the [example config](configs/
 
 1.  Open the example config with a plain text editor.
 
-    If you’re not sure how, follow these steps:
-
-    1.  Right-click the example config.
-
-    1.  Select **Open with**.
-
-    1.  Select the default text editor for your operating system:
-
-        -   Windows: **Notepad**
-        -   Linux: **gedit**, or whichever text editor came with your desktop environment
-        -   macOS: **TextEdit**
+    If you’re not sure how, see the [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor) section of this guide:
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see the [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries) section of this guide.
 
@@ -596,17 +586,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 1.  Open the Kanata service file with a plain text editor.
 
-    If you’re not sure how, follow these steps:
-
-    1.  Right-click the Kanata service file.
-
-    1.  Select **Open with**.
-
-    1.  Select the default text editor for your operating system:
-
-        -   Windows: **Notepad**
-        -   Linux: **gedit**, or whichever text editor came with your desktop environment
-        -   macOS: **TextEdit**
+    If you’re not sure how, see the [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor) section of this guide:
 
 1.  Edit the following line:
 
@@ -642,17 +622,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 1.  Open the Kanata plist file with a plain text editor.
 
-    If you’re not sure how, follow these steps:
-
-    1.  Right-click the Kanata plist file.
-
-    1.  Select **Open with**.
-
-    1.  Select the default text editor for your operating system:
-
-        -   Windows: **Notepad**
-        -   Linux: **gedit**, or whichever text editor came with your desktop environment
-        -   macOS: **TextEdit**
+    If you’re not sure how, see the [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor) section of this guide:
 
 1.  Edit the `ProgramArguments` key:
 
@@ -892,7 +862,21 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Open your config with a plain text editor.
 
+    If you’re not sure how, see the [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor) section of this guide:
+
 1.  Paste the layout into a `deflayer` entry.
+
+## Open a file with a plain text editor
+
+1.  Right-click the file.
+
+1.  Select **Open with**.
+
+1.  Select the default text editor for your operating system:
+
+    -   Windows: **Notepad**
+    -   Linux: **gedit**, or whichever text editor came preinstalled
+    -   macOS: **TextEdit**
 
 ## Feedback
 
