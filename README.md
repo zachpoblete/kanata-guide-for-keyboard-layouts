@@ -512,7 +512,7 @@ This section shows you how to change the layout of the [example config](configs/
         -   Linux: **gedit**, or whichever text editor came with your desktop environment
         -   macOS: **TextEdit**
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see the [Key names](#key-names) section of this guide.
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see the [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries) section of this guide.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
@@ -870,7 +870,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
 
 -   In the command in the last step, replace `example-config.kbd` with the name of the example config you downloaded.
 
-## Key names
+## Key names for the `defsrc` and `deflayer` entries
 
 To find valid key names for the `defsrc` and `deflayer` entries, see the following references:
 
