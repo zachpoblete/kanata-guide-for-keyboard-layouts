@@ -1,9 +1,10 @@
-;; Original symbol layer: https://getreuer.info/posts/keyboards/symbol-layer/index.html#my-symbol-layer
-
 ;; This Kanata config remaps your keyboard to the Gallium layout and
 ;; adds a symbol layer. The symbol layer is based on Gertreuer’s
 ;; symbol layer, with the following keys kept at their Gallium
 ;; positions: `, . ' ;`.
+
+;; Gertreuer’s original symbol layer:
+;; https://getreuer.info/posts/keyboards/symbol-layer/index.html#my-symbol-layer
 
 (defsrc
    q   w   e   r   t     y   u   i   o   p

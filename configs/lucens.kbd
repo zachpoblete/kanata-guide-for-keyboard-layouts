@@ -1,7 +1,6 @@
-;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1296951439599341640
-
 ;; This Kanata config remaps your keyboard to Lucens, a layout with a
-;; second layer for typing German letters.
+;; second layer for typing German letters. Source (AKL Discord):
+;; https://discord.com/channels/807843650717483049/1063291226243207268/1296951439599341640
 
 (defvar
   tap-time  200

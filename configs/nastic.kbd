@@ -1,7 +1,6 @@
-;; Source (AKL Discord): https://discord.com/channels/807843650717483049/1063291226243207268/1502775637390393455
-
 ;; This Kanata config remaps your keyboard to Nastic, a layout with
-;; duplicate keys.
+;; duplicate keys. Source (AKL Discord):
+;; https://discord.com/channels/807843650717483049/1063291226243207268/1502775637390393455
 
 (defsrc
   q  w  e  r  t    y  u  i  o  p

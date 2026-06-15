@@ -1,6 +1,9 @@
 ;; This Kanata config remaps your keyboard to the first two rows of
 ;; the Gallium layout, with combos mapped to the bottom row of Gallium.
 
+;; The original Gallium layout:
+;; https://github.com/GalileoBlues/Gallium
+
 (defvar
   chord-timeout 50
 )

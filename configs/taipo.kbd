@@ -1,7 +1,6 @@
-;; Inkeys wiki page: https://inkeys.wiki/en/keymaps/taipo
-
 ;; This Kanata config remaps your keyboard to Taipo, a layout that can
-;; be used one-handed.
+;; be used one-handed. Inkeys wiki page:
+;; https://inkeys.wiki/en/keymaps/taipo
 
 (defcfg
   sequence-timeout 2000  ;; for function keys

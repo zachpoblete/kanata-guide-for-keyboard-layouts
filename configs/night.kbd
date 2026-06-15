@@ -1,7 +1,8 @@
-;; Official website: https://valorance.net/night/
-
 ;; This Kanata config remaps your keyboard to Night, a layout with a
-;; thumb alpha key. For more information about thumb alpha, see:
+;; thumb alpha key. Official website:
+;; https://valorance.net/night/
+
+;; For more information about thumb alpha, see:
 ;; https://layouts.wiki/guides/start/recommendations/#thumb-alpha
 
 (defsrc

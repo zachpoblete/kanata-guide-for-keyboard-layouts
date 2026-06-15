@@ -1,5 +1,7 @@
 ;; This Kanata config remaps your keyboard to the Gallium layout and
-;; adds a compose key. For more information about compose keys, see:
+;; adds a compose key.
+
+;; For more information about compose keys, see:
 ;; https://en.wikipedia.org/wiki/Compose_key
 
 (defcfg

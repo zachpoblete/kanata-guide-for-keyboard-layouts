@@ -1,7 +1,6 @@
-;; Github repository (archive): https://web.archive.org/web/20241117014412/https://github.com/ClemenPine/crescent
-
 ;; This Kanata config remaps your keyboard to Crescent - a layout with
-;; only 10 keys, one for each finger.
+;; only 10 keys, one for each finger. Github repository (archive):
+;; https://web.archive.org/web/20241117014412/https://github.com/ClemenPine/crescent
 
 (defvar
   one-shot-timeout 2000

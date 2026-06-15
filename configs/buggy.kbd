@@ -1,7 +1,8 @@
-;; Github repository: https://github.com/flarefin/zmk-config-buggy
-
 ;; This Kanata config remaps your keyboard to Buggy, a layout with two
-;; alpha layers. (Layers like Buggy’s navigation layer aren’t included.)
+;; alpha layers. Github repository:
+;; https://github.com/flarefin/zmk-config-buggy
+
+;; Other layers like Buggy’s navigation layer aren’t included.
 
 (defvar
   sticky-layer-timeout 1000

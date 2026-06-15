@@ -1,8 +1,8 @@
-;; Source (blog post): https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/#adaptive-sturdy-rowstag
-
 ;; This Kanata config remaps your keyboard to Adaptive Sturdy, a
-;; layout with adaptive swaps. For more information about adaptive
-;; swaps, see:
+;; layout with adaptive swaps. Source (blog post):
+;; https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/#adaptive-sturdy-rowstag
+
+;; For more information about adaptive swaps, see:
 ;; https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
 
 (defsrc
