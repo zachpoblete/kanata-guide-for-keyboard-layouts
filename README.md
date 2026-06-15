@@ -841,7 +841,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
             <img alt="" src="resources\github-download-raw-file-dark-screenshot.png">
         </picture>
 
--   In the command in the last step, replace `example-config.kbd` with the name of the example config you downloaded.
+-   In the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the example config you downloaded.
 
 ## Key names for the `defsrc` and `deflayer` entries
 
