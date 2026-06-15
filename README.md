@@ -859,7 +859,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click the row of your layout.
 
-1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
+1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied** appears.
 
     ![](resources/cmini-browser-copy-layout-as-text-screenshot.png)
 
