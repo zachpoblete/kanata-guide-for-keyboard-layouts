@@ -882,7 +882,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
 
 ## Key names
 
-To find valid key names, see the following references. These references are used for both the `defsrc` and `deflayer` entries:
+To find valid key names for the `defsrc` and `deflayer` entries, see the following references:
 
 -   For common keys, see the [US keyboard config](configs/us-keyboard.kbd).
 -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
