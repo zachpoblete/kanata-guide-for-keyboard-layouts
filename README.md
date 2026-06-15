@@ -828,20 +828,20 @@ To run one of the example configs, see the [Run one of the example configs](#run
 
 Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata) section of this guide with the following changes:
 
--   Instead of downloading the [`example-config.kbd`](configs/example-config.kbd) file, download one of the example configs from the [Example configs](#example-configs) section of this guide.
+-   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from the [Example configs](#example-configs) section of this guide.
 
     If you’re not sure how, follow these steps:
 
-    1.  In [Example configs](#example-configs), open the link of the example config you want to download.
+    1.  In [Example configs](#example-configs), open the link of the config you want to download.
 
-    1.  To download the example config, click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="resources\github-download-raw-file-icon-dark.svg"></picture>.
+    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="resources\github-download-raw-file-icon-dark.svg"></picture>.
 
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-dark-screenshot.png">
             <img alt="" src="resources\github-download-raw-file-dark-screenshot-with-drop-shadow.png">
         </picture>
 
--   In the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the example config you downloaded.
+-   In the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
 
 ## Key names for the `defsrc` and `deflayer` entries
 
