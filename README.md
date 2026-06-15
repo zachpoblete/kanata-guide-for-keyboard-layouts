@@ -516,7 +516,7 @@ This section shows you how to change the layout of the [example config](configs/
 
 ### Run your layout
 
- To run the example config using Kanata, see the last step of the [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata) section of this guide.
+ See the last step of the [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata) section of this guide.
 
 ## Run your layout automatically when you log in to your computer
 
