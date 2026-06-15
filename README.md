@@ -838,7 +838,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
 
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-dark-screenshot.png">
-            <img alt="" src="resources\github-download-raw-file-dark-screenshot-with-box-shadow.png">
+            <img alt="" src="resources\github-download-raw-file-dark-screenshot-with-drop-shadow.png">
         </picture>
 
 -   In the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the example config you downloaded.
@@ -861,7 +861,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied!** appears.
 
-    ![](resources/cmini-browser-copy-layout-as-text.png)
+    ![](resources/cmini-browser-copy-layout-as-text-screenshot-with-drop-shadow.png)
 
 1.  Open your config with a plain text editor.
 
