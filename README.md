@@ -8,7 +8,6 @@ You don’t need any programming experience to get started.
 
 -   [Set up Kanata](#set-up-kanata)
 -   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
--   [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config)
 -   [Change your layout](#change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
