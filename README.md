@@ -834,7 +834,7 @@ Follow the steps of the [Run an alt layout using Kanata](#run-an-alt-layout-usin
 
     1.  In the [Example configs](#example-configs) section of this guide, open the link of the example config you want to download.
 
-    1.  Click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="resources\github-download-raw-file-icon-dark.svg"></picture>.
+    1.  To download the example config, click <picture><source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="resources\github-download-raw-file-icon-dark.svg"></picture>.
 
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="resources\github-download-raw-file-light-screenshot.png">
