@@ -290,7 +290,7 @@ Expand the section for your operating system.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config using Kanata.
+1.  In the terminal, run the example config using Kanata:
 
     -   If your computer uses an **x64** processor, run the following command.
 
@@ -395,7 +395,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  In the terminal, run the example config using Kanata.
+1.  In the terminal, run the example config using Kanata:
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -435,7 +435,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
-1.  In the terminal, run the example config using Kanata.
+1.  In the terminal, run the example config using Kanata:
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
