@@ -1,18 +1,18 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to set up and use an [alt layout](https://layouts.wiki/guides/start/intro/) with [Kanata](https://github.com/jtroo/kanata)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a software for remapping any keyboard, with support for advanced features like layers, tap-hold, and more.
+This guide shows you how to set up an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a software for remapping any keyboard, with support for advanced features like layers, tap-hold, and more.
 
 You don’t need any programming experience to get started.
 
 ### In this guide
 
--   [Set up Kanata](#set-up-kanata)
--   [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata)
--   [Change your layout](#change-your-layout)
+-   [Step 1: Set up Kanata](#step-1-set-up-kanata)
+-   [Step 2: Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata)
+-   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
 
-## Set up Kanata
+## Step 1: Set up Kanata
 
 Expand the section for your operating system.
 
@@ -121,7 +121,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 The following sections show you how to set up the Karabiner driver and Kanata itself.
 
-### Set up the Karabiner driver
+### Step 1: Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
@@ -163,7 +163,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Set up the Kanata executable
+### Step 2: Set up the Kanata executable file
 
 Kanata has two versions, one for arm64 processors and one for x64 processors.
 
@@ -198,7 +198,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 The following sections show you how to set up the Karabiner driver and Kanata itself.
 
-### Set up the Karabiner driver
+### Step 1: Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
@@ -245,7 +245,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Set up the Kanata executable
+### Step 2: Set up the Kanata executable file
 
 Kanata has two versions, one for arm64 processors and one for x64 processors.
 
@@ -271,7 +271,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 </details>
 
-## Run an alt layout using Kanata
+## Step 2: Run an alt layout using Kanata
 
 Expand the section for your operating system.
 
@@ -282,9 +282,9 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in this guide’s [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -310,7 +310,9 @@ Expand the section for your operating system.
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-To stop running the layout, see this guide’s [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
+### Stop running an alt layout or any Kanata config
+
+To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -321,9 +323,9 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in this guide’s [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -342,7 +344,9 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-To stop running the layout, see this guide’s [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
+### Stop running an alt layout or any Kanata config
+
+To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -355,9 +359,9 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in this guide’s [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -377,7 +381,9 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-To stop running the layout, see this guide’s [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
+### Stop running an alt layout or any Kanata config
+
+To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -390,7 +396,7 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable file.
 
@@ -419,7 +425,9 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-To stop running the layout, see this guide’s [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
+### Stop running an alt layout or any Kanata config
+
+To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -432,9 +440,9 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). A Kanata config is a text file that tells Kanata how to remap your keyboard.
+1.  [Download the example Kanata config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files you extracted in this guide’s [Set up Kanata](#set-up-kanata).
+1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -461,17 +469,21 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-To stop running the layout, see this guide’s [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config).
-
-</details>
-
-## Stop running an alt layout or any Kanata config
+### Stop running an alt layout or any Kanata config
 
 To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
-## How the example config works
+</details>
 
-The [example config](configs/example-config.kbd) is a text file with the following contents:
+## Step 3: Change your layout
+
+For pre-made Kanata configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [Graphite config](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Layouts](#layouts).
+
+This section shows you how to change the layout of the [example config](configs/example-config.kbd).
+
+### Step 1: Learn how the example config works
+
+The example config is a text file with the following contents:
 
 ```
 (defsrc
@@ -493,19 +505,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 **How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
 
-## Change your layout
-
-For pre-made Kanata configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [Graphite config](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Layouts](#layouts).
-
-This section shows you how to change the layout of the [example config](configs/example-config.kbd).
-
-### Before you start
-
-1.  If you haven’t ran the example config using Kanata yet, see this guide’s [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
-
-1.  Read this guide’s [How the example config works](#how-the-example-config-works).
-
-### Edit the example config
+### Step 2: Edit the example config
 
 1.  Open the example config with a plain text editor.
 
@@ -523,9 +523,9 @@ This section shows you how to change the layout of the [example config](configs/
 
 1.  Save the file.
 
-### Run your layout
+### Step 3: Run your layout
 
- See the last step of this guide’s [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+ See the last step of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata).
 
 ## Run your layout automatically when you log in to your computer
 
@@ -552,7 +552,7 @@ Expand the section for your operating system.
 
     1.  Click **OK**. The startup folder opens.
 
-1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata).
+1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
@@ -668,7 +668,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 ## Basics of a Kanata config
 
-To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [How the example config works](#how-the-example-config-works).
+To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
 
 The following concepts help you read and edit the configs in this guide’s [Example configs](#example-configs).
 
@@ -834,15 +834,15 @@ To run one of the example configs, see this guide’s [Run one of the example co
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
 
-## Run one of the example configs
+### Run one of the example configs
 
-Follow the steps of this guide’s [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata) with the following changes:
+Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata) with the following changes:
 
--   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this guide’s [Example configs](#example-configs).
+-   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this section.
 
     If you’re not sure how, follow these steps:
 
-    1.  In [Example configs](#example-configs), open the link of the config you want to download.
+    1.  Open the link of the config you want to download.
 
     1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
 
@@ -851,7 +851,7 @@ Follow the steps of this guide’s [Run an alt layout using Kanata](#run-an-alt-
             <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
         </picture>
 
--   In the last step of [Run an alt layout using Kanata](#run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
+-   In the last step of [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
 
 ## Key names for the `defsrc` and `deflayer` entries
 
@@ -861,7 +861,33 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 -   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
-## Copy the text version of your layout into a `deflayer` entry
+## Mini guides
+
+### Run a command from this guide
+
+1.  To copy the command, click **Copy code to clipboard**.
+
+1.  Click in the terminal window.
+
+1.  Paste the command:
+
+    -   Windows: Press `Control + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   macOS: Press `Command + V`.
+
+1.  To run the command, press `Enter`.
+
+### Open a file with a plain text editor
+
+1.  Right-click the file and select **Open with**.
+
+1.  Select your default text editor:
+
+    -   Windows: **Notepad**
+    -   Linux: **gedit**, or whichever text editor came preinstalled
+    -   macOS: **TextEdit**
+
+### Copy the text version of your layout into a `deflayer` entry
 
 1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
@@ -878,30 +904,6 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
 
 1.  Paste the layout into a `deflayer` entry.
-
-## Open a file with a plain text editor
-
-1.  Right-click the file and select **Open with**.
-
-1.  Select your default text editor:
-
-    -   Windows: **Notepad**
-    -   Linux: **gedit**, or whichever text editor came preinstalled
-    -   macOS: **TextEdit**
-
-## Run a command from this guide
-
-1.  To copy the command, click **Copy code to clipboard**.
-
-1.  Click in the terminal window.
-
-1.  Paste the command:
-
-    -   Windows: Press `Control + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
-    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
-    -   macOS: Press `Command + V`.
-
-1.  To run the command, press `Enter`.
 
 ## Feedback
 
