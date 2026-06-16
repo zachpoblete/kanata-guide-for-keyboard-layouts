@@ -282,7 +282,7 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). Running the example config runs the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
@@ -308,7 +308,7 @@ Expand the section for your operating system.
         .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example-config.kbd --nodelay
         ```
 
-Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -321,7 +321,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). Running the example config runs the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
@@ -338,7 +338,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
 
-Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -353,7 +353,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). Running the example config runs the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
@@ -371,7 +371,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
 
-Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -386,7 +386,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). Running the example config runs the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable file.
 
@@ -411,7 +411,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
         sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example-config.kbd --nodelay
         ```
 
-Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
@@ -426,7 +426,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). Running the example config runs the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
 1.  Move the example config to the same folder as the downloaded Kanata executable files.
 
@@ -451,7 +451,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
         sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
         ```
 
-Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
