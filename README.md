@@ -286,7 +286,7 @@ Expand the section for your operating system.
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  Open the folder containing the Kanata executable files in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -325,7 +325,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  Open the folder containing the Kanata executable files in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
@@ -357,7 +357,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  Open the folder containing the Kanata executable files in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -390,7 +390,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable file.
 
-1.  Open the folder containing the Kanata executable file in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable file.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -430,7 +430,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  Open the folder containing the Kanata executable files in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
@@ -881,7 +881,7 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  Move the config to the same folder as the Kanata executable files.
 
-1.  Open the folder containing the Kanata executable files in a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal.
 
