@@ -7,7 +7,7 @@ You don’t need any programming experience to get started.
 ### In this guide
 
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
--   [Step 2: Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata)
+-   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
@@ -271,7 +271,7 @@ Kanata has two versions, one for arm64 processors and one for x64 processors.
 
 </details>
 
-## Step 2: Run an alt layout using Kanata
+## Step 2: Run an alt layout
 
 Expand the section for your operating system.
 
@@ -507,7 +507,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 ### Step 3: Run your layout
 
- See the last step of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata).
+ See the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
 
 ## Run your layout automatically when you log in to your computer
 
@@ -534,7 +534,7 @@ Expand the section for your operating system.
 
     1.  Click **OK**. The startup folder opens.
 
-1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata).
+1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
 
     If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
@@ -713,7 +713,7 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 ### Run one of the example configs
 
-Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata) with the following changes:
+Follow the steps of this guide’s [Run an alt layout](#step-2-run-an-alt-layout) with the following changes:
 
 -   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this section.
 
@@ -728,7 +728,7 @@ Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-
             <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
         </picture>
 
--   In the last step of [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
+-   In the last step of [Run an alt layout](#step-2-run-an-alt-layout), replace `example-config.kbd` in the command with the filename of the config you downloaded.
 
 ## Basics of a Kanata config
 
