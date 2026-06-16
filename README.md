@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to set up an [alt layout](https://layouts.wiki/guides/start/intro/) and features like toggling layouts and magic keys, all with [Kanata](https://github.com/jtroo/kanata), a tool for remapping any keyboard.
+This guide shows you how to use [Kanata](https://github.com/jtroo/kanata) to run an [alt layout](https://layouts.wiki/guides/start/intro/) on any keyboard and add features to an alt layout like QWERTY shortcuts, symbol layers, and magic keys.
 
 You don’t need any programming experience to get started.
 
@@ -10,7 +10,7 @@ You don’t need any programming experience to get started.
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
--   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
+-   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;Add features to an alt layout
 
 ## Step 1: Set up Kanata
 
