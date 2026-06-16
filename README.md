@@ -711,25 +711,6 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 -   [`power.kbd`](configs/power.kbd)
     -   Layout with 162 layers
 
-### Run one of the example configs
-
-Follow the steps of this guide’s [Run an alt layout](#step-2-run-an-alt-layout) with the following changes:
-
--   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this section.
-
-    If you’re not sure how, follow these steps:
-
-    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
-
-    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
-
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
-        </picture>
-
--   In the last step of [Run an alt layout](#step-2-run-an-alt-layout), replace `example-config.kbd` in the command with the filename of the config you downloaded.
-
 ## Basics of a Kanata config
 
 To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
@@ -880,6 +861,35 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 1.  Open your config with a plain text editor.
 
 1.  Paste the layout into a `deflayer` entry.
+
+### Run one of the example configs
+
+The following steps are based on this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
+
+1.  Download one of the configs from this guide’s [Example configs](#example-configs).
+
+    If you’re not sure how, follow these steps:
+
+    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
+
+    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
+
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
+            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
+        </picture>
+
+1.  Move the config to the same folder as the Kanata executable files.
+
+1.  Open the folder containing the Kanata executable files in a terminal.
+
+1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal.
+
+1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded. For example, on Linux:
+
+    ```shell
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
+    ```
 
 ## Feedback
 
