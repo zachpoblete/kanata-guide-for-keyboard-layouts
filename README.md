@@ -666,6 +666,92 @@ Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
+## Example configs
+
+To run one of the example configs, see this guide’s [Run one of the example configs](#run-one-of-the-example-configs).
+
+To learn about any Kanata feature used in a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
+
+### General configs
+
+-   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
+    -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
+-   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
+    -   Uses QWERTY when you hold any modifier key, such as `Control`
+-   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
+    -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
+-   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
+    -   Layout with home row mods that use QWERTY
+-   [`gallium-with-symbol-layer.kbd`](configs/gallium-with-symbol-layer.kbd)
+    -   Layout with a 2nd layer for symbol keys
+-   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
+    -   Layout with a 2nd layer for navigation keys
+
+### Layouts
+
+-   [`graphite.kbd`](configs/graphite.kbd)
+    -   Layout with custom shift pairs
+-   [`night.kbd`](configs/night.kbd)
+    -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
+-   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
+    -   Layout with [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html)
+-   [`night-wide.kbd`](configs/night-wide.kbd)
+    -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
+-   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
+    -   Layout with wide mod applied twice
+-   [`nokwts.kbd`](configs/nokwts.kbd)
+    -   Layout with the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
+
+### Advanced layouts
+
+-   [`lucens.kbd`](configs/lucens.kbd)
+    -   Layout with a 2nd layer for German letters
+-   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
+    -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
+-   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
+    -   Layout with combos
+-   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
+    -   Layout with only 2 rows
+-   [`taipo.kbd`](configs/taipo.kbd)
+    -   Layout that can be used with 1 hand
+-   [`crescent.kbd`](configs/crescent.kbd)
+    -   Layout with only 10 keys, one for each finger
+-   [`nastic.kbd`](configs/nastic.kbd)
+    -   Layout with duplicate keys
+-   [`whirl.kbd`](configs/whirl.kbd)
+    -   Layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
+-   [`afterburner.kbd`](configs/afterburner.kbd)
+    -   Layout with a skip magic key
+-   [`nordrassil.kbd`](configs/nordrassil.kbd)
+    -   Layout with [chiral magic keys](https://github.com/zachpoblete/alt-layout-glossary#chiral-magic-keys)
+-   [`d5.kbd`](configs/d5.kbd)
+    -   Layout with chiral skip magic keys
+-   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
+    -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
+-   [`buggy.kbd`](configs/buggy.kbd)
+    -   Layout with 2 alpha layers
+-   [`power.kbd`](configs/power.kbd)
+    -   Layout with 162 layers
+
+### Run one of the example configs
+
+Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata) with the following changes:
+
+-   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this section.
+
+    If you’re not sure how, follow these steps:
+
+    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
+
+    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
+
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
+            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
+        </picture>
+
+-   In the last step of [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
+
 ## Basics of a Kanata config
 
 To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
@@ -766,92 +852,6 @@ The following example uses variables for the numbers in the `tap-hold` action:
   caps (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
-
-## Example configs
-
-To learn about any Kanata feature, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
-
-To run one of the example configs, see this guide’s [Run one of the example configs](#run-one-of-the-example-configs).
-
-### General configs
-
--   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
--   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
-    -   Uses QWERTY when you hold any modifier key, such as `Control`
--   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
-    -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
--   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
-    -   Layout with home row mods that use QWERTY
--   [`gallium-with-symbol-layer.kbd`](configs/gallium-with-symbol-layer.kbd)
-    -   Layout with a 2nd layer for symbol keys
--   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
-    -   Layout with a 2nd layer for navigation keys
-
-### Layouts
-
--   [`graphite.kbd`](configs/graphite.kbd)
-    -   Layout with custom shift pairs
--   [`night.kbd`](configs/night.kbd)
-    -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
--   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
-    -   Layout with [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html)
--   [`night-wide.kbd`](configs/night-wide.kbd)
-    -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
--   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   Layout with wide mod applied twice
--   [`nokwts.kbd`](configs/nokwts.kbd)
-    -   Layout with the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
-
-### Advanced layouts
-
--   [`lucens.kbd`](configs/lucens.kbd)
-    -   Layout with a 2nd layer for German letters
--   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
-    -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
--   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
-    -   Layout with combos
--   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
-    -   Layout with only 2 rows
--   [`taipo.kbd`](configs/taipo.kbd)
-    -   Layout that can be used with 1 hand
--   [`crescent.kbd`](configs/crescent.kbd)
-    -   Layout with only 10 keys, one for each finger
--   [`nastic.kbd`](configs/nastic.kbd)
-    -   Layout with duplicate keys
--   [`whirl.kbd`](configs/whirl.kbd)
-    -   Layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
--   [`afterburner.kbd`](configs/afterburner.kbd)
-    -   Layout with a skip magic key
--   [`nordrassil.kbd`](configs/nordrassil.kbd)
-    -   Layout with [chiral magic keys](https://github.com/zachpoblete/alt-layout-glossary#chiral-magic-keys)
--   [`d5.kbd`](configs/d5.kbd)
-    -   Layout with chiral skip magic keys
--   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
-    -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
--   [`buggy.kbd`](configs/buggy.kbd)
-    -   Layout with 2 alpha layers
--   [`power.kbd`](configs/power.kbd)
-    -   Layout with 162 layers
-
-### Run one of the example configs
-
-Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata) with the following changes:
-
--   Instead of downloading the [`example-config.kbd` file](configs/example-config.kbd), download one of the configs from this section.
-
-    If you’re not sure how, follow these steps:
-
-    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
-
-    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
-
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
-        </picture>
-
--   In the last step of [Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata), replace `example-config.kbd` in the command with the filename of the config you downloaded.
 
 ## Key names for the `defsrc` and `deflayer` entries
 
