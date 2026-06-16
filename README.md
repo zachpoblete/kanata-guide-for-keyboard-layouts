@@ -859,7 +859,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click the row of your layout.
 
-1.  To copy the text version of your layout, click the graphic of your layout that appears. **Copied** appears.
+1.  To copy the text version of your layout, click the graphic of your layout that appears.
 
     ![](images/cmini-browser-copy-layout-as-text-screenshot.png)
 
@@ -871,11 +871,9 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ## Open a file with a plain text editor
 
-1.  Right-click the file.
+1.  Right-click the file and select **Open with**.
 
-1.  Select **Open with**.
-
-1.  Select the default text editor for your operating system:
+1.  Select your default text editor:
 
     -   Windows: **Notepad**
     -   Linux: **gedit**, or whichever text editor came preinstalled
