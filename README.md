@@ -284,7 +284,7 @@ Expand the section for your operating system.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the downloaded Kanata executable files.
+1.  Move the example config to the same folder as the Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -323,7 +323,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the downloaded Kanata executable files.
+1.  Move the example config to the same folder as the Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -355,7 +355,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the downloaded Kanata executable files.
+1.  Move the example config to the same folder as the Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
@@ -388,7 +388,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the downloaded Kanata executable file.
+1.  Move the example config to the same folder as the Kanata executable file.
 
 1.  Open the folder containing the Kanata executable file in a terminal.
 
@@ -428,7 +428,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the downloaded Kanata executable files.
+1.  Move the example config to the same folder as the Kanata executable files.
 
 1.  Open the folder containing the Kanata executable files in a terminal.
 
