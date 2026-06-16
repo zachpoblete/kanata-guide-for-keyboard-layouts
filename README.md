@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to set up an [alt layout](https://layouts.wiki/guides/start/intro/) using [Kanata](https://github.com/jtroo/kanata)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a software for remapping any keyboard, with support for advanced features like layers, tap-hold, and more.
+This guide shows you how to set up an [alt layout](https://layouts.wiki/guides/start/intro/) along with features like toggling layouts and magic keys&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;all with [Kanata](https://github.com/jtroo/kanata), a software for remapping any keyboard.
 
 You don’t need any programming experience to get started.
 
