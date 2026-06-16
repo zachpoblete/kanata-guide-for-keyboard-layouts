@@ -4,7 +4,7 @@ Requires=local-fs.target
 After=local-fs.target
 
 [Service]
-ExecStartPre=/usr/bin/modprobe uinput
+ExecStartPre=/usr/sbin/modprobe uinput
 ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay
 Restart=no
 
