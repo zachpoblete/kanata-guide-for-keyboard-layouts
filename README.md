@@ -139,7 +139,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  Double-click **Terminal**. The Terminal app opens.
 
-1.  In the terminal, activate the driver:
+1.  In the terminal, activate the driver.
+
+    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
@@ -219,7 +221,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  Double-click **Terminal**. The Terminal app opens.
 
-1.  In the terminal, activate the driver:
+1.  In the terminal, activate the driver.
+
+    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -286,7 +290,9 @@ Expand the section for your operating system.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  Run an alt layout using Kanata:
+1.  Run an alt layout using Kanata.
+
+    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     -   If your computer uses an **x64** processor, run the following command:
 
@@ -325,6 +331,8 @@ To stop running the layout, see this guide’s [Stop running an alt layout or an
 
 1.  Run an alt layout using Kanata. You only need to run the `chmod` command the first time you run Kanata.
 
+    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
+
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
@@ -357,6 +365,8 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
 
 1.  Run an alt layout using Kanata. You only need to run the `chmod` command the first time you run Kanata.
+
+    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_x64
@@ -878,6 +888,20 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     -   Windows: **Notepad**
     -   Linux: **gedit**, or whichever text editor came preinstalled
     -   macOS: **TextEdit**
+
+## Run a command from this guide
+
+1.  To copy the command, click **Copy code to clipboard**.
+
+1.  Click in the terminal window.
+
+1.  Paste the command:
+
+    -   Windows: Press `Control + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   macOS: Press `Command + V`.
+
+1.  To run the command, press `Enter`.
 
 ## Feedback
 
