@@ -8,7 +8,6 @@ You don’t need any programming experience to get started.
 
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout using Kanata](#step-2-run-an-alt-layout-using-kanata)
--   [Stop running an alt layout or any Kanata config](#stop-running-an-alt-layout-or-any-kanata-config)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Example configs](#example-configs)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;includes toggling layouts, magic keys, and more
@@ -311,6 +310,8 @@ Expand the section for your operating system.
 
 Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
+**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -338,6 +339,8 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
     ```
 
 Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -369,6 +372,8 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     ```
 
 Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+
+**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
 
@@ -408,6 +413,8 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
+**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -446,11 +453,9 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
+**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+
 </details>
-
-## Stop running an alt layout or any Kanata config
-
-To stop any Kanata config, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 ## Step 3: Change your layout
 
