@@ -842,7 +842,7 @@ Follow the steps of this guide’s [Run an alt layout using Kanata](#step-2-run-
 
     If you’re not sure how, follow these steps:
 
-    1.  Open the link of the config you want to download.
+    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
 
     1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
 
