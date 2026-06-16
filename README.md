@@ -497,7 +497,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, see this guide’s [Copy the text version of your layout into the `deflayer` entry](#copy-the-text-version-of-your-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, see this guide’s [Copy your layout into a `deflayer` entry](#copy-your-layout-into-a-deflayer-entry).
 
 1.  To match the number of keys in the `deflayer` entry to the number of keys in the `defsrc` entry, add or remove keys as needed.
 
@@ -865,7 +865,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     -   Linux: **gedit**, or whichever text editor came preinstalled
     -   macOS: **TextEdit**
 
-### Copy the text version of your layout into a `deflayer` entry
+### Copy your layout into a `deflayer` entry
 
 1.  Open the [cmini browser](https://cminibrowser.com/) website.
 
@@ -873,7 +873,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click the row of your layout.
 
-1.  To copy the text version of your layout, click the graphic of your layout that appears.
+1.  To copy your layout, click the graphic of your layout that appears.
 
     ![](images/cmini-browser-copy-layout-as-text-screenshot.png)
 
