@@ -34,7 +34,7 @@ Expand the section for your operating system.
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see [Check what processor your computer uses](#check-what-processor-your-computer-uses).
+    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see this guide’s [Check what processor your computer uses](#check-what-processor-your-computer-uses).
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
@@ -116,7 +116,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see [Check what processor your computer uses](#check-what-processor-your-computer-uses).
+    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see this guide’s [Check what processor your computer uses](#check-what-processor-your-computer-uses).
 
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
