@@ -6,11 +6,20 @@ You can use this guide even if you don’t have any programming experience.
 
 ### In this guide
 
+-   [Supported platforms](#supported-platforms)
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
 -   [Example configs](#example-configs)
+
+## Supported platforms
+
+-   Windows 11
+-   Linux
+-   macOS 13 or newer
+
+Older versions of Windows and macOS are not officially supported by this guide.
 
 ## Step 1: Set up Kanata
 
@@ -27,29 +36,6 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
 1.  To check what processor your computer uses, expand the section for your version of Windows:
 
-    <details>
-    <summary><strong>Windows 10</strong></summary>
-    <p></p>
-
-    1.  Open the **Settings** app.
-
-        If you’re not sure how, right-click the **Start** menu and select **Settings**.
-
-    1.  In the navigation menu, click **System**.
-
-    1.  In the navigation panel that appears, scroll to the end and click **About**.
-
-    1.  In the **Device specifications** section, look for the **System type** item:
-
-        -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-        -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
-
-    </details>
-
-    <details>
-    <summary><strong>Windows 11</strong></summary>
-    <p></p>
-
     1.  Open the **Settings** app.
 
         If you’re not sure how, right-click the **Start** menu and select **Settings**.
@@ -62,8 +48,6 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 
         -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
         -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
-
-    </details>
 
 1.  Download Kanata:
 
@@ -88,110 +72,10 @@ Kanata has two versions, one for x64 processors and one for arm64 processors.
 </details>
 
 <!----------------------------------------------------------------------------->
-<!-- macOS 10 and older -->
+<!-- macOS -->
 
 <details>
-<summary><strong>macOS 10 and older</strong></summary>
-<p></p>
-
->   **⚠️ Warning**: It is unclear whether the latest version of Kanata works on macOS 10 and older. Support for macOS 10 was introduced in [Kanata v1.6.0](https://github.com/jtroo/kanata/releases/tag/v1.6.0), so try starting there&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;one user [confirmed Kanata working on macOS 10.15 Catalina](https://github.com/jtroo/kanata/issues/676#issuecomment-1868389437).
-
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
-1.  Install the [Karabiner kernel extension (kext)](https://github.com/pqrs-org/Karabiner-VirtualHIDDevice-archived) for macOS 10&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;the [KMonad installation instructions](https://github.com/kmonad/kmonad/blob/master/doc/installation.md#macos) may be helpful.
-
-1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
-
-    -   Note: This is the latest version.
-
-1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_macos_`.
-
-</details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS 11 and 12 -->
-
-<details>
-<summary><strong>macOS 11 and 12</strong></summary>
-<p></p>
-
->   **⚠️ Warning**: One user [reported Kanata not working on macOS 11](https://github.com/jtroo/kanata/discussions/1242); presumably, they were using Kanata v1.6.1 at the time. Ben Vallack explains [how he installed Kanata on macOS 12](https://www.youtube.com/watch?v=4yiMbP_ZySQ&t=1m23s).
-
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
-The following sections show you how to set up the Karabiner driver and Kanata itself.
-
-### Step 1: Set up the Karabiner driver
-
-To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
-
-1.  [Download Karabiner driver v3.1.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v3.1.0/Karabiner-DriverKit-VirtualHIDDevice-3.1.0.pkg). You must download v3.1.0 because that is the last version supporting macOS 11 and 12.
-
-1.  Run the Karabiner driver installer.
-
-1.  Open a terminal.
-
-    If you’re not sure how, follow these steps:
-
-    1.  Press `Command + Space`.
-
-    1.  In the **Spotlight Search** box that appears, enter `terminal`.
-
-    1.  Double-click **Terminal**. The Terminal app opens.
-
-1.  In the terminal, activate the driver.
-
-    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
-
-    ```shell
-    sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager activate
-    ```
-
-    If you previously ran the `deactivate` command, restart your computer.
-
-1.  Enable the Karabiner system extension: open **System Preferences → General → Login Items** and enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
-
-1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
-
-1.  In the terminal, register the Karabiner daemon:
-
-    ```shell
-    sudo chown root:wheel /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
-    sudo launchctl bootstrap system /Library/LaunchDaemons/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist
-    sudo launchctl list | grep org.pqrs
-    ```
-
-    The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
-
-### Step 2: Set up the Kanata executable file
-
-Kanata has two versions, one for arm64 processors and one for x64 processors.
-
-1.  To check what processor your computer uses, follow these steps:
-
-    1.  Click the **Apple icon** menu and select **About This Mac**.
-
-    1.  In the window that appears, look for either a **Chip** or **Processor** item:
-
-        -   **Chip** means you’re using an **arm64** processor.
-        -   **Processor** means you’re using an **x86_64** processor.
-
-1.  Download Kanata v1.7.0. You must download v1.7.0 because that is the last version supporting macOS 11 and 12.
-
-    -   If your computer uses an **arm64** processor, [download the arm64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_arm64).
-    -   If your computer uses an **x86_64** processor, [download the x86_64 Kanata executable file](https://github.com/jtroo/kanata/releases/download/v1.7.0/kanata_macos_cmd_allowed_x86_64).
-
-1.  Enable Accessibility: open **System Preferences → Privacy & Security → Accessibility** and add the Kanata executable file.
-
-1.  Enable Input Monitoring: open **System Preferences → Privacy & Security → Input Monitoring** and add the Kanata executable file.
-
-</details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS 13 and newer -->
-
-<details>
-<summary><strong>macOS 13 and newer</strong></summary>
+<summary><strong>macOS</strong></summary>
 <p></p>
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
@@ -345,83 +229,10 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 </details>
 
 <!----------------------------------------------------------------------------->
-<!-- macOS 10 and older -->
+<!-- macOS -->
 
 <details>
-<summary><strong>macOS 10 and older</strong></summary>
-<p></p>
-
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
-
-1.  Move the example config to the same folder as the Kanata executable files.
-
-1.  Open a terminal in the folder containing the Kanata executable files.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
-
-1.  In the terminal, run the example config using Kanata. You only need to run the `chmod` command the first time you run Kanata.
-
-    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
-
-    ```shell
-    chmod +x kanata_macos_cmd_allowed_x64
-    sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
-    ```
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
-
-</details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS 11 and 12 -->
-
-<details>
-<summary><strong>macOS 11 and 12</strong></summary>
-<p></p>
-
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
-
-1.  Move the example config to the same folder as the Kanata executable file.
-
-1.  Open a terminal in the folder containing the Kanata executable file.
-
-    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
-
-1.  In the terminal, run the example config using Kanata:
-
-    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
-
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_arm64
-        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd --nodelay
-        ```
-
-    -   If your computer uses an **x86_64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
-
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_x86_64
-        sudo ./kanata_macos_cmd_allowed_x86_64 --cfg example-config.kbd --nodelay
-        ```
-
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
-
-**To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
-
-</details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS 13 and newer -->
-
-<details>
-<summary><strong>macOS 13 and newer</strong></summary>
+<summary><strong>macOS</strong></summary>
 <p></p>
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
