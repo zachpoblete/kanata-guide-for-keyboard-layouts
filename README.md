@@ -292,7 +292,11 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 ### Step 3: Run your layout
 
- See the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout). For example, on Linux, run the following command:
+The following steps are based on this guide’s [Run an alt layout](#step-2-run-an-alt-layout):
+
+1.  Open a terminal in the folder containing the Kanata executable files.
+
+1.  In the terminal, run the example config using Kanata. For example, on Linux, run the following command:
 
 ```shell
 sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
