@@ -10,7 +10,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
--   [Run your layout automatically when you log in to your computer](#run-your-layout-automatically-when-you-log-in-to-your-computer)
+-   [Run your layout automatically when you log in](#run-your-layout-automatically-when-you-log-in)
 -   [Example configs](#example-configs)
 
 ## Supported platforms
