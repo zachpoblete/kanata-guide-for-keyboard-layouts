@@ -368,7 +368,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 1.  Open a terminal.
 
-    If you’re not sure how, press `Ctrl + Alt + T`.
+    If you’re not sure how, press `Control + Alt + T`.
 
 1.  In the terminal, enable the service:
 
@@ -643,7 +643,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 1.  Paste the command:
 
     -   Windows: Press `Control + V`.
-    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   Linux: Press `Control + Shift + V`.
     -   macOS: Press `Command + V`.
 
 1.  To run the command, press `Enter`.
