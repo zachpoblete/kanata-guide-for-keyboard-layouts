@@ -291,9 +291,9 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  In the terminal, run the example config. For example, on Linux, run the following command:
 
-```shell
-sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
-```
+    ```shell
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
+    ```
 
 ## Run your layout automatically when you log in
 
