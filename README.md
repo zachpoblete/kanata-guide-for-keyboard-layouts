@@ -161,7 +161,7 @@ Expand the section for your platform.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the folder containing the Kanata executable files.
+1.  Save the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -201,7 +201,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the folder containing the Kanata executable files.
+1.  Save the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -233,7 +233,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the folder containing the Kanata executable files.
+1.  Save the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -690,11 +690,11 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
             <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
         </picture>
 
-1.  Move the config to the folder containing the Kanata executable files.
+1.  Save the config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Run the config using the command to run the example config. Replace `example-config.kbd` with the filename of the config.
+1.  Run the config: in the command you used to run the [example config](configs/example-config.kbd), replace `example-config.kbd` with the filename of the config.
 
     For example, **on Linux**, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
