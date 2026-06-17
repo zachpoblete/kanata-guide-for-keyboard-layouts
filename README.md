@@ -34,10 +34,16 @@ Expand the section for your platform.
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see this guide’s [Windows: Check what processor your computer uses](#windows-check-what-processor-your-computer-uses).
-
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip).
+
+    <blockquote>
+    <p>
+
+    If you’re not sure what processor your computer uses, see this guide’s [Windows: Check what processor your computer uses](#windows-check-what-processor-your-computer-uses).
+
+    </p>
+    </blockquote>
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
@@ -69,10 +75,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings > General > Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
-
-    -   **Karabiner-Elements Privileged Daemons**
-    -   **Karabiner-Elements Privileged Daemons v2**
+1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements background processes](#macos-disable-karabiner-elements-background-processes).
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because that is the version supported by Kanata.
 
@@ -84,15 +87,19 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  In the terminal, activate the driver.
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
-
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
-    If you previously ran the `deactivate` command, restart your computer.
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
-1.  Enable the Karabiner system extension: Open **System Settings > General > Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+1.  Enable the Karabiner system extension:
+
+    1.  Open the **System Settings** app.
+
+    1.  Click **General > Login Items & Extensions**.
+
+    1.  In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
@@ -110,16 +117,34 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see this guide’s [macOS: Check what processor your computer uses](#macos-check-what-processor-your-computer-uses).
-
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
+    <blockquote>
+    <p>
+
+    If you’re not sure what processor your computer uses, see this guide’s [macOS: Check what processor your computer uses](#macos-check-what-processor-your-computer-uses).
+
+    </p>
+    </blockquote>
+
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  Enable Accessibility: open **System Settings > Privacy & Security > Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Enable **Accessibility** for a Kanata executable file:
 
-1.  Enable Input Monitoring: open **System Settings > Privacy & Security > Input Monitoring** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+    1.  In the **System Settings** app, click **Privacy & Security > Accessibility**.
+
+    1.  At the end of the list of apps, click **+**.
+
+    1.  Add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+
+1.  Enable **Input Monitoring** for a Kanata executable file:
+
+    1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
+
+    1.  At the end of the list of apps, click **+**.
+
+    1.  Add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
 </details>
 
@@ -309,15 +334,15 @@ Expand the section for your platform.
 
 1.  Create a shortcut of a Kanata executable file.
 
-    >   If you’re not sure how to create a shortcut: in the folder containing the file, hold the `Alt` key and drag the file anywhere inside the folder.
-
     For example, if your computer uses an **x64** processor, create a shortcut of the `kanata_windows_gui_winIOv2_cmd_allowed_x64.exe` file.
+
+    >   If you’re not sure how to create a shortcut: in the folder containing the file, hold the `Alt` key and drag the file anywhere inside the folder.
 
 1.  Move the shortcut of the Kanata executable file to the startup folder.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  In the **Properties** dialog that appears, add the following arguments to the end of the **Target** field:
+1.  In the **Target** field, add the following arguments:
 
     ```
      --cfg "KANATA_CONFIG_PATH" --nodelay
@@ -685,9 +710,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
     >   If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
-1.  In the navigation panel, click **System**.
-
-1.  Scroll to the end of the page and click **About**.
+1.  Click **System > About**.
 
 1.  In the **Device info** section, look for the **System type** item:
 
@@ -696,9 +719,9 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ### Windows: Open the startup folder
 
-1.  Press `Windows + R`. The **Run** dialog appears.
+1.  Press `Windows + R`.
 
-1.  In the **Open** box, enter the following path:
+1.  Enter the following path:
 
     ```
     %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
@@ -708,18 +731,29 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ### macOS: Check what processor your computer uses
 
-1.  Click the **Apple icon** menu and select **About This Mac**.
+1.  Click the **Apple** menu and select **About This Mac**.
 
 1.  In the window that appears, look for either a **Chip** or **Processor** item:
 
     -   **Chip** means your computer uses an **arm64** processor.
     -   **Processor** means your computer uses an **x64** processor.
 
+### macOS: Disable Karabiner Elements background processes
+
+1.  Open the **System Settings** app.
+
+1.  Click **General > Login Items & Extensions**.
+
+1.  In the **App Background Activity** section, disable the following if you see them:
+
+    -   **Karabiner-Elements Privileged Daemons**
+    -   **Karabiner-Elements Privileged Daemons v2**
+
 ### macOS: Open a terminal
 
 1.  Press `Command + Space`.
 
-1.  In the **Spotlight Search** box that appears, enter `terminal`.
+1.  Enter `terminal`.
 
 1.  Double-click **Terminal**. The Terminal app opens.
 
