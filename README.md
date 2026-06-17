@@ -32,24 +32,9 @@ Expand the section for your operating system.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-Kanata has two versions, one for x64 processors and one for arm64 processors.
+1.  Download Kanata.
 
-1.  To check what processor your computer uses, expand the section for your version of Windows:
-
-    1.  Open the **Settings** app.
-
-        If you’re not sure how, right-click the **Start** menu and select **Settings**.
-
-    1.  In the navigation panel, click **System**.
-
-    1.  Scroll to the end of the page and click **About**.
-
-    1.  In the **Device info** section, look for the **System type** item:
-
-        -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-        -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
-
-1.  Download Kanata:
+    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see [Check what processor your computer uses](#check-what-processor-your-computer-uses).
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
@@ -131,23 +116,14 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 2: Set up the Kanata executable file
 
-Kanata has two versions, one for arm64 processors and one for x64 processors.
+1.  Download Kanata.
 
-1.  To check what processor your computer uses, follow these steps:
-
-    1.  Click the **Apple icon** menu and select **About This Mac**.
-
-    1.  In the window that appears, look for either a **Chip** or **Processor** item:
-
-        -   **Chip** means you’re using an **arm64** processor.
-        -   **Processor** means you’re using an **x64** processor.
-
-1.  Download Kanata:
+    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see [Check what processor your computer uses](#check-what-processor-your-computer-uses).
 
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_macos_`.
 
 1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
@@ -320,7 +296,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
  See the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
 
-## Run your layout automatically when you log in to your computer
+## Run your layout automatically when you log in
 
 Expand the section for your operating system.
 
@@ -632,6 +608,42 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
 ## Mini guides
+
+### Check what processor your computer uses
+
+Expand the section for your operating system.
+
+<details>
+<summary><strong>Windows</strong></summary>
+<p></p>
+
+1.  Open the **Settings** app.
+
+    If you’re not sure how, right-click the **Start** menu and select **Settings**.
+
+1.  In the navigation panel, click **System**.
+
+1.  Scroll to the end of the page and click **About**.
+
+1.  In the **Device info** section, look for the **System type** item:
+
+    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
+
+</details>
+
+<details>
+<summary><strong>macOS</strong></summary>
+<p></p>
+
+1.  Click the **Apple icon** menu and select **About This Mac**.
+
+1.  In the window that appears, look for either a **Chip** or **Processor** item:
+
+    -   **Chip** means you’re using an **arm64** processor.
+    -   **Processor** means you’re using an **x64** processor.
+
+</details>
 
 ### Run a command from this guide
 
