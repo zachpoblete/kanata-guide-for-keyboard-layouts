@@ -310,9 +310,9 @@ Expand the section for your platform.
 
     If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
-1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
+1.  Create a shortcut of the Kanata executable file. For example, if your computer uses an **x64 processor**, create a shortcut of the `kanata_windows_gui_winIOv2_cmd_allowed_x64.exe` file.
 
-    If you’re not sure how: in the folder of the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
+    If you’re not sure how: in the folder containing the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
 1.  Move the shortcut of the Kanata executable to the startup folder.
 
@@ -648,6 +648,9 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  To run the command, press `Enter`.
 
+>   [!TIP]
+>   To reuse a command you’ve already run: in the terminal, press **Up arrow**.
+
 ### Run one of the example configs
 
 The following steps are based on this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
@@ -669,11 +672,15 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  In the folder containing the Kanata executable files, open a terminal.
 
-1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal.
+1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal. For example, **on Linux**, copy the following command:
+
+    ```shell
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
+    ```
 
 1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded.
 
-1.  Run the config. For example, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config **on Linux**, run the following command:
+1.  Run the config. For example, **on Linux**, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
     <pre>
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
