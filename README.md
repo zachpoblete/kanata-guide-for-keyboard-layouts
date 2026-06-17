@@ -101,7 +101,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
-1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
+1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist).
+
+1.  Save the Karabiner plist file to the `/Library/LaunchDaemons` folder.
 
 1.  In the terminal, register the Karabiner daemon:
 
@@ -362,8 +364,6 @@ Expand the section for your platform.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
-Kanata will run your config in the background when you log in to your computer.
-
 </details>
 
 <!----------------------------------------------------------------------------->
@@ -373,7 +373,9 @@ Kanata will run your config in the background when you log in to your computer.
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service) and save it in the `/etc/systemd/system/` folder.
+1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service).
+
+1.  Save the Kanata service file to the `/etc/systemd/system/` folder.
 
 1.  Open the Kanata service file with a plain text editor.
 
@@ -394,13 +396,11 @@ Kanata will run your config in the background when you log in to your computer.
 
     >   If you’re not sure how, press `Control + Alt + T`.
 
-1.  In the terminal, enable the service:
+1.  In the terminal, enable the Kanata service:
 
     ```shell
     sudo systemctl enable kanata.service
     ```
-
-Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
@@ -411,7 +411,9 @@ Kanata will run your config in the background when you log in to your computer.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist) and save it in the `/Library/LaunchDaemons` folder. Don’t change the filename.
+1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist).
+
+1.  Save the Kanata plist file to the `/Library/LaunchDaemons` folder.
 
 1.  Open the Kanata plist file with a plain text editor.
 
@@ -445,8 +447,6 @@ Kanata will run your config in the background when you log in to your computer.
     ```
 
     The output lists the Kanata daemon `dev.kanata.kanata`.
-
-Kanata will run your config in the background when you log in to your computer.
 
 </details>
 
@@ -723,7 +723,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
     ```
 
-1.  Click **OK**. The startup folder opens.
+1.  Click **OK**.
 
 ### macOS: Check what processor your computer uses
 
@@ -751,7 +751,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Enter `terminal`.
 
-1.  Double-click **Terminal**. The Terminal app opens.
+1.  Double-click **Terminal**.
 
 ### macOS: Open a folder in a terminal
 
