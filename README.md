@@ -80,13 +80,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Open a terminal.
 
-    If you’re not sure how, follow these steps:
-
-    1.  Press `Command + Space`.
-
-    1.  In the **Spotlight Search** box that appears, enter `terminal`.
-
-    1.  Double-click **Terminal**. The Terminal app opens.
+    If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
 
 1.  In the terminal, activate the driver.
 
@@ -148,7 +142,7 @@ Expand the section for your platform.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config using Kanata:
+1.  In the terminal, run the example config:
 
     -   If your computer uses an **x64** processor, run the following command.
 
@@ -187,7 +181,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config using Kanata. You only need to run the `chmod` command the first time you run Kanata.
+1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
 
@@ -217,10 +211,9 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  In the folder containing the Kanata executable files, open a terminal.
 
-    If you’re not sure how, right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder > Services > Services Settings > Files and Folders** and enable **New Terminal at Folder**.
+    If you’re not sure how, see this guide’s [macOS: Open a folder in a terminal](#macos-open-a-folder-in-a-terminal).
 
-1.  In the terminal, run the example config using Kanata:
+1.  In the terminal, run the example config:
 
     -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -296,7 +289,7 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  In the folder containing the Kanata executable files, open a terminal.
 
-1.  In the terminal, run the example config using Kanata. For example, on Linux, run the following command:
+1.  In the terminal, run the example config. For example, on Linux, run the following command:
 
 ```shell
 sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
@@ -315,17 +308,7 @@ Expand the section for your platform.
 
 1.  Open the startup folder.
 
-    If you’re not sure how, follow these steps:
-
-    1.  Press `Windows + R`. The **Run** dialog appears.
-
-    1.  In the **Open** box, enter the following path:
-
-        ```
-        %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
-        ```
-
-    1.  Click **OK**. The startup folder opens.
+    If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
 1.  Create a shortcut of the Kanata executable file you ran in the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
 
@@ -381,9 +364,13 @@ Kanata will run your config in the background when you log in to your computer.
     -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_linux_cmd_allowed_x64`
     -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/Documents/Kanata/example-config.kbd`
 
-1. Save the file.
+1.  Save the file.
 
-1.  Open a terminal and enable the service:
+1.  Open a terminal.
+
+    If you’re not sure how, press `Ctrl + Alt + T`.
+
+1.  In the terminal, enable the service:
 
     ```shell
     sudo systemctl enable kanata.service
@@ -421,9 +408,11 @@ Kanata will run your config in the background when you log in to your computer.
     -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_macos_cmd_allowed_arm64`
     -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/Documents/Kanata/example-config.kbd`
 
-1. Save the file.
+1.  Save the file.
 
-1.  Open a terminal and register the Kanata daemon:
+1.  Open a terminal.
+
+1.  In the terminal, register the Kanata daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
@@ -682,7 +671,9 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal.
 
-1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded. For example, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config on Linux, run the following command:
+1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded.
+
+1.  Run the config. For example, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config on Linux, run the following command:
 
     ```shell
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
@@ -703,6 +694,18 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
     -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
     -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
 
+### Windows: Open the startup folder
+
+1.  Press `Windows + R`. The **Run** dialog appears.
+
+1.  In the **Open** box, enter the following path:
+
+    ```
+    %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+    ```
+
+1.  Click **OK**. The startup folder opens.
+
 ### macOS: Check what processor your computer uses
 
 1.  Click the **Apple icon** menu and select **About This Mac**.
@@ -711,6 +714,20 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
     -   **Chip** means your computer uses an **arm64** processor.
     -   **Processor** means your computer uses an **x64** processor.
+
+### macOS: Open a terminal
+
+1.  Press `Command + Space`.
+
+1.  In the **Spotlight Search** box that appears, enter `terminal`.
+
+1.  Double-click **Terminal**. The Terminal app opens.
+
+### macOS: Open a folder in a terminal
+
+-   Right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
+
+    If **New Terminal at Folder** doesn’t appear, click **Finder > Services > Services Settings > Files and Folders** and enable **New Terminal at Folder**.
 
 ## Feedback
 
