@@ -80,9 +80,11 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Open a terminal.
 
-    If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
+    >   If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
 
-1.  In the terminal, activate the driver. If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+1.  In the terminal, activate the driver.
+
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -134,13 +136,13 @@ Expand the section for your platform.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files.
+1.  Move the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
+    >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config. If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+1.  In the terminal, run the example config.
 
     <pre>
     .\<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
@@ -150,6 +152,8 @@ Expand the section for your platform.
 
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**x64**.exe</code>
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**arm64**.exe</code>
+
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -166,22 +170,20 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files.
+1.  Move the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-    If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
+    >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config.
-
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
-
-    You only need to run the `chmod` command the first time you run Kanata.
+1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
+
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -200,11 +202,11 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
-1.  Move the example config to the same folder as the Kanata executable files.
+1.  Move the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-    If you’re not sure how, see this guide’s [macOS: Open a folder in a terminal](#macos-open-a-folder-in-a-terminal).
+    >   If you’re not sure how, see this guide’s [macOS: Open a folder in a terminal](#macos-open-a-folder-in-a-terminal).
 
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -258,7 +260,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Open the example config with a plain text editor.
 
-    If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
+    >   If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
 
@@ -295,7 +297,7 @@ Expand the section for your platform.
 
 1.  Open the startup folder.
 
-    If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
+    >   If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
 1.  Create a shortcut of a Kanata executable file.
 
@@ -357,7 +359,7 @@ Kanata will run your config in the background when you log in to your computer.
 
 1.  Open a terminal.
 
-    If you’re not sure how, press `Control + Alt + T`.
+    >   If you’re not sure how, press `Control + Alt + T`.
 
 1.  In the terminal, enable the service:
 
@@ -646,18 +648,18 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Download one of the configs from this guide’s [Example configs](#example-configs).
 
-    If you’re not sure how, follow these steps:
+    >   If you’re not sure how, follow these steps:
+    >
+    >   1.  Open the link of the config you want to download.
+    >
+    >   1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
+    >
+    >       <picture>
+    >           <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
+    >           <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
+    >       </picture>
 
-    1.  Open the link of the config you want to download.
-
-    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
-
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
-        </picture>
-
-1.  Move the config to the same folder as the Kanata executable files.
+1.  Move the config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -673,7 +675,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Open the **Settings** app.
 
-    If you’re not sure how, right-click the **Start** menu and select **Settings**.
+    >   If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
 1.  In the navigation panel, click **System**.
 
