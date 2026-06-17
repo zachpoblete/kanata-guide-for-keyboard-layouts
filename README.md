@@ -153,7 +153,13 @@ Expand the section for your platform.
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**x64**.exe</code>
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**arm64**.exe</code>
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+    <blockquote>
+    <p>
+
+    If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+
+    </p>
+    </blockquote>
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
