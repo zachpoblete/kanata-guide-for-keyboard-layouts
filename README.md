@@ -85,7 +85,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     >   If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
 
-1.  In the terminal, activate the driver.
+1.  In the terminal, activate the driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -167,7 +167,7 @@ Expand the section for your platform.
 
     >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config.
+1.  In the terminal, run the example config:
 
     <pre>
     .\<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
@@ -342,7 +342,7 @@ Expand the section for your platform.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  In the **Target** field, add the following arguments:
+1.  In the **Target** box, add the following arguments:
 
     ```
      --cfg "KANATA_CONFIG_PATH" --nodelay
@@ -350,7 +350,7 @@ Expand the section for your platform.
 
     Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Users\username\Documents\Kanata\example-config.kbd`.
 
-    The full target is similar to the following:
+    The full **Target** is similar to the following:
 
     <pre>
     "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
@@ -358,7 +358,7 @@ Expand the section for your platform.
 
     `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
-1. In the **Properties** dialog, click **OK**.
+1. Click **OK**.
 
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
@@ -679,18 +679,16 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ### Run one of the example configs
 
-1.  Download one of the configs from this guide’s [Example configs](#example-configs).
+1.  Download one of the configs from this guide’s [Example configs](#example-configs):
 
-    >   If you’re not sure how, follow these steps:
-    >
-    >   1.  Open the link of the config you want to download.
-    >
-    >   1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
-    >
-    >       <picture>
-    >           <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-    >           <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
-    >       </picture>
+    1.  Open the link of the config you want to download.
+
+    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
+
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
+            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
+        </picture>
 
 1.  Move the config to the folder containing the Kanata executable files.
 
@@ -707,8 +705,6 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 ### Windows: Check what processor your computer uses
 
 1.  Open the **Settings** app.
-
-    >   If you’re not sure how, right-click the **Start** menu and select **Settings**.
 
 1.  Click **System > About**.
 
@@ -733,7 +729,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click the **Apple** menu and select **About This Mac**.
 
-1.  In the window that appears, look for either a **Chip** or **Processor** item:
+1.  Look for either a **Chip** or **Processor** item:
 
     -   **Chip** means your computer uses an **arm64** processor.
     -   **Processor** means your computer uses an **x64** processor.
