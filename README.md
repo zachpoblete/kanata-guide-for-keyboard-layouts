@@ -65,8 +65,6 @@ Expand the section for your operating system.
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-The following sections show you how to set up the Karabiner driver and Kanata itself.
-
 ### Step 1: Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
@@ -627,8 +625,8 @@ Expand the section for your operating system.
 
 1.  In the **Device info** section, look for the **System type** item:
 
-    -   **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-    -   **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
+    -   If it says **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
+    -   If it says **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
 
 </details>
 
