@@ -292,7 +292,11 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 ### Step 3: Run your layout
 
- See the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
+ See the last step of this guide’s [Run an alt layout](#step-2-run-an-alt-layout). For example, on Linux, run the following command:
+
+```shell
+sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
+```
 
 ## Run your layout automatically when you log in
 
@@ -706,7 +710,7 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal.
 
-1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded. For example, on Linux:
+1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded. For example, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config on Linux, run the following command:
 
     ```shell
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
