@@ -37,9 +37,9 @@ Expand the section for your platform.
     Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see this guide’s [Windows: Check what processor your computer uses](#windows-check-what-processor-your-computer-uses).
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
+    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip).
 
-1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_windows_`.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
 </details>
 
@@ -52,7 +52,7 @@ Expand the section for your platform.
 
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_linux_`.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
 </details>
 
@@ -82,9 +82,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
 
-1.  In the terminal, activate the driver.
-
-    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
+1.  In the terminal, activate the driver. If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -115,7 +113,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_macos_`.
+1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
 1.  Enable Accessibility: open **System Settings > Privacy & Security > Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
@@ -138,27 +136,20 @@ Expand the section for your platform.
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  In the folder containing the Kanata executable files, open a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config:
+1.  In the terminal, run the example config. If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
 
-    -   If your computer uses an **x64** processor, run the following command.
+    <pre>
+    .\<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
+    </pre>
 
-        >   If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
+    Replace _`KANATA_EXECUTABLE_FILE`_ with the filename that matches your computer’s processor:
 
-        ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe --cfg example-config.kbd --nodelay
-        ```
-
-    -   If your computer uses an **arm64** processor, run the following command.
-
-        >   If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
-
-        ```cmd
-        .\kanata_windows_gui_winIOv2_cmd_allowed_arm64.exe --cfg example-config.kbd --nodelay
-        ```
+    -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**x64**.exe</code>
+    -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**arm64**.exe</code>
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -177,13 +168,15 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  In the folder containing the Kanata executable files, open a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  In the terminal, run the example config.
 
-    > If you’re not sure how to run a command from this guide, see [Run a command from this guide](#run-a-command-from-this-guide).
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+
+    You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
@@ -209,25 +202,21 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Move the example config to the same folder as the Kanata executable files.
 
-1.  In the folder containing the Kanata executable files, open a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
     If you’re not sure how, see this guide’s [macOS: Open a folder in a terminal](#macos-open-a-folder-in-a-terminal).
 
-1.  In the terminal, run the example config:
+1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
-    -   If your computer uses an **arm64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
+    <pre>
+    chmod +x <var>KANATA_EXECUTABLE_FILE</var>
+    sudo ./<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
+    </pre>
 
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_arm64
-        sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd --nodelay
-        ```
+    Replace _`KANATA_EXECUTABLE_FILE`_ with the filename that matches your computer’s processor:
 
-    -   If your computer uses an **x64** processor, run the following command. You only need to run the `chmod` command the first time you run Kanata.
-
-        ```shell
-        chmod +x kanata_macos_cmd_allowed_x64
-        sudo ./kanata_macos_cmd_allowed_x64 --cfg example-config.kbd --nodelay
-        ```
+    -   <code>kanata_macos_cmd_allowed_**arm64**</code>
+    -   <code>kanata_macos_cmd_allowed_**x64**</code>
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -285,9 +274,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 ### Step 3: Run your layout
 
-The following steps are based on this guide’s [Run an alt layout](#step-2-run-an-alt-layout):
-
-1.  In the folder containing the Kanata executable files, open a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  In the terminal, run the example config. For example, **on Linux**, run the following command:
 
@@ -310,11 +297,13 @@ Expand the section for your platform.
 
     If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
-1.  Create a shortcut of the Kanata executable file. For example, if your computer uses an **x64 processor**, create a shortcut of the `kanata_windows_gui_winIOv2_cmd_allowed_x64.exe` file.
+1.  Create a shortcut of a Kanata executable file.
 
-    If you’re not sure how: in the folder containing the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
+    >   If you’re not sure how to create a shortcut: in the folder containing the file, hold the `Alt` key and drag the file anywhere inside the folder.
 
-1.  Move the shortcut of the Kanata executable to the startup folder.
+    For example, if your computer uses an **x64** processor, create a shortcut of the `kanata_windows_gui_winIOv2_cmd_allowed_x64.exe` file.
+
+1.  Move the shortcut of the Kanata executable file to the startup folder.
 
 1.  Right-click the shortcut and select **Properties**.
 
@@ -361,8 +350,8 @@ Kanata will run your config in the background when you log in to your computer.
 
     Replace the following:
 
-    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_linux_cmd_allowed_x64`
-    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/Documents/Kanata/example-config.kbd`
+    -   `KANATA_EXECUTABLE_PATH`: the path to a Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_linux_cmd_allowed_x64`
+    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/Documents/Kanata/example-config.kbd`
 
 1.  Save the file.
 
@@ -405,8 +394,8 @@ Kanata will run your config in the background when you log in to your computer.
 
     Replace the following:
 
-    -   `KANATA_EXECUTABLE_PATH`: the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_macos_cmd_allowed_arm64`
-    -   `KANATA_CONFIG_PATH`: the path to the Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/Documents/Kanata/example-config.kbd`
+    -   `KANATA_EXECUTABLE_PATH`: the path to a Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_macos_cmd_allowed_arm64`
+    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/Documents/Kanata/example-config.kbd`
 
 1.  Save the file.
 
@@ -646,20 +635,20 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     -   Linux: Press `Control + Shift + V`.
     -   macOS: Press `Command + V`.
 
+1.  If the command has any placeholders, follow the command’s instructions on how to replace them.
+
 1.  To run the command, press `Enter`.
 
 >   [!TIP]
->   To reuse a command you’ve already run: in the terminal, press **Up arrow**.
+>   To reuse a command you’ve already ran: in the terminal, press **Up arrow**.
 
 ### Run one of the example configs
-
-The following steps are based on this guide’s [Run an alt layout](#step-2-run-an-alt-layout).
 
 1.  Download one of the configs from this guide’s [Example configs](#example-configs).
 
     If you’re not sure how, follow these steps:
 
-    1.  Open the link of the config you want to download&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd).
+    1.  Open the link of the config you want to download.
 
     1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
 
@@ -670,17 +659,11 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
 
 1.  Move the config to the same folder as the Kanata executable files.
 
-1.  In the folder containing the Kanata executable files, open a terminal.
+1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Copy the command from the last step of [Run an alt layout](#step-2-run-an-alt-layout) into the terminal. For example, **on Linux**, copy the following command:
+1.  Run the config using the command to run the example config. Replace `example-config.kbd` with the filename of the config.
 
-    ```shell
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
-    ```
-
-1.  In the command, replace `example-config.kbd` with the filename of the config you downloaded.
-
-1.  Run the config. For example, **on Linux**, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
+    For example, **on Linux**, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
     <pre>
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
