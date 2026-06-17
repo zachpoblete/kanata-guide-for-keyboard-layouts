@@ -34,7 +34,7 @@ Expand the section for your platform.
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see this guide’s [Check what processor your computer uses](#check-what-processor-your-computer-uses).
+    Kanata has two versions, one for x64 processors and one for arm64 processors. To check what processor your computer uses, see this guide’s [Windows: Check what processor your computer uses](#windows-check-what-processor-your-computer-uses).
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-arm64.zip).
@@ -116,7 +116,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata.
 
-    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see this guide’s [Check what processor your computer uses](#check-what-processor-your-computer-uses).
+    Kanata has two versions, one for arm64 processors and one for x64 processors. To check what processor your computer uses, see this guide’s [macOS: Check what processor your computer uses](#macos-check-what-processor-your-computer-uses).
 
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
@@ -615,62 +615,6 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ## Mini guides
 
-### Check what processor your computer uses
-
-Expand the section for your platform.
-
-<details>
-<summary><strong>Windows</strong></summary>
-<p></p>
-
-1.  Open the **Settings** app.
-
-    If you’re not sure how, right-click the **Start** menu and select **Settings**.
-
-1.  In the navigation panel, click **System**.
-
-1.  Scroll to the end of the page and click **About**.
-
-1.  In the **Device info** section, look for the **System type** item:
-
-    -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
-    -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
-
-</details>
-
-<details>
-<summary><strong>macOS</strong></summary>
-<p></p>
-
-1.  Click the **Apple icon** menu and select **About This Mac**.
-
-1.  In the window that appears, look for either a **Chip** or **Processor** item:
-
-    -   **Chip** means your computer uses an **arm64** processor.
-    -   **Processor** means your computer uses an **x64** processor.
-
-</details>
-
-### Run a command from this guide
-
-1.  To copy the command, click **Copy code to clipboard**.
-
-1.  Click in the terminal window.
-
-1.  Paste the command:
-
-    -   Windows: Press `Control + V`.
-    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
-    -   macOS: Press `Command + V`.
-
-1.  To run the command, press `Enter`.
-
-### Open a file with a plain text editor
-
--   Windows: Right-click the file and select **Edit in Notepad**.
--   Linux: Right-click the file and select the command to open with a text editor.
--   macOS: Right-click the file and select **Open with > TextEdit**.
-
 ### Copy your layout into a `deflayer` entry
 
 1.  Open the [cmini browser](https://cminibrowser.com/) website.
@@ -686,6 +630,34 @@ Expand the section for your platform.
 1.  Open your config with a plain text editor.
 
 1.  Paste the layout into a `deflayer` entry.
+
+### Open a file with a plain text editor
+
+#### Windows
+
+-   Right-click the file and select **Edit in Notepad**.
+
+#### Linux
+
+-   Right-click the file and select the command to open with a text editor.
+
+#### macOS
+
+-   Right-click the file and select **Open with > TextEdit**.
+
+### Run a command from this guide
+
+1.  To copy the command, click **Copy code to clipboard**.
+
+1.  Click in the terminal window.
+
+1.  Paste the command:
+
+    -   Windows: Press `Control + V`.
+    -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   macOS: Press `Command + V`.
+
+1.  To run the command, press `Enter`.
 
 ### Run one of the example configs
 
@@ -715,6 +687,30 @@ The following steps are based on this guide’s [Run an alt layout](#step-2-run-
     ```shell
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
     ```
+
+### Windows: Check what processor your computer uses
+
+1.  Open the **Settings** app.
+
+    If you’re not sure how, right-click the **Start** menu and select **Settings**.
+
+1.  In the navigation panel, click **System**.
+
+1.  Scroll to the end of the page and click **About**.
+
+1.  In the **Device info** section, look for the **System type** item:
+
+    -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
+    -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
+
+### macOS: Check what processor your computer uses
+
+1.  Click the **Apple icon** menu and select **About This Mac**.
+
+1.  In the window that appears, look for either a **Chip** or **Processor** item:
+
+    -   **Chip** means your computer uses an **arm64** processor.
+    -   **Processor** means your computer uses an **x64** processor.
 
 ## Feedback
 
