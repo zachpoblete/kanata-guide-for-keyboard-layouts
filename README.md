@@ -625,8 +625,8 @@ Expand the section for your operating system.
 
 1.  In the **Device info** section, look for the **System type** item:
 
-    -   If it says **64-bit operating system, _x64_-based processor** means you’re using an **x64** processor.
-    -   If it says **64-bit operating system, _ARM_-based processor** means you’re using an **arm64** processor.
+    -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
+    -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
 
 </details>
 
@@ -638,8 +638,8 @@ Expand the section for your operating system.
 
 1.  In the window that appears, look for either a **Chip** or **Processor** item:
 
-    -   **Chip** means you’re using an **arm64** processor.
-    -   **Processor** means you’re using an **x64** processor.
+    -   **Chip** means your computer uses an **arm64** processor.
+    -   **Processor** means your computer uses an **x64** processor.
 
 </details>
 
