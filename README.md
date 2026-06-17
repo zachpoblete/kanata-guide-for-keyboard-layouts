@@ -23,7 +23,7 @@ Older versions of Windows and macOS are not officially supported by this guide.
 
 ## Step 1: Set up Kanata
 
-Expand the section for your operating system.
+Expand the section for your platform.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -69,7 +69,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings → General → Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
+1.  If [Karabiner Elements](https://karabiner-elements.pqrs.org/) is installed, disable its background processes: Open **System Settings > General > Login Items & Extensions**. In the **App Background Activity** section, disable the following if you see them:
 
     -   **Karabiner-Elements Privileged Daemons**
     -   **Karabiner-Elements Privileged Daemons v2**
@@ -98,7 +98,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     If you previously ran the `deactivate` command, restart your computer.
 
-1.  Enable the Karabiner system extension: Open **System Settings → General → Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+1.  Enable the Karabiner system extension: Open **System Settings > General > Login Items & Extensions**. In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist) and save it in the `/Library/LaunchDaemons` folder.
 
@@ -123,15 +123,15 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Extract the downloaded zip file. The filenames of the Kanata executable files start with `kanata_macos_`.
 
-1.  Enable Accessibility: open **System Settings → Privacy & Security → Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Enable Accessibility: open **System Settings > Privacy & Security > Accessibility** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-1.  Enable Input Monitoring: open **System Settings → Privacy & Security → Input Monitoring** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Enable Input Monitoring: open **System Settings > Privacy & Security > Input Monitoring** and add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
 </details>
 
 ## Step 2: Run an alt layout
 
-Expand the section for your operating system.
+Expand the section for your platform.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -217,8 +217,8 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  In the folder containing the Kanata executable files, open a terminal.
 
-    If you’re not sure how, right-click an empty space inside the folder and select **Services → New Terminal at Folder**.
-    -   If **New Terminal at Folder** doesn’t appear, click **Finder → Services → Services Settings → Files and Folders** and enable **New Terminal at Folder**.
+    If you’re not sure how, right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
+    -   If **New Terminal at Folder** doesn’t appear, click **Finder > Services > Services Settings > Files and Folders** and enable **New Terminal at Folder**.
 
 1.  In the terminal, run the example config using Kanata:
 
@@ -304,7 +304,7 @@ sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
 
 ## Run your layout automatically when you log in
 
-Expand the section for your operating system.
+Expand the section for your platform.
 
 <!----------------------------------------------------------------------------->
 <!-- Windows -->
@@ -617,7 +617,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 ### Check what processor your computer uses
 
-Expand the section for your operating system.
+Expand the section for your platform.
 
 <details>
 <summary><strong>Windows</strong></summary>
@@ -659,7 +659,7 @@ Expand the section for your operating system.
 
 1.  Paste the command:
 
-    -   Windows: Press `Control + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
+    -   Windows: Press `Control + V`.
     -   Linux: Press `Control + Shift + V`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if that doesn’t work, right-click.
     -   macOS: Press `Command + V`.
 
@@ -667,13 +667,9 @@ Expand the section for your operating system.
 
 ### Open a file with a plain text editor
 
-1.  Right-click the file and select **Open with**.
-
-1.  Select your default text editor:
-
-    -   Windows: **Notepad**
-    -   Linux: **gedit**, or whichever text editor came preinstalled
-    -   macOS: **TextEdit**
+-   Windows: Right-click the file and select **Edit in Notepad**.
+-   Linux: Right-click the file and select the command to open with a text editor.
+-   macOS: Right-click the file and select **Open with > TextEdit**.
 
 ### Copy your layout into a `deflayer` entry
 
