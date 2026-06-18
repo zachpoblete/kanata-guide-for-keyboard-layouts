@@ -311,13 +311,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  In the terminal, run the example config.
-
-    For example, **on Linux**, run the following command:
-
-    <pre>
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
-    </pre>
+1.  Run the example config again.
 
 ## Run your layout automatically when you log in
 
