@@ -328,11 +328,9 @@ Expand the section for your platform.
 
     >   If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
-1.  Create a shortcut of a Kanata executable file.
+1.  Create a shortcut of the Kanata executable file you used to run the example config.
 
-    For example, if your computer uses an **x64** processor, create a shortcut of the `kanata_windows_gui_winIOv2_cmd_allowed_x64.exe` file.
-
-    >   If you’re not sure how to create a shortcut: in the folder containing the file, hold the `Alt` key and drag the file anywhere inside the folder.
+    >   If you’re not sure how: in the folder containing the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
 1.  Move the shortcut of the Kanata executable file to the startup folder.
 
