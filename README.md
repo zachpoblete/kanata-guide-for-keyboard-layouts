@@ -200,10 +200,10 @@ Expand the section for your platform.
 1.  In the terminal, run the example config:
 
     <pre>
-    .\<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
+    .\KANATA_EXECUTABLE_FILE --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace _`KANATA_EXECUTABLE_FILE`_ with the filename that matches your computer’s processor:
+    Replace `KANATA_EXECUTABLE_FILE` with the filename that matches your computer’s processor:
 
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**x64**.exe</code>
     -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**arm64**.exe</code>
@@ -272,11 +272,11 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     <pre>
-    chmod +x <var>KANATA_EXECUTABLE_FILE</var>
-    sudo ./<var>KANATA_EXECUTABLE_FILE</var> --cfg example-config.kbd --nodelay
+    chmod +x KANATA_EXECUTABLE_FILE
+    sudo ./KANATA_EXECUTABLE_FILE --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace _`KANATA_EXECUTABLE_FILE`_ with the filename that matches your computer’s processor:
+    Replace `KANATA_EXECUTABLE_FILE` with the filename that matches your computer’s processor:
 
     -   <code>kanata_macos_cmd_allowed_**arm64**</code>
     -   <code>kanata_macos_cmd_allowed_**x64**</code>
