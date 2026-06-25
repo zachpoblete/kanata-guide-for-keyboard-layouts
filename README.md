@@ -155,9 +155,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     </ol>
 
     <ol start="4">
-    <li><a name="enable-accesibility-add-your-terminal"></a>
-
-    If you use the native Terminal and **Terminal** isn’t listed in **Accessibility**; or you use a third-party terminal and it isn’t listed in **Accessibility**; follow these steps:
+    <li><a name="enable-accesibility-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t listed in <strong>Accessibility</strong>; or you use a third-party terminal and it isn’t listed in <strong>Accessibility</strong>; follow these steps:
 
     1.  At the end of the list of apps, click **+**.
 
