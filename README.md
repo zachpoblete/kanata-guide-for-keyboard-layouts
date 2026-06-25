@@ -134,21 +134,35 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
-1.  Enable **Accessibility** for a Kanata executable file:
+1.  Enable **Accessibility**:
 
-    1.  In the **System Settings** app, click **Privacy & Security > Accessibility**.
+    1.  Open the **System Settings** app
+
+    1.  Click **Privacy & Security > Accessibility**.
+
+    <ol start="3">
+    <li><a name="enable-accesibility></a>
+
+    Add Kanata:
 
     1.  At the end of the list of apps, click **+**.
 
-    1.  Add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+    1.  Search for the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-1.  Enable **Input Monitoring** for a Kanata executable file:
+    1.  Select the Kanata executable file.
 
-    1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
+    1.  Click **Open**.
 
-    1.  At the end of the list of apps, click **+**.
+    </li>
+    </ol>
 
-    1.  Add the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Enable **Input Monitoring**:
+
+    1.  Open the **System Settings** app
+
+    1.  Click **Privacy & Security > Input Monitoring**.
+
+    1.  [Add Kanata as you did in the Enable Accesibility step](#enable-accesibility).
 
 </details>
 
