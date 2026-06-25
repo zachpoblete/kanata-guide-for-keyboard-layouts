@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to use [Kanata](https://github.com/jtroo/kanata) to run an [alt layout](https://layouts.wiki/guides/start/intro/) on any keyboard. See the [Example configs](#example-configs) for adding features to an alt layout like QWERTY shortcuts, symbol layers, and magic keys.
+This guide shows you how to use [Kanata](https://github.com/jtroo/kanata) to run an [alt layout](https://layouts.wiki/guides/start/intro/) on any keyboard. The pre-made configs add features to an alt layout like QWERTY shortcuts, symbol layers, and magic keys.
 
 You can use this guide even if you don’t have any programming experience.
 
@@ -10,8 +10,8 @@ You can use this guide even if you don’t have any programming experience.
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
--   [Run your layout automatically when you log in](#run-your-layout-automatically-when-you-log-in)
--   [Example configs](#example-configs)
+-   [Run your layout automatically on login](#run-your-layout-automatically-on-login)
+-   [Pre-made configs](#pre-made-configs)
 
 ## Supported platforms
 
@@ -19,7 +19,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Linux
 -   macOS 13 or newer
 
-Older versions of Windows and macOS are not officially supported by this guide.
+Older versions of Windows and macOS are not supported by this guide.
 
 ## Step 1: Set up Kanata
 
@@ -313,7 +313,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Run the example config again.
 
-## Run your layout automatically when you log in
+## Run your layout automatically on login
 
 Expand the section for your platform.
 
@@ -442,9 +442,9 @@ Expand the section for your platform.
 
 </details>
 
-## Example configs
+## Pre-made configs
 
-To run one of the example configs, see this guide’s [Run one of the example configs](#run-one-of-the-example-configs).
+To run one of the pre-made configs, see this guide’s [Run one of the pre-made configs](#run-one-of-the-pre-made-configs).
 
 To learn about any Kanata feature used in a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
@@ -513,7 +513,7 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
 
-The following concepts help you read and edit the configs in this guide’s [Example configs](#example-configs).
+The following concepts help you read and edit the configs in this guide’s [Pre-made configs](#pre-made-configs).
 
 ### Comments
 
@@ -669,9 +669,9 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 >   [!TIP]
 >   To reuse a command you’ve already ran: in the terminal, press **Up arrow**.
 
-### Run one of the example configs
+### Run one of the pre-made configs
 
-1.  Download one of the configs from this guide’s [Example configs](#example-configs):
+1.  Download one of the configs from this guide’s [Pre-made configs](#pre-made-configs):
 
     1.  Open the link of the config you want to download.
 
