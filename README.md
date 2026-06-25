@@ -716,7 +716,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Run the config: in the command you used to run the [example config](configs/example-config.kbd), replace `example-config.kbd` with the filename of the config.
 
-    For example, **on Linux**, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
+    For example, on Linux, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
     <pre>
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
