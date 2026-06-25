@@ -10,7 +10,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
--   [Run your layout automatically on login](#run-your-layout-automatically-on-login)
+-   [Run your layout on login automatically](#run-your-layout-on-login-automatically)
 -   [Pre-made configs](#pre-made-configs)
 
 ## Supported platforms
@@ -77,7 +77,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements Privileged Daemons](#macos-disable-karabiner-elements-privileged-daemons).
 
-    **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time. For more information, see https://github.com/jtroo/kanata/issues/1586.
+    **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time.
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because that is the version supported by Kanata.
 
@@ -141,9 +141,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     1.  Click **Privacy & Security > Accessibility**.
 
     <ol start="3">
-    <li><a name="enable-accesibility"></a>
-
-    Add Kanata:
+    <li><a name="enable-accesibility-add-kanata"></a>Add Kanata:
 
     1.  At the end of the list of apps, click **+**.
 
@@ -156,13 +154,31 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     </li>
     </ol>
 
+    <ol start="4">
+    <li><a name="enable-accesibility-add-your-terminal"></a>
+
+    If you use the native Terminal and **Terminal** isn’t listed in **Accessibility**; or you use a third-party terminal and it isn’t listed in **Accessibility**; follow these steps:
+
+    1.  At the end of the list of apps, click **+**.
+
+    1.  Search for your terminal.
+
+    1.  Select your terminal.
+
+    1.  Click **Open**.
+
+    </li>
+    </ol>
+
 1.  Enable **Input Monitoring**:
 
     1.  Open the **System Settings** app
 
     1.  Click **Privacy & Security > Input Monitoring**.
 
-    1.  [Add Kanata as you did in the Enable Accesibility step](#enable-accesibility).
+    1.  [Add Kanata as you did in the Enable Accesibility step](#enable-accesibility-add-kanata).
+
+    1.  [Add your terminal as you did in the Enable Accesibility step](#enable-accesibility-add-your-terminal).
 
 </details>
 
@@ -329,7 +345,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Run the example config again.
 
-## Run your layout automatically on login
+## Run your layout on login automatically
 
 Expand the section for your platform.
 
