@@ -141,7 +141,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     1.  Click **Privacy & Security > Accessibility**.
 
     <ol start="3">
-    <li><a name="enable-accesibility></a>
+    <li><a name="enable-accesibility"></a>
 
     Add Kanata:
 
