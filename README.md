@@ -25,9 +25,6 @@ Older versions of Windows and macOS aren’t supported by this guide.
 
 Expand the section for your platform.
 
-<!----------------------------------------------------------------------------->
-<!-- Windows -->
-
 <details>
 <summary><strong>Windows</strong></summary>
 <p></p>
@@ -49,9 +46,6 @@ Expand the section for your platform.
 
 </details>
 
-<!----------------------------------------------------------------------------->
-<!-- Linux -->
-
 <details>
 <summary><strong>Linux</strong></summary>
 <p></p>
@@ -61,9 +55,6 @@ Expand the section for your platform.
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
 </details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS -->
 
 <details>
 <summary><strong>macOS</strong></summary>
@@ -182,9 +173,6 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 Expand the section for your platform.
 
-<!----------------------------------------------------------------------------->
-<!-- Windows -->
-
 <details>
 <summary><strong>Windows</strong></summary>
 <p></p>
@@ -200,13 +188,10 @@ Expand the section for your platform.
 1.  In the terminal, run the example config:
 
     <pre>
-    .\KANATA_EXECUTABLE_FILE --cfg example-config.kbd --nodelay
+    .\kanata_windows_gui_winIOv2_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace `KANATA_EXECUTABLE_FILE` with the filename that matches your computer’s processor:
-
-    -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**x64**.exe</code>
-    -   <code>kanata_windows_gui_winIOv2_cmd_allowed_**arm64**.exe</code>
+    Replace `PROCESSOR` with your computer’s processor, either `x64` or `arm64`.
 
     <blockquote>
     <p>
@@ -221,9 +206,6 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 **To stop running the example config or any Kanata config**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
 
 </details>
-
-<!----------------------------------------------------------------------------->
-<!-- Linux -->
 
 <details>
 <summary><strong>Linux</strong></summary>
@@ -252,9 +234,6 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 </details>
 
-<!----------------------------------------------------------------------------->
-<!-- macOS -->
-
 <details>
 <summary><strong>macOS</strong></summary>
 <p></p>
@@ -272,14 +251,11 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     <pre>
-    chmod +x KANATA_EXECUTABLE_FILE
-    sudo ./KANATA_EXECUTABLE_FILE --cfg example-config.kbd --nodelay
+    chmod +x kanata_macos_cmd_allowed_PROCESSOR
+    sudo ./kanata_macos_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace `KANATA_EXECUTABLE_FILE` with the filename that matches your computer’s processor:
-
-    -   <code>kanata_macos_cmd_allowed_**arm64**</code>
-    -   <code>kanata_macos_cmd_allowed_**x64**</code>
+    Replace `PROCESSOR` with your computer’s processor, either `arm64` or `x64`.
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -345,9 +321,6 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 Expand the section for your platform.
 
-<!----------------------------------------------------------------------------->
-<!-- Windows -->
-
 <details>
 <summary><strong>Windows</strong></summary>
 <p></p>
@@ -356,7 +329,7 @@ Expand the section for your platform.
 
     >   If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
 
-1.  Create a shortcut of the Kanata executable file you used to run the example config.
+1.  Create a shortcut of a Kanata executable file.
 
     >   If you’re not sure how: in the folder containing the Kanata executable file, hold the `Alt` key and drag the file anywhere inside the folder.
 
@@ -385,9 +358,6 @@ Expand the section for your platform.
 1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
 </details>
-
-<!----------------------------------------------------------------------------->
-<!-- Linux -->
 
 <details>
 <summary><strong>Linux</strong></summary>
@@ -423,9 +393,6 @@ Expand the section for your platform.
     ```
 
 </details>
-
-<!----------------------------------------------------------------------------->
-<!-- macOS -->
 
 <details>
 <summary><strong>macOS</strong></summary>
