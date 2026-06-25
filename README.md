@@ -77,6 +77,8 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements Privileged Daemons](#macos-disable-karabiner-elements-privileged-daemons).
 
+    **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time. For more information, see https://github.com/jtroo/kanata/issues/1586.
+
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because that is the version supported by Kanata.
 
 1.  Run the Karabiner driver installer.
