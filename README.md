@@ -464,14 +464,10 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
     -   Layout with custom shift pairs
 -   [`night.kbd`](configs/night.kbd)
     -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
--   [`gallium-angle.kbd`](configs/gallium-angle.kbd)
-    -   Layout with [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
     -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
     -   Layout with wide mod applied twice
--   [`nokwts.kbd`](configs/nokwts.kbd)
-    -   Layout with the [Nokwts fingermap](https://discord.com/channels/807843650717483049/1063291226243207268/1339406872666439752)
 
 ### Advanced layouts
 
