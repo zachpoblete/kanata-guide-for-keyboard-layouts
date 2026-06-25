@@ -101,7 +101,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  Click **General > Login Items & Extensions**.
 
-    1.  In **Extensions**, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+    1.  In **Extensions**, enable **.Karabiner-VirtualHIDDevice-Manager**.
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist).
 
