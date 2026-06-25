@@ -170,9 +170,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Enable **Input Monitoring**:
 
-    1.  Open the **System Settings** app
-
-    1.  Click **Privacy & Security > Input Monitoring**.
+    1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
 
     1.  [Add Kanata as you did in the Enable Accesibility step](#enable-accesibility-add-kanata).
 
