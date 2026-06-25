@@ -75,7 +75,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements background processes](#macos-disable-karabiner-elements-background-processes).
+1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements Privileged Daemons](#macos-disable-karabiner-elements-privileged-daemons).
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because that is the version supported by Kanata.
 
@@ -99,7 +99,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  Click **General > Login Items & Extensions**.
 
-    1.  In the **Extensions** section, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
+    1.  In **Extensions**, enable `org.pqrs.Karabiner-DriverKit-VirtualHIDDevice`.
 
 1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist).
 
@@ -700,7 +700,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click **System > About**.
 
-1.  In the **Device info** section, look for the **System type** item:
+1.  In **Device info**, look for **System type**:
 
     -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
     -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
@@ -721,18 +721,18 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Click the **Apple** menu and select **About This Mac**.
 
-1.  Look for either a **Chip** or **Processor** item:
+1.  Look for either **Chip** or **Processor**:
 
     -   **Chip** means your computer uses an **arm64** processor.
     -   **Processor** means your computer uses an **x64** processor.
 
-### macOS: Disable Karabiner Elements background processes
+### macOS: Disable Karabiner Elements Privileged Daemons
 
 1.  Open the **System Settings** app.
 
 1.  Click **General > Login Items & Extensions**.
 
-1.  In the **App Background Activity** section, disable the following if you see them:
+1.  In **App Background Activity**, disable the following if you see them:
 
     -   **Karabiner-Elements Privileged Daemons**
     -   **Karabiner-Elements Privileged Daemons v2**
