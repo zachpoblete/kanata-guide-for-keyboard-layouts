@@ -443,22 +443,41 @@ To run one of the pre-made configs, see this guide’s [Run one of the pre-made 
 
 To learn about any Kanata feature used in a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
-### General configs
+#### In this section
+
+-   [General features](#general-features)
+-   [Home row mods](#home-row-mods)
+-   [Symbol and navigation layers](#symbol-and-navigation-layers)
+-   [Layouts](#layouts)
+-   [Small layouts](#small-layouts)
+-   [Chorded layouts](#chorded-layouts)
+-   [Layouts with more than 1 alpha layer](#layouts-with-more-than-1-alpha-layer)
+-   [Magic keys](#magic-keys)
+
+#### General features
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
     -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
     -   Uses QWERTY shortcuts when you hold any modifier key, such as `Control`
+-   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
+    -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
+
+#### Home row mods
+
 -   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
     -   Layout with home row mods that use QWERTY
+
+#### Symbol and navigation layers
+
 -   [`gallium-with-symbol-layer.kbd`](configs/gallium-with-symbol-layer.kbd)
     -   Layout with a 2nd layer for symbol keys
 -   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
     -   Layout with a 2nd layer for navigation keys
 
-### Layouts
+#### Layouts
 
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   Layout with custom shift pairs
@@ -468,23 +487,36 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
     -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
     -   Layout with wide mod applied twice
+-   [`nastic.kbd`](configs/nastic.kbd)
+    -   Layout with duplicate keys
 
-### Advanced layouts
+#### Small layouts
+
+-   [`taipo.kbd`](configs/taipo.kbd)
+    -   Layout that can be used with 1 hand
+-   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
+    -   Layout with only 2 rows
+-   [`crescent.kbd`](configs/crescent.kbd)
+    -   Layout with only 10 keys, one for each finger
+
+#### Chorded layouts
+
+-   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
+    -   Layout with combos
+-   [`taipo.kbd`](configs/taipo.kbd)
+    -   Layout that can be used with 1 hand
+
+#### Layouts with more than 1 alpha layer
 
 -   [`lucens.kbd`](configs/lucens.kbd)
     -   Layout with a 2nd layer for German letters
--   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
-    -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
--   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
-    -   Layout with combos
--   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
-    -   Layout with only 2 rows
--   [`taipo.kbd`](configs/taipo.kbd)
-    -   Layout that can be used with 1 hand
--   [`crescent.kbd`](configs/crescent.kbd)
-    -   Layout with only 10 keys, one for each finger
--   [`nastic.kbd`](configs/nastic.kbd)
-    -   Layout with duplicate keys
+-   [`buggy.kbd`](configs/buggy.kbd)
+    -   Layout with 2 alpha layers
+-   [`power.kbd`](configs/power.kbd)
+    -   Layout with 162 layers
+
+#### Magic keys and adaptive swaps
+
 -   [`whirl.kbd`](configs/whirl.kbd)
     -   Layout with a [magic key](https://layouts.wiki/reference/terminology/magic/)
 -   [`afterburner.kbd`](configs/afterburner.kbd)
@@ -495,10 +527,6 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
     -   Layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
     -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
--   [`buggy.kbd`](configs/buggy.kbd)
-    -   Layout with 2 alpha layers
--   [`power.kbd`](configs/power.kbd)
-    -   Layout with 162 layers
 
 ## Basics of a Kanata config
 
