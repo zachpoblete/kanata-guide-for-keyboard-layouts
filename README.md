@@ -347,9 +347,9 @@ Expand the section for your platform.
 
     The full **Target** is similar to the following:
 
-    ```cmd
+    <pre>
     "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
-    ```
+    </pre>
 
     `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
