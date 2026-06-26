@@ -15,7 +15,7 @@ You can use this guide even if you don’t have any programming experience.
 
 ## Supported platforms
 
--   Windows 11
+-   Windows 10 or newer
 -   Linux
 -   macOS 13 or newer
 
