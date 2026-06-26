@@ -74,8 +74,6 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Combos
 
-;; The alpha1 and alpha2 chord groups need to be separate.
-
 (defchords alpha1 $chord-timeout
   (n) n
   (r) r    (l) l
