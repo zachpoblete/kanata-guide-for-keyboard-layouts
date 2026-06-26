@@ -267,7 +267,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Step 3: Change your layout
 
-For pre-made configs of a few layouts&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;such as the [Graphite config](configs/graphite.kbd)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Layouts](#layouts).
+For pre-made configs of a few layouts, such as the [Graphite config](configs/graphite.kbd), see this guide’s [Layouts](#layouts).
 
 This section shows you how to change the layout of the [example config](configs/example-config.kbd).
 
