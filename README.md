@@ -191,7 +191,7 @@ Expand the section for your platform.
     .\kanata_windows_gui_winIOv2_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace `PROCESSOR` with your computer’s processor, either `x64` or `arm64`.
+    Replace `PROCESSOR` with your computer’s processor: `x64` or `arm64`.
 
     <blockquote>
     <p>
@@ -255,7 +255,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
     sudo ./kanata_macos_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
     </pre>
 
-    Replace `PROCESSOR` with your computer’s processor, either `arm64` or `x64`.
+    Replace `PROCESSOR` with your computer’s processor: `arm64` or `x64`.
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
