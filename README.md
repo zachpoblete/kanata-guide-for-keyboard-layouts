@@ -305,7 +305,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, see this guide’s [Copy your layout into a `deflayer` entry](#copy-your-layout-into-a-deflayer-entry).
 
-1.  To match the number of keys in the `deflayer` entry to those in the `defsrc` entry, add or remove keys as needed.
+1. If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
 1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
 
