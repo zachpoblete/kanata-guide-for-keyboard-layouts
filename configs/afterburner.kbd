@@ -21,8 +21,8 @@
 )
 
 (defvar
-  magic-key-src      h  ;; `h` in defsrc is mapped to the magic key
-  skip-magic-key-src j  ;; `j` in defsrc is mapped to the skip magic key
+  magic-key-src      h  ;; The defsrc of the magic key is `h`.
+  skip-magic-key-src j  ;; The defsrc of the skip magic key is `j`.
 )
 
 (defalias magic
@@ -105,10 +105,10 @@
   )
 )
 
-;; Without the magic-rule template, skip repeat rules don’t work:
-;; pressing the skip magic key while the second-to-last key is still
-;; held down outputs nothing. This template fixes that by releasing
-;; the output key before outputting it again.
+;; Without the magic-rule template, skip repeat rules don’t work
+;; because pressing the skip magic key while the second-to-last key is
+;; still held down outputs nothing. This template fixes that by
+;; releasing the output key before outputting it again.
 (deftemplate magic-rule (input-key recency action)
   ((key-history $input-key $recency))
     (if-equal $action rpt

@@ -15,70 +15,68 @@
             v    n
 )
 
-(deflayer alpha-1
+(deflayer alpha1
      @l @d @y   @m @o @u
   @n @r @t @s   @h @a @i @e
-          spc   @a2
+          spc   @alpha2
 )
 
-(deflayer alpha-2
+(deflayer alpha2
      @x @v @g   @k @q @,
   @p @w @b @c   @f @z @. @j
-            _   @a1
+            _   @alpha1
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Aliases
 
 (defalias
-  a1 (layer-switch alpha-1)
+  alpha1 (layer-switch alpha1)
 
-  ;; Pressing the a2 key switches to the alpha-2 layer. When you press
-  ;; a key on that layer, you immediately switch back to the alpha-1
-  ;; layer - even if the a2 key is still held. This behavior is
-  ;; equivalent to a ZMK sticky layer:
+  ;; The alpha2 alias switches to the alpha2 layer. The alpha2 layer
+  ;; emulates a ZMK sticky layer. For more information about ZMK sticky
+  ;; layers, see:
   ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
-  a2 (one-shot $sticky-layer-timeout (layer-while-held alpha-2))
+  alpha2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
 )
 
-(deftemplate a1 (key)
-  $key (chord alpha-1 $key)
+(deftemplate alpha1 (key)
+  $key (chord alpha1 $key)
 )
 
-(deftemplate a2 (key)
+(deftemplate alpha2 (key)
   $key (multi
-    (chord alpha-2 $key)
-    ;; Release layer for sticky layer behavior:
-    (release-layer alpha-2)
+    (chord alpha2 $key)
+    (release-layer alpha2)  ;; to emulate a ZMK sticky layer
   )
 )
 
 (defalias
-  (t! a1 n)
-  (t! a1 r)    (t! a1 l)
-  (t! a1 t)    (t! a1 d)
-  (t! a1 s)    (t! a1 y)
-  (t! a1 h)    (t! a1 m)
-  (t! a1 a)    (t! a1 o)
-  (t! a1 i)    (t! a1 u)
-  (t! a1 e)
+  (t! alpha1 n)
+  (t! alpha1 r)    (t! alpha1 l)
+  (t! alpha1 t)    (t! alpha1 d)
+  (t! alpha1 s)    (t! alpha1 y)
+  (t! alpha1 h)    (t! alpha1 m)
+  (t! alpha1 a)    (t! alpha1 o)
+  (t! alpha1 i)    (t! alpha1 u)
+  (t! alpha1 e)
 
-  (t! a2 p)
-  (t! a2 w)    (t! a2 x)
-  (t! a2 b)    (t! a2 v)
-  (t! a2 c)    (t! a2 g)
-  (t! a2 f)    (t! a2 k)
-  (t! a2 z)    (t! a2 q)
-  (t! a2 .)    (t! a2 ,)
-  (t! a2 j)
+  (t! alpha2 p)
+  (t! alpha2 w)    (t! alpha2 x)
+  (t! alpha2 b)    (t! alpha2 v)
+  (t! alpha2 c)    (t! alpha2 g)
+  (t! alpha2 f)    (t! alpha2 k)
+  (t! alpha2 z)    (t! alpha2 q)
+  (t! alpha2 .)    (t! alpha2 ,)
+  (t! alpha2 j)
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Combos
 
-;; alpha-1 and alpha-2 need to be separate chord groups.
+;; The alpha1 and alpha2 chord groups need to be separate.
 
-(defchords alpha-1 $chord-timeout
+(defchords alpha1 $chord-timeout
   (n) n
   (r) r    (l) l
   (t) t    (d) d
@@ -96,7 +94,7 @@
   (u i) (macro u i)
 )
 
-(defchords alpha-2 $chord-timeout
+(defchords alpha2 $chord-timeout
   (p) p
   (w) w    (x) x
   (b) b    (v) v

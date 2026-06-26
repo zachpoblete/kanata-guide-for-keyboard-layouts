@@ -10,7 +10,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
--   [Run your layout on login automatically](#run-your-layout-on-login-automatically)
+-   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
 
 ## Supported platforms
@@ -127,14 +127,14 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Enable **Accessibility**:
 
-    1.  Open the **System Settings** app
+    1.  Open the **System Settings** app.
 
     1.  Click **Privacy & Security > Accessibility**.
 
     <ol start="3">
     <li><a name="enable-accesibility-add-kanata"></a>Add Kanata:
 
-    1.  At the end of the list of apps, click **+**.
+    1.  Click **+**.
 
     1.  Search for the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
@@ -148,7 +148,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     <ol start="4">
     <li><a name="enable-accesibility-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t listed in <strong>Accessibility</strong>; or you use a third-party terminal and it isn’t listed in <strong>Accessibility</strong>; follow these steps:
 
-    1.  At the end of the list of apps, click **+**.
+    1.  Click **+**.
 
     1.  Search for your terminal.
 
@@ -317,7 +317,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Run the example config again.
 
-## Run your layout on login automatically
+## Automatically start Kanata
 
 Expand the section for your platform.
 

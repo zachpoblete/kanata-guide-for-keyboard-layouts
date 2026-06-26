@@ -88,11 +88,11 @@ Description:
 
 (deftemplate . (key adaptive-key)
   (multi
-    ;; Switch to the adaptive key layer:
     (if-equal     $key $adaptive-key
+      ;; Switch to the adaptive key layer:
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
     (if-not-equal $key $adaptive-key
-      (release-layer $adaptive-key))
+      (release-layer $adaptive-key))  ;; to emulate a ZMK sticky layer
 
     $key
   )
