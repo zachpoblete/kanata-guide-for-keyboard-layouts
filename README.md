@@ -700,11 +700,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Press `Windows + R`.
 
-1.  Enter the following path:
-
-    ```
-    %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
-    ```
+1.  Enter `shell:startup`
 
 1.  Click **OK**.
 
