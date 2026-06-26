@@ -337,7 +337,7 @@ Expand the section for your platform.
 
 1.  Right-click the shortcut and select **Properties**.
 
-1.  In the **Target** box, add the following arguments:
+1.  In **Target**, add the following arguments:
 
     ```
      --cfg "KANATA_CONFIG_PATH" --nodelay
