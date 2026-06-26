@@ -534,7 +534,7 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 ## Basics of a Kanata config
 
-To learn about the two required entries of a Kanata config&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;`defsrc` and `deflayer`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
+To learn about the two required entries of a Kanata config, `defsrc` and `deflayer`, see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
 
 The following concepts help you read and edit this guide’s [Pre-made configs](#pre-made-configs).
 
