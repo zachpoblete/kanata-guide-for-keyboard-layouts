@@ -44,6 +44,10 @@ Expand the section for your platform.
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
 
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+
+1.  Save the example config to the folder containing the Kanata executable files.
+
 </details>
 
 <details>
@@ -53,6 +57,10 @@ Expand the section for your platform.
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
 1.  Extract the downloaded zip file. It contains the Kanata executable files.
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+
+1.  Save the example config to the folder containing the Kanata executable files.
 
 </details>
 
@@ -167,6 +175,12 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  [Add your terminal as you did in the Enable Accesibility step](#enable-accesibility-add-your-terminal).
 
+### Step 3: Set up the example config
+
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+
+1.  Save the example config to the folder containing the Kanata executable files.
+
 </details>
 
 ## Step 2: Run an alt layout
@@ -176,10 +190,6 @@ Expand the section for your platform.
 <details>
 <summary><strong>Windows</strong></summary>
 <p></p>
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
-
-1.  Save the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -211,10 +221,6 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
-
-1.  Save the example config to the folder containing the Kanata executable files.
-
 1.  Open a terminal in the folder containing the Kanata executable files.
 
     >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
@@ -239,10 +245,6 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 <p></p>
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
-
-1.  Save the example config to the folder containing the Kanata executable files.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
@@ -315,7 +317,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Run the example config again.
+1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
 
 ## Automatically start Kanata
 
@@ -707,7 +709,7 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Run the config: in the command you used to run the [example config](configs/example-config.kbd), replace `example-config.kbd` with the filename of the config.
+1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
 
     For example, on Linux, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
