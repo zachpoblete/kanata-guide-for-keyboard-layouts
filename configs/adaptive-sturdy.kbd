@@ -40,8 +40,8 @@ Description:
   The adaptive key layer remaps each physical key in the defsrc entry to
   a key or action in the same position in the adaptive key layer.
 
-  The adaptive key layer emulates a ZMK sticky layer. For more
-  information about ZMK sticky layers, see:
+  Switching to the adaptive key layer emulates switching to a ZMK
+  sticky layer. For more information about ZMK sticky layers, see:
   https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
 |#
 
@@ -92,7 +92,7 @@ Description:
       ;; Switch to the adaptive key layer:
       (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
     (if-not-equal $key $adaptive-key
-      (release-layer $adaptive-key))  ;; to emulate a ZMK sticky layer
+      (release-layer $adaptive-key))  ;; to emulate using ZMK sticky layer
 
     $key
   )

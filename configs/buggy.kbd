@@ -33,9 +33,9 @@
 (defalias
   alpha1 (layer-switch alpha1)
 
-  ;; The alpha2 alias switches to the alpha2 layer. The alpha2 layer
-  ;; emulates a ZMK sticky layer. For more information about ZMK sticky
-  ;; layers, see:
+  ;; The alpha2 alias switches to the alpha2 layer. Switching to the
+  ;; alpha2 layer emulates switching to a ZMK sticky layer. For more
+  ;; information about ZMK sticky layers, see:
   ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
   alpha2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
 )
@@ -47,7 +47,7 @@
 (deftemplate alpha2 (key)
   $key (multi
     (chord alpha2 $key)
-    (release-layer alpha2)  ;; to emulate a ZMK sticky layer
+    (release-layer alpha2)  ;; to emulate using a ZMK sticky layer
   )
 )
 
