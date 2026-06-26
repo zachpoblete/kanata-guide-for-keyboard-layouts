@@ -538,6 +538,14 @@ To learn about the two required entries of a Kanata config, `defsrc` and `deflay
 
 The following concepts help you read and edit this guide’s [Pre-made configs](#pre-made-configs).
 
+#### In this section
+
+-   [Comments](#comments)
+-   [Lists](#lists)
+-   [Actions](#actions)
+-   [Aliases](#aliases)
+-   [Variables](#variables)
+
 ### Comments
 
 Kanata ignores comments.
