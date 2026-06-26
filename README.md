@@ -494,6 +494,8 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 -   [`taipo.kbd`](configs/taipo.kbd)
     -   Layout that can be used with 1 hand
+-   [`buggy.kbd`](configs/buggy.kbd)
+    -   Layout with 2 alpha layers
 -   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
     -   Layout with only 2 rows
 -   [`crescent.kbd`](configs/crescent.kbd)
