@@ -187,9 +187,9 @@ Expand the section for your platform.
 
 1.  In the terminal, run the example config:
 
-    <pre>
+    ```cmd
     .\kanata_windows_gui_winIOv2_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
-    </pre>
+    ```
 
     Replace `PROCESSOR` with your computer’s processor: `x64` or `arm64`.
 
@@ -250,10 +250,10 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
-    <pre>
+    ```shell
     chmod +x kanata_macos_cmd_allowed_PROCESSOR
     sudo ./kanata_macos_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
-    </pre>
+    ```
 
     Replace `PROCESSOR` with your computer’s processor: `arm64` or `x64`.
 
@@ -347,9 +347,9 @@ Expand the section for your platform.
 
     The full **Target** is similar to the following:
 
-    <pre>
+    ```cmd
     "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
-    </pre>
+    ```
 
     `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
@@ -711,9 +711,9 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
     For example, on Linux, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
 
-    <pre>
+    ```shell
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
-    </pre>
+    ```
 
 ### Windows: Check what processor your computer uses
 
