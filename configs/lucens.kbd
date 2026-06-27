@@ -8,24 +8,24 @@
 )
 
 (defsrc
-     `
         q  w  e  r  t    y  u  i  o  p
         a  s  d  f  g    h  j  k  l  ;
   lsft  z  x  c  v  b    n  m  ,  .  /  rsft
+                         ralt
 )
 
 (deflayer lucens-english
-     (tap-hold $tap-time $hold-time ` (layer-switch lucens-german))
         b  l  d  f  v    ,  z  o  u  q
         n  r  t  s  m    y  h  e  i  a
   lsft  x  j  c  g  w    k  p  ;  '  .  rsft
+                         (tap-hold $tap-time $hold-time (layer-switch lucens-german) ralt)
 )
 
 (deflayer lucens-german
-     (tap-hold $tap-time $hold-time ` (layer-switch lucens-english))
         b  l  d  f  v    ,  z  o  u @ä
         n  r  t  s  m    y  h  e  i  a
   lsft @ß  j  c  g  w    k  p @ö @ü  .  rsft
+                         (tap-hold $tap-time $hold-time (layer-switch lucens-english) ralt)
 )
 
 (defalias
