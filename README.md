@@ -671,6 +671,18 @@ The following example uses an alias for the `tap-hold` action:
 )
 ```
 
+Aliases let you visually align your `defsrc` and `deflayer` entries, making your config easier to read and maintain&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
+
+```
+(defsrc
+   caps a s d f
+)
+
+(deflayer example
+  @caps a s d f
+)
+```
+
 ### Variables
 
 Variables are named shortcuts for strings or lists.
