@@ -7,4 +7,4 @@ ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay
 Restart=no
 
 [Install]
-WantedBy=sysinit.target
+WantedBy=default.target
