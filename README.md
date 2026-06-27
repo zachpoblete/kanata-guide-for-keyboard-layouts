@@ -267,13 +267,57 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Step 3: Change your layout
 
-For pre-made configs of a few layouts, such as the [Graphite config](configs/graphite.kbd), see this guide’s [Layouts](#layouts).
+>   [!TIP]
+>   If you want to use a layout with features like magic keys, see this guide’s [Pre-made configs](#pre-made-configs).
 
-This section shows you how to change the layout of the [example config](configs/example-config.kbd).
+If you want to use an existing layout, follow these steps:
+
+1.  Open the [Layouts Wiki](https://layouts.wiki/layouts/legacy/qwerty).
+
+1.  In the **Search** box, enter the name of the layout.
+
+    If the layout appears, expand this guide’s **Use an existing layout**; otherwise, expand this guide’s **Modify the example config**.
+
+<details>
+<summary><strong>Use an existing layout</strong></summary>
+<p></p>
+
+1.  In the Layouts Wiki, under the result that appears for the layout, click the **Install** result. The **Install** section appears.
+
+1.  In the 2nd step of the **Install** section, click the layout.
+
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="images/layouts-wiki-download-kanata-config-screenshot.png">
+      <img alt="" src="images/layouts-wiki-download-kanata-config-screenshot-with-drop-shadow.png">
+    </picture>
+
+1.  In the plain text page that appears, save the plain text page as a config file: press `Control + S` (or `Command + S` on macOS).
+
+    1.  Save the config to the folder containing the Kanata executable files.
+
+    1.  Click **Save**.
+
+1.  Open a terminal in the folder containing the Kanata executable files.
+
+1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
+
+    For example, the filename of the config for the [Graphite layout](https://layouts.wiki/layouts/2023/graphite/) might be `graphite.0.kbd`. On Linux, to run the `graphite.0.kbd` config, run the following command:
+
+    ```shell
+    sudo ./kanata_linux_cmd_allowed_x64 --cfg graphite.0.kbd --nodelay
+    ```
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Modify the example config</strong></summary>
+<p></p>
 
 ### Step 1: Learn how the example config works
 
-The example config is a text file with the following contents:
+The [example config](configs/example-config.kbd) is a text file with the following contents:
 
 ```
 (defsrc
@@ -318,6 +362,8 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
+
+</details>
 
 ## Automatically start Kanata
 
@@ -709,8 +755,8 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
     1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
 
         <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-            <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
+          <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
+          <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
         </picture>
 
 1.  Save the config to the folder containing the Kanata executable files.
