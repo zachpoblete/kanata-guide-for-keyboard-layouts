@@ -325,7 +325,7 @@ If you want to use an existing layout, follow these steps:
 
 ### Step 1: Learn how the example config works
 
--   See this guide’s [`defsrc` and `deflayer`](#defsrc-and-deflayer).
+-   To learn learn how the example config works, see this guide’s [`defsrc` and `deflayer`](#defsrc-and-deflayer).
 
 ### Step 2: Edit the example config
 
