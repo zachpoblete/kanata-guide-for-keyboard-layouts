@@ -349,7 +349,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;to avoid manually changing most keys, see this guide’s [Copy an existing layout into a `deflayer` entry](#copy-an-existing-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if your layout already exists, see this guide’s [Copy an existing layout into a `deflayer` entry](#copy-an-existing-layout-into-a-deflayer-entry).
 
 1. If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
