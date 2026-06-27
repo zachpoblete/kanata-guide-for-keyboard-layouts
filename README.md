@@ -17,8 +17,8 @@ You can use this guide even if you don’t have any programming experience.
 ## Why use Kanata for alt layouts?
 
 -   Kanata works on any keyboard, including laptop keyboards.
--   Kanata lets you use the same configuration file on Windows, Linux, and macOS.
 -   Kanata lets you add advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you use the same config file on Windows, Linux, and macOS.
 -   Kanata is widely used in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
 ## Supported platforms
