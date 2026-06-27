@@ -1,6 +1,8 @@
 # Kanata Guide for Alt Layouts
 
-This guide shows you how to use [Kanata](https://github.com/jtroo/kanata) to set up and customize [alt layouts](https://layouts.wiki/guides/start/intro/) on any keyboard. The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys.
+[Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no hardware changes needed. This guide shows you how to use Kanata to set up and customize an [alt layout](https://layouts.wiki/guides/start/intro/) on any keyboard.
+
+The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys.
 
 You can use this guide even if you don’t have any programming experience.
 
