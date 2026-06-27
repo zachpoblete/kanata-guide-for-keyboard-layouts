@@ -317,27 +317,7 @@ If you want to use an existing layout, follow these steps:
 
 ### Step 1: Learn how the example config works
 
-The [example config](configs/example-config.kbd) is a text file with the following contents:
-
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
-
-(deflayer gallium
-  b l d c v  j f o u ,
-  n r t s g  y h a e i /
-  x q m w z  k p ' ; .
-)
-```
-
-The `defsrc` entry lists the physical keys of your keyboard.
-
-The `deflayer` entry creates a keyboard layer named `gallium`.
-
-**How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
+-   See this guide’s [`defsrc` and `deflayer`](#defsrc-and-deflayer).
 
 ### Step 2: Edit the example config
 
@@ -580,17 +560,44 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 ## Basics of a Kanata config
 
-To learn about the two required entries of a Kanata config, `defsrc` and `deflayer`, see this guide’s [Learn how the example config works](#step-1-learn-how-the-example-config-works).
-
-The following concepts help you read and edit this guide’s [Pre-made configs](#pre-made-configs).
+This section helps you read and edit this guide’s [Pre-made configs](#pre-made-configs).
 
 #### In this section
 
+-   [`defsrc` and `deflayer`](#defsrc-and-deflayer)
 -   [Comments](#comments)
 -   [Lists](#lists)
 -   [Actions](#actions)
 -   [Aliases](#aliases)
 -   [Variables](#variables)
+
+### `defsrc` and `deflayer`
+
+The [example config](configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
+
+```
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+)
+
+(deflayer gallium
+  b l d c v  j f o u ,
+  n r t s g  y h a e i /
+  x q m w z  k p ' ; .
+)
+```
+
+The `defsrc` entry lists the physical keys of your keyboard.
+
+The `deflayer` entry creates a keyboard layer named `gallium`.
+
+**How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
+
+### Layers
+
+
 
 ### Comments
 
