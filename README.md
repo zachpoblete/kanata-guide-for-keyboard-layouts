@@ -6,12 +6,20 @@ You can use this guide even if you don’t have any programming experience.
 
 ### In this guide
 
+-   [Why use Kanata for alt layouts?](#why-use-kanata-for-alt-layouts)
 -   [Supported platforms](#supported-platforms)
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
+
+## Why use Kanata for alt layouts?
+
+-   Kanata works on an keyboard, including laptop keyboards.
+-   Kanata lets you use the same configuration file for Windows, Linux, and macOS.
+-   Kanata supports adding advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata is widely used in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
 ## Supported platforms
 
@@ -20,13 +28,6 @@ You can use this guide even if you don’t have any programming experience.
 -   macOS 13 or newer
 
 Older versions of Windows and macOS aren’t supported by this guide.
-
-## Why use Kanata for alt layouts?
-
--   Kanata works on an keyboard, including laptop keyboards.
--   Kanata lets you use the same configuration file for Windows, Linux, and macOS.
--   Kanata supports adding advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
--   Kanata is widely used in the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
 ## Step 1: Set up Kanata
 
