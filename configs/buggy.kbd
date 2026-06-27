@@ -52,6 +52,8 @@
 )
 
 (defalias
+  ;; Columns:
+  ;; Home row         Top row
   (t! alpha1 n)
   (t! alpha1 r)    (t! alpha1 l)
   (t! alpha1 t)    (t! alpha1 d)
