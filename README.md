@@ -758,6 +758,12 @@ To find valid key names for the `defsrc` and `deflayer` entries, see the followi
 
 1.  To run the command, press `Enter`.
 
+1.  If you’re on Linux or macOS and the command starts with `sudo`, the command requires administrator privileges and you may be prompted to enter your password:
+
+    1.  Enter your password&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;as you type it, nothing will appear on screen, which is normal.
+
+    1.  Press `Enter`.
+
 >   [!TIP]
 >   To reuse a command you’ve already ran: in the terminal, press **Up arrow**.
 
