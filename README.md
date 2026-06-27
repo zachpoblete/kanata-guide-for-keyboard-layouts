@@ -29,7 +29,7 @@ Expand the section for your platform.
 <summary><strong>Windows</strong></summary>
 <p></p>
 
-1.  Download Kanata.
+1.  Download Kanata:
 
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip).
@@ -118,7 +118,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 2: Set up the Kanata executable file
 
-1.  Download Kanata.
+1.  Download Kanata:
 
     -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
     -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
