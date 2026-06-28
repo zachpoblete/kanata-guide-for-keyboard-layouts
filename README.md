@@ -2,7 +2,7 @@
 
 [Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable. [Kanata](https://github.com/jtroo/kanata) is software that lets you use an alt layout on any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no hardware changes needed.
 
-This guide shows you how to use Kanata to set up and customize an alt layout on any keyboard. The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys and adaptive swaps.
+This guide shows you how to use Kanata to set up and customize an alt layout on your keyboard. The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys and adaptive swaps.
 
 You can use this guide even if you don’t have any programming experience.
 
