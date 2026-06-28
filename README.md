@@ -280,22 +280,19 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Step 3: Change your layout
 
->   [!TIP]
->   If you want to use a layout with features like magic keys, see this guide’s [Pre-made configs](#pre-made-configs).
-
 If you want to use an existing layout, follow these steps:
 
 1.  Open the [Layouts Wiki](https://layouts.wiki/layouts/legacy/qwerty).
 
 1.  In the **Search** box, enter the name of the layout.
 
-    If the layout appears, expand this guide’s **Use an existing layout**; otherwise, expand this guide’s **Modify the example config**.
+    If an **Install** result for your layout appears, expand this guide’s **Use an existing layout**; otherwise, expand this guide’s **Modify the example config**.
 
 <details>
 <summary><strong>Use an existing layout</strong></summary>
 <p></p>
 
-1.  In the Layouts Wiki, under the result that appears for the layout, click the **Install** result. The **Install** section appears.
+1.  Click the **Install** result. The **Install** section appears.
 
 1.  In the 2nd step of the **Install** section, click the layout.
 
@@ -344,7 +341,7 @@ If you want to use an existing layout, follow these steps:
 
 1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if your layout already exists, see this guide’s [Copy an existing layout into a `deflayer` entry](#copy-an-existing-layout-into-a-deflayer-entry).
 
-1. If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
+1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
 1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
 
@@ -355,6 +352,10 @@ If you want to use an existing layout, follow these steps:
 1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
+
+### Add features to your layout
+
+-   If you want to add features like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys and adaptive swaps, see this guide’s [Pre-made configs](#pre-made-configs).
 
 </details>
 
