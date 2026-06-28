@@ -1,8 +1,8 @@
 # Kanata Guide for Alt Layouts
 
-[Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no hardware changes needed. This guide shows you how to use Kanata to set up and customize an [alt layout](https://layouts.wiki/guides/start/intro/) on your keyboard.
+[Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable. [Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no hardware changes needed.
 
-The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys.
+This guide shows you how to use Kanata to set up and customize an alt layout on any keyboard. The pre-made configs add features to an alt layout like QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, and magic keys and adaptive swaps.
 
 You can use this guide even if you don’t have any programming experience.
 
@@ -18,10 +18,13 @@ You can use this guide even if you don’t have any programming experience.
 
 ## Why use Kanata for alt layouts?
 
+-   Kanata and all its features are completely free to use.
+-   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards.
--   Kanata lets you add advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you add quality-of-life features and advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
 -   Kanata lets you use the same config file on Windows, Linux, and macOS.
--   If you need help with Kanata, the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) has an active Kanata community that can answer your questions.
+-   Kanata is regularly updated for each operating system.
+-   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
 ## Supported platforms
 
@@ -477,9 +480,11 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-To run one of the pre-made configs, see this guide’s [Run one of the pre-made configs](#run-one-of-the-pre-made-configs).
+To run one of the configs, see this guide’s [Run one of the pre-made configs](#run-one-of-the-pre-made-configs).
 
-To learn about any Kanata feature used in a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config) and the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
+To learn about the basics of a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config)
+
+To learn about any Kanata feature used in a config, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 #### In this section
 
@@ -570,7 +575,7 @@ To learn about any Kanata feature used in a config, see this guide’s [Basics o
 
 ## Basics of a Kanata config
 
-This section helps you read and edit this guide’s [Pre-made configs](#pre-made-configs).
+This section helps you customize this guide’s [Pre-made configs](#pre-made-configs).
 
 #### In this section
 
