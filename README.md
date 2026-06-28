@@ -23,7 +23,6 @@ You can use this guide even if you don’t have any programming experience.
 -   Kanata works on any keyboard, including laptop keyboards.
 -   Kanata lets you add quality-of-life features and advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
 -   Kanata lets you use the same config file on Windows, Linux, and macOS.
--   Kanata is regularly updated for each operating system.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
 ## Supported platforms
