@@ -334,7 +334,7 @@ If you want to use an existing layout, follow these steps:
 
     >   If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For valid key names, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For key names you can use, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
@@ -610,6 +610,8 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 **How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key or action in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
 
+For key names you can use in the `defsrc` and `deflayer` entries, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
+
 ### Comments
 
 Kanata ignores comments.
@@ -719,7 +721,7 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 ## Key names for the `defsrc` and `deflayer` entries
 
-To find valid key names for the `defsrc` and `deflayer` entries, see the following references:
+For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
 
 -   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
 -   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
