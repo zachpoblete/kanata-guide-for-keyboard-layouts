@@ -99,7 +99,7 @@ Description:
    _  _  _  _  _    _  _  _  _  _
 )
 
-;; If you add a key to the defsrc entry, you must also it to the
+;; If you add a key to the defsrc entry, you must also add it to the
 ;; following places in the adaptive-key template:
 ;; 1.  the template parameters
 ;; 2.  the definition of the adaptive key layer
