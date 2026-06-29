@@ -45,10 +45,10 @@ Description:
   The adaptive key layer remaps each physical key in the defsrc entry
   to a key or action in the same position in the adaptive key layer.
 
-  The adaptive key layer behaves similar to a one-shot layer but has
-  one difference:
-  -   A one-shot layer stays active for all further key presses as long
-      as you hold down the one-shot key.
+  The adaptive key layer behaves similarly to a one-shot layer but
+  has one difference:
+  -   A one-shot layer stays active for all subsequent key presses as
+      long as you hold down the one-shot key.
   -   The adaptive key layer only stays active for the very next key
       press; the adaptive key layer is no longer active for subsequent
       key presses, even if you’re still holding down the adaptive key.
@@ -56,8 +56,7 @@ Description:
 
 (defvar
   adaptive-key-timeout 1000
-  ;; length of time (in ms) until the adaptive key layer is released
-  ;; after pressing the adaptive key
+  ;; length of time (in ms) until the adaptive key layer deactivates
 )
 
 ;; Create the `c` adaptive key alias that swaps `k` and `m` after
