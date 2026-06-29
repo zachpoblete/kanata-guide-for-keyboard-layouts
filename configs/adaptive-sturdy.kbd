@@ -99,7 +99,7 @@ Description:
 ;; following places in the adaptive-key template:
 ;; 1.  the template parameters
 ;; 2.  the definition of the adaptive key layer
-;; Make sure the key matches its position in the defsrc entry.
+;; Make sure the key’s position matches its position in the defsrc entry.
                           ;; Template parameters:
 (deftemplate adaptive-key (adaptive-key
                             q w e r t  y u i o p
