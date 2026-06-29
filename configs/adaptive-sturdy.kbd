@@ -101,26 +101,26 @@ Description:
 ;; 2.  the definition of the adaptive key layer
 ;; Make sure the key matches its position in the defsrc entry.
                           ;; Template parameters:
-(deftemplate adaptive-key (ak  ;; ak = adaptive key
+(deftemplate adaptive-key (adaptive-key
                             q w e r t  y u i o p
                             a s d f g  h j k l ; '
                             z x c v b  n m , . /
                           )
   ;; Definition of the adaptive key layer. If you add a key here, prefix it with `$`.
-  (deflayer $ak
+  (deflayer $adaptive-key
     $q $w $e $r $t  $y $u $i $o $p
     $a $s $d $f $g  $h $j $k $l $; $'
     $z $x $c $v $b  $n $m $, $. $/
   )
 
-  (defvirtualkeys $ak
+  (defvirtualkeys $adaptive-key
     (multi
-      $ak
-      (one-shot $adaptive-key-timeout (layer-while-held $ak))
+      $adaptive-key
+      (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key))
     )
   )
 
-  (defalias $ak
-    (on-press tap-vkey $ak)
+  (defalias $adaptive-key
+    (on-press tap-vkey $adaptive-key)
   )
 )
