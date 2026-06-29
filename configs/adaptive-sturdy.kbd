@@ -38,9 +38,9 @@ Parameters:
     corresponding defsrc key is pressed.
 
 Description:
-  This template creates an alias, virtual key, and layer for the
-  adaptive key, all named $adaptive-key. The adaptive key alias
-  presses the adaptive key and switches to the adaptive key layer.
+  This template creates an alias named $adaptive-key and a layer
+  named $adaptive-key. The adaptive key alias presses the adaptive
+  key and switches to the adaptive key layer.
 
   The adaptive key layer remaps each physical key in the defsrc entry
   to a key or action in the same position in the adaptive key layer.
@@ -91,32 +91,47 @@ Description:
    _  _  _  _  _    _  _  _  _  _
 )
 
+;;──────────────────────────────────────────────────────────────────────────────
+;; Adaptive key template
+
+;; Helper template for the adaptive-key template:
+(deftemplate . (key adaptive-key)
+  (multi
+    (if-equal     $key $adaptive-key
+      ;; Switch to the adaptive key layer:
+      (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key)))
+    (if-not-equal $key $adaptive-key
+      (release-layer $adaptive-key))
+
+    $key
+  )
+)
+
 ;; If you add a key to the defsrc entry, you must also add it to the
 ;; following places in the adaptive-key template:
 ;; 1.  the template parameters
 ;; 2.  the definition of the adaptive key layer
 ;; Make sure the key’s position matches its position in the defsrc entry.
                           ;; Template parameters:
-(deftemplate adaptive-key (adaptive-key
+(deftemplate adaptive-key (ak  ;; (= adaptive key)
                             q w e r t  y u i o p
                             a s d f g  h j k l ; '
                             z x c v b  n m , . /
                           )
-  ;; Definition of the adaptive key layer. If you add a key here, prefix it with `$`.
-  (deflayer $adaptive-key
-    $q $w $e $r $t  $y $u $i $o $p
-    $a $s $d $f $g  $h $j $k $l $; $'
-    $z $x $c $v $b  $n $m $, $. $/
+  ;; Definition of the adaptive key layer. If you add a key here, use it
+  ;; with the helper template - for example, `(t! . $key $ak)`
+  (deflayer $ak
+    (t! . $q $ak)(t! . $w $ak)(t! . $e $ak)(t! . $r $ak)(t! . $t $ak)    (t! . $y $ak)(t! . $u $ak)(t! . $i $ak)(t! . $o $ak)(t! . $p $ak)
+    (t! . $a $ak)(t! . $s $ak)(t! . $d $ak)(t! . $f $ak)(t! . $g $ak)    (t! . $h $ak)(t! . $j $ak)(t! . $k $ak)(t! . $l $ak)(t! . $; $ak)(t! . $' $ak)
+    (t! . $z $ak)(t! . $x $ak)(t! . $c $ak)(t! . $v $ak)(t! . $b $ak)    (t! . $n $ak)(t! . $m $ak)(t! . $, $ak)(t! . $. $ak)(t! . $/ $ak)
   )
 
-  (defvirtualkeys $adaptive-key
+  (defalias $ak
     (multi
-      $adaptive-key
-      (one-shot $adaptive-key-timeout (layer-while-held $adaptive-key))
-    )
-  )
+      $ak
 
-  (defalias $adaptive-key
-    (on-press tap-vkey $adaptive-key)
+       ;; Switch to the adaptive key layer:
+      (one-shot $adaptive-key-timeout (layer-while-held $ak))
+    )
   )
 )
