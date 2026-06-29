@@ -2,110 +2,61 @@
 ;; alpha layers. Github repository:
 ;; https://github.com/flarefin/zmk-config-buggy
 
-;; Other layers like Buggy’s navigation layer aren’t included.
+;; This config doesn’t include the following:
+;; -  Buggy’s vertical combos
+;; -  Other layers like Buggy’s navigation layer
 
 (defvar
-  sticky-layer-timeout 1000
-  chord-timeout 50
+  one-shot-once-layer-timeout 1000
 )
 
 (defsrc
-      w  e  r    u  i  o
-   a  s  d  f    j  k  l  ;
-            v    n
+    w e r  u i o
+  a s d f  j k l ;
+        v  n
 )
 
 (deflayer alpha1
-     @l @d @y   @m @o @u
-  @n @r @t @s   @h @a @i @e
-          spc   @alpha2
+    l d y  m o u
+  n r t s  h a i e
+      spc  @alpha2
 )
 
-(deflayer alpha2
-     @x @v @g   @k @q @,
-  @p @w @b @c   @f @z @. @j
-            _   @alpha1
+(t! one-shot-once-layer alpha2
+    x v g  k q ,
+  p w b c  f z . j
+        _  @alpha1
 )
-
-;;──────────────────────────────────────────────────────────────────────────────
-;; Aliases
 
 (defalias
   alpha1 (layer-switch alpha1)
-
-  ;; The alpha2 alias switches to the alpha2 layer. Switching to the
-  ;; alpha2 layer emulates switching to a ZMK sticky layer. For more
-  ;; information about ZMK sticky layers, see:
-  ;; https://zmk.dev/docs/keymaps/behaviors/sticky-layer#advanced-usage
-  alpha2 (one-shot $sticky-layer-timeout (layer-while-held alpha2))
 )
 
-(deftemplate alpha1 (key)
-  $key (chord alpha1 $key)
-)
-
-(deftemplate alpha2 (key)
-  $key (multi
-    (chord alpha2 $key)
-    (release-layer alpha2)  ;; to emulate using a ZMK sticky layer
+;; The one-shot-once-layer template creates an alias and layer named
+;; $one-shot-once-key. Use the alias to access the one-shot-once
+;; layer. The following shows the difference between a one-shot layer
+;; and a one-shot-once layer:
+;; -   A one-shot layer stays active for all subsequent key presses as long
+;;     as you hold down the one-shot key.
+;; -   A one-shot-once layer only stays active for the very next key press;
+;;     the one-shot-once layer layer is no longer active for subsequent key
+;;     presses, even if you’re still holding down the one-shot-once key.
+(deftemplate one-shot-once-layer (one-shot-once-key
+                                     w e r  u i o
+                                   a s d f  j k l ;
+                                         v  n
+                                 )
+  (deflayer $one-shot-once-key
+       $w $e $r  $u $i $o
+    $a $s $d $f  $j $k $l $;
+             $v  $n
   )
-)
 
-(defalias
-  ;; Columns:
-  ;; Home row         Top row
-  (t! alpha1 n)
-  (t! alpha1 r)    (t! alpha1 l)
-  (t! alpha1 t)    (t! alpha1 d)
-  (t! alpha1 s)    (t! alpha1 y)
-  (t! alpha1 h)    (t! alpha1 m)
-  (t! alpha1 a)    (t! alpha1 o)
-  (t! alpha1 i)    (t! alpha1 u)
-  (t! alpha1 e)
+  (defvirtualkeys $one-shot-once-key
+    (one-shot $one-shot-once-layer-timeout (layer-while-held $one-shot-once-key))
+  )
 
-  (t! alpha2 p)
-  (t! alpha2 w)    (t! alpha2 x)
-  (t! alpha2 b)    (t! alpha2 v)
-  (t! alpha2 c)    (t! alpha2 g)
-  (t! alpha2 f)    (t! alpha2 k)
-  (t! alpha2 z)    (t! alpha2 q)
-  (t! alpha2 .)    (t! alpha2 ,)
-  (t! alpha2 j)
-)
-
-;;──────────────────────────────────────────────────────────────────────────────
-;; Combos
-
-(defchords alpha1 $chord-timeout
-  (n) n
-  (r) r    (l) l
-  (t) t    (d) d
-  (s) s    (y) y
-  (h) h    (m) m
-  (a) a    (o) o
-  (i) i    (u) u
-  (e) e
-
-  (r l) (macro r l)
-  (t d) (macro t d)
-  (y s) (macro y s)
-  (h m) (macro h m)
-  (o a) (macro o a)
-  (u i) (macro u i)
-)
-
-(defchords alpha2 $chord-timeout
-  (p) p
-  (w) w    (x) x
-  (b) b    (v) v
-  (c) c    (g) g
-  (f) f    (k) k
-  (z) z    (q) q
-  (.) .    (,) ,
-  (j) j
-
-  (c g) (macro c k)
-  (f k) (macro f f)
-  (q z) (macro q u i)
-  (. ,) (macro . . .)
+  (defalias $one-shot-once-key
+    (on-press tap-vkey $one-shot-once-key)
+  )
 )
