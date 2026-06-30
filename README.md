@@ -515,6 +515,8 @@ To learn about any Kanata feature used in a config, see the [Kanata Configuratio
 
 ### Symbol and navigation layers
 
+These layers often use [transparent keys](https://jtroo.github.io/config.html#transparent-key).
+
 -   [`gallium-with-symbol-layer.kbd`](configs/gallium-with-symbol-layer.kbd)
     -   Layout with a 2nd layer for symbol keys
 -   [`gallium-with-navigation-layer.kbd`](configs/gallium-with-navigation-layer.kbd)
