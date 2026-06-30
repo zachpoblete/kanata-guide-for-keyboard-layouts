@@ -346,10 +346,6 @@ If you want to use an existing layout, follow these steps:
 
 1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
 
-### Add features to your layout
-
--   If you want to add any of the following features&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;QWERTY shortcuts, toggling to QWERTY, symbol and navigation layers, magic keys and adaptive swaps&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
-
 </details>
 
 ## Automatically start Kanata
