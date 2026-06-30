@@ -326,7 +326,7 @@ If you want to use an existing layout, follow these steps:
 
 ### Step 1: Learn how the example config works
 
--   To learn learn how the example config works, see this guide’s [`defsrc` and `deflayer`](#defsrc-and-deflayer).
+-   To learn learn how the example config works, see this guide’s [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries).
 
 ### Step 2: Edit the example config
 
@@ -579,14 +579,14 @@ This section helps you customize this guide’s [Pre-made configs](#pre-made-con
 
 #### In this section
 
--   [`defsrc` and `deflayer`](#defsrc-and-deflayer)
+-   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
 -   [Comments](#comments)
 -   [Lists](#lists)
 -   [Actions](#actions)
 -   [Aliases](#aliases)
 -   [Variables](#variables)
 
-### `defsrc` and `deflayer`
+### The `defsrc` and `deflayer` entries
 
 The [example config](configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
 
