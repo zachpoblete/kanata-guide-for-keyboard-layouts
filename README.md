@@ -44,7 +44,7 @@ Expand the section for your platform.
 1.  Download Kanata:
 
     -   [x64 download](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip)
-    -   [arm64 download](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip)
+    -   [arm64 download](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-arm64.zip)
 
     <blockquote>
     <p>
