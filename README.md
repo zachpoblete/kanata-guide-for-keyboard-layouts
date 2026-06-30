@@ -310,12 +310,6 @@ If you want to use an existing layout, follow these steps:
 
 1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
 
-    For example, the filename of the config for the [Graphite layout](https://layouts.wiki/layouts/2023/graphite/) might be `graphite.0.kbd`. On Linux, to run the `graphite.0.kbd` config, run the following command:
-
-    ```shell
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg graphite.0.kbd --nodelay
-    ```
-
 </details>
 
 </details>
@@ -804,12 +798,6 @@ For key names you can use in the `defsrc` and `deflayer` entries, see the follow
 1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
-
-    For example, on Linux, to run the [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd) config, run the following command:
-
-    ```shell
-    sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
-    ```
 
 ### Windows: Check if your computer is x64 or arm64
 
