@@ -43,13 +43,13 @@ Expand the section for your platform.
 
 1.  Download Kanata:
 
-    -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip).
-    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip).
+    -   [x64 download](https://github.com/jtroo/kanata/releases/latest/download/windows-binaries-x64.zip)
+    -   [arm64 download](https://github.com/jtroo/kanata/latest/download/windows-binaries-arm64.zip)
 
     <blockquote>
     <p>
 
-    If you’re not sure what processor your computer uses, see this guide’s [Windows: Check what processor your computer uses](#windows-check-what-processor-your-computer-uses).
+    If you’re not sure which to download, see this guide’s [Windows: Check if your computer is x64 or arm64](#windows-check-if-your-computer-is-x64-or-arm64).
 
     </p>
     </blockquote>
@@ -132,13 +132,13 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Download Kanata:
 
-    -   If your computer uses an **arm64** processor, [download the arm64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip).
-    -   If your computer uses an **x64** processor, [download the x64 version of Kanata](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip).
+    -   [arm64 download](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-arm64.zip)
+    -   [x64 download](https://github.com/jtroo/kanata/releases/latest/download/macos-binaries-x64.zip)
 
     <blockquote>
     <p>
 
-    If you’re not sure what processor your computer uses, see this guide’s [macOS: Check what processor your computer uses](#macos-check-what-processor-your-computer-uses).
+    If you’re not sure which to download, see this guide’s [macOS: Check if your computer is arm64 or x64](#macos-check-if-your-computer-is-arm64-or-x64).
 
     </p>
     </blockquote>
@@ -210,10 +210,10 @@ Expand the section for your platform.
 1.  In the terminal, run the example config:
 
     ```cmd
-    .\kanata_windows_gui_winIOv2_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
+    .\kanata_windows_gui_winIOv2_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
 
-    Replace `PROCESSOR` with your computer’s processor: `x64` or `arm64`.
+    If your computer is arm64, replace `x64` with `arm64`.
 
     <blockquote>
     <p>
@@ -265,11 +265,11 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
-    chmod +x kanata_macos_cmd_allowed_PROCESSOR
-    sudo ./kanata_macos_cmd_allowed_PROCESSOR --cfg example-config.kbd --nodelay
+    chmod +x kanata_macos_cmd_allowed_arm64
+    sudo ./kanata_macos_cmd_allowed_arm64 --cfg example-config.kbd --nodelay
     ```
 
-    Replace `PROCESSOR` with your computer’s processor: `arm64` or `x64`.
+    If your computer is x64, replace `arm64` with `x64`.
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -811,7 +811,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see the follow
     sudo ./kanata_linux_cmd_allowed_x64 --cfg hold-backtick-to-switch-layouts.kbd --nodelay
     ```
 
-### Windows: Check what processor your computer uses
+### Windows: Check if your computer is x64 or arm64
 
 1.  Open the **Settings** app.
 
@@ -819,8 +819,8 @@ For key names you can use in the `defsrc` and `deflayer` entries, see the follow
 
 1.  In **Device info**, look for **System type**:
 
-    -   If it says **64-bit operating system, _x64_-based processor**, your computer uses an **x64** processor.
-    -   If it says **64-bit operating system, _ARM_-based processor**, your computer uses an **arm64** processor.
+    -   If it says **64-bit operating system, _x64_-based processor**, your computer is **x64**.
+    -   If it says **64-bit operating system, _ARM_-based processor**, your computer is **arm64**.
 
 ### Windows: Open the startup folder
 
@@ -830,14 +830,14 @@ For key names you can use in the `defsrc` and `deflayer` entries, see the follow
 
 1.  Click **OK**.
 
-### macOS: Check what processor your computer uses
+### macOS: Check if your computer is arm64 or x64
 
 1.  Click the **Apple** menu and select **About This Mac**.
 
 1.  Look for either **Chip** or **Processor**:
 
-    -   **Chip** means your computer uses an **arm64** processor.
-    -   **Processor** means your computer uses an **x64** processor.
+    -   **Chip** means your computer is **arm64**.
+    -   **Processor** means your computer is **x64**.
 
 ### macOS: Disable Karabiner Elements Privileged Daemons
 
