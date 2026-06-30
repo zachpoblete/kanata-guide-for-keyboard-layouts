@@ -328,7 +328,7 @@ If you want to use an existing layout, follow these steps:
 
     >   If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry. For key names you can use, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
+1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
