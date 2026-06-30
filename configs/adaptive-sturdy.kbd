@@ -13,8 +13,8 @@
   z  x  c  v  b    n  m  ,  .  /
 )
 
-;; Important: If you want to add an adaptive key to this layer, use
-;; the adaptive-key template and add the adaptive key alias to this
+;; Important: To add an adaptive key to the sturdy layer, use the
+;; adaptive-key template and add the adaptive key alias to the sturdy
 ;; layer.
 (deflayer sturdy
    v  m @l @c @p    x  f  o @u  j
@@ -112,7 +112,7 @@ Description:
 ;; following places in the adaptive-key template:
 ;; 1.  The template parameters
 ;; 2.  The definition of the adaptive key layer
-;; Make sure the key’s position matches its position in the defsrc entry.
+;; Make sure the key is in the same position as in the defsrc entry.
                           ;; Template parameters:
 (deftemplate adaptive-key (ak  ;; ak = adaptive key
                             q w e r t  y u i o p
