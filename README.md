@@ -31,7 +31,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Linux
 -   macOS 13 or newer
 
-Older versions of Windows and macOS aren’t supported by this guide.
+This guide doesn’t support older versions of Windows and macOS.
 
 ## Step 1: Set up Kanata
 
