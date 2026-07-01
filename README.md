@@ -1,6 +1,6 @@
 # Kanata Guide for Alt Layouts
 
-[Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable. [Kanata](https://github.com/jtroo/kanata) is software that lets you use an alt layout on any keyboard&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;no hardware changes needed.
+[Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable. [Kanata](https://github.com/jtroo/kanata) is software that lets you use an alt layout on any keyboard.
 
 This guide shows you how to use Kanata to set up and customize an alt layout on your keyboard.
 
