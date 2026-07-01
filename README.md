@@ -472,7 +472,7 @@ Expand the section for your platform.
 
 To run one of the configs, see [Run one of the pre-made configs](docs/mini-guides.md#run-one-of-the-pre-made-configs).
 
-To learn about the basics of a config, see [Basics of a Kanata config](docs/config-basics.md)
+To learn about the basics of a config, see [Basics of a Kanata config](docs/config-basics.md).
 
 To learn about any Kanata feature used in a config, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
