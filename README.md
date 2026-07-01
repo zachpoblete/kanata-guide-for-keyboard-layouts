@@ -285,10 +285,10 @@ If you want to use an existing layout, follow these steps:
 
 1.  In the **Search** box, enter the name of the layout.
 
-    If an **Install** result for your layout appears, expand this guide’s **Use an existing layout**; otherwise, expand this guide’s **Modify the example config**.
+    If an **Install** result for your layout appears, expand this guide’s [Use an existing layout](#step-3-use-an-existing-layout); otherwise, expand this guide’s [Modify the example config](#step-3-modify-the-example-config).
 
 <details>
-<summary><strong>Use an existing layout</strong></summary>
+<summary><strong><a name="step-3-use-an-existing-layout">Use an existing layout</a></strong></summary>
 <p></p>
 
 1.  Click the **Install** result. The **Install** section appears.
@@ -312,10 +312,8 @@ If you want to use an existing layout, follow these steps:
 
 </details>
 
-</details>
-
 <details>
-<summary><strong>Modify the example config</strong></summary>
+<summary><strong><a name="step-3-modify-the-example-config">Modify the example config</a></strong></summary>
 <p></p>
 
 ### Step 1: Learn how the example config works
