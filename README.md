@@ -49,7 +49,7 @@ Expand the section for your platform.
     <blockquote>
     <p>
 
-    If you’re not sure which to download, see this guide’s [Windows: Check if your computer is x64 or arm64](#windows-check-if-your-computer-is-x64-or-arm64).
+    If you’re not sure which to download, see [Windows: Check if your computer is x64 or arm64](docs/mini-guides.md#windows-check-if-your-computer-is-x64-or-arm64).
 
     </p>
     </blockquote>
@@ -86,7 +86,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see this guide’s [macOS: Disable Karabiner Elements Privileged Daemons](#macos-disable-karabiner-elements-privileged-daemons).
+1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see [macOS: Disable Karabiner Elements Privileged Daemons](docs/mini-guides.md#macos-disable-karabiner-elements-privileged-daemons).
 
     **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time.
 
@@ -96,7 +96,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Open a terminal.
 
-    >   If you’re not sure how, see this guide’s [macOS: Open a terminal](#macos-open-a-terminal).
+    >   If you’re not sure how, see [macOS: Open a terminal](docs/mini-guides.md#macos-open-a-terminal).
 
 1.  In the terminal, activate the driver:
 
@@ -104,7 +104,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
 
 1.  Enable the Karabiner system extension:
 
@@ -138,7 +138,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     <blockquote>
     <p>
 
-    If you’re not sure which to download, see this guide’s [macOS: Check if your computer is arm64 or x64](#macos-check-if-your-computer-is-arm64-or-x64).
+    If you’re not sure which to download, see [macOS: Check if your computer is arm64 or x64](docs/mini-guides.md#macos-check-if-your-computer-is-arm64-or-x64).
 
     </p>
     </blockquote>
@@ -218,7 +218,7 @@ Expand the section for your platform.
     <blockquote>
     <p>
 
-    If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+    If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
 
     </p>
     </blockquote>
@@ -244,7 +244,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](#run-a-command-from-this-guide).
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -260,7 +260,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-    >   If you’re not sure how, see this guide’s [macOS: Open a folder in a terminal](#macos-open-a-folder-in-a-terminal).
+    >   If you’re not sure how, see [macOS: Open a folder in a terminal](docs/mini-guides.md#macos-open-a-folder-in-a-terminal).
 
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -320,19 +320,19 @@ If you want to use an existing layout, follow these steps:
 
 ### Step 1: Learn how the example config works
 
--   To learn learn how the example config works, see this guide’s [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries).
+-   To learn learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
 
 ### Step 2: Edit the example config
 
 1.  Open the example config with a plain text editor.
 
-    >   If you’re not sure how, see this guide’s [Open a file with a plain text editor](#open-a-file-with-a-plain-text-editor).
+    >   If you’re not sure how, see [Open a file with a plain text editor](docs/mini-guides.md#open-a-file-with-a-plain-text-editor).
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if your layout already exists, see this guide’s [Copy an existing layout into a `deflayer` entry](#copy-an-existing-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/mini-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
@@ -358,7 +358,7 @@ Expand the section for your platform.
 
 1.  Open the startup folder.
 
-    >   If you’re not sure how, see this guide’s [Windows: Open the startup folder](#windows-open-the-startup-folder).
+    >   If you’re not sure how, see [Windows: Open the startup folder](docs/mini-guides.md#windows-open-the-startup-folder).
 
 1.  Create a shortcut of a Kanata executable file.
 
@@ -470,9 +470,9 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-To run one of the configs, see this guide’s [Run one of the pre-made configs](#run-one-of-the-pre-made-configs).
+To run one of the configs, see [Run one of the pre-made configs](docs/mini-guides.md#run-one-of-the-pre-made-configs).
 
-To learn about the basics of a config, see this guide’s [Basics of a Kanata config](#basics-of-a-kanata-config)
+To learn about the basics of a config, see [Basics of a Kanata config](docs/config-basics.md)
 
 To learn about any Kanata feature used in a config, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
@@ -564,289 +564,6 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
     -   Layout with chiral skip magic keys
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
     -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
-
-## Basics of a Kanata config
-
-This section helps you customize this guide’s [Pre-made configs](#pre-made-configs).
-
-#### In this section
-
--   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
--   [Comments](#comments)
--   [Lists](#lists)
--   [Actions](#actions)
--   [Aliases](#aliases)
--   [Variables](#variables)
-
-### The `defsrc` and `deflayer` entries
-
-The [example config](configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
-
-```
-(defsrc
-  q w e r t  y u i o p
-  a s d f g  h j k l ; '
-  z x c v b  n m , . /
-)
-
-(deflayer gallium
-  b l d c v  j f o u ,
-  n r t s g  y h a e i /
-  x q m w z  k p ' ; .
-)
-```
-
-The `defsrc` entry lists the physical keys of your keyboard.
-
-The `deflayer` entry creates a keyboard layer named `gallium`.
-
-**How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key or action in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
-
-For key names you can use in the `defsrc` and `deflayer` entries, see this guide’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
-
-### Comments
-
-Kanata ignores comments.
-
-Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
-
-```
-;; This is a comment.
-
-(defsrc
-  caps a s d f  ;; Comments can be added to the end of a line.
-)
-```
-
-### Lists
-
-Configs are made of lists.
-
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
-
-Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
-
-### Actions
-
-Actions let you go beyond remapping a key to a different key.
-
-The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold), letting you activate `Left Control` by holding `Caps Lock`:
-
-```
-(defsrc
-  caps a s d f
-)
-
-(deflayer example
-  (tap-hold 200 200 caps lctl) a s d f
-)
-```
-
-### Aliases
-
-Aliases are named shortcuts for actions.
-
-Aliases are defined in a `defalias` entry:
-
-```
-(defalias
-  alias1-name alias1-action
-  alias2-name alias2-action
-  ...
-)
-```
-
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action the alias maps to. An alias is used by prefixing the alias name with `@`.
-
-The following example uses an alias for the `tap-hold` action:
-
-```
-(defalias
-  caps (tap-hold 200 200 caps lctl)
-)
-
-(deflayer example
-  @caps a s d f
-)
-```
-
-Aliases let you visually align your `defsrc` and `deflayer` entries, making your config easier to read and maintain&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
-
-```
-(defsrc
-   caps a s d f
-)
-
-(deflayer example
-  @caps a s d f
-)
-```
-
-### Variables
-
-Variables are named shortcuts for strings or lists.
-
-Variables are defined in a `defvar` entry:
-
-```
-(defvar
-  variable1-name variable1-value
-  variable2-name variable2-value
-  ...
-)
-```
-
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value the variable maps to. A variable is used by prefixing the variable name with `$`.
-
-The following example uses variables for the numbers in the `tap-hold` action:
-
-```
-(defvar
-  tap-time  200
-  hold-time 200
-)
-
-(defalias
-  caps (tap-hold $tap-time $hold-time caps lctl)
-)
-```
-
-## Key names for the `defsrc` and `deflayer` entries
-
-For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
-
--   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
--   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
--   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
-
-## Mini guides
-
-### Copy an existing layout into a `deflayer` entry
-
-1.  Open the [cmini browser](https://cminibrowser.com/) website.
-
-1.  In the **Search** box, enter the name of the layout.
-
-1.  Click the row of the layout.
-
-1.  To copy the layout, click the graphic of the layout that appears.
-
-    ![](images/cmini-browser-copy-layout-as-text-screenshot.png)
-
-1.  Open your config with a plain text editor.
-
-1.  Paste the layout into a `deflayer` entry.
-
-### Open a file with a plain text editor
-
-#### Windows
-
--   Right-click the file and select **Edit in Notepad**.
-
-#### Linux
-
--   Right-click the file and select the command to open with a text editor.
-
-#### macOS
-
--   Right-click the file and select **Open with > TextEdit**.
-
-### Run a command from this guide
-
-1.  To copy the command, click **Copy code to clipboard**.
-
-1.  Click in the terminal window.
-
-1.  Paste the command:
-
-    -   Windows: Press `Control + V`.
-    -   Linux: Press `Control + Shift + V`.
-    -   macOS: Press `Command + V`.
-
-1.  If the command has any placeholders, follow the command’s instructions on how to replace them.
-
-1.  To run the command, press `Enter`.
-
-1.  If you’re on Linux or macOS and the command starts with `sudo`, the command requires administrator privileges and you may be prompted to enter your password:
-
-    1.  Enter your password&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;as you type it, nothing will appear on screen, which is normal.
-
-    1.  Press `Enter`.
-
->   [!TIP]
->   To reuse a command you’ve already ran: in the terminal, press **Up arrow**.
-
-### Run one of the pre-made configs
-
-1.  Download one of the configs from this guide’s [Pre-made configs](#pre-made-configs):
-
-    1.  Open the link of the config you want to download.
-
-    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="images\github-download-raw-file-icon-dark.svg"></picture>.
-
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="images\github-download-raw-file-screenshot.png">
-          <img alt="" src="images\github-download-raw-file-screenshot-with-drop-shadow.png">
-        </picture>
-
-1.  Save the config to the folder containing the Kanata executable files.
-
-1.  Open a terminal in the folder containing the Kanata executable files.
-
-1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
-
-### Windows: Check if your computer is x64 or arm64
-
-1.  Open the **Settings** app.
-
-1.  Click **System > About**.
-
-1.  In **Device info**, look for **System type**:
-
-    -   If it says **64-bit operating system, _x64_-based processor**, your computer is **x64**.
-    -   If it says **64-bit operating system, _ARM_-based processor**, your computer is **arm64**.
-
-### Windows: Open the startup folder
-
-1.  Press `Windows + R`.
-
-1.  Enter `shell:startup`
-
-1.  Click **OK**.
-
-### macOS: Check if your computer is arm64 or x64
-
-1.  Click the **Apple** menu and select **About This Mac**.
-
-1.  Look for either **Chip** or **Processor**:
-
-    -   **Chip** means your computer is **arm64**.
-    -   **Processor** means your computer is **x64**.
-
-### macOS: Disable Karabiner Elements Privileged Daemons
-
-1.  Open the **System Settings** app.
-
-1.  Click **General > Login Items & Extensions**.
-
-1.  In **App Background Activity**, disable the following if you see them:
-
-    -   **Karabiner-Elements Privileged Daemons**
-    -   **Karabiner-Elements Privileged Daemons v2**
-
-### macOS: Open a terminal
-
-1.  Press `Command + Space`.
-
-1.  Enter `terminal`.
-
-1.  Double-click **Terminal**.
-
-### macOS: Open a folder in a terminal
-
--   Right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
-
-    If **New Terminal at Folder** doesn’t appear, click **Finder > Services > Services Settings > Files and Folders** and enable **New Terminal at Folder**.
 
 ## Feedback
 

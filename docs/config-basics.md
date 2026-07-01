@@ -1,0 +1,154 @@
+# Basics of a Kanata config
+
+This page helps you customize this guide’s [Pre-made configs](../README.md#pre-made-configs).
+
+### In this section
+
+-   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
+-   [Comments](#comments)
+-   [Lists](#lists)
+-   [Actions](#actions)
+-   [Aliases](#aliases)
+-   [Variables](#variables)
+-   [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries)
+
+## The `defsrc` and `deflayer` entries
+
+The [example config](configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
+
+```
+(defsrc
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+)
+
+(deflayer gallium
+  b l d c v  j f o u ,
+  n r t s g  y h a e i /
+  x q m w z  k p ' ; .
+)
+```
+
+The `defsrc` entry lists the physical keys of your keyboard.
+
+The `deflayer` entry creates a keyboard layer named `gallium`.
+
+**How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key or action in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
+
+For key names you can use in the `defsrc` and `deflayer` entries, see this page’s [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
+
+## Comments
+
+Kanata ignores comments.
+
+Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
+
+```
+;; This is a comment.
+
+(defsrc
+  caps a s d f  ;; Comments can be added to the end of a line.
+)
+```
+
+## Lists
+
+Configs are made of lists.
+
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
+
+Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
+
+## Actions
+
+Actions let you go beyond remapping a key to a different key.
+
+The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold), letting you activate `Left Control` by holding `Caps Lock`:
+
+```
+(defsrc
+  caps a s d f
+)
+
+(deflayer example
+  (tap-hold 200 200 caps lctl) a s d f
+)
+```
+
+## Aliases
+
+Aliases are named shortcuts for actions.
+
+Aliases are defined in a `defalias` entry:
+
+```
+(defalias
+  alias1-name alias1-action
+  alias2-name alias2-action
+  ...
+)
+```
+
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action the alias maps to. An alias is used by prefixing the alias name with `@`.
+
+The following example uses an alias for the `tap-hold` action:
+
+```
+(defalias
+  caps (tap-hold 200 200 caps lctl)
+)
+
+(deflayer example
+  @caps a s d f
+)
+```
+
+Aliases let you visually align your `defsrc` and `deflayer` entries, making your config easier to read and maintain&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
+
+```
+(defsrc
+   caps a s d f
+)
+
+(deflayer example
+  @caps a s d f
+)
+```
+
+## Variables
+
+Variables are named shortcuts for strings or lists.
+
+Variables are defined in a `defvar` entry:
+
+```
+(defvar
+  variable1-name variable1-value
+  variable2-name variable2-value
+  ...
+)
+```
+
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value the variable maps to. A variable is used by prefixing the variable name with `$`.
+
+The following example uses variables for the numbers in the `tap-hold` action:
+
+```
+(defvar
+  tap-time  200
+  hold-time 200
+)
+
+(defalias
+  caps (tap-hold $tap-time $hold-time caps lctl)
+)
+```
+
+## Key names for the `defsrc` and `deflayer` entries
+
+For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
+
+-   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
+-   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+-   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
