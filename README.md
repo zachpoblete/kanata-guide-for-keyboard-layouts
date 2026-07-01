@@ -28,7 +28,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Kanata and all its features are completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards.
--   Kanata lets you add quality-of-life features and advanced features to an alt layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you add quality-of-life features and advanced features to an alt layout. See this guide’s [Pre-made configs](#pre-made-configs).
 -   Kanata lets you use the same config file on Windows, Linux, and macOS.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
@@ -232,7 +232,7 @@ Expand the section for your platform.
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
 </details>
 
@@ -255,7 +255,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
 </details>
 
@@ -280,7 +280,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
-**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Use the physical keys in those positions&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it doesn’t matter what you configured those keys to do.
+**To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
 </details>
 
@@ -339,7 +339,7 @@ If you want to use an existing layout, follow these steps:
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;if your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/mini-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout. If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/mini-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
