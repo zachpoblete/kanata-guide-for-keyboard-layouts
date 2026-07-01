@@ -120,7 +120,7 @@ Description:
                             z x c v b  n m , . /
                           )
   ;; Definition of the adaptive key layer. If you add a key here, use it
-  ;; with the helper template - for example, `(t! . $key $ak)`
+  ;; with the helper template - for example, `(t! . $key $ak)`.
   (deflayer $ak
     (t! . $q $ak)(t! . $w $ak)(t! . $e $ak)(t! . $r $ak)(t! . $t $ak)    (t! . $y $ak)(t! . $u $ak)(t! . $i $ak)(t! . $o $ak)(t! . $p $ak)
     (t! . $a $ak)(t! . $s $ak)(t! . $d $ak)(t! . $f $ak)(t! . $g $ak)    (t! . $h $ak)(t! . $j $ak)(t! . $k $ak)(t! . $l $ak)(t! . $; $ak)(t! . $' $ak)
