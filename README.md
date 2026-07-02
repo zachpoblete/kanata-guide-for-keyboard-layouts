@@ -485,13 +485,11 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-To change the layout of a pre-made config, see this guide’s [Change your layout](##step-3-change-your-layout).
+Before using a pre-made config, it helps to know the following:
 
-To run a pre-made config, see [Run one of the pre-made configs](docs/mini-guides.md#run-one-of-the-pre-made-configs).
-
-To customize a pre-made config, see [Basics of a Kanata config](docs/config-basics.md).
-
-To learn about any Kanata feature used in a pre-made config, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
+-   To run a config, see [Run a pre-made config](docs/mini-guides.md#run-a-pre-made-config).
+-   To customize a config, see [Basics of a Kanata Config](docs/config-basics.md).
+-   To learn about any Kanata feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 #### In this section
 
