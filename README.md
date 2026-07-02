@@ -63,7 +63,7 @@ Expand the section for your platform.
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the only executable file you need to use.
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the executable file you need to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
@@ -79,7 +79,7 @@ Expand the section for your platform.
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the only executable file you need to use.
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the executable file you need to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
@@ -156,7 +156,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_macos_`. This guide will show you the only executable file you need to use.
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_macos_`. This guide will show you the executable file you need to use.
 
 1.  Enable **Accessibility**:
 
