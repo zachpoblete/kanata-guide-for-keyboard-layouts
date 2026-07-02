@@ -210,6 +210,8 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ## Step 2: Run an alt layout
 
+Kanata runs from the terminal. To automatically start Kanata in the background, see [Automatically start Kanata](#automatically-start-kanata).
+
 Expand the section for your platform.
 
 <details>
