@@ -1,4 +1,4 @@
-# Mini guides
+# Mini Guides
 
 ## Copy an existing layout into a `deflayer` entry
 
@@ -55,9 +55,9 @@
 >   [!TIP]
 >   To reuse a command you’ve already ran: in the terminal, press **Up arrow**.
 
-## Run one of the pre-made configs
+## Run a pre-made config
 
-1.  Download one of the configs from this guide’s [Pre-made configs](../README.md#pre-made-configs):
+1.  Download a config from this guide’s [Pre-made configs](../README.md#pre-made-configs):
 
     1.  Open the link of the config you want to download.
 

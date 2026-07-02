@@ -1,4 +1,4 @@
-# Basics of a Kanata config
+# Basics of a Kanata Config
 
 This page helps you customize this guide’s [Pre-made configs](../README.md#pre-made-configs).
 
