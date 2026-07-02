@@ -4,12 +4,14 @@
 
 This guide shows you how to use Kanata to set up and customize an alt layout on your keyboard.
 
-A _config_ is a file that tells Kanata how to remap your keyboard. This guide contains pre-made configs that add features to an alt layout. These features include the following:
+Kanata remaps your keyboard using files called _configs_. This guide contains pre-made configs that add features to an alt layout. These features include the following:
 
 -   Toggling to QWERTY
 -   QWERTY shortcuts
 -   Symbol and navigation layers
 -   Magic keys and adaptive swaps
+
+The pre-made configs might not use your preferred alt layout, but this guide shows you how to change the layout of a config.
 
 You can use this guide even if you don’t have any programming experience.
 
