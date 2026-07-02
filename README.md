@@ -339,6 +339,8 @@ To add features to an alt layout, see this guide’s [Pre-made configs](#pre-mad
 
 ### Step 2: Edit the example config
 
+For key names you can use in the `defsrc` and `deflayer` entries, see [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
+
 1.  Open the example config with a plain text editor.
 
     >   If you’re not sure how, see [Open a file with a plain text editor](docs/reference-guides.md#open-a-file-with-a-plain-text-editor).

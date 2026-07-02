@@ -5,12 +5,12 @@ This page helps you customize this guide’s [Pre-made configs](../README.md#pre
 ### In this section
 
 -   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
+-   [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries)
 -   [Comments](#comments)
 -   [Lists](#lists)
 -   [Actions](#actions)
 -   [Aliases](#aliases)
 -   [Variables](#variables)
--   [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries)
 
 ## The `defsrc` and `deflayer` entries
 
@@ -36,7 +36,13 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 **How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key or action in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
 
-For key names you can use in the `defsrc` and `deflayer` entries, see the [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries) of this page.
+## Key names for the `defsrc` and `deflayer` entries
+
+For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
+
+-   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
+-   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
+-   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
 ## Comments
 
@@ -144,11 +150,3 @@ The following example uses variables for the numbers in the `tap-hold` action:
   caps (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
-
-## Key names for the `defsrc` and `deflayer` entries
-
-For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
-
--   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
--   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
--   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
