@@ -61,7 +61,9 @@ Expand the section for your platform.
     </p>
     </blockquote>
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Extract the downloaded zip file.
+
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the only executable file you need to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
@@ -75,7 +77,9 @@ Expand the section for your platform.
 
 1.  [Download Kanata](https://github.com/jtroo/kanata/releases/latest/download/linux-binaries-x64.zip).
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Extract the downloaded zip file.
+
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the only executable file you need to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
@@ -150,7 +154,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     </p>
     </blockquote>
 
-1.  Extract the downloaded zip file. It contains the Kanata executable files.
+1.  Extract the downloaded zip file.
+
+    The folder you extracted the zip file to now contains multiple Kanata executable files. The filenames of the executable files start with `kanata_macos_`. This guide will show you the only executable file you need to use.
 
 1.  Enable **Accessibility**:
 
@@ -163,9 +169,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     1.  Click **+**.
 
-    1.  Search for the Kanata executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+    1.  Search for the folder containing the Kanata executable files.
 
-    1.  Select the Kanata executable file.
+    1.  Select the executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
     1.  Click **Open**.
 
