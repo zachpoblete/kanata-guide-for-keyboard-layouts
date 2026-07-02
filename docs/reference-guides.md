@@ -1,4 +1,6 @@
-# Mini Guides
+# Reference Guides
+
+This page contains guides referenced throughout the [main guide](https://github.com/zachpoblete/kanata-guide-for-alt-layouts).
 
 ## Copy an existing layout into a `deflayer` entry
 

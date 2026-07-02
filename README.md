@@ -56,7 +56,7 @@ Expand the section for your platform.
     <blockquote>
     <p>
 
-    If you’re not sure which to download, see [Windows: Check if your computer is x64 or arm64](docs/mini-guides.md#windows-check-if-your-computer-is-x64-or-arm64).
+    If you’re not sure which to download, see [Windows: Check if your computer is x64 or arm64](docs/reference-guides.md#windows-check-if-your-computer-is-x64-or-arm64).
 
     </p>
     </blockquote>
@@ -97,7 +97,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
-1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see [macOS: Disable Karabiner Elements Privileged Daemons](docs/mini-guides.md#macos-disable-karabiner-elements-privileged-daemons).
+1.  If you have [Karabiner Elements](https://karabiner-elements.pqrs.org/) installed, see [macOS: Disable Karabiner Elements Privileged Daemons](docs/reference-guides.md#macos-disable-karabiner-elements-privileged-daemons).
 
     **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time.
 
@@ -107,7 +107,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Open a terminal.
 
-    >   If you’re not sure how, see [macOS: Open a terminal](docs/mini-guides.md#macos-open-a-terminal).
+    >   If you’re not sure how, see [macOS: Open a terminal](docs/reference-guides.md#macos-open-a-terminal).
 
 1.  In the terminal, activate the driver:
 
@@ -115,7 +115,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
     ```
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
 1.  Enable the Karabiner system extension:
 
@@ -149,7 +149,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
     <blockquote>
     <p>
 
-    If you’re not sure which to download, see [macOS: Check if your computer is arm64 or x64](docs/mini-guides.md#macos-check-if-your-computer-is-arm64-or-x64).
+    If you’re not sure which to download, see [macOS: Check if your computer is arm64 or x64](docs/reference-guides.md#macos-check-if-your-computer-is-arm64-or-x64).
 
     </p>
     </blockquote>
@@ -233,7 +233,7 @@ Expand the section for your platform.
     <blockquote>
     <p>
 
-    If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
+    If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
     </p>
     </blockquote>
@@ -259,7 +259,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
     sudo ./kanata_linux_cmd_allowed_x64 --cfg example-config.kbd --nodelay
     ```
 
-    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/mini-guides.md#run-a-command-from-this-guide).
+    >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
 Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
@@ -275,7 +275,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-    >   If you’re not sure how, see [macOS: Open a folder in a terminal](docs/mini-guides.md#macos-open-a-folder-in-a-terminal).
+    >   If you’re not sure how, see [macOS: Open a folder in a terminal](docs/reference-guides.md#macos-open-a-folder-in-a-terminal).
 
 1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
@@ -343,13 +343,13 @@ To add features to an alt layout, see this guide’s [Pre-made configs](#pre-mad
 
 1.  Open the example config with a plain text editor.
 
-    >   If you’re not sure how, see [Open a file with a plain text editor](docs/mini-guides.md#open-a-file-with-a-plain-text-editor).
+    >   If you’re not sure how, see [Open a file with a plain text editor](docs/reference-guides.md#open-a-file-with-a-plain-text-editor).
 
 1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout. If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/mini-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout. If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/reference-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
@@ -377,7 +377,7 @@ Expand the section for your platform.
 
 1.  Open the startup folder.
 
-    >   If you’re not sure how, see [Windows: Open the startup folder](docs/mini-guides.md#windows-open-the-startup-folder).
+    >   If you’re not sure how, see [Windows: Open the startup folder](docs/reference-guides.md#windows-open-the-startup-folder).
 
 1.  Create a shortcut of a Kanata executable file.
 
@@ -491,7 +491,7 @@ Expand the section for your platform.
 
 Before using a pre-made config, it helps to know the following:
 
--   To run a config, see [Run a pre-made config](docs/mini-guides.md#run-a-pre-made-config).
+-   To run a config, see [Run a pre-made config](docs/reference-guides.md#run-a-pre-made-config).
 -   To customize a config, see [Basics of a Kanata Config](docs/config-basics.md).
 -   To learn about any Kanata feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
