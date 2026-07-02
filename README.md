@@ -4,7 +4,7 @@
 
 This guide shows you how to use Kanata to set up and customize an alt layout.
 
-Kanata remaps your keyboard using files called _configs_. This guide contains pre-made configs that add features to an alt layout. These features include the following:
+Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to an alt layout. These features include the following:
 
 -   Toggling to QWERTY
 -   QWERTY shortcuts
@@ -29,7 +29,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards.
 -   Kanata lets you add quality-of-life features and advanced features to an alt layout. See this guide’s [Pre-made configs](#pre-made-configs).
--   Kanata lets you use the same config file on Windows, Linux, and macOS.
+-   Kanata lets you use the same config on Windows, Linux, and macOS.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
 ## Supported platforms
@@ -316,7 +316,7 @@ If you want to use an existing layout, follow these steps:
       <img alt="" src="images/layouts-wiki-download-kanata-config-screenshot-with-drop-shadow.png">
     </picture>
 
-1.  In the plain text page that appears, save the plain text page as a config file: press `Control + S` (or `Command + S` on macOS).
+1.  In the plain text page that appears, save the plain text page as a config: press `Control + S` (or `Command + S` on macOS).
 
     1.  Save the config to the folder containing the Kanata executable files.
 
