@@ -326,6 +326,8 @@ If you want to use an existing layout, follow these steps:
 
 1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
 
+To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
+
 </details>
 
 <a name="step-3-modify-the-example-config"></a>
@@ -360,6 +362,8 @@ If you want to use an existing layout, follow these steps:
 1.  Open a terminal in the folder containing the Kanata executable files.
 
 1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
+
+To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
 </details>
 
