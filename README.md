@@ -28,7 +28,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Kanata and all its features are completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards.
--   Kanata lets you add quality-of-life features and advanced features to an alt layout. See this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you add features to an alt layout. See this guide’s [Pre-made configs](#pre-made-configs).
 -   Kanata lets you use the same config on Windows, Linux, and macOS.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
