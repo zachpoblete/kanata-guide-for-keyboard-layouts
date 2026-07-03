@@ -18,7 +18,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Why use Kanata for alt layouts?](#why-use-kanata-for-alt-layouts)
 -   [Supported platforms](#supported-platforms)
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
--   [Step 2: Run an alt layout](#step-2-run-an-alt-layout)
+-   [Step 2: Run Kanata](#step-2-run-kanata)
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
@@ -207,7 +207,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 </details>
 
-## Step 2: Run an alt layout
+## Step 2: Run Kanata
 
 Kanata runs from the terminal. To automatically start Kanata in the background, see [Automatically start Kanata](#automatically-start-kanata).
 
@@ -323,7 +323,7 @@ If you want to use an existing layout, follow these steps:
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Run the config like you ran the example config in [Run an alt layout](#step-2-run-an-alt-layout): in the command, replace `example-config.kbd` with the filename of the config.
+1.  Run the config like you ran the example config in [Run Kanata](#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
@@ -362,7 +362,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 1.  Open a terminal in the folder containing the Kanata executable files.
 
-1.  Run the example config as you did in [Run an alt layout](#step-2-run-an-alt-layout).
+1.  Run the example config as you did in [Run Kanata](#step-2-run-kanata).
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
