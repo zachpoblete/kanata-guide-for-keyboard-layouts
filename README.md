@@ -164,7 +164,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 1.  Click **Privacy & Security > Accessibility**.
 
 <ol start="3">
-<li><a name="step-1.3-add-kanata"></a>Add Kanata:
+<li><a name="step-13-add-kanata"></a>Add Kanata:
 
 1.  Click **+**.
 
@@ -178,7 +178,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 </ol>
 
 <ol start="4">
-<li><a name="step-1.3-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t in the list of apps; or you use a third-party terminal and it isn’t in the list of apps; follow these steps:
+<li><a name="step-13-add-your-terminal"></a>If you use the native <strong>Terminal</strong> and it isn’t in the list of apps, or you use a third-party terminal and it isn’t in the list of apps, follow these steps:
 
 1.  Click **+**.
 
@@ -195,9 +195,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
 
-1.  [Add Kanata as you did in the Enable Accessibility step](#step-1.3-add-kanata).
+1.  [Add Kanata as you did in the Enable Accessibility step](#step-13-add-kanata).
 
-1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#step-1.3-add-your-terminal).
+1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#step-13-add-your-terminal).
 
 ### Step 1.5: Set up the example config
 
@@ -333,7 +333,7 @@ To add features to the layout, see this guide’s [Pre-made configs](#pre-made-c
 
 ### Step 3.1: Learn how the example config works
 
--   To learn learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
+-   To learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
 
 ### Step 3.2: Edit the example config
 
@@ -399,9 +399,9 @@ Expand the section for your platform.
 
     `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
-1. Click **OK**.
+1.  Click **OK**.
 
-1. To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
+1.  To verify the shortcut runs properly, double-click the shortcut and test a remapped key.
 
 </details>
 
