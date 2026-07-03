@@ -303,7 +303,7 @@ Expand either **Use an existing layout** or **Create a new layout**.
 
 1.  In the **Search** box, enter the name of the layout.
 
-    If an **Install** result doesn’t appear for the layout: Instead of following this section, follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
+    If no **Install** result appears for the layout, skip this section and follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
 
 1.  Click the **Install** result. The **Install** section appears.
 
