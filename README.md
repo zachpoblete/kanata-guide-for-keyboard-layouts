@@ -320,7 +320,7 @@ Expand either **Use an existing layout** or **Create a new layout**.
 
     1.  Click **Save**.
 
-1.  Run the config like you ran the example config in the [Run Kanata](#step-2-run-kanata) step: in the command, replace `example-config.kbd` with the filename of the config.
+1.  Run the config like you ran the example config in the [Run Kanata step](#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
@@ -357,7 +357,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 ### Step 3.3: Run the example config
 
--   Run the example config as you did in the [Run Kanata](#step-2-run-kanata) step.
+-   Run the example config as you did in the [Run Kanata step](#step-2-run-kanata).
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
