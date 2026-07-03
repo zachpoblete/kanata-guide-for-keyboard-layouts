@@ -92,7 +92,7 @@ Expand the section for your platform.
 
 If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
 
-### Step 1: Set up the Karabiner driver
+### Step 1.1: Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
 
@@ -138,7 +138,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Step 2: Set up the Kanata executable file
+### Step 1.2: Set up the Kanata executable file
 
 1.  Download Kanata:
 
@@ -157,14 +157,14 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_macos_`. This guide will show you the executable file you need to use.
 
-### Step 3: Enable Accessibility
+### Step 1.3: Enable Accessibility
 
 1.  Open the **System Settings** app.
 
 1.  Click **Privacy & Security > Accessibility**.
 
 <ol start="3">
-<li><a name="enable-accessibility-add-kanata"></a>Add Kanata:
+<li><a name="step-1.3-add-kanata"></a>Add Kanata:
 
 1.  Click **+**.
 
@@ -178,7 +178,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 </ol>
 
 <ol start="4">
-<li><a name="enable-accessibility-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t in the list of apps; or you use a third-party terminal and it isn’t in the list of apps; follow these steps:
+<li><a name="step-1.3-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t in the list of apps; or you use a third-party terminal and it isn’t in the list of apps; follow these steps:
 
 1.  Click **+**.
 
@@ -191,7 +191,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 </li>
 </ol>
 
-### Step 4: Enable Input Monitoring
+### Step 1.4: Enable Input Monitoring
 
 1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
 
@@ -199,7 +199,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#enable-accessibility-add-your-terminal).
 
-### Step 5: Set up the example config
+### Step 1.5: Set up the example config
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
@@ -331,11 +331,11 @@ To add features to an alt layout, see this guide’s [Pre-made configs](#pre-mad
 <summary><strong>Create a new layout</strong></summary>
 <p></p>
 
-### Step 1: Learn how the example config works
+### Step 3.1: Learn how the example config works
 
 -   To learn learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
 
-### Step 2: Edit the example config
+### Step 3.2: Edit the example config
 
 For key names you can use in the `defsrc` and `deflayer` entries, see [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries).
 
@@ -355,7 +355,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 1.  Save the file.
 
-### Step 3: Run the example config
+### Step 3.3: Run the example config
 
 -   Run the example config as you did in the [Run Kanata](#step-2-run-kanata) step.
 
