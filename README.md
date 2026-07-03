@@ -1,12 +1,10 @@
 # Kanata Guide for Alt Layouts
 
-[Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable.
-
 [Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, and macOS.
 
-This guide shows you how to use Kanata to set up an alt layout and add features to it.
+This guide shows you how to use Kanata to set up a [keyboard layout](https://layouts.wiki/guides/start/intro/) and add features to it.
 
-Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to an alt layout. These features include the following:
+Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to a layout. These features include the following:
 
 -   Toggling to QWERTY
 -   QWERTY shortcuts
@@ -31,7 +29,7 @@ You can use this guide even if you don’t have any programming experience.
 -   Kanata and all its features are completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards.
--   Kanata lets you add features to an alt layout. See this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you add features to a layout. See this guide’s [Pre-made configs](#pre-made-configs).
 -   Kanata lets you use the same config on Windows, Linux, and macOS.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
@@ -512,7 +510,7 @@ Before using a pre-made config, it helps to know the following:
 ### General features
 
 -   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Toggles between your alt layout and QWERTY when you hold the backtick `` ` `` key
+    -   Toggles between your layout and QWERTY when you hold the backtick `` ` `` key
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
     -   Uses QWERTY shortcuts when you hold any modifier key, such as `Control`
 -   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
