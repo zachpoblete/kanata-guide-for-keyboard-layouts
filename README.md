@@ -321,8 +321,6 @@ If you want to use an existing layout, follow these steps:
 
     1.  Click **Save**.
 
-1.  Open a terminal in the folder containing the Kanata executable files.
-
 1.  Run the config like you ran the example config in [Run Kanata](#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
@@ -360,9 +358,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 ### Step 3: Run your layout
 
-1.  Open a terminal in the folder containing the Kanata executable files.
-
-1.  Run the example config as you did in [Run Kanata](#step-2-run-kanata).
+-   Run the example config as you did in [Run Kanata](#step-2-run-kanata).
 
 To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
