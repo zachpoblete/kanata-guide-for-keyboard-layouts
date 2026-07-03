@@ -24,6 +24,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Step 3: Change your layout](#step-3-change-your-layout)
 -   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
+-   [How to get help](#how-to-get-help)
 
 ## Why use Kanata for alt layouts?
 
@@ -586,6 +587,10 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
 -   [`adaptive-sturdy.kbd`](configs/adaptive-sturdy.kbd)
     -   Layout with [adaptive swaps](https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/)
 
+## How to get help
+
+If you need help with using Kanata, you can [open an issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
+
 ## Feedback
 
-Found an issue or have a question? [Open an issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
+Found an issue or have a suggestion? [Open an issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
