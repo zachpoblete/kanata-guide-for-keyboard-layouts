@@ -1,4 +1,4 @@
-# Kanata Guide for Alt Layouts
+# Kanata Guide for Keyboard Layouts
 
 [Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, and macOS.
 
@@ -15,7 +15,7 @@ You can use this guide even if you don’t have any programming experience.
 
 ### In this guide
 
--   [Why use Kanata for alt layouts?](#why-use-kanata-for-alt-layouts)
+-   [Why use Kanata for keyboard layouts?](#why-use-kanata-for-keyboard-layouts)
 -   [Supported platforms](#supported-platforms)
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run Kanata](#step-2-run-kanata)
@@ -24,7 +24,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Pre-made configs](#pre-made-configs)
 -   [How to get help](#how-to-get-help)
 
-## Why use Kanata for alt layouts?
+## Why use Kanata for keyboard layouts?
 
 -   Kanata and all its features are completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
@@ -303,7 +303,7 @@ Expand either **Use an existing layout** or **Create a new layout**.
 
 1.  In the **Search** box, enter the name of the layout.
 
-    If an **Install** result doesn’t appear for your layout: Instead of following this section, follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
+    If an **Install** result doesn’t appear for the layout: Instead of following this section, follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
 
 1.  Click the **Install** result. The **Install** section appears.
 
@@ -322,7 +322,7 @@ Expand either **Use an existing layout** or **Create a new layout**.
 
 1.  Run the config like you ran the example config in the [Run Kanata step](#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
-To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
+To add features to the layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
 </details>
 
@@ -359,7 +359,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 -   Run the example config as you did in the [Run Kanata step](#step-2-run-kanata).
 
-To add features to an alt layout, see this guide’s [Pre-made configs](#pre-made-configs).
+To add features to your layout, see this guide’s [Pre-made configs](#pre-made-configs).
 
 </details>
 
