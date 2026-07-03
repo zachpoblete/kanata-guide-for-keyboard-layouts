@@ -356,7 +356,7 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 1.  Save the file.
 
-### Step 3: Run your layout
+### Step 3: Run the example config
 
 -   Run the example config as you did in [Run Kanata](#step-2-run-kanata).
 
