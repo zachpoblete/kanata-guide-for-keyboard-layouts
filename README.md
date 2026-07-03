@@ -293,18 +293,17 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
 ## Step 3: Change your layout
 
-If you want to use an existing layout, follow these steps:
+Expand either **Use an existing layout** or **Create a new layout**.
+
+<details>
+<summary><strong>Use an existing layout</strong></summary>
+<p></p>
 
 1.  Open the [Layouts Wiki](https://layouts.wiki/layouts/legacy/qwerty).
 
 1.  In the **Search** box, enter the name of the layout.
 
-    If an **Install** result for your layout appears, expand this guide’s [Use an existing layout](#step-3-use-an-existing-layout); otherwise, expand this guide’s [Modify the example config](#step-3-modify-the-example-config).
-
-<a name="step-3-use-an-existing-layout"></a>
-<details>
-<summary><strong>Use an existing layout</strong></summary>
-<p></p>
+    If an **Install** result doesn’t appear for your layout: Instead of following this section, follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
 
 1.  Click the **Install** result. The **Install** section appears.
 
@@ -327,9 +326,9 @@ To add features to an alt layout, see this guide’s [Pre-made configs](#pre-mad
 
 </details>
 
-<a name="step-3-modify-the-example-config"></a>
+<a name="step-3-create-a-new-layout"></a>
 <details>
-<summary><strong>Modify the example config</strong></summary>
+<summary><strong>Create a new layout</strong></summary>
 <p></p>
 
 ### Step 1: Learn how the example config works
