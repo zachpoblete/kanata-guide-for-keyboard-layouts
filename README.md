@@ -195,9 +195,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
 
-1.  [Add Kanata as you did in the Enable Accessibility step](#enable-accessibility-add-kanata).
+1.  [Add Kanata as you did in the Enable Accessibility step](#step-1.3-add-kanata).
 
-1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#enable-accessibility-add-your-terminal).
+1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#step-1.3-add-your-terminal).
 
 ### Step 1.5: Set up the example config
 

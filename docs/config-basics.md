@@ -14,7 +14,7 @@ This page helps you customize this guide’s [Pre-made configs](../README.md#pre
 
 ## The `defsrc` and `deflayer` entries
 
-The [example config](configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
+The [example config](../configs/example-config.kbd) shows the two required entries of a config, `defsrc` and `deflayer`:
 
 ```
 (defsrc
@@ -40,7 +40,7 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
 
--   For common keys, see the [60% US keyboard config](configs/us-keyboard.kbd).
+-   For common keys, see the [60% US keyboard config](../configs/us-keyboard.kbd).
 -   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
 -   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
 
