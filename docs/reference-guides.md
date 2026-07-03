@@ -72,7 +72,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 1.  Save the config to the folder containing the Kanata executable files.
 
-1.  Run the config like you ran the example config in the [Run Kanata](../README.md#step-2-run-kanata) step: in the command, replace `example-config.kbd` with the filename of the config.
+1.  Run the config like you ran the example config in the [Run Kanata step](../README.md#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
 ## Windows: Check if your computer is x64 or arm64
 
