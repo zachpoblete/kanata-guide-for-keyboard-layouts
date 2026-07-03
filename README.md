@@ -157,49 +157,49 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_macos_`. This guide will show you the executable file you need to use.
 
-1.  Enable **Accessibility**:
+### Step 3: Enable Accessibility
 
-    1.  Open the **System Settings** app.
+1.  Open the **System Settings** app.
 
-    1.  Click **Privacy & Security > Accessibility**.
+1.  Click **Privacy & Security > Accessibility**.
 
-    <ol start="3">
-    <li><a name="enable-accesibility-add-kanata"></a>Add Kanata:
+<ol start="3">
+<li><a name="enable-accessibility-add-kanata"></a>Add Kanata:
 
-    1.  Click **+**.
+1.  Click **+**.
 
-    1.  Search for the folder containing the Kanata executable files.
+1.  Search for the folder containing the Kanata executable files.
 
-    1.  Select the executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Select the executable file whose filename starts with `kanata_macos_cmd_allowed_`.
 
-    1.  Click **Open**.
+1.  Click **Open**.
 
-    </li>
-    </ol>
+</li>
+</ol>
 
-    <ol start="4">
-    <li><a name="enable-accesibility-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t in the list of apps; or you use a third-party terminal and it isn’t in the list of apps; follow these steps:
+<ol start="4">
+<li><a name="enable-accessibility-add-your-terminal"></a>If you use the native Terminal and <strong>Terminal</strong> isn’t in the list of apps; or you use a third-party terminal and it isn’t in the list of apps; follow these steps:
 
-    1.  Click **+**.
+1.  Click **+**.
 
-    1.  Search for your terminal.
+1.  Search for your terminal.
 
-    1.  Select your terminal.
+1.  Select your terminal.
 
-    1.  Click **Open**.
+1.  Click **Open**.
 
-    </li>
-    </ol>
+</li>
+</ol>
 
-1.  Enable **Input Monitoring**:
+### Step 4: Enable Input Monitoring
 
-    1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
+1.  In the **System Settings** app, click **Privacy & Security > Input Monitoring**.
 
-    1.  [Add Kanata as you did in the Enable Accesibility step](#enable-accesibility-add-kanata).
+1.  [Add Kanata as you did in the Enable Accessibility step](#enable-accessibility-add-kanata).
 
-    1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accesibility step](#enable-accesibility-add-your-terminal).
+1.  If your terminal isn’t in the list of apps, [add your terminal as you did in the Enable Accessibility step](#enable-accessibility-add-your-terminal).
 
-### Step 3: Set up the example config
+### Step 5: Set up the example config
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
 
