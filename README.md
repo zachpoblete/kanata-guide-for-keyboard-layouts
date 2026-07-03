@@ -2,7 +2,7 @@
 
 [Alternative keyboard layouts (alt layouts)](https://layouts.wiki/guides/start/intro/) make using computers more comfortable.
 
-[Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, or macOS.
+[Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, and macOS.
 
 This guide shows you how to use Kanata to set up an alt layout and add features to it.
 
