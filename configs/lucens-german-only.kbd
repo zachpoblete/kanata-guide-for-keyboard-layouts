@@ -1,5 +1,6 @@
 ;; This Kanata config remaps the US keyboard to the German variant of
-;; the Lucens layout. Source (AKL Discord):
+;; Lucens, a layout that has characters that aren’t on the US
+;; keyboard. Source (AKL Discord):
 ;; https://discord.com/channels/807843650717483049/1063291226243207268/1296951439599341640
 
 (defsrc
