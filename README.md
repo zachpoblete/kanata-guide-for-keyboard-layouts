@@ -62,7 +62,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -78,7 +78,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -199,7 +199,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 1.5: Set up the example config
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -207,7 +207,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ## Step 2: Run Kanata
 
-Kanata runs from the terminal. To automatically start Kanata in the background, see [Automatically start Kanata](#automatically-start-kanata).
+Kanata runs from the terminal. To automatically start Kanata in the background, see this guide’s [Automatically start Kanata](#automatically-start-kanata).
 
 Expand the section for your platform.
 
@@ -235,7 +235,7 @@ Expand the section for your platform.
     </p>
     </blockquote>
 
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
@@ -258,7 +258,7 @@ Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recomme
 
     >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
@@ -283,7 +283,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
     If your computer is x64, replace `arm64` with `x64`.
 
-Kanata is running the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite). Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
+Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;it outputs `b`.
 
 **To stop running Kanata**, press the key combination `Left Control + Space + Escape`. Even if you remap those keys, press the original keys for `Left Control`, `Space`, and `Escape`.
 
