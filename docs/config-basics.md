@@ -38,11 +38,8 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 ## Key names for the `defsrc` and `deflayer` entries
 
-For key names you can use in the `defsrc` and `deflayer` entries, see the following references:
-
 -   For common keys, see the [60% US keyboard config](../configs/us-keyboard.kbd).
--   For other keys, see [Key names](https://jtroo.github.io/config.html#key-names).
--   For keys not found on the US keyboard, see [Non-US keyboards](https://jtroo.github.io/config.html#non-us-keyboards) and [Keyboard locales](https://github.com/jtroo/kanata/blob/main/docs/locales.adoc).
+-   For other keys, see [Get the name of a key](reference-guides.md#get-the-name-of-a-key).
 
 ## Comments
 

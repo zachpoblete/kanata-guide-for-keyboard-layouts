@@ -32,6 +32,14 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 -   Right-click the file and select **Open with > TextEdit**.
 
+## Get the name of a key
+
+1.  Open [JavaScript Key Code Event Tool](https://www.toptal.com/developers/keycode).
+
+1.  Press the key.
+
+**event.code** shows the key name to use in the `defsrc` and `deflayer` entries.
+
 ## Run a command from this guide
 
 1.  To copy the command, click **Copy code to clipboard**.
