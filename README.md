@@ -88,8 +88,6 @@ Expand the section for your platform.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kanata/blob/main/docs/setup-macos.md#8-troubleshooting).
-
 ### Step 1.1: Set up the Karabiner driver
 
 To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice):
