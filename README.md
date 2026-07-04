@@ -62,7 +62,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -78,7 +78,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -122,7 +122,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 1.3: Register the Karabiner daemon
 
-1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist).
+1.  [Download the Karabiner plist file](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/org.pqrs.Karabiner-VirtualHIDDevice-Daemon.plist).
 
 1.  Save the Karabiner plist file to the `/Library/LaunchDaemons` folder.
 
@@ -199,7 +199,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 1.7: Set up the example config
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -371,7 +371,7 @@ Expand the section for your platform.
 <summary><strong>Linux</strong></summary>
 <p></p>
 
-1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/kanata.service).
+1.  [Download the Kanata service file](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/kanata.service).
 
 1.  Save the Kanata service file to the `/etc/systemd/system/` folder.
 
@@ -406,7 +406,7 @@ Expand the section for your platform.
 <summary><strong>macOS</strong></summary>
 <p></p>
 
-1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/releases/download/download/dev.kanata.kanata.plist).
+1.  [Download the Kanata plist file](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/dev.kanata.kanata.plist).
 
 1.  Save the Kanata plist file to the `/Library/LaunchDaemons` folder.
 
