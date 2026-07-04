@@ -4,7 +4,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 ## Copy an existing layout into a `deflayer` entry
 
-1.  Open the [cmini browser](https://cminibrowser.com/) website.
+1.  Open [cmini browser](https://cminibrowser.com/).
 
 1.  In the **Search** box, enter the name of the layout.
 
