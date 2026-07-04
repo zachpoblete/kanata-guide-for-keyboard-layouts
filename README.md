@@ -291,44 +291,6 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 ## Step 3: Change your layout
 
-Expand either **Use an existing layout** or **Create a new layout**.
-
-<details>
-<summary><strong>Use an existing layout</strong></summary>
-<p></p>
-
-1.  Open the [Layouts Wiki](https://layouts.wiki/layouts/legacy/qwerty).
-
-1.  In the **Search** box, enter the name of the layout.
-
-    If no **Install** result appears for the layout, skip this section and follow this guide’s [Create a new layout](#step-3-create-a-new-layout).
-
-1.  Click the **Install** result. The **Install** section appears.
-
-1.  In the 2nd step of the **Install** section, click the layout.
-
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="images/layouts-wiki-download-kanata-config-screenshot.png">
-      <img alt="" src="images/layouts-wiki-download-kanata-config-screenshot-with-drop-shadow.png">
-    </picture>
-
-1.  In the plain text page that appears, save the plain text page as a config: press `Control + S` (or `Command + S` on macOS).
-
-    1.  Save the config to the folder containing the Kanata executable files.
-
-    1.  Click **Save**.
-
-1.  Run the config like you ran the example config in the [Run Kanata step](#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
-
-To add features to the layout, see this guide’s [Pre-made configs](#pre-made-configs).
-
-</details>
-
-<a name="step-3-create-a-new-layout"></a>
-<details>
-<summary><strong>Create a new layout</strong></summary>
-<p></p>
-
 ### Step 3.1: Learn how the example config works
 
 -   To learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
@@ -358,8 +320,6 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 -   Run the example config as you did in the [Run Kanata step](#step-2-run-kanata).
 
 To add features to your layout, see this guide’s [Pre-made configs](#pre-made-configs).
-
-</details>
 
 ## Automatically start Kanata
 
