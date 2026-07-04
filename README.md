@@ -319,8 +319,6 @@ For key names you can use in the `defsrc` and `deflayer` entries, see [Key names
 
 -   Run the example config as you did in the [Run Kanata step](#step-2-run-kanata).
 
-To add features to your layout, see this guide’s [Pre-made configs](#pre-made-configs).
-
 ## Automatically start Kanata
 
 Expand the section for your platform.
