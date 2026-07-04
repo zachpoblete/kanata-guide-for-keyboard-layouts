@@ -61,7 +61,7 @@ The following `defsrc` entry lists key names you can use in the `defsrc` and `de
 | `lalt`   | <kbd>Left Alt</kbd> (or <kbd>Left Option</kbd> on macOS)
 | `ralt`   | <kbd>Right Alt</kbd> or <kbd>AltGr</kbd> (or <kbd>Right Option</kbd> on macOS)
 | `lmet`   | <kbd>Left Windows</kbd> (or <kbd>Left Super</kbd> on Linux, or <kbd>Left Command</kbd> on macOS)
-| `rmet`   | <kbd>Right Windows</kbd> (or <kbd>Right Super</kbd> on Linux, or Right Command on macOS)
+| `rmet`   | <kbd>Right Windows</kbd> (or <kbd>Right Super</kbd> on Linux, or <kbd>Right Command</kbd> on macOS)
 
 ### Function keys
 
