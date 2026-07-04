@@ -544,6 +544,6 @@ Prefer GitHub? [Open a Q&A discussion](https://github.com/zachpoblete/kanata-gui
 
 ## Feedback
 
-Find an issue? [Open an issue on GitHub](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/issues) or mention @novachromatic on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
+Found an issue? [Open an issue on GitHub](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/issues) or mention @novachromatic on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
 Have a suggestion? [Open an Ideas discussion on GitHub](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/ideas) or mention @novachromatic on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
