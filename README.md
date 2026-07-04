@@ -580,7 +580,9 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
 
 ## Get help
 
-Need help using Kanata? [Open a Q&A discussion on GitHub](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/q-a) or ask on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;either in the [#help channel](https://discord.com/channels/807843650717483049/807845037202210856) or the [questions forum](https://discord.com/channels/807843650717483049/1381633194910158848).
+Need help using Kanata? [Ask on the Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;see the #help channel or the questions forum.
+
+Prefer GitHub? [Open a Q&A discussion](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/q-a).
 
 ## Feedback
 
