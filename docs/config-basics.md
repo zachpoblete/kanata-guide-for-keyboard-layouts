@@ -2,7 +2,7 @@
 
 This page helps you customize this guide’s [Pre-made configs](../README.md#pre-made-configs).
 
-### In this section
+### On this page
 
 -   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
 -   [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries)
