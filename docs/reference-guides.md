@@ -32,6 +32,12 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 -   Right-click the file and select **Open with > TextEdit**.
 
+## Remap a key to a character that isn’t on your keyboard
+
+1.  Read [Basics of a Kanata Config](config-basics.md).
+
+1.  Use the [`unicode` action](https://jtroo.github.io/config.html#unicode). For an example of using the `unicode` action, see the [`lucens-german-only.kbd` config](../configs/lucens-german-only.kbd).
+
 ## Run a command from this guide
 
 1.  To copy the command, click **Copy code to clipboard**.

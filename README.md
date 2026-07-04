@@ -307,7 +307,11 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
-1.  In the `deflayer` entry, edit the keys to match your layout. If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/reference-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
+1.  In the `deflayer` entry, edit the keys to match your layout:
+
+    1.  If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/reference-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
+
+    1.  If you layout has characters that aren’t on your keyboard, see [Remap a key to a character that isn’t on your keyboard](docs/reference-guides.md#remap-a-key-to-a-character-that-isnt-on-your-keyboard).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
@@ -487,6 +491,8 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
 
 -   [`graphite.kbd`](configs/graphite.kbd)
     -   Layout with custom shift pairs
+-   [`lucens-german-only.kbd`](configs/lucens-german-only.kbd)
+    -   Layout that has characters that aren’t on the physical keyboard
 -   [`night.kbd`](configs/night.kbd)
     -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`night-wide.kbd`](configs/night-wide.kbd)

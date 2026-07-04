@@ -1,0 +1,22 @@
+;; This Kanata config remaps the US keyboard to the German variant of
+;; the Lucens layout. Source (AKL Discord):
+;; https://discord.com/channels/807843650717483049/1063291226243207268/1296951439599341640
+
+(defsrc
+        q  w  e  r  t    y  u  i  o  p
+        a  s  d  f  g    h  j  k  l  ;
+  lsft  z  x  c  v  b    n  m  ,  .  /  rsft
+)
+
+(deflayer lucens-german
+        b  l  d  f  v    ,  z  o  u @ä
+        n  r  t  s  m    y  h  e  i  a
+  lsft @ß  j  c  g  w    k  p @ö @ü  .  rsft
+)
+
+(defalias
+  ä (fork (unicode ä) (unicode Ä) (lsft rsft))
+  ö (fork (unicode ö) (unicode Ö) (lsft rsft))
+  ü (fork (unicode ü) (unicode Ü) (lsft rsft))
+  ß (fork (unicode ß) (unicode ẞ) (lsft rsft))
+)
