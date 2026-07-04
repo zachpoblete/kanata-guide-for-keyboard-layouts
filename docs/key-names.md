@@ -8,7 +8,7 @@
 
 ## Key names
 
-The following `defsrc` entry lists key names you can use in the `defsrc` and `deflayer` entries. For other keys, see this page’s [How to get the name of a key](#how-to-get-the-name-of-a-key).
+The following `defsrc` entry lists key names you can use in the `defsrc` and `deflayer` entries. For a legend, see this page’s [Legend of the key names](#legend-of-the-key-names).
 
 ```
 (defsrc
@@ -20,6 +20,8 @@ The following `defsrc` entry lists key names you can use in the `defsrc` and `de
   lctl lmet lalt           spc            ralt rmet menu rctl            ←     ↓     →      kp0       kp.
 )
 ```
+
+For other keys, see this page’s [How to get the name of a key](#how-to-get-the-name-of-a-key).
 
 ## Legend of the key names
 
