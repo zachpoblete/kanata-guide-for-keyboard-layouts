@@ -580,10 +580,10 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
 
 ## Get help
 
-If you need help with using Kanata, [open a discussion under Q&A](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/q-a) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
+Need help using Kanata? [Open a discussion under Q&A](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/q-a) or ask in the [#help channel of the Alt Keyboard Layouts Discord](https://discord.com/channels/807843650717483049/807845037202210856).
 
 ## Feedback
 
-If you find an issue in this guide, [open an issue](https://github.com/zachpoblete/kanata-guide-for-alt-layouts/issues) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
+Find an issue? [Open an issue](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/issues) or mention @novachromatic on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
 
-If you have a suggestion for this guide, [open an discussion under Ideas](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/ideas) or reach out on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy)&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;feel free to mention @novachromatic, the owner of this guide.
+Have a suggestion? [Open a discussion under Ideas](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/discussions/categories/ideas) or mention @novachromatic on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy).
