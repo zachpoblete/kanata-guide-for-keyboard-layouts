@@ -5,7 +5,6 @@ This page helps you customize this guide’s [Pre-made configs](../README.md#pre
 ### On this page
 
 -   [The `defsrc` and `deflayer` entries](#the-defsrc-and-deflayer-entries)
--   [Key names for the `defsrc` and `deflayer` entries](#key-names-for-the-defsrc-and-deflayer-entries)
 -   [Comments](#comments)
 -   [Lists](#lists)
 -   [Actions](#actions)
