@@ -297,7 +297,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 ### Step 3.2: Edit the example config
 
-For key names you can use in the `defsrc` and `deflayer` entries, see [Key names for the `defsrc` and `deflayer` entries](docs/config-basics.md#key-names-for-the-defsrc-and-deflayer-entries).
+For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entries](docs/key-names.md).
 
 1.  Open the example config with a plain text editor.
 

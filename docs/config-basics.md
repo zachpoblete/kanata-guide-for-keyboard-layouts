@@ -36,11 +36,6 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 **How Kanata remaps your keyboard**: Kanata remaps each physical key in the `defsrc` entry to a key or action in the same position in the `gallium` layer. For example, Kanata remaps `q` in the `defsrc` entry to `b` in the `gallium` layer.
 
-## Key names for the `defsrc` and `deflayer` entries
-
--   For common keys, see the [60% US keyboard config](../configs/us-keyboard.kbd).
--   For other keys, see [Get the name of a key](reference-guides.md#get-the-name-of-a-key).
-
 ## Comments
 
 Kanata ignores comments.
