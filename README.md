@@ -112,7 +112,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
-1.  If you have Karabiner Elements installed, restart your computer to use the driver.
+1.  If you have Karabiner Elements installed, restart your computer to use the new driver.
 
 ### Step 1.2: Enable the Karabiner system extension
 
