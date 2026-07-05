@@ -53,7 +53,7 @@ Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&
 
 Configs are made of lists.
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Whitespace separates items.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
 
 Usually, the 1st item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
