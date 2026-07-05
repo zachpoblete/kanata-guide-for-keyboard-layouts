@@ -1,5 +1,5 @@
 ;; This Kanata config remaps your keyboard to the Gallium layout and uses
-;; QWERTY shortcuts when you hold any modifier key, such as Control.
+;; QWERTY shortcuts while you hold any modifier key, such as Control.
 
 (defsrc
   q w e r t  y u i o p
