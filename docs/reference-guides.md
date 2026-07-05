@@ -127,6 +127,10 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 ## macOS: Open a folder in a terminal
 
--   Right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
+1.  Right-click an empty space inside the folder and select **Services > New Terminal at Folder**.
 
-    If **New Terminal at Folder** doesn’t appear, click **Finder > Services > Services Settings > Files and Folders** and enable **New Terminal at Folder**.
+1.  If **New Terminal at Folder** doesn’t appear, follow these steps:
+
+    1.  Click **Finder > Services > Services Settings > Files and Folders**.
+
+    1.  Enable **New Terminal at Folder**.
