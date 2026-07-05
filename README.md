@@ -468,8 +468,8 @@ Before using a pre-made config, it helps to know the following:
 
 ### General features
 
--   [`hold-backtick-to-switch-layouts.kbd`](configs/hold-backtick-to-switch-layouts.kbd)
-    -   Toggles between your layout and QWERTY when you hold the backtick `` ` `` key
+-   [`hold-caps-to-switch-layouts.kbd`](configs/hold-caps-to-switch-layouts.kbd)
+    -   Toggles between your layout and QWERTY when you hold `Caps Lock`
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
     -   Uses QWERTY shortcuts when you hold any modifier key, such as `Control`
 -   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)

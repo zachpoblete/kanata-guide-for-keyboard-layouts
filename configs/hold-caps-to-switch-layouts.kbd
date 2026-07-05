@@ -1,0 +1,28 @@
+;; This Kanata config remaps your keyboard to the Gallium layout and
+;; toggles between Gallium and QWERTY when you hold Caps Lock.
+
+(defvar
+  tap-time  200
+  hold-time 200
+)
+
+(defsrc
+        q w e r t  y u i o p
+   caps a s d f g  h j k l ; '
+        z x c v b  n m , . /
+)
+
+(deflayer gallium
+        b l d c v  j f o u ,
+  @caps n r t s g  y h a e i /
+        x q m w z  k p ' ; .
+)
+
+(defalias caps
+  (tap-hold $tap-time $hold-time caps (layer-switch qwerty))
+)
+
+(deflayermap (qwerty)
+  caps (tap-hold $tap-time $hold-time caps (layer-switch gallium))
+  _ use-defsrc
+)
