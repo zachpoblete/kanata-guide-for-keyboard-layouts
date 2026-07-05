@@ -53,9 +53,9 @@ Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&
 
 Configs are made of lists.
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
+Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Whitespace separates items.
 
-Usually, the first item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
+Usually, the 1st item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
 ## Actions
 
@@ -87,13 +87,15 @@ Aliases are defined in a `defalias` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action the alias maps to. To use an alias, prefix the alias name with `@`.
+A `defalias` entry is made of consecutive pairs of items. The 1st item in a pair is the alias name and the 2nd item is the action the alias maps to.
+
+To use an alias, prefix the alias name with `@`.
 
 The following example uses an alias for the `tap-hold` action:
 
 ```
-(defalias
-  caps (tap-hold 200 200 caps lctl)
+(defalias caps
+  (tap-hold 200 200 caps lctl)
 )
 
 (deflayer example
@@ -127,7 +129,9 @@ Variables are defined in a `defvar` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value the variable maps to. To use a variable, prefix the variable name with `$`.
+A `defvar` entry is made of consecutive pairs of items. The 1st item in a pair is the variable name and the 2nd item is the value the variable maps to.
+
+To use a variable, prefix the variable name with `$`.
 
 The following example uses variables for the numbers in the `tap-hold` action:
 
@@ -137,7 +141,7 @@ The following example uses variables for the numbers in the `tap-hold` action:
   hold-time 200
 )
 
-(defalias
-  caps (tap-hold $tap-time $hold-time caps lctl)
+(defalias caps
+  (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
