@@ -65,16 +65,14 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 ## Run a pre-made config
 
-1.  Download a config from this guide’s [Pre-made configs](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/tree/main#pre-made-configs):
+1.  Open the link of the [pre-made config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/tree/main#pre-made-configs) you want to download.
 
-    1.  Open the link of the config you want to download.
+1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="../images/github-download-raw-file-icon-dark.svg"></picture>.
 
-    1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="../images/github-download-raw-file-icon-dark.svg"></picture>.
-
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-screenshot.png">
-          <img alt="" src="../images/github-download-raw-file-screenshot-with-drop-shadow.png">
-        </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-screenshot.png">
+        <img alt="" src="../images/github-download-raw-file-screenshot-with-drop-shadow.png">
+    </picture>
 
 1.  Save the config to the folder containing the Kanata executable files.
 
