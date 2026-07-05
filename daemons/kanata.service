@@ -3,7 +3,7 @@ Description=Kanata Service
 After=dev-input.device
 
 [Service]
-ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay
+ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay --quiet
 Restart=no
 
 [Install]
