@@ -386,7 +386,7 @@ Expand the section for your platform.
     Replace the following:
 
     -   `KANATA_EXECUTABLE_PATH`: the path to a Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_linux_cmd_allowed_x64`
-    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/Documents/Kanata/config.kbd`
+    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/home/username/.config/kanata/config.kbd`
 
 1.  Save the file.
 
@@ -427,7 +427,7 @@ Expand the section for your platform.
     Replace the following:
 
     -   `KANATA_EXECUTABLE_PATH`: the path to a Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/usr/local/bin/kanata_macos_cmd_allowed_arm64`
-    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/Documents/Kanata/config.kbd`
+    -   `KANATA_CONFIG_PATH`: the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `/Users/username/.config/kanata/config.kbd`
 
 1.  Save the file.
 
