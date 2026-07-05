@@ -380,7 +380,7 @@ Expand the section for your platform.
 1.  Edit the following line:
 
     <pre>
-    ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay
+    ExecStart=KANATA_EXECUTABLE_PATH --cfg KANATA_CONFIG_PATH --nodelay --quiet
     </pre>
 
     Replace the following:
