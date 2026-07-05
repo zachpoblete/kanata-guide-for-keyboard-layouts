@@ -1,0 +1,32 @@
+;; This Kanata config remaps your keyboard to the Gallium layout and
+;; uses QWERTY while the Space key is held. In applications like
+;; Photoshop, this config lets you still pan the canvas by holding the
+;; Space key and dragging the mouse.
+
+(defvar
+  tap-time  200
+  hold-time 200
+)
+
+(defsrc
+  mlft
+
+  q w e r t  y u i o p
+  a s d f g  h j k l ; '
+  z x c v b  n m , . /
+           spc
+)
+
+(deflayer gallium
+  mlft
+
+  b l d c v  j f o u ,
+  n r t s g  y h a e i /
+  x q m w z  k p ' ; .
+           (tap-hold $tap-time $hold-time spc (layer-while-held qwerty))
+)
+
+(deflayermap (qwerty)
+  mlft (multi spc mlft)
+  _ use-defsrc
+)

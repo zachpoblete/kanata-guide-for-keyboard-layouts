@@ -471,7 +471,9 @@ Before using a pre-made config, it helps to know the following:
 -   [`hold-caps-to-switch-layouts.kbd`](configs/hold-caps-to-switch-layouts.kbd)
     -   Toggles between your layout and QWERTY when you hold `Caps Lock`
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
-    -   Uses QWERTY shortcuts when you hold any modifier key, such as `Control`
+    -   Uses QWERTY shortcuts while you hold any modifier key, such as `Control`
+-   [`qwerty-while-space-held.kbd`](configs/qwerty-while-space-held.kbd)
+    -   Uses QWERTY while you hold `Space` and lets you still use shortcuts like hold `Space` + drag the mouse
 -   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
     -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 
