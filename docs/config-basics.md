@@ -87,7 +87,7 @@ Aliases are defined in a `defalias` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action the alias maps to. An alias is used by prefixing the alias name with `@`.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;an alias name followed by an action the alias maps to. To use an alias, prefix the alias name with `@`.
 
 The following example uses an alias for the `tap-hold` action:
 
@@ -127,7 +127,7 @@ Variables are defined in a `defvar` entry:
 )
 ```
 
-Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value the variable maps to. A variable is used by prefixing the variable name with `$`.
+Each line is a pair&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;a variable name followed by the value the variable maps to. To use a variable, prefix the variable name with `$`.
 
 The following example uses variables for the numbers in the `tap-hold` action:
 

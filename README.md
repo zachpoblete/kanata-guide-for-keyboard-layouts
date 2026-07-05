@@ -62,7 +62,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_windows_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). It will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -78,7 +78,7 @@ Expand the section for your platform.
 
     The folder you extracted the zip file to contains multiple Kanata executable files. The filenames of the executable files start with `kanata_linux_`. This guide will show you the executable file you need to use.
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). It will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
@@ -199,7 +199,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ### Step 1.7: Set up the example config
 
-1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). The example config will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
+1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). It will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
 1.  Save the example config to the folder containing the Kanata executable files.
 
