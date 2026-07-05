@@ -351,7 +351,7 @@ Expand the section for your platform.
      --cfg "KANATA_CONFIG_PATH" --nodelay
     ```
 
-    Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Users\username\Documents\Kanata\config.kbd`.
+    Replace `KANATA_CONFIG_PATH` with the path to your Kanata config file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Users\username\.config\kanata\config.kbd`.
 
     The full **Target** is similar to the following:
 
@@ -359,7 +359,7 @@ Expand the section for your platform.
     "KANATA_EXECUTABLE_PATH" --cfg "KANATA_CONFIG_PATH" --nodelay
     </pre>
 
-    `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Program Files\Kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
+    `KANATA_EXECUTABLE_PATH` is the path to the Kanata executable file&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example, `C:\Users\username\kanata\kanata_windows_gui_winIOv2_cmd_allowed_x64.exe`.
 
 1.  Click **OK**.
 
