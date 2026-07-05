@@ -10,24 +10,26 @@
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
-;; Templates
+;; Layer template
 
 (defvar
   layers (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca cha chi co con cou cour d day de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in inte inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl plac po pr pro prog pub r real ri ru s sa sc se sh sho shou si sm so st stat sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
 )
 
-;; Layer switch template:
-(deftemplate ls (sequence letter)
+;; Helper template for the Layer template:
+(deftemplate . (sequence letter)
   (multi
+    ;; Output the letter:
     (if-equal $letter •
       •)
     (if-not-equal $letter •
       (macro $letter))
       ;; Use the macro action so that repeat letters are reliably outputted.
-      ;; For an explanation of the issue the macro action solves and a
+      ;; For an explanation of the issue the macro action solves and for a
       ;; solution that doesn’t use the macro action, see the duplicate-key
       ;; template in nastic.kbd
 
+    ;; Switch layers.
     ;; Unfortunately, variables can’t be used inside templates, so this
     ;; config copies the full layers list into the `if-in-list`
     ;; conditional operators.
@@ -40,15 +42,15 @@
 )
 
 ;; Layer template:
-(deftemplate _ (seq ;; (= sequence)
+(deftemplate _ (sq ;; sq = sequence
                  q w e r t  y u i o p
                  a s d f g  h j k l ;
                  z x c v b  n m , . /
                )
-  (deflayer $seq
-    (t! ls $seq $q)(t! ls $seq $w)(t! ls $seq $e)(t! ls $seq $r)(t! ls $seq $t) (t! ls $seq $y)(t! ls $seq $u)(t! ls $seq $i)(t! ls $seq $o)(t! ls $seq $p)
-    (t! ls $seq $a)(t! ls $seq $s)(t! ls $seq $d)(t! ls $seq $f)(t! ls $seq $g) (t! ls $seq $h)(t! ls $seq $j)(t! ls $seq $k)(t! ls $seq $l)(t! ls $seq $;)
-    (t! ls $seq $z)(t! ls $seq $x)(t! ls $seq $c)(t! ls $seq $v)(t! ls $seq $b) (t! ls $seq $n)(t! ls $seq $m)(t! ls $seq $,)(t! ls $seq $.)(t! ls $seq $/)
+  (deflayer $sq
+    (t! . $sq $q)(t! . $sq $w)(t! . $sq $e)(t! . $sq $r)(t! . $sq $t)    (t! . $sq $y)(t! . $sq $u)(t! . $sq $i)(t! . $sq $o)(t! . $sq $p)
+    (t! . $sq $a)(t! . $sq $s)(t! . $sq $d)(t! . $sq $f)(t! . $sq $g)    (t! . $sq $h)(t! . $sq $j)(t! . $sq $k)(t! . $sq $l)(t! . $sq $;)
+    (t! . $sq $z)(t! . $sq $x)(t! . $sq $c)(t! . $sq $v)(t! . $sq $b)    (t! . $sq $n)(t! . $sq $m)(t! . $sq $,)(t! . $sq $.)(t! . $sq $/)
     (multi spc (layer-switch _base))
   )
 )
