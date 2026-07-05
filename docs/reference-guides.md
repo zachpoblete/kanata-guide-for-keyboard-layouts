@@ -65,7 +65,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 ## Run a pre-made config
 
-1.  Download a config from this guide’s [Pre-made configs](../README.md#pre-made-configs):
+1.  Download a config from this guide’s [Pre-made configs](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/tree/main#pre-made-configs):
 
     1.  Open the link of the config you want to download.
 
@@ -78,7 +78,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 1.  Save the config to the folder containing the Kanata executable files.
 
-1.  Run the config like you ran the example config in the [Run Kanata step](../README.md#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
+1.  Run the config like you ran the example config in the [Run Kanata step](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/tree/main#step-2-run-kanata): in the command, replace `example-config.kbd` with the filename of the config.
 
 ## Windows: Check if your computer is x64 or arm64
 
