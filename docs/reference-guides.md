@@ -40,7 +40,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 ## Run a command from this guide
 
-1.  To copy the command, click <picture><source media="(prefers-color-scheme: dark)" srcset="../images/github-copy-code-to-clipboard-icon-light.svg"><img alt="Copy code to clipboard" src="../images/github-copy-code-to-clipboard-icon-dark.svg"></picture>.
+1.  Copy the command.
 
 1.  Click in the terminal window.
 
