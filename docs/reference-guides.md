@@ -32,7 +32,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 -   Right-click the file and select **Open with > TextEdit**.
 
-## Remap a key to a character that isn’t on your keyboard
+## Remap a key to a Unicode character
 
 1.  Read [Basics of a Kanata Config](config-basics.md).
 

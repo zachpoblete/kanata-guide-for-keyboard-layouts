@@ -311,7 +311,7 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
     1.  If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/reference-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
 
-    1.  If you layout has characters that aren’t on your keyboard, see [Remap a key to a character that isn’t on your keyboard](docs/reference-guides.md#remap-a-key-to-a-character-that-isnt-on-your-keyboard).
+    1.  If you layout has characters that aren’t on your keyboard, see [Remap a key to a Unicode character](docs/reference-guides.md#remap-a-key-to-a-unicode-character).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
