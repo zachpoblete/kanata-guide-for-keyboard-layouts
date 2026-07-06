@@ -51,7 +51,7 @@ Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&
 
 ## Lists
 
-Configs are made of lists.
+A config is made of lists.
 
 Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
 
@@ -87,7 +87,7 @@ Aliases are defined in a `defalias` entry:
 )
 ```
 
-A `defalias` entry is made of consecutive pairs of items. The 1st item in a pair is the alias name and the 2nd item is the action the alias maps to.
+A `defalias` entry is made of consecutive pairs of items. The 1st item in a pair is the name of an alias and the 2nd item is the action the alias maps to.
 
 To use an alias, prefix the alias name with `@`.
 
@@ -129,7 +129,7 @@ Variables are defined in a `defvar` entry:
 )
 ```
 
-A `defvar` entry is made of consecutive pairs of items. The 1st item in a pair is the variable name and the 2nd item is the value the variable maps to.
+A `defvar` entry is made of consecutive pairs of items. The 1st item in a pair is the name of a variable and the 2nd item is the value the variable maps to.
 
 To use a variable, prefix the variable name with `$`.
 
