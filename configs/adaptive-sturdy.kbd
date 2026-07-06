@@ -5,7 +5,7 @@
 ;; For more information about adaptive swaps, see:
 ;; https://dario.ca/posts/2026-05-18-keyboard-layout-adaptive-swaps/
 
-;; Important: If you add a key to the defsrc entry, you must also add
+;; IMPORTANT: If you add a key to the defsrc entry, you must also add
 ;; it to the definition of the adaptive-key template.
 (defsrc
   q  w  e  r  t    y  u  i  o  p
@@ -13,7 +13,7 @@
   z  x  c  v  b    n  m  ,  .  /
 )
 
-;; Important: To add an adaptive key to the sturdy layer, use the
+;; IMPORTANT: To add an adaptive key to the sturdy layer, use the
 ;; adaptive-key template and add the adaptive key alias to the sturdy
 ;; layer.
 (deflayer sturdy

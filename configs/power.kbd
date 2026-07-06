@@ -2,9 +2,9 @@
 ;; layers. Google Document:
 ;; https://docs.google.com/document/d/1sDjlC13BW0mXdadjCmVmIIsoehFVcjwDBI3AQ1ItQKo
 
-;; Important: To return to the base layer, press Space.
+;; IMPORTANT: To return to the base layer, press Space.
 
-;; Important: If you add a key to the defsrc entry, you must also add
+;; IMPORTANT: If you add a key to the defsrc entry, you must also add
 ;; it to the definition of the layer template.
 (defsrc
   q w e r t  y u i o p
@@ -76,7 +76,7 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Layers
 
-;; Important: If you add a layer, you must also add it to the
+;; IMPORTANT: If you add a layer, you must also add it to the
 ;; definition of the helper template.
 
 ;;──────────────────────────────────────────
