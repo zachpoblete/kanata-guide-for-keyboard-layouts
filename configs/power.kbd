@@ -229,7 +229,7 @@
   • • • • •  • • • • •
 )
 
-(t! _ ch  ;; renamed from `cha` to `ch`
+(t! _ ch  ;; The `cha` layer is renamed `ch`
   • h a n •  • c g • •
   • • • • •  • e • • •
   • • • • •  • • • • •
@@ -274,7 +274,7 @@
   • • • • •  • • • • •
 )
 
-(t! _ da  ;; renamed from `day` to `da`
+(t! _ da  ;; The `day` layer is renamed `da`
   • • • d •  • • • • •
   • • • • •  • y a • •
   • • • • •  • • • • •
@@ -481,7 +481,7 @@
   • • • • •  • • • • •
 )
 
-(t! _ int  ;; renamed from `inte` to `int`
+(t! _ int  ;; The `inte` layer is renamed `int`
   • • e r •  • • i • •
   • t • • •  • t s e •
   • • • • •  • • • • •
@@ -786,7 +786,7 @@ What the `m` layer would look like normally:
   • • • • •  • a l p •
 )
 
-(t! _ pla  ;; renamed from `plac` to `pla`
+(t! _ pla  ;; The `plac` layer is renamed `pla`
   • • • • •  • • • • •
   • • c e •  • • • • •
   • • • • •  • a l p •
@@ -831,7 +831,7 @@ What the `m` layer would look like normally:
   • • • • •  • • • • •
 )
 
-(t! _ re  ;; renamed from `real` to `re`
+(t! _ re  ;; The `real` layer is renamed `re`
   • • • • •  • l a e •
   • • • • •  • • • • r
   • • • • •  • • • • •
@@ -918,7 +918,7 @@ What the `m` layer would look like normally:
   • • • • •  • t i t •
 )
 
-(t! _ sta ;; renamed from `stat` to `sta`
+(t! _ sta ;; The `stat` layer is renamed `sta`
   • • • • •  • • • • •
   • s • e •  • • a • •
   • • • • •  • t • t •
