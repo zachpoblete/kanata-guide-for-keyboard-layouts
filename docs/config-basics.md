@@ -10,6 +10,7 @@ This page covers what you need to know to edit a Kanata config.
 -   [Actions](#actions)
 -   [Aliases](#aliases)
 -   [Variables](#variables)
+-   [Layers](#layers)
 
 ## The `defsrc` and `deflayer` entries
 
@@ -145,3 +146,11 @@ The following example uses variables for the numbers in the `tap-hold` action:
   (tap-hold $tap-time $hold-time caps lctl)
 )
 ```
+
+## Layers
+
+A layer is a keyboard layout that you can activate. The first layer that you define is the starting layer.
+
+To change the active layer, use the [`layer-switch` action](https://jtroo.github.io/config.html#layer-switch) or the [`layer-while-held` action](https://jtroo.github.io/config.html#layer-while-held).
+
+The [`deflayer` entry](#the-defsrc-and-deflayer-entries) is one way to define a layer. An alternative is the [`deflayermap` entry](https://github.com/jtroo/kanata/blob/main/docs/config.adoc#deflayermap).
