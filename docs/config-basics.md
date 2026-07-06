@@ -59,7 +59,7 @@ Usually, the 1st item is a command and the rest are arguments, such as in the `d
 
 ## Actions
 
-Actions let you go beyond remapping a key to a different key.
+An action lets you go beyond remapping a key to a different key.
 
 The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.github.io/config.html#tap-hold), letting you activate `Left Control` by holding `Caps Lock`:
 
@@ -75,7 +75,7 @@ The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.
 
 ## Aliases
 
-Aliases are named shortcuts for actions.
+An alias is a named shortcut for an action.
 
 Aliases are defined in a `defalias` entry:
 
@@ -117,7 +117,7 @@ Aliases let you visually align the `defsrc` and `deflayer` entries, making your 
 
 ## Variables
 
-Variables are named shortcuts for strings or lists.
+A variable is a named shortcut for a string or list.
 
 Variables are defined in a `defvar` entry:
 
