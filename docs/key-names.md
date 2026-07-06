@@ -8,16 +8,27 @@
 
 ## Key names
 
+>   [!WARNING]
+>   **macOS**: Kanata doesn’t support remapping mouse buttons.
+
 The following `defsrc` entry lists key names you can use in the `defsrc` and `deflayer` entries. For a legend, see this page’s [Legend of the key names](#legend-of-the-key-names).
 
 ```
 (defsrc
+  ;; Keyboard keys:
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        prtsc slck  pause
   `    1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins   home  pgup   nlck kp/  kp*  kp-
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \     del   end   pgdn   kp7  kp8  kp9  kp+
   caps a    s    d    f    g    h    j    k    l    ;    '    ent                           kp4  kp5  kp6
   lsft z    x    c    v    b    n    m    ,    .    /    rsft                  ↑            kp1  kp2  kp3  kprt
   lctl lmet lalt           spc            ralt rmet menu rctl            ←     ↓     →      kp0       kp.
+
+  ;; Mouse buttons:
+  mlft mwu  mrgt
+  mwl  mmid mwr
+       mwd
+  mfwd
+  mbck
 )
 ```
 
@@ -34,6 +45,7 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 -   [Cursor control keys](#cursor-control-keys)
 -   [Numpad keys](#numpad-keys)
 -   [Other keys](#other-keys)
+-   [Mouse buttons](#mouse-buttons)
 
 ### Alpha keys and number keys
 
@@ -107,6 +119,20 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `menu`   | <kbd>Menu</kbd>
 | `prtsc`  | <kbd>Print Screen</kbd>
 | `pause`  | <kbd>Pause</kbd>
+
+### Mouse buttons
+
+| Button name | Button
+| -           | -
+| `mlft`      | <kbd>Left Mouse Button</kbd>
+| `mrgt`      | <kbd>Right Mouse Button</kbd>
+| `mmid`      | <kbd>Middle Mouse Button</kbd>
+| `mfwd`      | <kbd>Forward Mouse Button</kbd>
+| `mbck`      | <kbd>Backward Mouse Button</kbd>
+| `mwu`       | <kbd>Mouse Wheel Up</kbd>
+| `mwd`       | <kbd>Mouse Wheel Down</kbd>
+| `mwl`       | <kbd>Mouse Wheel Left</kbd>
+| `mwr`       | <kbd>Mouse Wheel Right</kbd>
 
 ## How to get the name of a key
 
