@@ -56,7 +56,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 1.  If you’re on Linux or macOS and the command starts with `sudo`, the command requires administrator privileges. You may be prompted to enter your password:
 
-    1.  Enter your password&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;as you type it, nothing will appear on screen, which is normal.
+    1.  Enter your password&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;as you type it, nothing will appear on screen; this is normal.
 
     1.  Press `Enter`.
 
