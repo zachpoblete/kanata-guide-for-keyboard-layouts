@@ -9,7 +9,7 @@
 ## Key names
 
 >   [!WARNING]
->   **macOS**: Kanata can’t remap mouse buttons.
+>   On macOS, Kanata can’t remap mouse buttons.
 
 The following `defsrc` entry lists key names you can use in the `defsrc` and `deflayer` entries. For a legend, see this page’s [Legend of the key names](#legend-of-the-key-names).
 
