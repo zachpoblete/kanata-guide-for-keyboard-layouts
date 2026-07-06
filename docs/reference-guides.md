@@ -67,7 +67,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 1.  Open the link of the [pre-made config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/tree/main#pre-made-configs) you want to download.
 
-1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-icon-light.svg"><img alt="Download raw file" src="../images/github-download-raw-file-icon-dark.svg"></picture>.
+1.  To download the config, click <picture><source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-icon-light.svg"><img alt="" src="../images/github-download-raw-file-icon-dark.svg"></picture>&nbsp;**Download raw file**.
 
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="../images/github-download-raw-file-screenshot.png">
