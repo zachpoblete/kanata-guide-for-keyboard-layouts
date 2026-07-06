@@ -40,13 +40,13 @@ The `deflayer` entry creates a keyboard layer named `gallium`.
 
 Kanata ignores comments.
 
-Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
+A comment is prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;for example:
 
 ```
 ;; This is a comment.
 
 (defsrc
-  caps a s d f  ;; Comments can be added to the end of a line.
+  caps a s d f  ;; A comment can be added to the end of a line.
 )
 ```
 
@@ -54,7 +54,7 @@ Comments are prefixed with two semicolons `;;`&NoBreak;&hairsp;&NoBreak;&mdash;&
 
 A config is made of lists.
 
-Lists have the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
+A list has the form `(item1 item2 item3 ...)`. The parentheses `()` group related items together. Items are separated by whitespace.
 
 Usually, the 1st item is a command and the rest are arguments, such as in the `defsrc` and `deflayer` entries.
 
@@ -78,7 +78,7 @@ The following example maps `Caps Lock` to the [`tap-hold` action](https://jtroo.
 
 An alias is a named shortcut for an action.
 
-Aliases are defined in a `defalias` entry:
+An alias is defined in a `defalias` entry:
 
 ```
 (defalias
@@ -120,7 +120,7 @@ Aliases let you visually align the `defsrc` and `deflayer` entries, making your 
 
 A variable is a named shortcut for a string or list.
 
-Variables are defined in a `defvar` entry:
+A variable is defined in a `defvar` entry:
 
 ```
 (defvar
