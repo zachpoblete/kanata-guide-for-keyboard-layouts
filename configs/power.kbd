@@ -229,7 +229,9 @@
   • • • • •  • • • • •
 )
 
-(t! _ ch  ;; The `cha` layer is renamed `ch`
+;; This config renames the `cha` layer to `ch`; otherwise, you can’t
+;; type `change`.
+(t! _ ch
   • h a n •  • c g • •
   • • • • •  • e • • •
   • • • • •  • • • • •
@@ -274,7 +276,9 @@
   • • • • •  • • • • •
 )
 
-(t! _ da  ;; The `day` layer is renamed `da`
+;; This config renames the `day` layer to `da`; otherwise, you can’t
+;; type `day`.
+(t! _ da
   • • • d •  • • • • •
   • • • • •  • y a • •
   • • • • •  • • • • •
@@ -481,7 +485,9 @@
   • • • • •  • • • • •
 )
 
-(t! _ int  ;; The `inte` layer is renamed `int`
+;; This config renames the `inte` layer to `int`; otherwise, you can’t
+;; type `interest`.
+(t! _ int
   • • e r •  • • i • •
   • t • • •  • t s e •
   • • • • •  • • • • •
@@ -786,7 +792,9 @@ What the `m` layer would look like normally:
   • • • • •  • a l p •
 )
 
-(t! _ pla  ;; The `plac` layer is renamed `pla`
+;; This config renames the `plac` layer to `pla`; otherwise, you can’t
+;; type `place`.
+(t! _ pla
   • • • • •  • • • • •
   • • c e •  • • • • •
   • • • • •  • a l p •
@@ -831,7 +839,9 @@ What the `m` layer would look like normally:
   • • • • •  • • • • •
 )
 
-(t! _ re  ;; The `real` layer is renamed `re`
+;; This config renames the `real` layer to `re`; otherwise, you can’t
+;; type `real`.
+(t! _ re
   • • • • •  • l a e •
   • • • • •  • • • • r
   • • • • •  • • • • •
@@ -918,7 +928,9 @@ What the `m` layer would look like normally:
   • • • • •  • t i t •
 )
 
-(t! _ sta ;; The `stat` layer is renamed `sta`
+;; This config renames the `stat` layer to `sta`; otherwise, you can’t
+;; type `state`.
+(t! _ sta
   • • • • •  • • • • •
   • s • e •  • • a • •
   • • • • •  • t • t •
