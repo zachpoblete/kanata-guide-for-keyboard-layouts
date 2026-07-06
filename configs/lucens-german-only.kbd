@@ -15,6 +15,14 @@
   lsft @ß  j  c  g  w    k  p @ö @ü  .  rsft
 )
 
+;; IMPORTANT: On Linux, see the linux-unicode-u-code defcfg option:
+;; https://jtroo.github.io/config.html#linux-only-linux-unicode-u-code
+
+;; WARNING: On Wayland, the unicode action may be broken. As an
+;; alternative, follow these steps:
+;; 1.  Install the wtype program.
+;; 2.  Use the cmd action to execute wtype and type a Unicode character -
+;;     for example, `(cmd wtype ä)`.
 (defalias
   ä (fork (unicode ä) (unicode Ä) (lsft rsft))
   ö (fork (unicode ö) (unicode Ö) (lsft rsft))
