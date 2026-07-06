@@ -62,6 +62,18 @@
 )
 
 ;;──────────────────────────────────────────────────────────────────────────────
+;; Template for `li` and `mo` layers
+
+(deftemplate duplicate-sequence (sequence letter layer-number)
+  (defalias (concat $sequence $letter $layer-number)
+    (multi
+      (macro $letter)
+      (layer-switch (concat $sequence $letter $layer-number))
+    )
+  )
+)
+
+;;──────────────────────────────────────────────────────────────────────────────
 ;; Layers
 
 ;; Important: If you add a layer, you must also add it to the
@@ -514,11 +526,36 @@
 ;;──────────────────────────────────────────
 ;; L
 
+(t! duplicate-sequence l i 1)
+(t! duplicate-sequence l i 2)
+
+(deflayer l
+  (t! . l •)(t! . l •)(t! . l •)(t! . l •)(t! . l •)    (t! . l •)(t! . l •)(t! . l •) @li1     (t! . l •)
+  (t! . l •)(t! . l •)(t! . l •)(t! . l l)(t! . l •)    (t! . l •)(t! . l •)(t! . l •) @li2     (t! . l e)
+  (t! . l •)(t! . l •)(t! . l •)(t! . l a)(t! . l •)    (t! . l •)(t! . l •)(t! . l •)(t! . l o)(t! . l •)
+  (multi spc (layer-switch _base))
+)
+
+(t! _ li1  ;; `li` top layer
+  • • • • •  • e f i •
+  • • • l •  • e n • •
+  • • • • •  • • • • •
+)
+
+(t! _ li2  ;; `li` bottom layer
+  • • • • •  • t t • •
+  • • l e •  • e k i •
+  • • • • •  • • • • •
+)
+
+#|
+What the `l` layer would look like normally:
 (t! _ l
   • • • • •  • • • i •
   • • • l •  • • • i e
   • • • a •  • • • o •
 )
+|#
 
 (t! _ la
   • • • • •  • t s r •
@@ -538,23 +575,6 @@
   • • • • •  • • • • •
 )
 
-;; li top layer
-(t! _ li
-  • • • • •  • e f i •
-  • • • l •  • e n • •
-  • • • • •  • • • • •
-)
-
-#|
-;; Commented out to simplify the config:
-;; li bottom layer
-(t! _ li
-  • • • • •  • t t • •
-  • • l e •  • e k i •
-  • • • • •  • • • • •
-)
-|#
-
 (t! _ lo
   • • • • •  • • • • •
   • • • l •  • g n • •
@@ -564,11 +584,36 @@
 ;;──────────────────────────────────────────
 ;; M
 
+(t! duplicate-sequence m o 1)
+(t! duplicate-sequence m o 2)
+
+(deflayer m
+  (t! . m •)(t! . m •)(t! . m •)(t! . m •)(t! . m •)    (t! . m •)(t! . m •)(t! . m •)(t! . m e)(t! . m •)
+  (t! . m •)(t! . m •)(t! . m •)(t! . m •)(t! . m •)    (t! . m •)(t! . m •)(t! . m •) @mo1     (t! . m i)
+  (t! . m •)(t! . m m)(t! . m a)(t! . m u)(t! . m •)    (t! . m •)(t! . m •)(t! . m •) @mo2     (t! . m •)
+  (multi spc (layer-switch _base))
+)
+
+(t! _ mo1  ;; `mo` top layer
+  • • • • •  • e r • •
+  • • • • •  • t s o •
+  • m • • •  • • • • •
+)
+
+(t! _ mo2  ;; `mo` bottom layer
+  • • • • •  • • • • •
+  • • • • •  • e v • •
+  • m • • •  • • • o •
+)
+
+#|
+What the `m` layer would look like normally:
 (t! _ m
   • • • • •  • • • e •
   • • • • •  • • • o i
   • m a u •  • • • o •
 )
+|#
 
 (t! _ ma
   • • • • •  • • • • •
@@ -593,23 +638,6 @@
   • • • • •  • t h g i
   • m • • •  • • • • •
 )
-
-;; mo top layer
-(t! _ mo
-  • • • • •  • e r • •
-  • • • • •  • t s o •
-  • m • • •  • • • • •
-)
-
-#|
-;; Commented out to simplify the config:
-;; mo bottom layer
-(t! _ mo
-  • • • • •  • • • • •
-  • • • • •  • e v • •
-  • m • • •  • • • o •
-)
-|#
 
 (t! _ mu
   • • • • •  • t s • •
