@@ -2,6 +2,10 @@
 ;; layers. Google Document:
 ;; https://docs.google.com/document/d/1sDjlC13BW0mXdadjCmVmIIsoehFVcjwDBI3AQ1ItQKo
 
+;; Important: To return to the base layer, press Space.
+
+;; Important: If you add a key to the defsrc entry, you must also add
+;; it to the definition of the layer template.
 (defsrc
   q w e r t  y u i o p
   a s d f g  h j k l ;
@@ -12,41 +16,43 @@
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Layer template
 
-(defvar
-  layers (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca cha chi co con cou cour d day de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in inte inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl plac po pr pro prog pub r real ri ru s sa sc se sh sho shou si sm so st stat sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
-)
-
-;; Helper template for the Layer template:
+;; Definition of the helper template.
+;; If you add a layer, you must also add it to the "Switch layers"
+;; section of this template.
 (deftemplate . (sequence letter)
   (multi
     ;; Output the letter:
-    (if-equal $letter •
+    (if-equal     $letter •
       •)
     (if-not-equal $letter •
+      ;; Use the macro action to output the letter so that repeat letters
+      ;; are reliably outputted. For an explanation of the issue the macro
+      ;; action solves and for a solution that doesn’t use the macro action,
+      ;; see the duplicate-key template in nastic.kbd
       (macro $letter))
-      ;; Use the macro action so that repeat letters are reliably outputted.
-      ;; For an explanation of the issue the macro action solves and for a
-      ;; solution that doesn’t use the macro action, see the duplicate-key
-      ;; template in nastic.kbd
 
     ;; Switch layers.
-    ;; Unfortunately, variables can’t be used inside templates, so this
-    ;; config copies the full layers list into the `if-in-list`
-    ;; conditional operators.
-    (if-equal $sequence _base
-      (if-in-list $letter (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca cha chi co con cou cour d day de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in inte inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl plac po pr pro prog pub r real ri ru s sa sc se sh sho shou si sm so st stat sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
+    ;; If you add a layer here, add it to the 2 if-in-list conditional operators.
+    (if-equal     $sequence _base
+      (if-in-list $letter (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca ch chi co con cou cour d da de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in int inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl pla po pr pro prog pub r re ri ru s sa sc se sh sho shou si sm so st sta sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
         (layer-switch $letter)))
     (if-not-equal $sequence _base
-      (if-in-list (concat $sequence $letter) (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca cha chi co con cou cour d day de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in inte inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl plac po pr pro prog pub r real ri ru s sa sc se sh sho shou si sm so st stat sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
-        (layer-switch (concat $sequence $letter)))))
+      (if-in-list (concat $sequence $letter) (a ab af ag al als an ar as at b ba be bec beco bef beg bet bo bu c ca ch chi co con cou cour d da de do du e ea en ev ey f fa fe fi fo fr g ge gen gi go gr h ha he her hi ho hou how i in int inc j ju k ke kn l la lar le li li lo m ma mak me mi mo mo mu n na ne nee nev no nu o of ol on op or ot ou ov ow p pa pe per pl pla po pr pro prog pub r re ri ru s sa sc se sh sho shou si sm so st sta sti su sy t ta te th the ther thes thi thin tho thr ti to tu u un us v w wa wan we wh whe wher whi wi wo wr y ye yo)
+        (layer-switch (concat $sequence $letter))))
+  )
 )
 
-;; Layer template:
+;; Definition of the layer template.
+;; If you add a key to the defsrc entry, you must also add
+;; it to the definition of the $sq layer in this template.
 (deftemplate _ (sq ;; sq = sequence
                  q w e r t  y u i o p
                  a s d f g  h j k l ;
                  z x c v b  n m , . /
                )
+  ;; Definition of $sq layer.
+  ;; If you add a key here, use it with the helper template - for
+  ;; example, `(t! . $sq $key)`.
   (deflayer $sq
     (t! . $sq $q)(t! . $sq $w)(t! . $sq $e)(t! . $sq $r)(t! . $sq $t)    (t! . $sq $y)(t! . $sq $u)(t! . $sq $i)(t! . $sq $o)(t! . $sq $p)
     (t! . $sq $a)(t! . $sq $s)(t! . $sq $d)(t! . $sq $f)(t! . $sq $g)    (t! . $sq $h)(t! . $sq $j)(t! . $sq $k)(t! . $sq $l)(t! . $sq $;)
@@ -57,6 +63,9 @@
 
 ;;──────────────────────────────────────────────────────────────────────────────
 ;; Layers
+
+;; Important: If you add a layer, you must also add it to the
+;; definition of the helper template.
 
 ;;──────────────────────────────────────────
 ;; Base
@@ -537,7 +546,8 @@
 )
 
 #|
-;; li bottom layer (commented out to simplify the config)
+;; Commented out to simplify the config:
+;; li bottom layer
 (t! _ li
   • • • • •  • t t • •
   • • l e •  • e k i •
@@ -592,7 +602,8 @@
 )
 
 #|
-;; mo bottom layer (commented out to simplify the config)
+;; Commented out to simplify the config:
+;; mo bottom layer
 (t! _ mo
   • • • • •  • • • • •
   • • • • •  • e v • •
