@@ -17,7 +17,7 @@
 ;; Layer template
 
 ;; Definition of the helper template.
-;; If you add a layer, you must also add it to the "Switch layers"
+;; If you add a layer, you must also add it to the “Switch layers”
 ;; section of this template.
 (deftemplate . (sequence letter)
   (multi
