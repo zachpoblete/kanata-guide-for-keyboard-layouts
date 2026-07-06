@@ -17,7 +17,7 @@ You can use this guide even if you don’t have any programming experience.
 -   [Supported platforms](#supported-platforms)
 -   [Step 1: Set up Kanata](#step-1-set-up-kanata)
 -   [Step 2: Run Kanata](#step-2-run-kanata)
--   [Step 3: Change your layout](#step-3-change-your-layout)
+-   [Change your layout](#change-your-layout)
 -   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
 -   [Get help](#Get-help)
@@ -291,13 +291,13 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 </details>
 
-## Step 3: Change your layout
+## Change your layout
 
-### Step 3.1: Learn how the example config works
+### Step 1: Learn how the example config works
 
 -   To learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
 
-### Step 3.2: Edit the example config
+### Step 2: Edit the example config
 
 For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entries](docs/key-names.md).
 
@@ -321,7 +321,7 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
 1.  Save the file.
 
-### Step 3.3: Run the example config
+### Step 3: Run the example config
 
 1.  [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
 
