@@ -88,7 +88,7 @@ An alias is defined in a `defalias` entry:
 )
 ```
 
-A `defalias` entry is made of consecutive pairs of items. The 1st item in a pair is the name of an alias and the 2nd item is the action the alias maps to.
+A `defalias` entry is made of consecutive pairs of items. Each pair consists of an alias name followed by the action the alias maps to.
 
 To use an alias, prefix the alias name with `@`.
 
@@ -130,7 +130,7 @@ A variable is defined in a `defvar` entry:
 )
 ```
 
-A `defvar` entry is made of consecutive pairs of items. The 1st item in a pair is the name of a variable and the 2nd item is the value the variable maps to.
+A `defvar` entry is made of consecutive pairs of items. Each pair consists of a variable name followed by its value.
 
 To use a variable, prefix the variable name with `$`.
 
