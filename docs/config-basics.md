@@ -151,6 +151,6 @@ The following example uses variables for the numbers in the `tap-hold` action:
 
 A layer is a keyboard layout that you can activate. The first layer that you define is the starting layer.
 
-The [`deflayer` entry](#the-defsrc-and-deflayer-entries) is one way to define a layer. An alternative is the [`deflayermap` entry](https://github.com/jtroo/kanata/blob/main/docs/config.adoc#deflayermap).
+The main way to define a layer is the [`deflayer` entry](#the-defsrc-and-deflayer-entries). An alternative is the [`deflayermap` entry](https://github.com/jtroo/kanata/blob/main/docs/config.adoc#deflayermap).
 
 To change the active layer, use the [`layer-switch` action](https://jtroo.github.io/config.html#layer-switch) or the [`layer-while-held` action](https://jtroo.github.io/config.html#layer-while-held).
