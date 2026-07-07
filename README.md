@@ -293,9 +293,9 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 ## Change your layout
 
-In this section, you will change the layout of the example config.
-
 For pre-made configs of a few layouts, such as [Graphite](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite), see this guide’s [Pre-made configs](#pre-made-configs).
+
+In this section, you will change the layout of the example config.
 
 ### Step 1: Learn how the example config works
 
