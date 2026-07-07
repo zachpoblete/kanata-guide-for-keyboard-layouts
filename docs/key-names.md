@@ -59,9 +59,10 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | Key name | Key
 | -        | -
 | `spc`    | <kbd>Space</kbd>
-| `bspc`   | <kbd>Backspace</kbd>
 | `tab`    | <kbd>Tab</kbd>
 | `ent`    | <kbd>Enter</kbd>
+| `bspc`   | <kbd>Backspace</kbd>
+| `esc`    | <kbd>Escape</kbd>
 | `caps`   | <kbd>Caps Lock</kbd>
 
 ### Modifier keys
@@ -91,13 +92,13 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `↓`      | <kbd>↓ Down</kbd>
 | `←`      | <kbd>← Left</kbd>
 | `→`      | <kbd>→ Right</kbd>
-| `slck`   | <kbd>Scroll Lock</kbd>
 | `home`   | <kbd>Home</kbd>
 | `end`    | <kbd>End</kbd>
 | `pgup`   | <kbd>Page Up</kbd>
 | `pgdn`   | <kbd>Page Down</kbd>
 | `del`    | <kbd>Delete</kbd>
 | `ins`    | <kbd>Insert</kbd>
+| `slck`   | <kbd>Scroll Lock</kbd>
 
 ### Numpad keys
 
@@ -105,12 +106,12 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | -        | -
 | `kp0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`kp9` | <kbd>Numpad 0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Numpad 9</kbd>
 | `kp.`    | <kbd>Numpad .</kbd>
-| `nlck`   | <kbd>Num Lock</kbd>
-| `kp/`    | <kbd>Numpad /</kbd>
-| `kp*`    | <kbd>Numpad *</kbd>
-| `kp-`    | <kbd>Numpad -</kbd>
 | `kp+`    | <kbd>Numpad +</kbd>
+| `kp-`    | <kbd>Numpad -</kbd>
+| `kp*`    | <kbd>Numpad *</kbd>
+| `kp/`    | <kbd>Numpad /</kbd>
 | `kprt`   | <kbd>Numpad Enter</kbd>
+| `nlck`   | <kbd>Num Lock</kbd>
 
 ### Other keys
 
