@@ -293,6 +293,8 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
 ## Change your layout
 
+In this section, you will change the layout of the example config.
+
 ### Step 1: Learn how the example config works
 
 -   To learn how the example config works, see [The `defsrc` and `deflayer` entries](docs/config-basics.md#the-defsrc-and-deflayer-entries).
@@ -326,6 +328,8 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 1.  [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
 
 1.  If Kanata isn’t remapping a key, the name of the key might be incorrect. See [How to get the name of a key](docs/key-names.md#how-to-get-the-name-of-a-key).
+
+Kanata is running your layout.
 
 ## Automatically start Kanata
 
@@ -449,9 +453,10 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-Before using a pre-made config, it helps to know the following:
+The following resources help you use and customize a pre-made config:
 
 -   To run a config, see [Run a pre-made config](docs/reference-guides.md#run-a-pre-made-config).
+-   To learn how to change the layout of a config, see this guide’s [Change your layout](#change-your-layout).
 -   To customize a config, see [Basics of a Kanata Config](docs/config-basics.md).
 -   To learn about any Kanata feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
