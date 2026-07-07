@@ -54,7 +54,7 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 1.  To run the command, press `Enter`.
 
-1.  If you’re on Linux or macOS and the command starts with `sudo`, the command needs administrator privileges. You might be prompted to enter your password:
+1.  If you’re on Linux or macOS and the command starts with `sudo`, the terminal might prompt you for your password:
 
     1.  Enter your password&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;as you type it, nothing will appear on screen; this is normal.
 
