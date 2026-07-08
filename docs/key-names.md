@@ -1,13 +1,5 @@
 # Key Names for the `defsrc` and `deflayer` Entries
 
-### On this page
-
--  [Key names](#key-names)
--  [Legend of the key names](#legend-of-the-key-names)
--  [How to get the name of a key](#how-to-get-the-name-of-a-key)
-
-## Key names
-
 >   [!WARNING]
 >   On macOS, Kanata can’t remap mouse buttons.
 
