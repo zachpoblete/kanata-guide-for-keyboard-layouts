@@ -6,30 +6,13 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 #### On this page
 
--   [Mouse buttons](#mouse-buttons)
 -   [General keys](#general-keys)
 -   [Modifier keys](#modifier-keys)
 -   [Navigation keys](#navigation-keys)
 -   [Function keys](#function-keys)
 -   [Numpad keys](#numpad-keys)
 -   [Other keys](#other-keys)
-
-### Mouse buttons
-
->   [!WARNING]
->   On macOS, Kanata can’t remap mouse buttons.
-
-| Button name | Button
-| -           | -
-| `mlft`      | <kbd>Left Mouse Button</kbd>
-| `mrgt`      | <kbd>Right Mouse Button</kbd>
-| `mmid`      | <kbd>Middle Mouse Button</kbd>
-| `mfwd`      | <kbd>Forward Mouse Button</kbd>
-| `mbck`      | <kbd>Backward Mouse Button</kbd>
-| `mwu`       | <kbd>Mouse Wheel Up</kbd>
-| `mwd`       | <kbd>Mouse Wheel Down</kbd>
-| `mwl`       | <kbd>Mouse Wheel Left</kbd>
-| `mwr`       | <kbd>Mouse Wheel Right</kbd>
+-   [Mouse buttons](#mouse-buttons)
 
 ### General keys
 
@@ -99,3 +82,20 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 | `prtsc`  | <kbd>Print Screen</kbd>
 | `slck`   | <kbd>Scroll Lock</kbd>
 | `pause`  | <kbd>Pause</kbd>
+
+### Mouse buttons
+
+>   [!WARNING]
+>   On macOS, Kanata can’t remap mouse buttons.
+
+| Button name | Button
+| -           | -
+| `mlft`      | <kbd>Left Mouse Button</kbd>
+| `mrgt`      | <kbd>Right Mouse Button</kbd>
+| `mmid`      | <kbd>Middle Mouse Button</kbd>
+| `mfwd`      | <kbd>Forward Mouse Button</kbd>
+| `mbck`      | <kbd>Backward Mouse Button</kbd>
+| `mwu`       | <kbd>Mouse Wheel Up</kbd>
+| `mwd`       | <kbd>Mouse Wheel Down</kbd>
+| `mwl`       | <kbd>Mouse Wheel Left</kbd>
+| `mwr`       | <kbd>Mouse Wheel Right</kbd>
