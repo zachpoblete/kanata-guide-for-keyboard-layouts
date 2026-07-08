@@ -46,10 +46,10 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 | Key name | Key
 | -        | -
-| `↑`      | <kbd>↑ Up</kbd>
-| `↓`      | <kbd>↓ Down</kbd>
-| `←`      | <kbd>← Left</kbd>
-| `→`      | <kbd>→ Right</kbd>
+| `↑`      | <kbd>Up arrow</kbd>
+| `↓`      | <kbd>Down arrow</kbd>
+| `←`      | <kbd>Left arrow</kbd>
+| `→`      | <kbd>Right arrow</kbd>
 | `home`   | <kbd>Home</kbd>
 | `end`    | <kbd>End</kbd>
 | `pgup`   | <kbd>Page Up</kbd>
