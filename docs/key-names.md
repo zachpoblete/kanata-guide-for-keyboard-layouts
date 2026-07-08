@@ -41,8 +41,8 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 | `spc`    | <kbd>Space</kbd>
 | `tab`    | <kbd>Tab</kbd>
 | `ent`    | <kbd>Enter</kbd>
-| `bspc`   | <kbd>Backspace</kbd>
 | `esc`    | <kbd>Escape</kbd>
+| `bspc`   | <kbd>Backspace</kbd>
 | `del`    | <kbd>Delete</kbd>
 | `ins`    | <kbd>Insert</kbd>
 
