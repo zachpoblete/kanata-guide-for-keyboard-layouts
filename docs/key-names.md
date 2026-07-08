@@ -38,32 +38,27 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 
 #### In this section
 
--   [Alpha keys and number keys](#alpha-keys-and-number-keys)
 -   [General keys](#general-keys)
 -   [Modifier keys](#modifier-keys)
 -   [Function keys](#function-keys)
--   [Cursor control keys](#cursor-control-keys)
+-   [Navigation keys](#navigation-keys)
 -   [Numpad keys](#numpad-keys)
--   [Other keys](#other-keys)
 -   [Mouse buttons](#mouse-buttons)
-
-### Alpha keys and number keys
-
-| Key name | Key
-| -        | -
-| `a`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`z` | <kbd>A</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Z</kbd>
-| `0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`9` | <kbd>0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>9</kbd>
 
 ### General keys
 
 | Key name | Key
 | -        | -
+| `a`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`z` | <kbd>A</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Z</kbd>
+| `0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`9` | <kbd>0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>9</kbd>
 | `spc`    | <kbd>Space</kbd>
 | `tab`    | <kbd>Tab</kbd>
 | `ent`    | <kbd>Enter</kbd>
 | `bspc`   | <kbd>Backspace</kbd>
 | `esc`    | <kbd>Escape</kbd>
 | `caps`   | <kbd>Caps Lock</kbd>
+| `del`    | <kbd>Delete</kbd>
+| `ins`    | <kbd>Insert</kbd>
 
 ### Modifier keys
 
@@ -84,7 +79,7 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | -        | -
 | `f1`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`f12` | <kbd>F1</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>F12</kbd>
 
-### Cursor control keys
+### Navigation keys
 
 | Key name | Key
 | -        | -
@@ -96,14 +91,12 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `end`    | <kbd>End</kbd>
 | `pgup`   | <kbd>Page Up</kbd>
 | `pgdn`   | <kbd>Page Down</kbd>
-| `del`    | <kbd>Delete</kbd>
-| `ins`    | <kbd>Insert</kbd>
-| `slck`   | <kbd>Scroll Lock</kbd>
 
 ### Numpad keys
 
 | Key name | Key
 | -        | -
+| `nlck`   | <kbd>Num Lock</kbd>
 | `kp0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`kp9` | <kbd>Numpad 0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Numpad 9</kbd>
 | `kp.`    | <kbd>Numpad .</kbd>
 | `kp+`    | <kbd>Numpad +</kbd>
@@ -111,7 +104,6 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `kp*`    | <kbd>Numpad *</kbd>
 | `kp/`    | <kbd>Numpad /</kbd>
 | `kprt`   | <kbd>Numpad Enter</kbd>
-| `nlck`   | <kbd>Num Lock</kbd>
 
 ### Other keys
 
@@ -119,6 +111,7 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | -        | -
 | `menu`   | <kbd>Menu</kbd>
 | `prtsc`  | <kbd>Print Screen</kbd>
+| `slck`   | <kbd>Scroll Lock</kbd>
 | `pause`  | <kbd>Pause</kbd>
 
 ### Mouse buttons
