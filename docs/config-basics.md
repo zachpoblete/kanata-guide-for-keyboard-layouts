@@ -1,6 +1,6 @@
 # Basics of a Kanata Config
 
-This page covers what you need to know to customize a Kanata config.
+This page covers what you need to know to edit a Kanata config.
 
 ### On this page
 
