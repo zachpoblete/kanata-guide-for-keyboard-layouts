@@ -32,6 +32,14 @@ This page contains guides referenced throughout the [main guide](https://github.
 
 -   Right-click the file and select **Open with > TextEdit**.
 
+## Get the name of a key
+
+1.  Open [JavaScript Key Code Event Tool](https://www.toptal.com/developers/keycode).
+
+1.  Press the key. **event.code** shows the key name to use in the `defsrc` and `deflayer` entries.
+
+1.  If **event.code** is blank, see [Kanata’s `mod.rs` file](https://github.com/jtroo/kanata/blob/main/parser/src/keys/mod.rs). The functions `str_to_oscode` and `add_default_str_osc_mappings` in that file are the source of truth for all key names.
+
 ## Remap a key to a Unicode character
 
 1.  Read [Basics of a Kanata Config](config-basics.md).

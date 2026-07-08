@@ -1,41 +1,35 @@
 # Key Names for the `defsrc` and `deflayer` Entries
 
+This page lists key names you can use in the `defsrc` and `deflayer` entries.
+
+If you don’t find the key you’re looking for, see [Get the name of a key](reference-guides.md#get-the-name-of-a-key).
+
+#### On this page
+
+-   [Mouse buttons](#mouse-buttons)
+-   [General keys](#general-keys)
+-   [Modifier keys](#modifier-keys)
+-   [Navigation keys](#navigation-keys)
+-   [Function keys](#function-keys)
+-   [Numpad keys](#numpad-keys)
+-   [Other keys](#other-keys)
+
+### Mouse buttons
+
 >   [!WARNING]
 >   On macOS, Kanata can’t remap mouse buttons.
 
-The following `defsrc` entry lists key names you can use in the `defsrc` and `deflayer` entries. For a legend, see this page’s [Legend of the key names](#legend-of-the-key-names).
-
-```
-(defsrc
-  ;; Keyboard keys:
-  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        prtsc slck  pause
-  `    1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins   home  pgup   nlck kp/  kp*  kp-
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \     del   end   pgdn   kp7  kp8  kp9  kp+
-  caps a    s    d    f    g    h    j    k    l    ;    '    ent                           kp4  kp5  kp6
-  lsft z    x    c    v    b    n    m    ,    .    /    rsft                  ↑            kp1  kp2  kp3  kprt
-  lctl lmet lalt           spc            ralt rmet menu rctl            ←     ↓     →      kp0       kp.
-
-  ;; Mouse buttons:
-  mlft mwu  mrgt
-  mwl  mmid mwr
-       mwd
-  mfwd
-  mbck
-)
-```
-
-For other keys, see this page’s [How to get the name of a key](#how-to-get-the-name-of-a-key).
-
-## Legend of the key names
-
-#### In this section
-
--   [General keys](#general-keys)
--   [Modifier keys](#modifier-keys)
--   [Function keys](#function-keys)
--   [Navigation keys](#navigation-keys)
--   [Numpad keys](#numpad-keys)
--   [Mouse buttons](#mouse-buttons)
+| Button name | Button
+| -           | -
+| `mlft`      | <kbd>Left Mouse Button</kbd>
+| `mrgt`      | <kbd>Right Mouse Button</kbd>
+| `mmid`      | <kbd>Middle Mouse Button</kbd>
+| `mfwd`      | <kbd>Forward Mouse Button</kbd>
+| `mbck`      | <kbd>Backward Mouse Button</kbd>
+| `mwu`       | <kbd>Mouse Wheel Up</kbd>
+| `mwd`       | <kbd>Mouse Wheel Down</kbd>
+| `mwl`       | <kbd>Mouse Wheel Left</kbd>
+| `mwr`       | <kbd>Mouse Wheel Right</kbd>
 
 ### General keys
 
@@ -65,12 +59,6 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `lmet`   | <kbd>Left Windows</kbd> (or <kbd>Left Super</kbd> on Linux, or <kbd>Left Command</kbd> on macOS)
 | `rmet`   | <kbd>Right Windows</kbd> (or <kbd>Right Super</kbd> on Linux, or <kbd>Right Command</kbd> on macOS)
 
-### Function keys
-
-| Key name | Key
-| -        | -
-| `f1`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`f12` | <kbd>F1</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>F12</kbd>
-
 ### Navigation keys
 
 | Key name | Key
@@ -83,6 +71,12 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `end`    | <kbd>End</kbd>
 | `pgup`   | <kbd>Page Up</kbd>
 | `pgdn`   | <kbd>Page Down</kbd>
+
+### Function keys
+
+| Key name | Key
+| -        | -
+| `f1`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`f12` | <kbd>F1</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>F12</kbd>
 
 ### Numpad keys
 
@@ -105,25 +99,3 @@ For other keys, see this page’s [How to get the name of a key](#how-to-get-the
 | `prtsc`  | <kbd>Print Screen</kbd>
 | `slck`   | <kbd>Scroll Lock</kbd>
 | `pause`  | <kbd>Pause</kbd>
-
-### Mouse buttons
-
-| Button name | Button
-| -           | -
-| `mlft`      | <kbd>Left Mouse Button</kbd>
-| `mrgt`      | <kbd>Right Mouse Button</kbd>
-| `mmid`      | <kbd>Middle Mouse Button</kbd>
-| `mfwd`      | <kbd>Forward Mouse Button</kbd>
-| `mbck`      | <kbd>Backward Mouse Button</kbd>
-| `mwu`       | <kbd>Mouse Wheel Up</kbd>
-| `mwd`       | <kbd>Mouse Wheel Down</kbd>
-| `mwl`       | <kbd>Mouse Wheel Left</kbd>
-| `mwr`       | <kbd>Mouse Wheel Right</kbd>
-
-## How to get the name of a key
-
-1.  Open [JavaScript Key Code Event Tool](https://www.toptal.com/developers/keycode).
-
-1.  Press the key. **event.code** shows the key name to use in the `defsrc` and `deflayer` entries.
-
-1.  If **event.code** is blank, see [Kanata’s `mod.rs` file](https://github.com/jtroo/kanata/blob/main/parser/src/keys/mod.rs). The functions `str_to_oscode` and `add_default_str_osc_mappings` in that file are the source of truth for all key names.
