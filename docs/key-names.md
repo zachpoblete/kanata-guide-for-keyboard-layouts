@@ -37,12 +37,12 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 | -        | -
 | `a`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`z` | <kbd>A</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Z</kbd>
 | `0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`9` | <kbd>0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>9</kbd>
+| `caps`   | <kbd>Caps Lock</kbd>
 | `spc`    | <kbd>Space</kbd>
 | `tab`    | <kbd>Tab</kbd>
 | `ent`    | <kbd>Enter</kbd>
 | `bspc`   | <kbd>Backspace</kbd>
 | `esc`    | <kbd>Escape</kbd>
-| `caps`   | <kbd>Caps Lock</kbd>
 | `del`    | <kbd>Delete</kbd>
 | `ins`    | <kbd>Insert</kbd>
 
