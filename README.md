@@ -455,11 +455,11 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-The following resources help you use and customize a pre-made config:
+The following resources help you use and edit a pre-made config:
 
 -   To run a config, see [Run a pre-made config](docs/reference-guides.md#run-a-pre-made-config).
 -   To learn how to change the layout of a config, see this guide’s [Change your layout](#change-your-layout).
--   To customize a config, see [Basics of a Kanata Config](docs/config-basics.md).
+-   To edit a config, see [Basics of a Kanata Config](docs/config-basics.md).
 -   To learn about any Kanata feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 #### In this section
