@@ -331,8 +331,6 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
 1.  If Kanata isn’t remapping a key, the name of the key might be incorrect. See [How to get the name of a key](docs/key-names.md#how-to-get-the-name-of-a-key).
 
-Kanata is running your layout.
-
 ## Automatically start Kanata
 
 Expand the section for your platform.
