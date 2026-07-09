@@ -11,7 +11,7 @@ Kanata remaps your keyboard using a file called a _config_. This guide contains 
 -   A magic key
 -   And more
 
-You can use this guide even if you don’t have any programming experience.
+You can use this guide even if you don’t have programming experience.
 
 ### In this guide
 
