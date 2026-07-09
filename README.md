@@ -4,7 +4,7 @@
 
 Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs. Each one adds a feature to a layout:
 
--   A key that toggles to QWERTY
+-   Holding `Caps Lock` toggles QWERTY
 -   QWERTY shortcuts
 -   Home row mods
 -   A symbol layer
