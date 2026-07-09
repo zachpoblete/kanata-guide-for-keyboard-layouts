@@ -510,8 +510,6 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
     -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
     -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
--   [`night-double-wide.kbd`](configs/night-double-wide.kbd)
-    -   Layout with wide mod applied twice
 -   [`nastic.kbd`](configs/nastic.kbd)
     -   Layout with duplicate keys
 
