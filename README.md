@@ -506,8 +506,6 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
     -   Layout with custom shift pairs
 -   [`lucens-german-only.kbd`](configs/lucens-german-only.kbd)
     -   Layout that has characters that aren’t on the [US keyboard](https://commons.wikimedia.org/wiki/File:Qwerty.svg#/media/File:Qwerty.svg)
--   [`night.kbd`](configs/night.kbd)
-    -   Layout with a [thumb alpha key](https://layouts.wiki/guides/start/recommendations/#thumb-alpha)
 -   [`night-wide.kbd`](configs/night-wide.kbd)
     -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`nastic.kbd`](configs/nastic.kbd)
