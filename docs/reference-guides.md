@@ -69,7 +69,7 @@ This page contains guides referenced throughout the [main guide](https://github.
     1.  Press `Enter`.
 
 >   [!TIP]
->   To reuse a command, use the arrow keys: in the terminal, press **Up arrow** to see a previous command and press **Down arrow** to see a newer command.
+>   To reuse a command in the terminal, press **Up arrow** to see a previous command and press **Down arrow** to see a newer command.
 
 ## Run a pre-made config
 
