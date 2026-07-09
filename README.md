@@ -470,8 +470,6 @@ The following resources help you use and edit a pre-made config:
 -   [Home row mods](#home-row-mods)
 -   [Symbol and navigation layers](#symbol-and-navigation-layers)
 -   [Layouts](#layouts)
--   [Small layouts](#small-layouts)
--   [Chorded layouts](#chorded-layouts)
 -   [Layouts with multiple alpha layers](#layouts-with-multiple-alpha-layers)
 -   [Magic keys and adaptive swaps](#magic-keys-and-adaptive-swaps)
 
@@ -512,20 +510,6 @@ These layers often use [transparent keys](https://jtroo.github.io/config.html#tr
     -   Layout with [wide mod](https://colemakmods.github.io/ergonomic-mods/wide.html)
 -   [`nastic.kbd`](configs/nastic.kbd)
     -   Layout with duplicate keys
-
-### Small layouts
-
--   [`taipo.kbd`](configs/taipo.kbd)
-    -   Layout that can be used with 1 hand
--   [`buggy.kbd`](configs/buggy.kbd)
-    -   Layout with 2 alpha layers
--   [`2-row-gallium.kbd`](configs/2-row-gallium.kbd)
-    -   Layout with only 2 rows
--   [`crescent.kbd`](configs/crescent.kbd)
-    -   Layout with only 10 keys, one for each finger
-
-### Chorded layouts
-
 -   [`gallium-with-combos.kbd`](configs/gallium-with-combos.kbd)
     -   Layout with combos
 -   [`taipo.kbd`](configs/taipo.kbd)
