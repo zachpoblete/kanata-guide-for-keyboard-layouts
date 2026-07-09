@@ -5,7 +5,7 @@
 Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to a layout. These features include the following:
 
 -   Toggling to QWERTY
--   QWERTY shortcuts
+-   QWERTY shortcuts and home row mods
 -   Symbol and navigation layers
 -   Magic keys and adaptive swaps
 
