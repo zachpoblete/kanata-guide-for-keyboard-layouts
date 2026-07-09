@@ -96,7 +96,9 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     **Note:** It isn’t possible to run both Kanata and Karabiner Elements at the same time.
 
-1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). You must download v6.2.0 because Kanata supports that version and not the latest version.
+1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). Kanata only supports this version.
+
+    If you have Karabiner Elements installed, it might not have come with Karabiner driver v6.2.0, so you must download Karabiner driver v6.2.0.
 
 1.  Run the Karabiner driver installer.
 
