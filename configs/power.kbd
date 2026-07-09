@@ -43,9 +43,13 @@
 )
 
 ;; Definition of the layer template.
-;; If you add a key to the defsrc entry, you must also add
-;; it to the definition of the $sq layer in this template.
-(deftemplate _ (sq ;; sq = sequence
+;; If you add a key to the defsrc entry, you must also add it to the
+;; following places in this template:
+;; 1.  The template parameters
+;; 2.  The definition of the $sq layer
+;; Make sure the key is in the same position as in the defsrc entry.
+               ;; Template parameters:
+(deftemplate _ (sq  ;; sq = sequence
                  q w e r t  y u i o p
                  a s d f g  h j k l ;
                  z x c v b  n m , . /
