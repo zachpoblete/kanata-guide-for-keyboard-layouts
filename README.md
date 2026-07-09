@@ -5,9 +5,10 @@
 Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to a layout. These features include the following:
 
 -   Toggling to QWERTY
--   QWERTY shortcuts and home row mods
+-   QWERTY shortcuts
+-   Home row mods
 -   Symbol and navigation layers
--   Magic keys and adaptive swaps
+-   Magic keys
 
 You can use this guide even if you don’t have any programming experience.
 
@@ -98,7 +99,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  [Download Karabiner driver v6.2.0](https://github.com/pqrs-org/Karabiner-DriverKit-VirtualHIDDevice/releases/download/v6.2.0/Karabiner-DriverKit-VirtualHIDDevice-6.2.0.pkg). Kanata only supports this version.
 
-    If you have Karabiner Elements installed, it might not have come with Karabiner driver v6.2.0, so you must download Karabiner driver v6.2.0.
+    If you have Karabiner Elements installed, it might not have come with Karabiner driver v6.2.0, so you must download it.
 
 1.  Run the Karabiner driver installer.
 
