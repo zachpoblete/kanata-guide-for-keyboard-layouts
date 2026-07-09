@@ -2,13 +2,14 @@
 
 [Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, and macOS. This guide shows you how to use Kanata to set up a [keyboard layout](https://layouts.wiki/guides/start/intro/) and add features to it.
 
-Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs that add features to a layout. These features include the following:
+Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs. Each one adds a feature to a layout:
 
--   Toggling to QWERTY
+-   A key that toggles to QWERTY
 -   QWERTY shortcuts
 -   Home row mods
--   Symbol and navigation layers
--   Magic keys
+-   A symbol layer
+-   A magic key
+-   And more
 
 You can use this guide even if you don’t have any programming experience.
 
