@@ -24,7 +24,7 @@ You can use this guide even if you don’t have any programming experience.
 
 ## Why use Kanata for keyboard layouts?
 
--   Kanata and all its features are completely free to use.
+-   Kanata is completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
 -   Kanata works on any keyboard, including laptop keyboards and non-US keyboards.
 -   Kanata lets you add features to a layout. See this guide’s [Pre-made configs](#pre-made-configs).
