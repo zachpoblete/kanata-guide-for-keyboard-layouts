@@ -28,6 +28,9 @@
                          (tap-hold $tap-time $hold-time (layer-switch lucens-english) ralt)
 )
 
+;; WARNING: On Linux, the unicode action might not work. For a
+;; solution, see the lucens-german-only.kbd config:
+;; https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/blob/main/configs/lucens-german-only.kbd
 (defalias
   ä (fork (unicode ä) (unicode Ä) (lsft rsft))
   ö (fork (unicode ö) (unicode Ö) (lsft rsft))

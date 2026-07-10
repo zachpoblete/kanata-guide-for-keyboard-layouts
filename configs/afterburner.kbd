@@ -116,7 +116,8 @@
         (release-key $input-key)
         (macro $input-key)))
         ;; For a solution that doesn’t use the macro action, see the
-        ;; duplicate-key template in nastic.kbd
+        ;; duplicate-key template in the nastic.kbd config:
+        ;; https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/blob/main/configs/nastic.kbd
     (if-not-equal $action rpt
       (multi
         (release-key $action)  ;; This assumes $action is a single key.

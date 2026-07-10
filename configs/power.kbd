@@ -28,7 +28,8 @@
       ;; Use the macro action to output the letter so that repeat letters
       ;; are reliably outputted. For an explanation of the issue the macro
       ;; action solves and for a solution that doesn’t use the macro action,
-      ;; see the duplicate-key template in nastic.kbd
+      ;; see the duplicate-key template in the nastic.kbd config:
+      ;; https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/blob/main/configs/nastic.kbd
       (macro $letter))
 
     ;; Switch layers.
