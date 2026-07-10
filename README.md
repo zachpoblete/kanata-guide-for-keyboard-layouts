@@ -331,7 +331,11 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
 -   [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
 
-    If Kanata isn’t remapping a key, the name of the key might be incorrect. See [Get the name of a key](docs/reference-guides.md#get-the-name-of-a-key).
+### Troubleshooting
+
+-   If Kanata isn’t running, check the terminal for an error message.
+
+-   If Kanata isn’t remapping a key, the name of the key might be incorrect. See [Get the name of a key](docs/reference-guides.md#get-the-name-of-a-key).
 
 ## Automatically start Kanata
 
