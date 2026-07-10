@@ -108,7 +108,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     >   If you’re not sure how, see [macOS: Open a terminal](docs/reference-guides.md#macos-open-a-terminal).
 
-1.  In the terminal, activate the Karabiner driver:
+1.  Activate the Karabiner driver:
 
     ```shell
     sudo /Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager forceActivate
@@ -225,7 +225,7 @@ Expand the section for your platform.
 
     >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config:
+1.  Run the example config:
 
     ```cmd
     .\kanata_windows_gui_winIOv2_cmd_allowed_x64 --cfg example-config.kbd --nodelay
@@ -255,7 +255,7 @@ Kanata is running the Gallium layout. Press your `q` key&NoBreak;&hairsp;&NoBrea
 
     >   If you’re not sure how, right-click an empty space inside the folder and select **Open in Terminal**.
 
-1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_linux_cmd_allowed_x64
@@ -280,7 +280,7 @@ If you encounter any issues, see [Troubleshooting](https://github.com/jtroo/kana
 
     >   If you’re not sure how, see [macOS: Open a folder in a terminal](docs/reference-guides.md#macos-open-a-folder-in-a-terminal).
 
-1.  In the terminal, run the example config. You only need to run the `chmod` command the first time you run Kanata.
+1.  Run the example config. You only need to run the `chmod` command the first time you run Kanata.
 
     ```shell
     chmod +x kanata_macos_cmd_allowed_arm64
@@ -406,7 +406,7 @@ Expand the section for your platform.
 
     >   If you’re not sure how, press `Control + Alt + T`.
 
-1.  In the terminal, enable the Kanata service:
+1.  Enable the Kanata service:
 
     ```shell
     sudo systemctl enable kanata.service
@@ -445,7 +445,7 @@ Expand the section for your platform.
 
 1.  Open a terminal.
 
-1.  In the terminal, register the Kanata daemon:
+1.  Register the Kanata daemon:
 
     ```shell
     sudo chown root:wheel /Library/LaunchDaemons/dev.kanata.kanata.plist
