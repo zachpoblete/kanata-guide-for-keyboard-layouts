@@ -26,11 +26,11 @@ You can use this guide even if you don’t have programming experience.
 
 ## Why use Kanata for keyboard layouts?
 
+-   Kanata lets you add features to a layout. See this guide’s [Pre-made configs](#pre-made-configs).
+-   Kanata lets you use the same config on different keyboards on Windows, Linux, and macOS.
+-   Kanata works on any keyboard, including laptop keyboards and non-US keyboards.
 -   Kanata is completely free to use.
 -   Kanata is open source&NoBreak;&hairsp;&NoBreak;&mdash;&hairsp;anyone can view exactly how it works.
--   Kanata works on any keyboard, including laptop keyboards and non-US keyboards.
--   Kanata lets you add features to a layout. See this guide’s [Pre-made configs](#pre-made-configs).
--   Kanata lets you use the same config on Windows, Linux, and macOS.
 -   Kanata has an active community on the [Alt Keyboard Layouts Discord](https://discord.gg/4kVZu7uWdy) that can answer any question you have.
 
 ## Supported platforms
