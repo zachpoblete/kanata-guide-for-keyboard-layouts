@@ -22,7 +22,7 @@ You can use this guide even if you don’t have programming experience.
 -   [Change your layout](#change-your-layout)
 -   [Automatically start Kanata](#automatically-start-kanata)
 -   [Pre-made configs](#pre-made-configs)
--   [Get help](#Get-help)
+-   [Get help](#get-help)
 
 ## Why use Kanata for keyboard layouts?
 
@@ -333,7 +333,7 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
 1.  [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
 
-1.  If Kanata isn’t remapping a key, the name of the key might be incorrect. See [How to get the name of a key](docs/key-names.md#how-to-get-the-name-of-a-key).
+1.  If Kanata isn’t remapping a key, the name of the key might be incorrect. See [Get the name of a key](docs/reference-guides.md#get-the-name-of-a-key).
 
 ## Automatically start Kanata
 
