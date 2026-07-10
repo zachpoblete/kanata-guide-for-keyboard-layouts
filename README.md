@@ -174,7 +174,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Search for the folder containing the Kanata executable files.
 
-1.  Select the executable file whose filename starts with `kanata_macos_cmd_allowed_`.
+1.  Select the file whose filename starts with `kanata_macos_cmd_allowed_`.
 
 1.  Click **Open**.
 
