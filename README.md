@@ -313,7 +313,7 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
     >   If you’re not sure how, see [Open a file with a plain text editor](docs/reference-guides.md#open-a-file-with-a-plain-text-editor).
 
-1.  To remap keys that aren’t in the `defsrc` entry, add those keys to the `defsrc` entry.
+1.  To remap a key that isn’t in the `defsrc` entry, add the key to the `defsrc` entry.
 
 1.  In the `deflayer` entry, rename the `gallium` layer to the name of your layout.
 
@@ -321,7 +321,7 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
     1.  If your layout already exists, see [Copy an existing layout into a `deflayer` entry](docs/reference-guides.md#copy-an-existing-layout-into-a-deflayer-entry).
 
-    1.  If you layout has characters that aren’t on your keyboard, see [Remap a key to a Unicode character](docs/reference-guides.md#remap-a-key-to-a-unicode-character).
+    1.  If you layout has a character that isn’t on your keyboard, see [Remap a key to a Unicode character](docs/reference-guides.md#remap-a-key-to-a-unicode-character).
 
 1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
 
