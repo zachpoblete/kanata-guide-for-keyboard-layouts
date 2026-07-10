@@ -2,7 +2,7 @@
 
 [Kanata](https://github.com/jtroo/kanata) is software for remapping any keyboard on Windows, Linux, and macOS. This guide shows you how to use Kanata to set up a [keyboard layout](https://layouts.wiki/guides/start/intro/) and add features to it.
 
-Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs. Each one adds a feature to a layout:
+Kanata remaps your keyboard using a file called a _config_. This guide contains pre-made configs. Each one adds a feature:
 
 -   Holding `Caps Lock` toggles QWERTY
 -   QWERTY shortcuts
