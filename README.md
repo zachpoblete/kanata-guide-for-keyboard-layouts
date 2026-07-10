@@ -62,7 +62,7 @@ Expand the section for your platform.
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the executable file you need to use.
+    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the one to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). It will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
@@ -78,7 +78,7 @@ Expand the section for your platform.
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the executable file you need to use.
+    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the one to use.
 
 1.  [Download the example config](https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/releases/download/download/example-config.kbd). It will remap your keyboard to the [Gallium layout](https://layouts.wiki/guides/start/recommendations/#gallium-and-graphite).
 
@@ -124,7 +124,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  In **Extensions**, enable **.Karabiner-VirtualHIDDevice-Manager**.
 
-    If you don’t see the extension, restart your computer and repeat this step.
+    If you don’t see it, restart your computer and repeat this step.
 
 ### Step 1.3: Set up the Karabiner daemon
 
@@ -159,7 +159,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 1.  Extract the downloaded zip file.
 
-    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the executable file you need to use.
+    The folder you extracted the zip file to contains multiple Kanata executable files. This guide will show you the one to use.
 
 ### Step 1.5: Enable Accessibility
 
