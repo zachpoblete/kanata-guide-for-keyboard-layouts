@@ -323,17 +323,19 @@ For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entrie
 
     1.  If you layout has a character that isn’t on your keyboard, see [Remap a key to a Unicode character](docs/reference-guides.md#remap-a-key-to-a-unicode-character).
 
-1.  If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
-
 1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
 
 1.  Save the file.
 
 ### Step 3: Run the example config
 
-1.  [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
+-   [Run the example config as you did in the Run Kanata step](#step-2-run-kanata).
 
-1.  If Kanata isn’t remapping a key, the name of the key might be incorrect. See [Get the name of a key](docs/reference-guides.md#get-the-name-of-a-key).
+### Troubleshooting
+
+-   If the number of keys of the `defsrc` and `deflayer` entries don’t match, add or remove keys as needed.
+
+-   If Kanata isn’t remapping a key, the name of the key might be incorrect. See [Get the name of a key](docs/reference-guides.md#get-the-name-of-a-key).
 
 ## Automatically start Kanata
 
