@@ -142,7 +142,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     The output lists the Karabiner daemon `org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon`.
 
-### Step 1.4: Set up the Kanata executable file
+### Step 1.4: Download Kanata
 
 1.  Download Kanata:
 
