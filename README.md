@@ -116,8 +116,6 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     >   If you’re not sure how to run a terminal command, see [Run a command from this guide](docs/reference-guides.md#run-a-command-from-this-guide).
 
-1.  If you have Karabiner Elements installed, restart your computer to use Karabiner driver v6.2.0.
-
 ### Step 1.2: Enable the Karabiner system extension
 
 1.  Open the **System Settings** app.
@@ -125,6 +123,8 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 1.  Click **General > Login Items & Extensions**.
 
 1.  In **Extensions**, enable **.Karabiner-VirtualHIDDevice-Manager**.
+
+    If you don’t see the extension, restart your computer and repeat this step.
 
 ### Step 1.3: Set up the Karabiner daemon
 
