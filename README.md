@@ -102,7 +102,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
     If you have Karabiner Elements installed, it might not use Karabiner driver v6.2.0, so you must download it.
 
-1.  Run the Karabiner driver installer.
+1.  Install the Karabiner driver.
 
 1.  Open a terminal.
 
