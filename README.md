@@ -324,7 +324,7 @@ For key names, see [Key Names for the `defsrc` and `deflayer` Entries](docs/key-
 
     1.  If you layout has a character that isn’t on your keyboard, see [Remap a key to a Unicode character](docs/reference-guides.md#remap-a-key-to-a-unicode-character).
 
-1.  Optional: To align the keys in the `deflayer` entry to the keys in the `defsrc` entry, add or remove space characters.
+1.  Optional: To align the keys of the `defsrc` and `deflayer` entries, add or remove space characters.
 
 1.  Save the file.
 
