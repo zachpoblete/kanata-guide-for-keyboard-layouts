@@ -307,7 +307,7 @@ In this section, you will change the layout of the example config.
 
 ### Step 2: Edit the example config
 
-For key names you can use, see [Key Names for the `defsrc` and `deflayer` Entries](docs/key-names.md).
+For key names, see [Key Names for the `defsrc` and `deflayer` Entries](docs/key-names.md).
 
 1.  Open the example config with a plain text editor.
 
