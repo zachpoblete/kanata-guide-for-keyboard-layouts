@@ -7,6 +7,7 @@ Kanata remaps your keyboard using a file called a _config_. This guide contains 
 -   A key that toggles QWERTY
 -   QWERTY shortcuts
 -   Home row mods
+-   Combos
 -   A symbol layer
 -   A magic key
 -   And more
