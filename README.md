@@ -214,7 +214,7 @@ To use Kanata, first set up the [Karabiner driver](https://github.com/pqrs-org/K
 
 ## Step 2: Run Kanata
 
-Kanata runs from the terminal. To automatically start Kanata in the background, see this guide’s [Automatically start Kanata](#automatically-start-kanata).
+Kanata runs from the terminal. To start Kanata in the background, see this guide’s [Automatically start Kanata](#automatically-start-kanata).
 
 Expand the section for your platform.
 
