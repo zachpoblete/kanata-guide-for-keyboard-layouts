@@ -481,9 +481,9 @@ The following resources help you use and edit a pre-made config:
 -   [`hold-caps-to-switch-layouts.kbd`](configs/hold-caps-to-switch-layouts.kbd)
     -   Toggles between your layout and QWERTY when you hold `Caps Lock`
 -   [`gallium-with-qwerty-shortcuts.kbd`](configs/gallium-with-qwerty-shortcuts.kbd)
-    -   Uses QWERTY shortcuts while you hold any modifier key, such as `Control`
+    -   Temporarily switches to QWERTY while you hold any modifier key, such as `Control`
 -   [`qwerty-while-space-held.kbd`](configs/qwerty-while-space-held.kbd)
-    -   Uses QWERTY while you hold `Space`
+    -   Temporarily switches to QWERTY while you hold `Space`
 -   [`gallium-with-compose.kbd`](configs/gallium-with-compose.kbd)
     -   Layout with a [compose key](https://en.wikipedia.org/wiki/Compose_key)
 
@@ -492,7 +492,7 @@ The following resources help you use and edit a pre-made config:
 -   [`gallium-with-home-row-mods.kbd`](configs/gallium-with-home-row-mods.kbd)
     -   Layout with [home row mods](https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods)
 -   [`gallium-with-qwerty-home-row-mods.kbd`](configs/gallium-with-qwerty-home-row-mods.kbd)
-    -   Layout with home row mods that use QWERTY
+    -   Layout with home row mods that temporarily switch to QWERTY
 
 ### Symbol and navigation layers
 

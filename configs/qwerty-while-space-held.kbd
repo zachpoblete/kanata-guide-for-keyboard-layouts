@@ -1,7 +1,9 @@
-;; This Kanata config remaps your keyboard to the Gallium layout and
-;; uses QWERTY while Space is held. In applications like Photoshop,
-;; this config lets you still pan the canvas by holding Space and
-;; dragging the mouse.
+;; This Kanata config does the following:
+;; 1.  Remaps your keyboard to the Gallium layout
+;; 2.  Temporarily switches to QWERTY while Space is held
+
+;; In applications like Photoshop, this config lets you still pan the
+;; canvas by holding Space and dragging the mouse.
 
 (defvar
   tap-time  200

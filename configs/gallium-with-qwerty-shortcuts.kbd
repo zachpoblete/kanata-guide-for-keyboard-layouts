@@ -1,5 +1,6 @@
-;; This Kanata config remaps your keyboard to the Gallium layout and uses
-;; QWERTY shortcuts while you hold any modifier key, such as Control.
+;; This Kanata config does the following:
+;; 1.  Remaps your keyboard to the Gallium layout
+;; 2.  Temporarily switches to QWERTY while you hold any modifier key, such as Control
 
 (defsrc
   q w e r t  y u i o p
@@ -16,6 +17,7 @@
 )
 
 (defalias
+  ;; Use QWERTY while you hold any modifier:
   lctl (multi lctl (layer-while-held qwerty))
   lmet (multi lmet (layer-while-held qwerty))
   lalt (multi lalt (layer-while-held qwerty))
@@ -27,12 +29,7 @@
 (deflayermap (qwerty)
   _ use-defsrc
 
-  ;; Map each modifier to its alias so that holding any modifier keeps you on
-  ;; QWERTY. Without doing this, when pressing multiple modifiers, only the
-  ;; first modifier held keeps you on QWERTY because it came from Gallium and
-  ;; has `layer-while-held qwerty`; subsequent modifiers come from QWERTY
-  ;; where they don’t have `layer-while-held qwerty`, so releasing the first
-  ;; modifier exits QWERTY even if other modifiers are still held.
+  ;; Keep QWERTY active while you hold any modifier:
   lctl @lctl
   lmet @lmet
   lalt @lalt

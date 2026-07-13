@@ -1,14 +1,13 @@
-;; This Kanata config remaps your keyboard to the Gallium layout and
-;; adds home row mods that use QWERTY.
+;; This Kanata config does the following:
+;; 1.  Remaps your keyboard to the Gallium layout
+;; 2.  Adds home row mods that temporarily switch to QWERTY
 
 ;; For more information about home row mods, see:
 ;; https://getreuer.info/posts/keyboards/tour/index.html#home-row-mods
 
 (defvar
-  tap-time 200
+  tap-time  200
   hold-time 200
-  tt $tap-time
-  ht $hold-time
 )
 
 (defsrc
@@ -23,31 +22,32 @@
    x  q  m  w  z    k  p  '  ;  .
 )
 
+(deftemplate qwerty-home-row-mod (key mod)
+  $key (tap-hold $tap-time $hold-time $key (multi $mod (layer-while-held qwerty)))
+)
+
 (defalias
-  n (tap-hold $tt $ht n (multi lmet (layer-while-held qwerty)))
-  r (tap-hold $tt $ht r (multi lalt (layer-while-held qwerty)))
-  t (tap-hold $tt $ht t (multi lsft (layer-while-held qwerty)))
-  s (tap-hold $tt $ht s (multi lctl (layer-while-held qwerty)))
-  h (tap-hold $tt $ht h (multi rctl (layer-while-held qwerty)))
-  a (tap-hold $tt $ht a (multi rsft (layer-while-held qwerty)))
-  e (tap-hold $tt $ht e (multi ralt (layer-while-held qwerty)))
-  i (tap-hold $tt $ht i (multi rmet (layer-while-held qwerty)))
+  ;; Add home row mods that temporarily switch QWERTY:
+  (t! qwerty-home-row-mod n lmet)
+  (t! qwerty-home-row-mod r lalt)
+  (t! qwerty-home-row-mod t lsft)
+  (t! qwerty-home-row-mod s lctl)
+  (t! qwerty-home-row-mod h rctl)
+  (t! qwerty-home-row-mod a rsft)
+  (t! qwerty-home-row-mod e ralt)
+  (t! qwerty-home-row-mod i rmet)
 )
 
 (deflayermap (qwerty)
   _ use-defsrc
 
-  ;; When pressing multiple modifiers, the following mappings make sure
-  ;; that releasing the first modifier pressed doesn’t release QWERTY
-  ;; early. For a more detailed explanation, see the qwerty layer in the
-  ;; gallium-with-qwerty-shortcuts.kbd config:
-  ;; https://github.com/zachpoblete/kanata-guide-for-keyboard-layouts/blob/main/configs/gallium-with-qwerty-shortcuts.kbd
-  a (tap-hold $tt $ht a (multi lmet (layer-while-held qwerty)))
-  s (tap-hold $tt $ht s (multi lalt (layer-while-held qwerty)))
-  d (tap-hold $tt $ht d (multi lsft (layer-while-held qwerty)))
-  f (tap-hold $tt $ht f (multi lctl (layer-while-held qwerty)))
-  j (tap-hold $tt $ht j (multi rctl (layer-while-held qwerty)))
-  k (tap-hold $tt $ht k (multi rsft (layer-while-held qwerty)))
-  l (tap-hold $tt $ht l (multi ralt (layer-while-held qwerty)))
-  ; (tap-hold $tt $ht ; (multi rmet (layer-while-held qwerty)))
+  ;; Keep using home row mods:
+  (t! qwerty-home-row-mod a lmet)
+  (t! qwerty-home-row-mod s lalt)
+  (t! qwerty-home-row-mod d lsft)
+  (t! qwerty-home-row-mod f lctl)
+  (t! qwerty-home-row-mod j rctl)
+  (t! qwerty-home-row-mod k rsft)
+  (t! qwerty-home-row-mod l ralt)
+  (t! qwerty-home-row-mod ; rmet)
 )
