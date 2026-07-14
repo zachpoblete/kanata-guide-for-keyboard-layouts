@@ -95,8 +95,8 @@ To use an alias, prefix the alias name with `@`.
 The following example uses an alias for the `tap-hold` action:
 
 ```
-(defalias caps
-  (tap-hold 200 200 caps lctl)
+(defalias
+  caps (tap-hold 200 200 caps lctl)
 )
 
 (deflayer example
