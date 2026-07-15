@@ -460,21 +460,23 @@ Expand the section for your platform.
 
 ## Pre-made configs
 
-The following resources help you use and edit a pre-made config:
-
--   To run a config, see [Run a pre-made config](docs/reference-guides.md#run-a-pre-made-config).
--   To edit a config, see [Basics of a Kanata Config](docs/config-basics.md).
--   To learn how to change the layout of a config, see this guide’s [Change your layout](#change-your-layout).
--   To learn about any Kanata feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
-
 #### In this section
 
+-   [Before using a config](#before-using-a-config)
 -   [General features](#general-features)
 -   [Home row mods](#home-row-mods)
 -   [Symbol and navigation layers](#symbol-and-navigation-layers)
 -   [Layouts](#layouts)
 -   [Layouts with multiple alpha layers](#layouts-with-multiple-alpha-layers)
 -   [Magic keys and adaptive swaps](#magic-keys-and-adaptive-swaps)
+
+### Before using a config
+
+Before using a config, it helps to know the following:
+
+-   To run a config, see [Run a pre-made config](docs/reference-guides.md#run-a-pre-made-config).
+-   To learn how to edit a config, see [Basics of a Kanata Config](docs/config-basics.md).
+-   For more information about any feature a config uses, see the [Kanata Configuration Guide](https://jtroo.github.io/config.html).
 
 ### General features
 
