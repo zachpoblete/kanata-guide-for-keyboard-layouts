@@ -18,8 +18,8 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 | Key name | Key
 | -        | -
-| `a`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`z` | <kbd>A</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Z</kbd>
-| `0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`9` | <kbd>0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>9</kbd>
+| `a` to `z` | <kbd>A</kbd> to <kbd>Z</kbd>
+| `0` to `9` | <kbd>0</kbd> to <kbd>9</kbd>
 | `caps`   | <kbd>Caps Lock</kbd>
 | `spc`    | <kbd>Space</kbd>
 | `tab`    | <kbd>Tab</kbd>
@@ -59,14 +59,14 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 | Key name | Key
 | -        | -
-| `f1`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`f12` | <kbd>F1</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>F12</kbd>
+| `f1` to `f12` | <kbd>F1</kbd> to <kbd>F12</kbd>
 
 ### Numpad keys
 
 | Key name | Key
 | -        | -
 | `nlck`   | <kbd>Num Lock</kbd>
-| `kp0`&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;`kp9` | <kbd>Numpad 0</kbd>&NoBreak;&hairsp;&NoBreak;&ndash;&hairsp;<kbd>Numpad 9</kbd>
+| `kp0` to `kp9` | <kbd>Numpad 0</kbd> to <kbd>Numpad 9</kbd>
 | `kp.`    | <kbd>Numpad .</kbd>
 | `kp+`    | <kbd>Numpad +</kbd>
 | `kp-`    | <kbd>Numpad -</kbd>
