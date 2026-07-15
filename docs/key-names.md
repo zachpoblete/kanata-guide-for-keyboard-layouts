@@ -16,18 +16,18 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 ### General keys
 
-| Key name | Key
-| -        | -
+| Key name   | Key
+| -          | -
 | `a` to `z` | <kbd>A</kbd> to <kbd>Z</kbd>
 | `0` to `9` | <kbd>0</kbd> to <kbd>9</kbd>
-| `caps`   | <kbd>Caps Lock</kbd>
-| `spc`    | <kbd>Space</kbd>
-| `tab`    | <kbd>Tab</kbd>
-| `ent`    | <kbd>Enter</kbd>
-| `esc`    | <kbd>Escape</kbd>
-| `bspc`   | <kbd>Backspace</kbd>
-| `del`    | <kbd>Delete</kbd>
-| `ins`    | <kbd>Insert</kbd>
+| `caps`     | <kbd>Caps Lock</kbd>
+| `spc`      | <kbd>Space</kbd>
+| `tab`      | <kbd>Tab</kbd>
+| `ent`      | <kbd>Enter</kbd>
+| `esc`      | <kbd>Escape</kbd>
+| `bspc`     | <kbd>Backspace</kbd>
+| `del`      | <kbd>Delete</kbd>
+| `ins`      | <kbd>Insert</kbd>
 
 ### Modifier keys
 
@@ -57,22 +57,22 @@ If you don’t find the key you’re looking for, see [Get the name of a key](re
 
 ### Function keys
 
-| Key name | Key
-| -        | -
+| Key name      | Key
+| -             | -
 | `f1` to `f12` | <kbd>F1</kbd> to <kbd>F12</kbd>
 
 ### Numpad keys
 
-| Key name | Key
-| -        | -
-| `nlck`   | <kbd>Num Lock</kbd>
+| Key name       | Key
+| -              | -
+| `nlck`         | <kbd>Num Lock</kbd>
 | `kp0` to `kp9` | <kbd>Numpad 0</kbd> to <kbd>Numpad 9</kbd>
-| `kp.`    | <kbd>Numpad .</kbd>
-| `kp+`    | <kbd>Numpad +</kbd>
-| `kp-`    | <kbd>Numpad -</kbd>
-| `kp*`    | <kbd>Numpad *</kbd>
-| `kp/`    | <kbd>Numpad /</kbd>
-| `kprt`   | <kbd>Numpad Enter</kbd>
+| `kp.`          | <kbd>Numpad .</kbd>
+| `kp+`          | <kbd>Numpad +</kbd>
+| `kp-`          | <kbd>Numpad -</kbd>
+| `kp*`          | <kbd>Numpad *</kbd>
+| `kp/`          | <kbd>Numpad /</kbd>
+| `kprt`         | <kbd>Numpad Enter</kbd>
 
 ### Other keys
 
